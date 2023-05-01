@@ -1,0 +1,179 @@
+import time
+from selenium.webdriver.support import expected_conditions as EC
+import pyautogui
+from selenium import webdriver
+from selenium.webdriver import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.common.exceptions import TimeoutException
+
+
+# Define the names and associated data
+names_ranges = [
+   (["aga" + str(i) for i in range(82, 85)],
+    ["4813900004118394", "Active Gamers Australia", "11", "24", "", "494", "38 Northbourne Avenue", "", "Canberra",
+
+
+
+
+
+
+     "a", "2617"], []),
+   (["aga" + str(i) for i in range(86, 90)],
+    ["4813900004891974", "Active Gamers Australia", "11", "24", "", "967", "38 Northbourne Avenue", "", "Canberra",
+     "a", "2617"], [])
+]
+
+
+# Define the function to send data to the spreadsheet using pyautogui
+def send_data_to_spreadsheet(data):
+   for item in data:
+       pyautogui.write(item)
+       pyautogui.press("tab")
+       time.sleep(0.5)
+   pyautogui.press("tab", presses=4)
+   time.sleep(0.5)
+   pyautogui.press("enter")
+   time.sleep(1)
+
+
+
+
+def microsoft_login(driver, email, password):
+   # Navigate to the Microsoft login page
+   driver.get("https://account.microsoft.com/")
+
+
+   # Wait for the first signin field to be present and clickable
+   signin_field = WebDriverWait(driver, 500).until(
+       EC.element_to_be_clickable((By.ID, "id__4"))
+   )
+
+
+   # Click the email field
+   signin_field.click()
+
+
+   # Wait for the email field to be present and clickable
+   email_field = WebDriverWait(driver, 500).until(
+       EC.element_to_be_clickable((By.ID, "i0116"))
+   )
+
+
+   # Send the email to the email field
+   email_field.send_keys(email)
+   email_field.send_keys(Keys.RETURN)
+
+
+   # Wait for the password field to be present and clickable
+   password_field = WebDriverWait(driver, 500).until(
+       EC.element_to_be_clickable((By.ID, "i0118"))
+   )
+
+
+   # Send the password to the email field
+   password_field.send_keys(password)
+   password_field.send_keys(Keys.RETURN)
+
+
+   # Check if the 'iLooksGood' element is present and clickable
+   try:
+       looks_good_field = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.ID, "iLooksGood")))
+       # Send enter to the looks good field
+       looks_good_field.send_keys(Keys.RETURN)
+   except TimeoutException:
+       print("Title not found - security info")
+
+
+   # Wait for the 'stayed signed in? no' field to be present and clickable
+   staysignedin_no_field = WebDriverWait(driver, 500).until(
+       EC.element_to_be_clickable((By.ID, "idBtn_Back"))
+   )
+
+
+   # Send enter to the 'stay signed in? no' field
+   staysignedin_no_field.send_keys(Keys.RETURN)
+
+
+
+
+# Loop through each name and associated data in names_ranges
+for names, data, separators in names_ranges:
+   for i, name in enumerate(names):
+       if i in separators:
+           data = data.copy()
+           data[0] = str(int(data[0]) + 10000000000)
+
+
+       # Create the email address
+       email = name + "@activegamers.com.au"
+
+
+       # Define the password
+       password = "AGA111222"
+
+
+       # Create a new instance of the Chrome driver
+       driver = webdriver.Chrome()
+
+
+       microsoft_login(driver, email, password)
+
+
+       # navigate to the Gamepass Join Page
+       driver.get("https://www.xbox.com/en-AU/xbox-game-pass?opencontextualstore=true&contextualstoreparams"
+                      "=CFQ7TTC0KHS0&OCID=PROD_AMC_CONS_ACQ_JOIN")
+
+
+       time.sleep(7.5)
+
+
+       # send keystrokes to navigate to and press enter on join button
+       pyautogui.press("tab", presses=12)
+       time.sleep(.5)
+       pyautogui.press("enter")
+
+
+       time.sleep(5)
+
+
+       # Send keystrokes to join ultimate
+       pyautogui.press("tab")
+       time.sleep(.5)
+       pyautogui.press("tab")
+       time.sleep(.5)
+       # Send a "Tab" key press
+       pyautogui.press("enter")
+
+
+       # wait for first purchase screen and then press enter on next button (1)
+       time.sleep(7.5)
+       pyautogui.press("enter")
+
+
+       # wait for way to pay screen and then press enter on next button (2)
+       time.sleep(7.5)
+       pyautogui.press("enter")
+
+
+       # wait for credit & debit screen and then press enter on 'credit or debit card' button (2)
+       time.sleep(7.5)
+       pyautogui.press("enter")
+
+
+       time.sleep(5)
+
+
+       #pyautogui.write("hi")
+
+
+       #time.sleep(5))
+
+
+       send_data_to_spreadsheet(data)
+
+
+       time.sleep(20)
+
+
+       print("data sent")
