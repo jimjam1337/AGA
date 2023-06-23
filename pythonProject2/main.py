@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import simpledialog  # Add this line
 import logging
 import pyautogui
+import os
 from selenium import webdriver
 from selenium.common import TimeoutException
 from selenium.webdriver import ActionChains
@@ -11,7 +12,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+
 # Set up logging to write to /logs/aga/account tool
+dir_path = 'C:/logs/aga/account tool'
+if not os.path.exists(dir_path):
+    os.makedirs(dir_path)
 logging.basicConfig(filename='/logs/aga/account tool/selenium.log', level=logging.INFO)
 
 
@@ -62,10 +67,11 @@ root.mainloop()
 
 # DIALOGUE BOX ENDS
 
-# deactivate code
-if result == "Deactivate":
-    print("Deactivate")
-
+# DEFINE LOGIN FUNCTION
+logging.info("Beginning login function")
+print("login function defined")
+def Login_Function():
+    print("begin login sequence")
     # Define the base email and password
     email_base = ["aga", "agapc"]
     password = "AGA111222"
@@ -213,203 +219,133 @@ if result == "Deactivate":
                 # if the URL does not contain "https://privacynotice.account.microsoft.com/"
                 logging.info("privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear")
 
-            # DEACTIVATION CODE FOLLOWS
+# DEACTIVATE CODE
+if result == "Deactivate":
+    print("Deactivate")
 
-            logging.info("Now beginning deactivation process")
+    logging.info("Now beginning deactivation process")
 
-            try:
-                # Wait for the manage link to be present and clickable
-                manage_link = WebDriverWait(driver, 30).until(
-                EC.element_to_be_clickable((By.LINK_TEXT, "Manage"))
-                )
+    Login_Function()
 
-                # send enter to the manage link
-                manage_link.send_keys(Keys.RETURN)
+    driver = webdriver.Chrome()
 
-                # Wait for the first cancel link to be present and clickable
-                cancel_link1 = WebDriverWait(driver, 500).until(
-                    EC.element_to_be_clickable((By.ID, "cancel-sub-button"))
-                )
+    try:
+        # Wait for the manage link to be present and clickable
+        manage_link = WebDriverWait(driver, 30).until(
+        EC.element_to_be_clickable((By.LINK_TEXT, "Manage"))
+        )
 
-                print("cancel link 1 found")
+        # send enter to the manage link
+        manage_link.send_keys(Keys.RETURN)
 
-                # Use JavaScript to click the cancel link
-                driver.execute_script("arguments[0].click();", cancel_link1)
+        # Wait for the first cancel link to be present and clickable
+        cancel_link1 = WebDriverWait(driver, 500).until(
+        EC.element_to_be_clickable((By.ID, "cancel-sub-button"))
+        )
 
-                print("cancel link 1 clicked")
+        print("cancel link 1 found")
 
-                # Wait for the second cancel link (cancel button) to be present and clickable
-                cancel_link2 = WebDriverWait(driver, 500).until(
-                    EC.element_to_be_clickable((By.ID, "benefit-cancel"))
-                )
+        # Use JavaScript to click the cancel link
+        driver.execute_script("arguments[0].click();", cancel_link1)
 
-                print("cancel link 2 found")
+        print("cancel link 1 clicked")
 
-                # Use JavaScript to click the second cancel link
-                driver.execute_script("arguments[0].click();", cancel_link2)
+        # Wait for the second cancel link (cancel button) to be present and clickable
+        cancel_link2 = WebDriverWait(driver, 500).until(
+        EC.element_to_be_clickable((By.ID, "benefit-cancel"))
+        )
 
-                # print message to indicate that second cancel link has been clicked
-                print("cancel link 2 clicked")
+        print("cancel link 2 found")
 
-                time.sleep(5)
+        # Use JavaScript to click the second cancel link
+        driver.execute_script("arguments[0].click();", cancel_link2)
 
-                actions = ActionChains(driver)
-                actions.send_keys(Keys.ARROW_DOWN)
-                print("down arrow sent")
-                actions.send_keys(Keys.TAB)
-                print("tab  sent")
-                actions.send_keys(Keys.RETURN)
-                print("return sent")
-                actions.perform()
+        # print message to indicate that second cancel link has been clicked
+        print("cancel link 2 clicked")
 
-                # Close the browser window
-                driver.close()
+        time.sleep(5)
 
-                print("browser closed")
+        actions = ActionChains(driver)
+        actions.send_keys(Keys.ARROW_DOWN)
+        print("down arrow sent")
+        actions.send_keys(Keys.TAB)
+        print("tab  sent")
+        actions.send_keys(Keys.RETURN)
+        print("return sent")
+        actions.perform()
 
-                # log the completed deactivation for the account
-                logging.info('Account %s has been completed', email)
-                logging.info("---------------------------------------------------------")
+        # Close the browser window
+        driver.close()
 
-            except TimeoutException:
-                logging.info("Manage link for %s did not become clickable - probably the account is already deactivated")
-                logging.info("---------------------------------------------------------")
+        print("browser closed")
 
-# activate code
+        # log the completed deactivation for the account
+        logging.info('Account %s has been completed', email)
+        logging.info("---------------------------------------------------------")
+
+    except TimeoutException:
+        logging.info("Manage link for %s did not become clickable - probably the account is already deactivated")
+        logging.info("---------------------------------------------------------")
+
+# reactivate code
 if result == "Reactivate":
-    print("Reactivate")
+    print("Reactivate loop initiated")
 
-    # Define the base email and password
-    email_base = ["aga"]
-    password = "AGA111222"
-    ranges = [(85, 86)]
+    Login_Function()
 
-    # Loop through each base email and range
-    for email_base, r in zip(email_base, ranges):
-        # Loop through each account
-        for i in range(*r):
-            # Create the email address
-            email = email_base + str(i) + "@activegamers.com.au"
+    driver = webdriver.Chrome()
 
-            # Create a new instance of the Chrome driver
-            driver = webdriver.Chrome()
-            print("driver opened")
+    # Navigate to the subscriptions page
+    driver.get(
+        "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
 
-            # Navigate to the Microsoft login page
-            driver.get("https://account.microsoft.com/")
-            print("microsoft page loaded")
+    time.sleep(10)
 
-            # Wait for the first signin field to be present and clickable
-            signin_field = WebDriverWait(driver, 500).until(
-                EC.element_to_be_clickable((By.ID, "id__4"))
-            )
-            print("first signin field clickable")
+    print("getting focus")
 
-            # Click the email field
-            signin_field.click()
+    # Get focus on the subscriptions page window
 
-            # Wait for the email field to be present and clickable
-            email_field = WebDriverWait(driver, 500).until(
-                EC.element_to_be_clickable((By.ID, "i0116"))
-            )
-            print("second email field clickable")
+    reactivate_join_now_icon = "C:/Users/james/Dropbox/Active Gamers Australia USE THIS/Jim's Tech Folder/Python/pythonProject_gp activate/icons/reactivate_join_now.PNG"
 
-            # Send the email to the email field
-            email_field.send_keys(email)
-            email_field.send_keys(Keys.RETURN)
+    # Search for the icon on the screen
+    reactivate_join_now_pos = pyautogui.locateOnScreen(reactivate_join_now_icon, confidence=0.5)
 
-            print(" email sent clickable")
+    # If the icon is found, click it to bring the window to focus
+    if reactivate_join_now_pos is not None:
+        reactivate_join_now_center = pyautogui.center(reactivate_join_now_pos)
+        pyautogui.click(reactivate_join_now_center)
+    else:
+        print("Icon not found")
 
-            # Wait for the password field to be present and clickable
-            password_field = WebDriverWait(driver, 500).until(
-                EC.element_to_be_clickable((By.ID, "i0118"))
-            )
+    print("subscriptions page loaded")
 
-            print("password field clickable")
+    # Wait for the join button to be present & clickable
+    # join_button = WebDriverWait(driver, 15).until(
+    #    EC.element_to_be_clickable((By.CSS_SELECTOR,
+    #                                "#PageContent > div > div:nth-child(1) > div.ModuleContainer-module__container___pkhPl.ProductDetailsHeader-module__container___zvKSX > div.FadeContainers-module__fadeIn___5xlsD.FadeContainers-module__widthInherit___5fuOa > div > div:nth-child(1) > button"))
+    # )
+    # print("join button found")
 
-            # Send the password to the email field
-            password_field.send_keys(password)
-            password_field.send_keys(Keys.RETURN)
+    # join_button.click()
 
-            print("password sent")
+    # print("join button clicked")
 
-            # if the 'is your security info still accurate window appears, send enter to 'looks good' button
-            try:
+    time.sleep(5)
 
-                # wait for looks good field to be present and clickable
-                looks_good_field = WebDriverWait(driver, 5).until(
-                    EC.element_to_be_clickable((By.ID, "iLooksGood"))
-                )
-                print("looks good field clickable")
+    # Wait for the Purchase iframe to be present & clickable
+    purchase_iframe = WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable(
+            (By.XPATH, '//iframe[@title="Purchase Frame"]'))
+    )
 
-                # send enter to the looks good field
-                looks_good_field.send_keys(Keys.RETURN)
+    print("purchase iframe clickable")
 
-            except:
-                print("Title not found - security info")
+    pyautogui.press('enter')
 
-                # Wait for the 'stayed signed in? no' field to be present and clickable
-                staysignedin_no_field = WebDriverWait(driver, 500).until(
-                    EC.element_to_be_clickable((By.ID, "idBtn_Back"))
-                )
+    print("enter clicked (hopefully on sub button)")
 
-                print("stay signed in field clickable")
+    time.sleep(30)
 
-                # send enter to the 'stay signed in? no' field
-                staysignedin_no_field.send_keys(Keys.RETURN)
+    # script needs to confirm that susbcription has been usccessful at this point - could search for 'thank for joining' text
 
-                print("stay signed in completed")
-
-                time.sleep(5)
-
-                # Navigate to the subscriptions page
-                driver.get(
-                    "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
-
-                time.sleep(10)
-
-                # Get focus on the subscriptions page window
-                reactivate_join_now_icon = "D:/Dropbox/Active Gamers Australia USE THIS/Jim's Tech Folder/Python/pythonProject_gp activate/icons/reactivate_join_now.JPG"
-
-                # Search for the icon on the screen
-                reactivate_join_now_pos = pyautogui.locateOnScreen(reactivate_join_now_icon)
-
-                # If the icon is found, click it to bring the window to focus
-                if reactivate_join_now_pos is not None:
-                    reactivate_join_now_center = pyautogui.center(reactivate_join_now_pos)
-                    pyautogui.click(reactivate_join_now_center)
-                else:
-                    print("Icon not found")
-
-                print("subscriptions page loaded")
-
-                # Wait for the join button to be present & clickable
-                # join_button = WebDriverWait(driver, 15).until(
-                #    EC.element_to_be_clickable((By.CSS_SELECTOR,
-                #                                "#PageContent > div > div:nth-child(1) > div.ModuleContainer-module__container___pkhPl.ProductDetailsHeader-module__container___zvKSX > div.FadeContainers-module__fadeIn___5xlsD.FadeContainers-module__widthInherit___5fuOa > div > div:nth-child(1) > button"))
-                # )
-                # print("join button found")
-
-                # join_button.click()
-
-                # print("join button clicked")
-
-                time.sleep(5)
-
-                # Wait for the Purchase iframe to be present & clickable
-                purchase_iframe = WebDriverWait(driver, 10).until(
-                    EC.element_to_be_clickable(
-                        (By.XPATH, '//iframe[@title="Purchase Frame"]'))
-                )
-
-                print("purchase iframe clickable")
-
-                pyautogui.press('enter')
-
-                print("enter clicked (hopefully on sub button)")
-
-                time.sleep(30)
-
-                # script needs to confirm that susbcription has been usccessful at this point - could search for 'thank for joining' text
-
-                print(email + " completed")
+    print(email + " completed")
