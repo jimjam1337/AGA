@@ -19,7 +19,6 @@ if not os.path.exists(dir_path):
     os.makedirs(dir_path)
 logging.basicConfig(filename='/logs/aga/account tool/selenium.log', level=logging.INFO)
 
-
 # CODE FOR DIALOGUE BOX
 
 def set_result_reactivate():
@@ -27,18 +26,15 @@ def set_result_reactivate():
     result = "Reactivate"
     root.destroy()
 
-
 def set_result_deactivate():
     global result
     result = "Deactivate"
     root.destroy()
 
-
 def set_result_setup():
     global result
     result = "First time setup"
     root.destroy()
-
 
 root = tk.Tk()
 root.title("AGA GamePass Account Tool")
@@ -67,14 +63,11 @@ root.mainloop()
 
 # DIALOGUE BOX ENDS
 
-# DEFINE LOGIN FUNCTION BEGINS
+# CODE FOR LOGIN FUNCTION
 
-def Login_Function():
+def Login_Function(driver):
     print("begin login sequence")
-
-    # Create a new instance of the Chrome driver
-    driver = webdriver.Chrome()
-    print("driver opened")
+    logging.info("begin login sequence")
 
     # Navigate to the Microsoft login page
     driver.get("https://account.microsoft.com/")
@@ -84,6 +77,7 @@ def Login_Function():
         EC.element_to_be_clickable((By.ID, "id__4"))
     )
     print("first signin field clickable")
+    logging.info("first signin field clickable")
 
     # Click the email field
     signin_field.click()
@@ -93,12 +87,14 @@ def Login_Function():
         EC.element_to_be_clickable((By.ID, "i0116"))
     )
     print("second email field clickable")
+    logging.info("second signin field clickable")
 
     # Send the email to the email field
     email_field.send_keys(email)
     email_field.send_keys(Keys.RETURN)
 
-    print("email sent")
+    print("email string sent to field")
+    logging.info("email string sent to field")
 
     # Wait for the password field to be present and clickable
     password_field = WebDriverWait(driver, 500).until(
@@ -106,12 +102,14 @@ def Login_Function():
     )
 
     print("password field clickable")
+    logging.info("password field clickable")
 
     # Send the password to the email field
     password_field.send_keys(password)
     password_field.send_keys(Keys.RETURN)
 
-    print("password sent")
+    print("password sent to pword field")
+    logging.info("password string sent to pword field")
 
     # CODE IN CASE UPDATE SECURITY INFO PAGE LOADS (case1)
 
@@ -188,11 +186,8 @@ def Login_Function():
 
     print("login function completed")
     logging.info("login function completed within login function")
+    pass
 
-# DEFINE LOGIN FUNCTION ENDS
-
-logging.info("Beginning login function")
-print("login function defined")
 
 # DEFINE THE BASE EMAIL AND PASSWORD
 email_base = ["aga", "agapc"]
@@ -220,47 +215,59 @@ ranges = [(start_value_1, end_value_1), (start_value_2, end_value_2)]
 print("define base email and password finished")
 logging.info("define base email and password finished")
 
-# Loop through each base email and range
-for email_base, r in zip(email_base, ranges):
-    # Loop through each account
-    for i in range(*r):
-        # Create the email address
-        email = email_base + str(i) + "@activegamers.com.au"
-
-        # log which account will be deactivated based on email variable
-        logging.info('Beginning deactivation of account %s', email)
-
 # REACTIVATE CODE
+
 if result == "Reactivate":
     print("Reactivate loop initiated")
 
-    Login_Function()
-    print("login function completed outside login function")
-    logging.info("login function completed outside login function")
+    # Loop through each base email and range
+    for email_base, r in zip(email_base, ranges):
+        # Loop through each account
+        for i in range(*r):
+            # Create the email address
+            email = email_base + str(i) + "@activegamers.com.au"
 
-    # Navigate to the subscriptions page
-    driver.get(
-        "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
+            # log which account will be deactivated based on email variable
+            logging.info('Beginning deactivation of account %s', email)
 
-    time.sleep(10)
+            # Initialize the driver
+            driver = webdriver.Chrome()
+            print("driver initialized")
+            logging.info("driver initialized")
 
-    print("getting focus")
+            Login_Function(driver)
+            print("login function completed outside login function")
+            logging.info("login function completed outside login function")
 
-    # Get focus on the subscriptions page window
+            # Navigate to the subscriptions page
+            driver.get(
+                "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
 
-    reactivate_join_now_icon = "C:/Users/james/Dropbox/Active Gamers Australia USE THIS/Jim's Tech Folder/Python/pythonProject_gp activate/icons/reactivate_join_now.PNG"
+            time.sleep(10)
 
-    # Search for the icon on the screen
-    reactivate_join_now_pos = pyautogui.locateOnScreen(reactivate_join_now_icon, confidence=0.5)
+            print("getting focus")
 
-    # If the icon is found, click it to bring the window to focus
-    if reactivate_join_now_pos is not None:
-        reactivate_join_now_center = pyautogui.center(reactivate_join_now_pos)
-        pyautogui.click(reactivate_join_now_center)
-    else:
-        print("Icon not found")
+            # Get focus on the subscriptions page window
 
-    print("subscriptions page loaded")
+            reactivate_join_now_icon = "C:/Users/james/Dropbox/Active Gamers Australia USE THIS/Jim's Tech Folder/Python/pythonProject_gp activate/icons/reactivate_join_now.PNG"
+
+            # Search for the icon on the screen
+            reactivate_join_now_pos = pyautogui.locateOnScreen(reactivate_join_now_icon, confidence=0.5)
+
+            # If the icon is found, click it to bring the window to focus
+            if reactivate_join_now_pos is not None:
+                reactivate_join_now_center = pyautogui.center(reactivate_join_now_pos)
+                pyautogui.click(reactivate_join_now_center)
+            else:
+                print("Icon not found")
+
+            print("subscriptions page loaded")
+
+            time.sleep(20)
+            pyautogui.press('enter')
+            time.sleep(20)
+            print("subsrciption process finished")
+            driver.close()
 
     # Wait for the join button to be present & clickable
     # join_button = WebDriverWait(driver, 15).until(
@@ -273,25 +280,25 @@ if result == "Reactivate":
 
     # print("join button clicked")
 
-    time.sleep(5)
+    #time.sleep(5)
 
     # Wait for the Purchase iframe to be present & clickable
-    purchase_iframe = WebDriverWait(driver, 10).until(
-        EC.element_to_be_clickable(
-            (By.XPATH, '//iframe[@title="Purchase Frame"]'))
-    )
+    #purchase_iframe = WebDriverWait(driver, 10).until(
+    #    EC.element_to_be_clickable(
+    #        (By.XPATH, '//iframe[@title="Purchase Frame"]'))
+    #)
 
-    print("purchase iframe clickable")
+    #print("purchase iframe clickable")
 
-    pyautogui.press('enter')
+    #pyautogui.press('enter')
 
-    print("enter clicked (hopefully on sub button)")
+    #print("enter clicked (hopefully on sub button)")
 
-    time.sleep(30)
+    #time.sleep(30)
 
     # script needs to confirm that susbcription has been usccessful at this point - could search for 'thank for joining' text
 
-    print(email + " completed")
+    #print(email + " completed")
 
     # DEACTIVATE CODE
     if result == "Deactivate":
