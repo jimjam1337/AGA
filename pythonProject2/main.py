@@ -2,16 +2,18 @@ import time
 import tkinter as tk
 from tkinter import simpledialog  # Add this line
 import logging
+
+import driver as driver
 import pyautogui
 import os
-from selenium import webdriver
+
 from selenium.common import TimeoutException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
+from selenium import webdriver
 
 # Set up logging to write to /logs/aga/account tool
 dir_path = 'C:/logs/aga/account tool'
@@ -19,7 +21,11 @@ if not os.path.exists(dir_path):
     os.makedirs(dir_path)
 logging.basicConfig(filename='/logs/aga/account tool/selenium.log', level=logging.INFO)
 
+
+
 # CODE FOR DIALOGUE BOX
+
+result = None  # Default value, can be changed in the dialogue box functions
 
 def set_result_reactivate():
     global result
@@ -61,6 +67,8 @@ setup_button.place(relx=.7, rely=0.5, anchor="center")
 
 root.mainloop()
 
+
+
 # DIALOGUE BOX ENDS
 
 # CODE FOR LOGIN FUNCTION
@@ -68,6 +76,10 @@ root.mainloop()
 def Login_Function(driver):
     print("begin login sequence")
     logging.info("begin login sequence")
+
+    #set driver to be full screen
+    driver.set_window_size(1920, 1080)
+    driver.maximize_window()
 
     # Navigate to the Microsoft login page
     driver.get("https://account.microsoft.com/")
@@ -110,6 +122,22 @@ def Login_Function(driver):
 
     print("password sent to pword field")
     logging.info("password string sent to pword field")
+
+    #CODE IN CASE WE'RE UPDATING OUR TOS PAGE LOADS
+
+    try:
+        # Waiting up to 10 seconds for the tou page to load
+        WebDriverWait(driver, 10).until(EC.url_contains("https://account.live.com/tou/accrue?"))
+        logging.info("Waiting to see if privacy notice page appears")
+
+        # if URL contains "https://account.live.com/tou/accrue?", press enter
+        pyautogui.press('enter', presses=1)
+        logging.info(
+            "second privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed")
+
+    except TimeoutException:
+        # if the URL does not contain "https://privacynotice.account.microsoft.com/"
+        logging.info("second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear")
 
     # CODE IN CASE UPDATE SECURITY INFO PAGE LOADS (case1)
 
@@ -227,8 +255,8 @@ if result == "Reactivate":
             # Create the email address
             email = email_base + str(i) + "@activegamers.com.au"
 
-            # log which account will be deactivated based on email variable
-            logging.info('Beginning deactivation of account %s', email)
+            # log which account will be reactivated based on email variable
+            logging.info('Beginning reactivation of account %s', email)
 
             # Initialize the driver
             driver = webdriver.Chrome()
@@ -245,7 +273,7 @@ if result == "Reactivate":
 
             time.sleep(10)
 
-            print("getting focus")
+            print("subscriptions page loaded")
 
             # Get focus on the subscriptions page window
 
@@ -256,114 +284,106 @@ if result == "Reactivate":
 
             # If the icon is found, click it to bring the window to focus
             if reactivate_join_now_pos is not None:
+
                 reactivate_join_now_center = pyautogui.center(reactivate_join_now_pos)
                 pyautogui.click(reactivate_join_now_center)
+                print("found icon, clicked button to obtain focus")
+                pyautogui.press('tab', presses=16)
+                pyautogui.press('enter', presses=1)
+                print("join now button clicked second time")
+                time.sleep(20)
+                print("join now sleep finished")
+                pyautogui.press('enter', presses=1)
+                print("subscribe button clicked")
+                time.sleep(20)
+                print("subscribe sleep finished")
+                print("reactivation process finished, proceeding to next account")
             else:
-                print("Icon not found")
+                print("Icon not found - possibly the account is already activated. Proceeding to next account")
 
-            print("subscriptions page loaded")
 
-            time.sleep(20)
-            pyautogui.press('enter')
-            time.sleep(20)
-            print("subsrciption process finished")
+
             driver.close()
 
-    # Wait for the join button to be present & clickable
-    # join_button = WebDriverWait(driver, 15).until(
-    #    EC.element_to_be_clickable((By.CSS_SELECTOR,
-    #                                "#PageContent > div > div:nth-child(1) > div.ModuleContainer-module__container___pkhPl.ProductDetailsHeader-module__container___zvKSX > div.FadeContainers-module__fadeIn___5xlsD.FadeContainers-module__widthInherit___5fuOa > div > div:nth-child(1) > button"))
-    # )
-    # print("join button found")
 
-    # join_button.click()
 
-    # print("join button clicked")
+# DEACTIVATE CODE
+if result == "Deactivate":
+    print("Deactivate loop initiated")
 
-    #time.sleep(5)
+    # Loop through each base email and range
+    for email_base, r in zip(email_base, ranges):
+        # Loop through each account
+        for i in range(*r):
+            # Create the email address
+            email = email_base + str(i) + "@activegamers.com.au"
 
-    # Wait for the Purchase iframe to be present & clickable
-    #purchase_iframe = WebDriverWait(driver, 10).until(
-    #    EC.element_to_be_clickable(
-    #        (By.XPATH, '//iframe[@title="Purchase Frame"]'))
-    #)
+            # log which account will be deactivated based on email variable
+            logging.info('Beginning deactivation of account %s', email)
 
-    #print("purchase iframe clickable")
+            # Initialize the driver
+            driver = webdriver.Chrome()
+            print("driver initialized")
+            logging.info("driver initialized")
 
-    #pyautogui.press('enter')
+            Login_Function(driver)
+            print("login function completed outside login function")
+            logging.info("login function completed outside login function")
 
-    #print("enter clicked (hopefully on sub button)")
+            try:
+                # Wait for the manage link to be present and clickable
+                manage_link = WebDriverWait(driver, 30).until(
+                    EC.element_to_be_clickable((By.LINK_TEXT, "Manage"))
+                )
 
-    #time.sleep(30)
+                # send enter to the manage link
+                manage_link.send_keys(Keys.RETURN)
 
-    # script needs to confirm that susbcription has been usccessful at this point - could search for 'thank for joining' text
+                # Wait for the first cancel link to be present and clickable
+                cancel_link1 = WebDriverWait(driver, 500).until(
+                    EC.element_to_be_clickable((By.ID, "cancel-sub-button"))
+                )
 
-    #print(email + " completed")
+                print("cancel link 1 found")
 
-    # DEACTIVATE CODE
-    if result == "Deactivate":
-        print("Deactivate")
+                # Use JavaScript to click the cancel link
+                driver.execute_script("arguments[0].click();", cancel_link1)
 
-        logging.info("Now beginning deactivation process")
+                print("cancel link 1 clicked")
 
-        Login_Function()
+                # Wait for the second cancel link (cancel button) to be present and clickable
+                cancel_link2 = WebDriverWait(driver, 500).until(
+                    EC.element_to_be_clickable((By.ID, "benefit-cancel"))
+                )
 
-        driver = webdriver.Chrome()
+                print("cancel link 2 found")
 
-        try:
-            # Wait for the manage link to be present and clickable
-            manage_link = WebDriverWait(driver, 30).until(
-                EC.element_to_be_clickable((By.LINK_TEXT, "Manage"))
-            )
+                # Use JavaScript to click the second cancel link
+                driver.execute_script("arguments[0].click();", cancel_link2)
 
-            # send enter to the manage link
-            manage_link.send_keys(Keys.RETURN)
+                # print message to indicate that second cancel link has been clicked
+                print("cancel link 2 clicked")
 
-            # Wait for the first cancel link to be present and clickable
-            cancel_link1 = WebDriverWait(driver, 500).until(
-                EC.element_to_be_clickable((By.ID, "cancel-sub-button"))
-            )
+                time.sleep(5)
 
-            print("cancel link 1 found")
+                actions = ActionChains(driver)
+                actions.send_keys(Keys.ARROW_DOWN)
+                print("down arrow sent")
+                actions.send_keys(Keys.TAB)
+                print("tab  sent")
+                actions.send_keys(Keys.RETURN)
+                print("return sent")
+                actions.perform()
 
-            # Use JavaScript to click the cancel link
-            driver.execute_script("arguments[0].click();", cancel_link1)
+                # Close the browser window
+                driver.close()
 
-            print("cancel link 1 clicked")
+                print("browser closed")
 
-            # Wait for the second cancel link (cancel button) to be present and clickable
-            cancel_link2 = WebDriverWait(driver, 500).until(
-                EC.element_to_be_clickable((By.ID, "benefit-cancel"))
-            )
+                # log the completed deactivation for the account
+                logging.info('Account %s has been completed', email)
+                logging.info("---------------------------------------------------------")
 
-            print("cancel link 2 found")
-
-            # Use JavaScript to click the second cancel link
-            driver.execute_script("arguments[0].click();", cancel_link2)
-
-            # print message to indicate that second cancel link has been clicked
-            print("cancel link 2 clicked")
-
-            time.sleep(5)
-
-            actions = ActionChains(driver)
-            actions.send_keys(Keys.ARROW_DOWN)
-            print("down arrow sent")
-            actions.send_keys(Keys.TAB)
-            print("tab  sent")
-            actions.send_keys(Keys.RETURN)
-            print("return sent")
-            actions.perform()
-
-            # Close the browser window
-            driver.close()
-
-            print("browser closed")
-
-            # log the completed deactivation for the account
-            logging.info('Account %s has been completed', email)
-            logging.info("---------------------------------------------------------")
-
-        except TimeoutException:
-            logging.info("Manage link for %s did not become clickable - probably the account is already deactivated")
-            logging.info("---------------------------------------------------------")
+            except TimeoutException:
+                logging.info("Manage link for %s did not become clickable - probably the account is already deactivated")
+                logging.info("---------------------------------------------------------")
