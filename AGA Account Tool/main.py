@@ -116,7 +116,6 @@ root.mainloop()
 # CODE FOR LOGIN FUNCTION
 
 def login_function():
-    print("begin login sequence")
     logging.info("begin login sequence")
 
     # set driver to be full screen
@@ -292,7 +291,7 @@ def login_function():
         # if the URL does not contain "https://privacynotice.account.microsoft.com/"
         logging.info("second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear")
 
-    logging.info("login function completed")
+    logging.info("login function completed for %s", email)
 
 
 # DEFINE THE BASE EMAIL AND PASSWORD
@@ -324,7 +323,7 @@ logging.info("define base email and password finished")
 # REACTIVATE CODE
 
 if result == "Reactivate":
-    print("Reactivate loop initiated")
+    logging.info("Reactivate loop initiated")
 
     # Loop through each base email and range
     for email_base, r in zip(email_base, ranges):
@@ -341,45 +340,76 @@ if result == "Reactivate":
             logging.info("driver initialized")
 
             login_function()
-            logging.info("login function completed outside login function")
 
             # Navigate to the subscriptions page
             driver.get(
                 "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID"
                 "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
+            try:
+                WebDriverWait(driver, 10).until(EC.url_matches("https://www.xbox.com/en-au/games/store/xbox-game-pass"
+                                                               "-ultimate/cfq7ttc0khs0?=&OCID"
+                                                               "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1"))
+                logging.info("subscriptions page loaded")
 
-            time.sleep(10)
+                # wait up to 10 seconds for select plan button to become present and clickable
+                select_plan_button_button = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.CLASS_NAME,
+                                                "typography-module__xdsCaption___RlQY3 "
+                                                "DropDownProductListButton-module__dropDownProductListSubtitle___xuHs"))
+                )
+                logging.info("select plan button element found in browser")
 
-            print("subscriptions page loaded")
+                # set the requirements to find the select plan button icon, which needs to be clicked to bring the
+                # window into focus
+                select_plan_button_icon = "C:/Users/james/Documents/GitHub/AGA/AGA Account " \
+                                          "Tool/icons/select_plan_button.PNG"
+                select_plan_button_pos = pyautogui.locateOnScreen(select_plan_button_icon, confidence=0.5)
 
-            # Get focus on the subscriptions page window
+                # If the icon is found, click it to bring the window to focus
+                if select_plan_button_pos is not None:
+                    logging.info("Select plan button icon found on screen")
+                    select_plan_button_center = pyautogui.center(select_plan_button_pos)
+                    pyautogui.click(select_plan_button_center)
+                    logging.info("select plan button clicked")
+                    pyautogui.press('tab', presses=1)
+                    pyautogui.press('enter', presses=1)
+                    logging.info("pressed tab once and enter once to change plan from Trial to Ultimate")
 
-            reactivate_join_now_icon = "C:/Users/james/Dropbox/Active Gamers Australia USE THIS/Jim's Tech " \
-                                       "Folder/Python/pythonProject_gp activate/icons/reactivate_join_now.PNG"
+                    time.sleep(5)
 
-            # Search for the icon on the screen
-            reactivate_join_now_pos = pyautogui.locateOnScreen(reactivate_join_now_icon, confidence=0.5)
+                    logging.info("sleeping for 5 seconds to ensure page refreshes with new plan option")
 
-            # If the icon is found, click it to bring the window to focus
-            if reactivate_join_now_pos is not None:
+                    reactivate_join_button = "C:/Users/james/Documents/GitHub/AGA/AGA Account " \
+                                             "Tool/icons/reactivate_join_button.png"
 
-                reactivate_join_now_center = pyautogui.center(reactivate_join_now_pos)
-                pyautogui.click(reactivate_join_now_center)
-                print("found icon, clicked button to obtain focus")
-                pyautogui.press('tab', presses=16)
-                pyautogui.press('enter', presses=1)
-                print("join now button clicked second time")
+                    # Search for the icon on the screen
+                    reactivate_join_button_pos = pyautogui.locateOnScreen(reactivate_join_button, confidence=0.5)
+
+                    # If the icon is found, click it to bring the window to focus
+                    if reactivate_join_button_pos is not None:
+                        logging.info("Reactivate Join button located")
+                        reactivate_join_button_center = pyautogui.center(reactivate_join_button_pos)
+                        pyautogui.click(reactivate_join_button_center)
+                        logging.info("reactivate join button clicked")
+
+                        # UNFINISHED CODE FROM HERE - YOU WILL PROBABLY NEED TO LOG IN
+
+                        time.sleep(20)
+
+                        pyautogui.press('enter', presses=1)
+                        logging.info("subscribe button clicked")
+                        time.sleep(20)
+                        logging.info("subscribe sleep finished")
+                        logging.info("reactivation process finished, proceeding to next account")
+                    else:
+                        logging.info(
+                            "Icon not found - possibly the account is already activated. Proceeding to next account")
+
+            except TimeoutException:
+                logging.info("Subscription page did not load within the timeout period")
                 time.sleep(20)
-                print("join now sleep finished")
-                pyautogui.press('enter', presses=1)
-                print("subscribe button clicked")
-                time.sleep(20)
-                print("subscribe sleep finished")
-                print("reactivation process finished, proceeding to next account")
-            else:
-                print("Icon not found - possibly the account is already activated. Proceeding to next account")
 
-            driver.close()
+    driver.close()
 
 # DEACTIVATE CODE
 if result == "Deactivate":
@@ -400,7 +430,6 @@ if result == "Deactivate":
             logging.info("driver initialized")
 
             login_function()
-            logging.info("login function completed for %s", email)
 
             try:
                 # wait up to 10 seconds for main account page to load
