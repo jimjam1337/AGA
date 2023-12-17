@@ -151,7 +151,7 @@ def login_function():
 
                 try:
                     # Wait up to 20 seconds for the password field to be present and clickable
-                    password_field = WebDriverWait(driver, 500).until(
+                    password_field = WebDriverWait(driver, 20).until(
                         EC.element_to_be_clickable((By.ID, "i0118"))
                     )
                     logging.info("password field clickable")
@@ -189,8 +189,8 @@ def login_function():
         # CODE IN CASE 'WE'RE UPDATING OUR TOU PAGE LOADS'
 
         try:
-            # Wait up to 10 seconds for the TOU update page to load
-            WebDriverWait(driver, 10).until(EC.url_contains("https://account.live.com/tou/accrue?"))
+            # Wait up to 5 seconds for the TOU update page to load
+            WebDriverWait(driver, 5).until(EC.url_contains("https://account.live.com/tou/accrue?"))
             logging.info("TOU page loaded")
 
             try:
@@ -232,8 +232,9 @@ def login_function():
     # CODE IN CASE PRIVACY NOTICE PAGE LOADS
 
     try:
-        # Waiting up to 10 seconds for the privacy notice page to load
-        WebDriverWait(driver, 10).until(EC.url_contains("https://privacynotice.account.microsoft.com/"))
+        # Waiting up to 5 seconds for the privacy notice page to load
+        WebDriverWait(driver, 5
+                      ).until(EC.url_contains("https://privacynotice.account.microsoft.com/"))
         logging.info("Waiting to see if privacy notice page appears")
 
         # if URL contains "https://privacynotice.account.microsoft.com/", bypass and go to the main account page
@@ -248,8 +249,8 @@ def login_function():
     # CODE IN CASE BREAK FREE OF YOUR PASSWORDS (UPSELL) PAGE LOADS
 
     try:
-        # waiting for up to 10 seconds to see if the break free of your passwords page loads
-        WebDriverWait(driver, 10).until(EC.url_contains("https://account.live.com/apps/upsell?"))
+        # waiting for up to 5 seconds to see if the break free of your passwords page loads
+        WebDriverWait(driver, 5).until(EC.url_contains("https://account.live.com/apps/upsell?"))
 
         # if the URL contains "https://account.live.com/apps/upsell?", skip it and go to the main account page
         driver.get("https://account.microsoft.com/")
@@ -263,7 +264,7 @@ def login_function():
 
     try:
         # Wait for the 'stayed signed in? no' field to be present and clickable
-        stay_signed_in_no_field = WebDriverWait(driver, 10).until(
+        stay_signed_in_no_field = WebDriverWait(driver, 5).until(
             EC.element_to_be_clickable((By.ID, "idBtn_Back"))
         )
 
@@ -279,7 +280,7 @@ def login_function():
 
     try:
         # Waiting up to 10 seconds for the privacy notice page to load
-        WebDriverWait(driver, 10).until(EC.url_contains("https://privacynotice.account.microsoft.com/"))
+        WebDriverWait(driver, 5).until(EC.url_contains("https://privacynotice.account.microsoft.com/"))
         logging.info("Waiting to see if privacy notice page appears")
 
         # if URL contains "https://privacynotice.account.microsoft.com/", bypass and go to the main account page
@@ -345,71 +346,87 @@ if result == "Reactivate":
             driver.get(
                 "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID"
                 "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
+
             try:
-                WebDriverWait(driver, 10).until(EC.url_matches("https://www.xbox.com/en-au/games/store/xbox-game-pass"
-                                                               "-ultimate/cfq7ttc0khs0?=&OCID"
-                                                               "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1"))
-                logging.info("subscriptions page loaded")
-
-                # wait up to 10 seconds for select plan button to become present and clickable
-                select_plan_button_button = WebDriverWait(driver, 10).until(
-                    EC.element_to_be_clickable((By.CLASS_NAME,
-                                                "typography-module__xdsCaption___RlQY3 "
-                                                "DropDownProductListButton-module__dropDownProductListSubtitle___xuHs"))
+                # wait up to 10 seconds for the buy gamepass as a gift button to become present and clickable
+                buy_gamepass_as_a_gift_button = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable(
+                        (By.XPATH, "//button[@title='Buy Xbox Game Pass Ultimate as a gift']"))
                 )
-                logging.info("select plan button element found in browser")
+                logging.info("buy gamepass as a gift button is present and clickable")
+                buy_gamepass_as_a_gift_button.send_keys(Keys.RETURN)
+                logging.info("enter key pressed on buy gamepass as a gift button")
 
-                # set the requirements to find the select plan button icon, which needs to be clicked to bring the
-                # window into focus
-                select_plan_button_icon = "C:/Users/james/Documents/GitHub/AGA/AGA Account " \
-                                          "Tool/icons/select_plan_button.PNG"
-                select_plan_button_pos = pyautogui.locateOnScreen(select_plan_button_icon, confidence=0.5)
+                try:
+                    # wait up to 10 seconds for the join button to become present and clickable
+                    join_button = WebDriverWait(driver, 10).until(
+                        EC.element_to_be_clickable((By.XPATH,
+                                                    "//button[@aria-label='Join Xbox Game Pass Ultimate. AU$18.95 per "
+                                                    "month']"))
+                    )
 
-                # If the icon is found, click it to bring the window to focus
-                if select_plan_button_pos is not None:
-                    logging.info("Select plan button icon found on screen")
-                    select_plan_button_center = pyautogui.center(select_plan_button_pos)
-                    pyautogui.click(select_plan_button_center)
-                    logging.info("select plan button clicked")
-                    pyautogui.press('tab', presses=1)
-                    pyautogui.press('enter', presses=1)
-                    logging.info("pressed tab once and enter once to change plan from Trial to Ultimate")
+                    logging.info("join button is present and clickable")
+                    join_button.send_keys(Keys.RETURN)
 
-                    time.sleep(5)
+                    time.sleep(10)
+                    logging.info("sleeping for 10 seconds to allows the subscribe modal to load")
 
-                    logging.info("sleeping for 5 seconds to ensure page refreshes with new plan option")
+                    try:
+                        # Set the path to the subscribe button image
+                        icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account Tool/icons/subscribe_button.png"
 
-                    reactivate_join_button = "C:/Users/james/Documents/GitHub/AGA/AGA Account " \
-                                             "Tool/icons/reactivate_join_button.png"
+                        try:
+                            # Locate the icon on the screen
+                            subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
 
-                    # Search for the icon on the screen
-                    reactivate_join_button_pos = pyautogui.locateOnScreen(reactivate_join_button, confidence=0.5)
+                            if subscribe_button_position is not None:
+                                # Get the center coordinates of the icon
+                                icon_x, icon_y = pyautogui.center(subscribe_button_position)
 
-                    # If the icon is found, click it to bring the window to focus
-                    if reactivate_join_button_pos is not None:
-                        logging.info("Reactivate Join button located")
-                        reactivate_join_button_center = pyautogui.center(reactivate_join_button_pos)
-                        pyautogui.click(reactivate_join_button_center)
-                        logging.info("reactivate join button clicked")
+                                # Move the mouse to the icon's center and click it to get window focus
+                                pyautogui.click(icon_x, icon_y)
 
-                        # UNFINISHED CODE FROM HERE - YOU WILL PROBABLY NEED TO LOG IN
+                                # Optionally, add a short delay before clicking (adjust as needed)
+                                time.sleep(1)
 
-                        time.sleep(20)
+                                # Move the mouse to the icon's center and click it
+                                pyautogui.click(icon_x, icon_y)
 
-                        pyautogui.press('enter', presses=1)
-                        logging.info("subscribe button clicked")
-                        time.sleep(20)
-                        logging.info("subscribe sleep finished")
-                        logging.info("reactivation process finished, proceeding to next account")
-                    else:
-                        logging.info(
-                            "Icon not found - possibly the account is already activated. Proceeding to next account")
+                                logging.info("Icon clicked successfully!")
+
+                                try:
+                                    # Wait until the 'download the xbox app' button is present and clickable. this will
+                                    # confirm reactivation.
+                                    '''subscribe_button = WebDriverWait(driver, 20).until( 
+                                    EC.presence_of_element_located((By.XPATH, "//a[text()='DOWNLOAD THE XBOX APP']")) )
+
+                                    '''
+                                    logging.info("Account reactivation is complete for account %s", email)
+                                    email_body = "Account has been reactivated, confirm this by checking the account " \
+                                                 "inbox"
+                                    send_end_of_loop_email()
+                                    time.sleep(15)
+
+                                except TimeoutException:
+                                    logging.info("DOWNLOAD THE XBOX APP button did not become present and clickable")
+
+                            else:
+                                logging.info("Icon not found on the screen.")
+                                input()
+
+                        except Exception as e:
+                            logging.info(f"Error: {e}")
+
+                    except TimeoutException:
+                        logging.info("subscribe button did not become present and clickable")
+
+                except TimeoutException:
+                    logging.info("Join button did not become present and clickable")
 
             except TimeoutException:
-                logging.info("Subscription page did not load within the timeout period")
-                time.sleep(20)
+                logging.info("Buy gamepass as a gift button did not become present and clickable")
 
-    driver.close()
+            logging.info("-----------------------------------------------------------------------------")
 
 # DEACTIVATE CODE
 if result == "Deactivate":
@@ -524,7 +541,6 @@ if result == "Deactivate":
                             time.sleep(10)
 
                             # Close the browser window
-                            driver.close()
                             logging.info("browser closed")
 
                             # log the completed deactivation for the account
@@ -536,8 +552,8 @@ if result == "Deactivate":
                             logging.info(
                                 "Cancel button did not become present and clickable for account %s. "
                                 "Probably the account has already been deactivated.", email)
-                            email_body = "Cancel button did not become present and clickable. Probably the account has " \
-                                         "already been deactivated."
+                            email_body = "Cancel button did not become present and clickable. Probably the account" \
+                                         "has already been deactivated."
 
                     except TimeoutException:
                         # if the billing cancellation page did not load
