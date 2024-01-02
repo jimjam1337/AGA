@@ -6,6 +6,8 @@ from tkinter import simpledialog
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime
+from PIL import Image, ImageTk
+from selenium.webdriver.common.action_chains import ActionChains
 
 import pyautogui
 from selenium import webdriver
@@ -19,7 +21,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 today_date = datetime.now().strftime("%Y-%m-%d")
 
 # Create the log directory if it doesn't exist
-log_directory = '/logs/aga/account_tool/'
+log_directory = 'C/Users/james/Documents/GitHub/AGA/AGA Account Tool/logs'
 os.makedirs(log_directory, exist_ok=True)
 
 # Create the log filename with today's date
@@ -85,19 +87,36 @@ def set_result_setup():
     root.destroy()
 
 
+# Get the user's home directory
+home_dir = os.path.expanduser("~")
+
+# Construct the path to the documents directory
+documents_dir = os.path.join(home_dir, "Documents", "GitHub", "AGA", "AGA Account Tool", "icons")
+
+# Construct the path to the background image
+bg_image_path = os.path.join(documents_dir, "aga_logo_600x345.png")
+
 root = tk.Tk()
 root.title("AGA GamePass Account Tool")
 
 # Load the background image
-bg_image = tk.PhotoImage(file="c:\\AGALogoV4.png")
+original_image = Image.open(bg_image_path)
+
+# Set the desired window size
+window_width = 600
+window_height = 345
+
+# Resize the image to fit the window using LANCZOS resampling
+resized_image = original_image.resize((window_width, window_height), Image.LANCZOS)
+bg_image = ImageTk.PhotoImage(resized_image)
 
 # Create a label with the background image
 bg_label = tk.Label(root, image=bg_image)
 bg_label.image = bg_image  # Store the PhotoImage object as an attribute of the label
-bg_label.place(x=0, y=-20, relwidth=1, relheight=1)
+bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-# Adjust the size of the window to fit the graphic
-root.geometry(f"{bg_image.width() + 75}x{bg_image.height() + 50}")
+# Set the window size
+root.geometry(f"{window_width}x{window_height}")
 
 Reactivate_button = tk.Button(root, text="Reactivate", command=set_result_reactivate)
 Reactivate_button.place(relx=0.2, rely=0.5, anchor="center")
@@ -486,7 +505,7 @@ if result == "Deactivate":
 
                         try:
                             # Wait up to 20 seconds for the cancel button to be present and clickable
-                            cancel_button = WebDriverWait(driver, 20).until(
+                            cancel_button = WebDriverWait(driver, 10).until(
                                 EC.element_to_be_clickable((By.ID, "benefit-cancel"))
                             )
                             cancel_button.send_keys(Keys.RETURN)
@@ -494,25 +513,67 @@ if result == "Deactivate":
 
                             try:
                                 # wait up to 20 seconds for the 'back to subscription' button and 'resubscribe'
-                                # button to be present and clickable
-                                back_to_subscription_button = WebDriverWait(driver, 20).until(
+                                # button to be present and clickable. If this happens in this code block (before the
+                                # ability to send keystrokes to the refund button), it tells us that a refund was not
+                                # able to be issued, for whatever reason. Add more code here later allow us to
+                                # clarify why not.
+                                back_to_subscription_button = WebDriverWait(driver, 10).until(
                                     EC.element_to_be_clickable(
                                         (By.XPATH, '//span[contains(text(), "Back to subscription")]'))
                                 )
 
-                                resubscribe_button = WebDriverWait(driver, 20).until(
+                                resubscribe_button = WebDriverWait(driver, 10).until(
                                     EC.element_to_be_clickable((By.XPATH, '//span[contains(text(), "Resubscribe")]'))
                                 )
 
-                                logging.info("Account %s has been deactivated", email)
-                                email_body = "Account was deactivated under normal circumstances."
+                                logging.info("Account %s has been deactivated but no refund was issued. Possibly the "
+                                             "account was already deactivated with recurring billing turned off, "
+                                             "or else we were over the threshold to be able to get a refund", email)
+                                email_body = "Account %s has been deactivated but no refund was issued. Possibly the " \
+                                             "account was already deactivated with recurring billing turned off, " \
+                                             "or else we were over the threshold to be able to get a refund."
 
                             except TimeoutException:
-                                logging.info("back to subscription' and 'resubscribe' buttons did not both become "
-                                             "present and clickable. Probably the account was already deactivated.")
-                                email_body = "back to subscription' and 'resubscribe' buttons did not both become " \
-                                             "present and clickable. Probably the account was already deactivated"
+                                logging.info("Back to subscription' and 'resubscribe' button did not become present"
+                                             "and clickable. We will now send keystrokes for deactivation with refund.")
 
+                                time.sleep(5)
+                                actions = ActionChains(driver)
+                                actions.send_keys(Keys.ARROW_DOWN)
+                                actions.send_keys(Keys.TAB)
+                                actions.send_keys(Keys.RETURN)
+                                actions.perform()
+
+                                logging.info("Refund keystrokes have been sent")
+
+                                try:
+                                    # Wait up to 20 seconds for the 'back to subscription' and 'resubscribe' buttons
+                                    # to become present and clickable. If this happens in this code block (after the
+                                    # keystrokes have been sent) it will indicate that the subscription was
+                                    # correctly cancelled (and refund therefore issues).
+                                    back_to_subscription_button = WebDriverWait(driver, 20).until(
+                                        EC.element_to_be_clickable(
+                                            (By.XPATH, '//span[contains(text(), "Back to subscription")]'))
+                                    )
+
+                                    resubscribe_button = WebDriverWait(driver, 20).until(
+                                        EC.element_to_be_clickable(
+                                            (By.XPATH, '//span[contains(text(), "Resubscribe")]'))
+                                    )
+
+                                    logging.info(
+                                        "back to subscription' and 'refund' elements were located after refund "
+                                        "keystrokes were sent. This account should be deactivated and refund issued")
+                                    email_body = "Account has been deactivated and refund issued."
+
+                                except TimeoutException:
+                                    logging.info("Cancel with refund keystrokes were sent but the back to sub and "
+                                                 "refund elements were not found. Something has gone wrong.")
+                                    email_body = "cancel with refund keystrokes were sent but the back to sub and " \
+                                                 "refund elements were not found. Something has gone wrong and this " \
+                                                 "account might not be deactivated."
+
+                            '''
                             # CODE IN CASE OF 'TURN ON RECURRING BILLING' (account has already been cancelled, but still
                             # has a cancel link)
 
@@ -531,21 +592,10 @@ if result == "Deactivate":
                                 # if the back to subscription button did not become present and clickable
                                 logging.info("back to subscription button did not become present and clickable")
                                 email_body = "Account has not been deactivated."
-
-                            # time.sleep(10)
-                            # actions = ActionChains(driver)
-                            # actions.send_keys(Keys.ARROW_DOWN)
-                            # actions.send_keys(Keys.TAB)
-                            # actions.send_keys(Keys.RETURN)
-                            # actions.perform()
-                            time.sleep(10)
+                            '''
 
                             # Close the browser window
                             logging.info("browser closed")
-
-                            # log the completed deactivation for the account
-                            logging.info("Deactivation has been completed for account %s ", email)
-                            email_body = "Deactivation has been completed for account"
 
                         except TimeoutException:
                             # if the cancel button did not become present and clickable
