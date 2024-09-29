@@ -1,0 +1,2475 @@
+INFO:root:define base email and password finished
+INFO:root:Reactivate loop initiated
+INFO:root:Beginning reactivation of account aga1@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:password field did not become present and clickable
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga1@activegamers.com.au
+INFO:root:Buy gamepass as a gift button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga2@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:define base email and password finished
+INFO:root:Reactivate loop initiated
+INFO:root:Beginning reactivation of account aga1@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga1@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga2@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga2@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga3@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga3@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga4@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga4@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga4@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga5@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga5@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga6@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga6@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga7@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga7@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga8@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga8@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga9@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga9@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga10@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:email field did not become present and clickable
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga10@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:Element with ID 'tileist' did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga11@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:define base email and password finished
+INFO:root:Reactivate loop initiated
+INFO:root:Beginning reactivation of account aga4@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga4@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga4@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga5@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:define base email and password finished
+INFO:root:Reactivate loop initiated
+INFO:root:Beginning reactivation of account aga4@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga4@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga4@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga5@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga5@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga6@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:email field did not become present and clickable
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga6@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:Element with ID 'tileist' did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga7@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga7@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga8@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga8@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga9@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga9@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga10@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga10@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga11@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:account is on the alternate password list
+INFO:root:alternate password string sent to password field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga11@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga11@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga12@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga12@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga12@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga13@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga13@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga13@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga14@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga14@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga14@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga15@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga15@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:Element with ID 'tileist' did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga16@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga16@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga16@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga17@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga17@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga17@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga18@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga18@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga18@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga19@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga19@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga19@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga20@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga20@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account agapc1@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:define base email and password finished
+INFO:root:Reactivate loop initiated
+INFO:root:Beginning reactivation of account aga21@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga21@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga21@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga22@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:account is on the alternate password list
+INFO:root:alternate password string sent to password field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga22@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga22@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga23@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga23@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga23@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga24@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga24@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga24@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga25@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga25@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga25@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga26@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:account is on the alternate password list
+INFO:root:alternate password string sent to password field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga26@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga26@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga27@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga27@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga27@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga28@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga28@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga28@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga29@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga29@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga29@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga30@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga30@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga30@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga31@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga31@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga31@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga32@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga32@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga32@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga33@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga33@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga33@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga34@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga34@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga34@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga35@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga35@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon not found on the screen.
+INFO:root:define base email and password finished
+INFO:root:Reactivate loop initiated
+INFO:root:Beginning reactivation of account aga36@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga36@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga36@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga37@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga37@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga37@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga38@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga38@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga39@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga39@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga39@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga40@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga40@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga40@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga41@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga41@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga41@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga42@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga42@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga42@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga43@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga43@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga43@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga44@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga44@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga45@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga45@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga45@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga46@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga46@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga46@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga47@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga47@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga47@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga48@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga48@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga48@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga49@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga49@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga49@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga50@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga50@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga50@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga51@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga51@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga51@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga52@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga52@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga52@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga53@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga53@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga53@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga54@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga54@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga54@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga55@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga55@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga55@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga56@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga56@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga56@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga57@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga57@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:Join button did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga58@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga58@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga58@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga59@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga59@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga59@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga60@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga60@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga60@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga61@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga61@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga61@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga62@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga62@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga62@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga63@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga63@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga63@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga64@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga64@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga64@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga65@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:email field did not become present and clickable
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga65@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:Element with ID 'tileist' did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga66@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga66@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga66@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga67@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga67@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga67@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga68@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga68@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga68@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga69@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga69@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga69@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga70@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga70@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga70@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga71@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga71@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga71@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga72@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga72@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga72@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga73@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:email field did not become present and clickable
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga73@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:Element with ID 'tileist' did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga74@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga74@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga74@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga75@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga75@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga75@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga76@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga76@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga76@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga77@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga77@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga77@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga78@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga78@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga78@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga79@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga79@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga79@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga80@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga80@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga80@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga81@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga81@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga81@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga82@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:email field did not become present and clickable
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga82@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:Element with ID 'tileist' did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga83@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:email field did not become present and clickable
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga83@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:Element with ID 'tileist' did not become present and clickable
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga84@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga84@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga84@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga85@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga85@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon not found on the screen.
+INFO:root:define base email and password finished
+INFO:root:Reactivate loop initiated
+INFO:root:Beginning reactivation of account aga85@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window appeared and was completed
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga85@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window did not appear
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga85@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga86@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga86@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga86@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga87@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga87@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga87@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga88@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:update security info window did not appear
+INFO:root:Waiting to see if privacy notice page appears
+INFO:root:privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed
+INFO:root:Upsell page 'https://account.live.com/apps/upsell?' did not appear
+INFO:root:stay signed in window did not appear
+INFO:root:second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear
+INFO:root:login function completed for aga88@activegamers.com.au
+INFO:root:buy gamepass as a gift button is present and clickable
+INFO:root:enter key pressed on buy gamepass as a gift button
+INFO:root:tilelist_field is present and clickable
+INFO:root:enter key pressed
+INFO:root:stay signed in window appeared and was completed
+INFO:root:join button is present and clickable
+INFO:root:sleeping for 10 seconds to allows the subscribe modal to load
+INFO:root:Icon clicked successfully!
+INFO:root:Account reactivation is complete for account aga88@activegamers.com.au
+INFO:root:Email sent at the end of the loop.
+INFO:root:-----------------------------------------------------------------------------
+INFO:root:Beginning reactivation of account aga89@activegamers.com.au
+INFO:root:driver initialized
+INFO:root:begin login sequence
+INFO:root:'sign in' button clicked
+INFO:root:email field clickable
+INFO:root:email string sent to email field
+INFO:root:password field clickable
+INFO:root:standard password string sent to pword field

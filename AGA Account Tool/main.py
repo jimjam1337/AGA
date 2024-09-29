@@ -21,7 +21,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 today_date = datetime.now().strftime("%Y-%m-%d")
 
 # Create the log directory if it doesn't exist
-log_directory = 'C/Users/james/Documents/GitHub/AGA/AGA Account Tool/logs'
+log_directory = 'logs'
 os.makedirs(log_directory, exist_ok=True)
 
 # Create the log filename with today's date
@@ -151,7 +151,7 @@ def login_function():
         try:
             # Wait up to 20 seconds for the 'sign in' button to be present and clickable
             signin_field = WebDriverWait(driver, 20).until(
-                EC.element_to_be_clickable((By.ID, "id__4"))
+                EC.element_to_be_clickable((By.ID, "id__8"))
             )
             # Click the 'sign in' button
             signin_field.click()
@@ -284,7 +284,7 @@ def login_function():
     try:
         # Wait for the 'stayed signed in? no' field to be present and clickable
         stay_signed_in_no_field = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable((By.ID, "idBtn_Back"))
+            EC.element_to_be_clickable((By.ID, "declineButton"))
         )
 
         # send enter to the 'stay signed in? no' field
@@ -362,88 +362,145 @@ if result == "Reactivate":
             login_function()
 
             # Navigate to the subscriptions page
+            #driver.get(
+            #    "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID"
+            #   "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
+
+            driver.get("https://www.xbox.com/en-AU/auth/msa?action=logIn&amp;returnUrl=https%3A%2F%2Fwww.xbox.com%2Fen-au%2Fgames%2Fstore%2Fxbox-game-pass-ultimate%2Fcfq7ttc0khs0%3F%3D%26OCID%2522%2522%3DPROD_AMC_Cons_MEEMG_Renew_XboxGPU%26rtc%3D1&amp;ru=https%3A%2F%2Fwww.xbox.com%2Fen-au%2Fgames%2Fstore%2Fxbox-game-pass-ultimate%2Fcfq7ttc0khs0%3F%3D%26OCID%2522%2522%3DPROD_AMC_Cons_MEEMG_Renew_XboxGPU%26rtc%3D1")
+
+            time.sleep(5)
+
+            logging.info('slept 5 seconds')
+
+            pyautogui.press('enter')
+
+            logging.info('pressed enter')
+
+            time.sleep(10)
+
+            logging.info('slept 10 seconds')
+
             driver.get(
                 "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID"
-                "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
+               "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
+
+            logging.info('go to gamepass url')
 
             try:
-                # wait up to 10 seconds for the buy gamepass as a gift button to become present and clickable
-                buy_gamepass_as_a_gift_button = WebDriverWait(driver, 10).until(
-                    EC.element_to_be_clickable(
-                        (By.XPATH, "//button[@title='Buy Xbox Game Pass Ultimate as a gift']"))
+                # wait up to 10 seconds for the join button to become present and clickable
+                join_button = WebDriverWait(driver, 15).until(
+                    EC.element_to_be_clickable((By.XPATH,
+                                                "//button[@aria-label='Join Xbox Game Pass Ultimate. AU$22.95 per month']"))
                 )
-                logging.info("buy gamepass as a gift button is present and clickable")
-                buy_gamepass_as_a_gift_button.send_keys(Keys.RETURN)
-                logging.info("enter key pressed on buy gamepass as a gift button")
+
+                logging.info("join button is present and clickable")
+                join_button.send_keys(Keys.RETURN)
+
+                time.sleep(10)
+                logging.info("sleeping for 10 seconds to allows the subscribe modal to load")
 
                 try:
-                    # wait up to 10 seconds for the join button to become present and clickable
-                    join_button = WebDriverWait(driver, 10).until(
-                        EC.element_to_be_clickable((By.XPATH,
-                                                    "//button[@aria-label='Join Xbox Game Pass Ultimate. AU$18.95 per "
-                                                    "month']"))
-                    )
-
-                    logging.info("join button is present and clickable")
-                    join_button.send_keys(Keys.RETURN)
-
-                    time.sleep(10)
-                    logging.info("sleeping for 10 seconds to allows the subscribe modal to load")
+                    # Set the path to the subscribe button image
+                    icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account " \
+                                "Tool/icons/subscribe_button.png"
 
                     try:
-                        # Set the path to the subscribe button image
-                        icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account Tool/icons/subscribe_button.png"
+                        # Locate the icon on the screen
+                        subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
 
-                        try:
-                            # Locate the icon on the screen
-                            subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
+                        if subscribe_button_position is not None:
+                            # Get the center coordinates of the icon
+                            icon_x, icon_y = pyautogui.center(subscribe_button_position)
 
-                            if subscribe_button_position is not None:
-                                # Get the center coordinates of the icon
-                                icon_x, icon_y = pyautogui.center(subscribe_button_position)
+                            # Move the mouse to the icon's center and click it to get window focus
+                            pyautogui.click(icon_x, icon_y)
 
-                                # Move the mouse to the icon's center and click it to get window focus
-                                pyautogui.click(icon_x, icon_y)
+                            # Optionally, add a short delay before clicking (adjust as needed)
+                            time.sleep(1)
 
-                                # Optionally, add a short delay before clicking (adjust as needed)
-                                time.sleep(1)
+                            # Move the mouse to the icon's center and click it
+                            pyautogui.click(icon_x, icon_y)
 
-                                # Move the mouse to the icon's center and click it
-                                pyautogui.click(icon_x, icon_y)
+                            logging.info("Icon clicked successfully!")
 
-                                logging.info("Icon clicked successfully!")
+                            try:
+                                # Wait until the 'download the xbox app' button is present and clickable.
+                                # this will confirm reactivation.
+                                '''subscribe_button = WebDriverWait(driver, 20).until( 
+                                EC.presence_of_element_located((By.XPATH, "//a[text()='DOWNLOAD THE XBOX 
+                                APP']")) )
 
-                                try:
-                                    # Wait until the 'download the xbox app' button is present and clickable. this will
-                                    # confirm reactivation.
-                                    '''subscribe_button = WebDriverWait(driver, 20).until( 
-                                    EC.presence_of_element_located((By.XPATH, "//a[text()='DOWNLOAD THE XBOX APP']")) )
+                                '''
+                                logging.info("Account reactivation is complete for account %s", email)
+                                email_body = "Account has been reactivated, confirm this by checking the " \
+                                             "account " \
+                                             "inbox"
+                                send_end_of_loop_email()
+                                time.sleep(15)
 
-                                    '''
-                                    logging.info("Account reactivation is complete for account %s", email)
-                                    email_body = "Account has been reactivated, confirm this by checking the account " \
-                                                 "inbox"
-                                    send_end_of_loop_email()
-                                    time.sleep(15)
+                            except TimeoutException:
+                                logging.info(
+                                    "DOWNLOAD THE XBOX APP button did not become present and clickable")
 
-                                except TimeoutException:
-                                    logging.info("DOWNLOAD THE XBOX APP button did not become present and clickable")
+                        else:
+                            logging.info("Icon not found on the screen.")
+                            input()
 
-                            else:
-                                logging.info("Icon not found on the screen.")
-                                input()
-
-                        except Exception as e:
-                            logging.info(f"Error: {e}")
-
-                    except TimeoutException:
-                        logging.info("subscribe button did not become present and clickable")
+                    except Exception as e:
+                        logging.info(f"Error: {e}")
 
                 except TimeoutException:
-                    logging.info("Join button did not become present and clickable")
+                    logging.info("subscribe button did not become present and clickable")
 
             except TimeoutException:
-                logging.info("Buy gamepass as a gift button did not become present and clickable")
+                logging.info("Join button did not become present and clickable")
+
+
+#            try:
+#                # wait up to 10 seconds for the buy gamepass as a gift button to become present and clickable
+#                buy_gamepass_as_a_gift_button = WebDriverWait(driver, 10).until(
+#                    EC.element_to_be_clickable(
+#                        (By.XPATH, "//button[@title='Buy Xbox Game Pass Ultimate as a gift']"))
+#                )
+#                logging.info("buy gamepass as a gift button is present and clickable")
+#                time.sleep(5)
+#                buy_gamepass_as_a_gift_button.send_keys(Keys.RETURN)
+#                logging.info("enter key pressed on buy gamepass as a gift button")
+
+
+#            try:  # Check if the 'Tilelist' (sign in box?) element is present and clickable
+#                tilelist_field = WebDriverWait(driver, 5).until(
+#                    EC.element_to_be_clickable((By.XPATH, "//*[@id='tileList']/div[1]/div/button/div[2]/div[2]")))#
+#
+#               logging.info("tilelist_field is present and clickable")
+#
+#                pyautogui.press('enter')
+#
+#                logging.info("enter key pressed")
+#
+#                # CODE IN CASE STAY SIGNED IN WINDOW APPEARS
+#
+#                try:
+#                    # Wait for the 'stayed signed in? no' field to be present and clickable
+#                    stay_signed_in_no_field = WebDriverWait(driver, 5).until(
+#                        EC.element_to_be_clickable((By.ID, "declineButton"))
+#                    )
+#
+#                    # send enter to the 'stay signed in? no' field
+#                    stay_signed_in_no_field.send_keys(Keys.RETURN)
+#
+#                    logging.info("stay signed in window appeared and was completed")
+#
+#                except TimeoutException:
+#                    logging.info("stay signed in window did not appear")#
+#
+#
+#
+#            except TimeoutException:
+#                logging.info("Element with ID 'tilelist' did not become present and clickable")
+
+#            except TimeoutException:
+#                logging.info("Buy gamepass as a gift button did not become present and clickable")
 
             logging.info("-----------------------------------------------------------------------------")
 
