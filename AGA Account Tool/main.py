@@ -21,11 +21,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 today_date = datetime.now().strftime("%Y-%m-%d")
 
 # Create the log directory if it doesn't exist
-log_directory = 'logs'
+log_directory = r'C:\Users\james\Documents\GitHub\AGA\AGA Account Tool\logs'
 os.makedirs(log_directory, exist_ok=True)
 
-# Create the log filename with today's date
-log_filename = f'{log_directory}selenium_{today_date}.log'
+# Ensure proper concatenation of log directory and filename
+log_filename = os.path.join(log_directory, f'selenium_{today_date}.log')
 
 # Configure logging with the filename
 logging.basicConfig(filename=log_filename, level=logging.INFO)
@@ -366,7 +366,13 @@ if result == "Reactivate":
             #    "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID"
             #   "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
 
+            time.sleep(5)
+
+            logging.info('sleep 5 seconds after login function')
+
             driver.get("https://www.xbox.com/en-AU/auth/msa?action=logIn&amp;returnUrl=https%3A%2F%2Fwww.xbox.com%2Fen-au%2Fgames%2Fstore%2Fxbox-game-pass-ultimate%2Fcfq7ttc0khs0%3F%3D%26OCID%2522%2522%3DPROD_AMC_Cons_MEEMG_Renew_XboxGPU%26rtc%3D1&amp;ru=https%3A%2F%2Fwww.xbox.com%2Fen-au%2Fgames%2Fstore%2Fxbox-game-pass-ultimate%2Fcfq7ttc0khs0%3F%3D%26OCID%2522%2522%3DPROD_AMC_Cons_MEEMG_Renew_XboxGPU%26rtc%3D1")
+
+            logging.info('go to sign in url')
 
             time.sleep(5)
 
