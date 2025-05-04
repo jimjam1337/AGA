@@ -159,7 +159,7 @@ def login_function():
 
             try:
                 # Wait up to 20 seconds for the email field to be present and clickable
-                email_field = WebDriverWait(driver, 20).until(
+                email_field = WebDriverWait(driver, 40).until(
                     EC.element_to_be_clickable((By.ID, "i0116"))
                 )
                 logging.info("email field clickable")
@@ -170,7 +170,7 @@ def login_function():
 
                 try:
                     # Wait up to 20 seconds for the password field to be present and clickable
-                    password_field = WebDriverWait(driver, 20).until(
+                    password_field = WebDriverWait(driver, 40).until(
                         EC.element_to_be_clickable((By.ID, "i0118"))
                     )
                     logging.info("password field clickable")
@@ -199,7 +199,7 @@ def login_function():
 
             except TimeoutException:
                 # if the signin button field does not become present and clickable
-                logging.info("'sign in' button did was become present and clickable")
+                logging.info("'sign in' button did not become present and clickable")
 
         except TimeoutException:
             # if the password field did not become present and clickable
@@ -402,11 +402,12 @@ if result == "Reactivate":
                 logging.info("join button is present and clickable")
                 join_button.send_keys(Keys.RETURN)
 
-                time.sleep(10)
-                logging.info("sleeping for 10 seconds to allows the subscribe modal to load")
+                time.sleep(40)
+                logging.info("sleeping for 40 seconds to allows the subscribe modal to load")
 
                 try:
-                    # Set the path to the subscribe button image
+                    # Set the path to the subscribe button im
+                    # age
                     icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account " \
                                 "Tool/icons/subscribe_button.png"
 
