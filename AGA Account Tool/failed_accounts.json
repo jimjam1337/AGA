@@ -1,0 +1,70 @@
+[
+    {
+        "timestamp": "2026-01-09 13:20:22",
+        "failed_accounts": [
+            {
+                "email": "aga27@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            },
+            {
+                "email": "aga29@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga39@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            },
+            {
+                "email": "agapc9@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-01-12 19:14:10",
+        "failed_accounts": [
+            {
+                "email": "aga96@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga191@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            },
+            {
+                "email": "agapc9@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-01-14 11:22:44",
+        "failed_accounts": [
+            {
+                "email": "eagpc01@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            },
+            {
+                "email": "eagpc02@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-01-27 23:48:50",
+        "failed_accounts": [
+            {
+                "email": "aga4@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            },
+            {
+                "email": "aga30@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            },
+            {
+                "email": "aga5@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
+            }
+        ]
+    }
+]

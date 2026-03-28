@@ -1,0 +1,128 @@
+2026-01-15 13:49:28,013 - INFO - log has been created
+2026-01-15 13:49:30,590 - INFO - Returned result is add_gift_card
+2026-01-15 13:49:40,133 - INFO - Skipping aga - no valid ranges
+2026-01-15 13:49:40,133 - INFO - Skipping agapc - no valid ranges
+2026-01-15 13:49:40,133 - INFO - Skipping wanxb - no valid ranges
+2026-01-15 13:49:40,133 - INFO - Skipping wanpc - no valid ranges
+2026-01-15 13:49:40,133 - INFO - Processing account: wodxb01@activegamers.com.au
+2026-01-15 13:49:41,897 - INFO - Driver initialized
+2026-01-15 13:49:41,897 - INFO - Add gift card loop initiated for wodxb01@activegamers.com.au
+2026-01-15 13:49:41,898 - INFO - Begin login sequence
+2026-01-15 13:49:50,023 - INFO - 'Sign in' button clicked
+2026-01-15 13:49:54,784 - INFO - Email entered
+2026-01-15 13:50:04,868 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-15 13:50:04,931 - INFO - Clicked the 'Use your password' button.
+2026-01-15 13:50:10,039 - INFO - Standard password used
+2026-01-15 13:50:11,362 - INFO - Handling any post-login interruptions for wodxb01@activegamers.com.au
+2026-01-15 13:50:16,393 - INFO - Stay signed in page did not load
+2026-01-15 13:50:21,425 - INFO - Passkey interrupt page did not appear
+2026-01-15 13:50:21,429 - INFO - TOU page loaded
+2026-01-15 13:50:27,249 - INFO - TOU page was bypassed
+2026-01-15 13:50:37,822 - INFO - Update security info window did not appear
+2026-01-15 13:50:40,839 - INFO - Privacy notice page did not appear
+2026-01-15 13:50:43,860 - INFO - Upsell page did not appear
+2026-01-15 13:50:46,880 - INFO - Privacy notice page did not appear
+2026-01-15 13:50:52,827 - INFO - Account wodxb01@activegamers.com.au is active
+2026-01-15 13:50:52,827 - INFO - login_full_flow completed for wodxb01@activegamers.com.au
+2026-01-15 13:50:52,828 - INFO - account is active, gift card addition will not proceed
+2026-01-15 13:50:52,828 - INFO - -----------------------------------------------------------------------------------------
+2026-01-15 13:50:55,113 - INFO - Processing account: wodxb03@activegamers.com.au
+2026-01-15 13:51:00,279 - INFO - Driver initialized
+2026-01-15 13:51:00,279 - INFO - Add gift card loop initiated for wodxb03@activegamers.com.au
+2026-01-15 13:51:00,279 - INFO - Begin login sequence
+2026-01-15 13:51:11,995 - INFO - 'Sign in' button clicked
+2026-01-15 13:51:13,611 - INFO - Email entered
+2026-01-15 13:51:24,039 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-15 13:51:24,121 - INFO - Clicked the 'Use your password' button.
+2026-01-15 13:51:29,242 - INFO - Standard password used
+2026-01-15 13:51:29,268 - INFO - Handling any post-login interruptions for wodxb03@activegamers.com.au
+2026-01-15 13:51:34,726 - INFO - Stay signed in page did not load
+2026-01-15 13:51:39,759 - INFO - Passkey interrupt page did not appear
+2026-01-15 13:51:39,762 - INFO - TOU page loaded
+2026-01-15 13:51:49,368 - INFO - TOU page was bypassed
+2026-01-15 13:52:08,054 - INFO - Update security info window did not appear
+2026-01-15 13:52:11,073 - INFO - Privacy notice page did not appear
+2026-01-15 13:52:14,094 - INFO - Upsell page did not appear
+2026-01-15 13:52:17,114 - INFO - Privacy notice page did not appear
+2026-01-15 13:52:56,230 - INFO - Account wodxb03@activegamers.com.au is not active
+2026-01-15 13:52:56,230 - INFO - login_full_flow completed for wodxb03@activegamers.com.au
+2026-01-15 13:52:56,230 - INFO - {email}, manage_xbox_element
+2026-01-15 13:53:06,002 - INFO - Loading billing page
+2026-01-15 13:53:06,007 - INFO - billing page loaded
+2026-01-15 13:53:16,129 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-15 13:53:16,129 - INFO - remove card function finished
+2026-01-15 13:53:16,144 - INFO - Raw balance text: 4.10 AUD
+2026-01-15 13:53:16,145 - INFO - Parsed account balance: 4.10
+2026-01-15 13:53:19,288 - INFO - Loading redeem page
+2026-01-15 13:53:19,290 - INFO - redeem page loaded
+2026-01-15 13:53:19,290 - INFO - First available gift card: GHJHF-3C3QD-6R2TW-9XM7Y-HYQRZ
+2026-01-15 13:53:34,466 - INFO - Gift card code submitted.
+2026-01-15 13:53:44,479 - INFO - Confirmation submitted.
+2026-01-15 13:53:44,479 - INFO - Marked code as used: GHJHF-3C3QD-6R2TW-9XM7Y-HYQRZ
+2026-01-15 13:53:46,480 - INFO - -----------------------------------------------------------------------------------------
+2026-01-15 13:53:48,761 - INFO - Skipping wodpc - no valid ranges
+2026-01-15 13:53:48,761 - INFO - Skipping eagxb - no valid ranges
+2026-01-15 13:53:48,761 - INFO - Skipping eagpc - no valid ranges
+2026-01-15 13:54:23,024 - INFO - log has been created
+2026-01-15 13:54:25,556 - INFO - Returned result is activate
+2026-01-15 13:55:44,328 - INFO - Skipping aga - no valid ranges
+2026-01-15 13:55:44,329 - INFO - Skipping agapc - no valid ranges
+2026-01-15 13:55:44,329 - INFO - Skipping wanxb - no valid ranges
+2026-01-15 13:55:44,329 - INFO - Skipping wanpc - no valid ranges
+2026-01-15 13:55:44,329 - INFO - Processing account: wodxb01@activegamers.com.au
+2026-01-15 13:55:45,422 - INFO - Driver initialized
+2026-01-15 13:55:45,422 - INFO - Activate loop initiated for wodxb01@activegamers.com.au
+2026-01-15 13:55:45,422 - INFO - Begin login sequence
+2026-01-15 13:55:56,358 - INFO - 'Sign in' button clicked
+2026-01-15 13:55:57,974 - INFO - Email entered
+2026-01-15 13:56:07,995 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-15 13:56:08,061 - INFO - Clicked the 'Use your password' button.
+2026-01-15 13:56:13,169 - INFO - Standard password used
+2026-01-15 13:56:15,349 - INFO - Handling any post-login interruptions for wodxb01@activegamers.com.au
+2026-01-15 13:56:20,384 - INFO - Stay signed in page did not load
+2026-01-15 13:56:25,418 - INFO - Passkey interrupt page did not appear
+2026-01-15 13:56:25,420 - INFO - TOU page loaded
+2026-01-15 13:56:32,568 - INFO - TOU page was bypassed
+2026-01-15 13:56:46,399 - INFO - Update security info window did not appear
+2026-01-15 13:56:49,421 - INFO - Privacy notice page did not appear
+2026-01-15 13:56:52,441 - INFO - Upsell page did not appear
+2026-01-15 13:56:55,461 - INFO - Privacy notice page did not appear
+2026-01-15 13:57:01,232 - INFO - Account wodxb01@activegamers.com.au is active
+2026-01-15 13:57:01,232 - INFO - login_full_flow completed for wodxb01@activegamers.com.au
+2026-01-15 13:57:01,232 - INFO - Account wodxb01@activegamers.com.au is already active
+2026-01-15 13:57:01,232 - INFO - -----------------------------------------------------------------------------
+2026-01-15 13:57:03,516 - INFO - Processing account: wodxb03@activegamers.com.au
+2026-01-15 13:57:08,777 - INFO - Driver initialized
+2026-01-15 13:57:08,777 - INFO - Activate loop initiated for wodxb03@activegamers.com.au
+2026-01-15 13:57:08,777 - INFO - Begin login sequence
+2026-01-15 13:57:17,932 - INFO - 'Sign in' button clicked
+2026-01-15 13:57:25,599 - INFO - Email entered
+2026-01-15 13:57:42,474 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-15 13:57:42,535 - INFO - Clicked the 'Use your password' button.
+2026-01-15 13:57:47,641 - INFO - Standard password used
+2026-01-15 13:57:54,861 - INFO - Handling any post-login interruptions for wodxb03@activegamers.com.au
+2026-01-15 13:57:59,894 - INFO - Stay signed in page did not load
+2026-01-15 13:58:04,925 - INFO - Passkey interrupt page did not appear
+2026-01-15 13:58:04,927 - INFO - TOU page loaded
+2026-01-15 13:58:13,623 - INFO - TOU page was bypassed
+2026-01-15 13:58:22,801 - INFO - Update security info window did not appear
+2026-01-15 13:58:25,819 - INFO - Privacy notice page did not appear
+2026-01-15 13:58:28,839 - INFO - Upsell page did not appear
+2026-01-15 13:58:31,857 - INFO - Privacy notice page did not appear
+2026-01-15 13:59:08,156 - INFO - Account wodxb03@activegamers.com.au is not active
+2026-01-15 13:59:08,156 - INFO - login_full_flow completed for wodxb03@activegamers.com.au
+2026-01-15 13:59:16,732 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-15 13:59:26,802 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-15 13:59:41,900 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-15 13:59:46,954 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-15 13:59:48,915 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-15 13:59:50,494 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-15 14:00:05,495 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-15 14:00:05,713 - INFO - position is not none
+2026-01-15 14:00:06,932 - INFO - Icon clicked successfully!
+2026-01-15 14:00:22,600 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account wodxb03@activegamers.com.au
+2026-01-15 14:00:23,305 - INFO - Email sent at the end of the loop.
+2026-01-15 14:00:38,306 - INFO - -----------------------------------------------------------------------------
+2026-01-15 14:00:40,627 - INFO - Skipping wodpc - no valid ranges
+2026-01-15 14:00:40,627 - INFO - Skipping eagxb - no valid ranges
+2026-01-15 14:00:40,627 - INFO - Skipping eagpc - no valid ranges

@@ -1,52 +1,65 @@
+import json
 import logging
 import os
+import re
+import smtplib
 import time
 import tkinter as tk
-from tkinter import simpledialog
-import smtplib
-from email.mime.text import MIMEText
 from datetime import datetime
-from PIL import Image, ImageTk
-from selenium.webdriver.common.action_chains import ActionChains
-
+from email.mime.text import MIMEText
+from tkinter import simpledialog
 import pyautogui
+from PIL import Image, ImageTk
 from selenium import webdriver
 from selenium.common import TimeoutException
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-# Get today's date in the format YYYY-MM-DD
-today_date = datetime.now().strftime("%Y-%m-%d")
 
-# Create the log directory if it doesn't exist
-log_directory = r'C:\Users\james\Documents\GitHub\AGA\AGA Account Tool\logs'
-os.makedirs(log_directory, exist_ok=True)
+# START FUNCTIONS
 
-# Ensure proper concatenation of log directory and filename
-log_filename = os.path.join(log_directory, f'selenium_{today_date}.log')
+def create_log():
+    print("starting log function")
 
-# Configure logging with the filename
-logging.basicConfig(filename=log_filename, level=logging.INFO)
+    today_date = datetime.now().strftime("%Y-%m-%d")
+    log_directory = r'C:\Users\james\Documents\GitHub\AGA\AGA Account Tool\logs'
+    os.makedirs(log_directory, exist_ok=True)
 
-# email configuration
+    log_filename = os.path.join(log_directory, f'selenium_{today_date}.log')
+    logger = logging.getLogger("selenium")
+    logger.setLevel(logging.INFO)
 
-sender_email = "raxtech@activegamers.com.au"
-sender_password = ")_U+My@Q%4?*"
-recipient_email = "jim@activegamers.com.au"
+    if not logger.handlers:
+        file_handler = logging.FileHandler(log_filename)
+        formatter = logging.Formatter(
+            "%(asctime)s - %(levelname)s - %(message)s"
+        )
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
 
-# Your SMTP server and port
-smtp_server = "activegamers.com.au"
-smtp_port = 587
+    logger.info("log has been created")
+
+    return logger
 
 
-# function to send en email at the end of reactive/deactivate/create loop
+# Set up end of loop emails
+def send_end_of_loop_email(email, email_body, operation_choice):
+    # configure email accounts and settings
+    sender_email = "raxtech@activegamers.com.au"
+    sender_password = ")_U+My@Q%4?*"
+    recipient_email = "jim@activegamers.com.au"
 
-# Create the email message
-def send_end_of_loop_email():
+    # Your SMTP server and port
+    smtp_server = "activegamers.com.au"
+    smtp_port = 587
+
+    # Create the email message
+
     message = MIMEText(email_body)
-    message["Subject"] = f"account management ({result}) process has completed for {email}"
+    message["Subject"] = f"account management ({operation_choice}) process has completed for {email}"
     message["From"] = sender_email
     message["To"] = recipient_email
 
@@ -61,624 +74,927 @@ def send_end_of_loop_email():
         # Send the email
         server.sendmail(sender_email, recipient_email, message.as_string())
 
-    logging.info("Email sent at the end of the loop.")
+    logger.info("Email sent at the end of the loop.")
 
 
-# CODE FOR DIALOGUE BOX
-
-result = None  # Default value, can be changed in the dialogue box functions
-
-
-def set_result_reactivate():
-    global result
-    result = "Reactivate"
-    root.destroy()
+def start_failed_accounts_log():
+    """
+    Initialize a new run with a timestamp.
+    Returns the run entry dict you can append failures to.
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    return {"timestamp": timestamp, "failed_accounts": []}
 
 
-def set_result_deactivate():
-    global result
-    result = "Deactivate"
-    root.destroy()
+def save_failed_accounts(entry, file_path="failed_accounts.json"):
+    """
+    Save the collected failures for this run into the history JSON file.
+    """
+    if not entry["failed_accounts"]:
+        return  # nothing to log
+
+    # Load existing history if file exists
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            try:
+                history = json.load(f)
+            except json.JSONDecodeError:
+                history = []  # reset if file is corrupt
+    else:
+        history = []
+
+    # Append this run’s entry
+    history.append(entry)
+
+    # Save back to file
+    with open(file_path, "w") as f:
+        json.dump(history, f, indent=4)
+
+    logger.info(f"Failed accounts saved to {file_path}")
 
 
-def set_result_setup():
-    global result
-    result = "First time setup"
-    root.destroy()
+# Set up account credentials
+def define_base_credentials():
+    email_bases = ["aga", "agapc", "wanxb", "wanpc","wodxb", "wodpc", "eagxb", "eagpc"]
+    ranges_dict = {}
+
+    root = tk.Tk()
+    root.withdraw()  # Hide main window
+
+    password = "AGA111222"
+    alternate_password = "activegamers111222"
+
+    for base in email_bases:
+        user_input = simpledialog.askstring(
+            "Input",
+            f"Enter ranges for {base} (e.g. 1-3,7-10 or 0 to skip):",
+            parent=root
+        )
+        if user_input is None:
+            user_input = "0"
+        ranges_dict[base] = parse_ranges(user_input)
+
+    return email_bases, password, alternate_password, ranges_dict
 
 
-# Get the user's home directory
-home_dir = os.path.expanduser("~")
+def parse_ranges(range_str):
+    ranges = []
+    if not range_str.strip():
+        return ranges
 
-# Construct the path to the documents directory
-documents_dir = os.path.join(home_dir, "Documents", "GitHub", "AGA", "AGA Account Tool", "icons")
+    for part in range_str.split(','):
+        part = part.strip()
+        if '-' in part:
+            try:
+                start, end = map(int, part.split('-'))
+                if 0 < start <= end:
+                    ranges.append((start, end))
+            except ValueError:
+                continue  # skip invalid range
+        else:
+            try:
+                n = int(part)
+                if n > 0:
+                    ranges.append((n, n))
+            except ValueError:
+                continue  # skip invalid number
 
-# Construct the path to the background image
-bg_image_path = os.path.join(documents_dir, "aga_logo_600x345.png")
-
-root = tk.Tk()
-root.title("AGA GamePass Account Tool")
-
-# Load the background image
-original_image = Image.open(bg_image_path)
-
-# Set the desired window size
-window_width = 600
-window_height = 345
-
-# Resize the image to fit the window using LANCZOS resampling
-resized_image = original_image.resize((window_width, window_height), Image.LANCZOS)
-bg_image = ImageTk.PhotoImage(resized_image)
-
-# Create a label with the background image
-bg_label = tk.Label(root, image=bg_image)
-bg_label.image = bg_image  # Store the PhotoImage object as an attribute of the label
-bg_label.place(x=0, y=0, relwidth=1, relheight=1)
-
-# Set the window size
-root.geometry(f"{window_width}x{window_height}")
-
-Reactivate_button = tk.Button(root, text="Reactivate", command=set_result_reactivate)
-Reactivate_button.place(relx=0.2, rely=0.5, anchor="center")
-
-deactivate_button = tk.Button(root, text="Deactivate", command=set_result_deactivate)
-deactivate_button.place(relx=.5, rely=0.5, anchor="center")
-
-setup_button = tk.Button(root, text="Setup", command=set_result_setup)
-setup_button.place(relx=.7, rely=0.5, anchor="center")
-
-root.mainloop()
+    return ranges
 
 
-# DIALOGUE BOX ENDS
+# FUNCTION TO CREATE DIALOGUE BOX
+def create_dialogue_box():
+    result = {'value': None}  # Mutable container to store result
 
-# CODE FOR LOGIN FUNCTION
+    # Function to update the result based on button clicked
+    def set_result(value):
+        result['value'] = value
+        root.destroy()
 
-def login_function():
-    logging.info("begin login sequence")
+    def set_result_activate():
+        set_result("activate")
 
-    # set driver to be full screen
+    def set_result_deactivate():
+        set_result("deactivate")
+
+    def set_result_add_gift_card():
+        set_result("add_gift_card")
+
+    def set_result_check_status():
+        set_result("check_status")
+
+    # GUI setup
+    home_dir = os.path.expanduser("~")
+    image_path = os.path.join(home_dir, "Documents", "GitHub", "AGA", "AGA Account Tool", "icons",
+                              "aga_logo_600x345.png")
+
+    root = tk.Tk()
+    root.title("AGA GamePass Account Tool")
+
+    # Load image
+    image = Image.open(image_path)
+    image = image.resize((600, 345), Image.LANCZOS)
+    photo = ImageTk.PhotoImage(image)
+
+    # Background label
+    label = tk.Label(root, image=photo)
+    label.image = photo  # Keep a reference
+    label.place(x=0, y=0, relwidth=1, relheight=1)
+
+    # Buttons
+    tk.Button(root, text="Activate", command=set_result_activate).place(relx=0.1, rely=0.5, anchor="center")
+    tk.Button(root, text="Deactivate", command=set_result_deactivate).place(relx=0.35, rely=0.5, anchor="center")
+    tk.Button(root, text="Add Gift Card", command=set_result_add_gift_card).place(relx=0.6, rely=0.5, anchor="center")
+    tk.Button(root, text="Check Status", command=set_result_check_status).place(relx=0.85, rely=0.5, anchor="center")
+
+    root.geometry("600x345")
+    root.mainloop()
+
+    if result['value'] is not None:
+        logger.info("Returned result is %s", result['value'])
+        return result['value']
+    else:
+        logging.warning("Dialog closed without selection")
+        return "cancel"  # or None
+
+
+# Process account action based on user input
+
+def process_accounts_with_action(action_callback):
+    email_bases, password, alternate_password, ranges = define_base_credentials()
+
+    for email_base in email_bases:
+        base_ranges = ranges.get(email_base, [])
+        if not base_ranges:
+            logger.info(f"Skipping {email_base} - no valid ranges")
+            continue
+
+        for start, end in base_ranges:
+            for i in range(start, end + 1):
+                if email_base in ["aga", "agapc"]:
+                    email = f"{email_base}{i}@activegamers.com.au"
+                else:
+                    email = f"{email_base}{i:02}@activegamers.com.au"
+
+                logger.info("Processing account: %s", email)
+                driver = webdriver.Chrome()
+                logger.info("Driver initialized")
+
+                try:
+                    action_callback(driver, email, password, alternate_password)
+                finally:
+                    driver.quit()
+
+
+# LOGIN FUNCTIONS
+def login_function(driver, email, password, alternate_password):
+    logger.info("Begin login sequence")
+
     driver.set_window_size(1920, 1080)
     driver.maximize_window()
-
-    # Navigate to the Microsoft login page
     driver.get("https://account.microsoft.com/")
 
     try:
-        # Waiting up to 20 seconds for the Microsoft account sign in page to load
         WebDriverWait(driver, 20).until(EC.url_contains("https://account.microsoft.com/"))
 
-        try:
-            # Wait up to 20 seconds for the 'sign in' button to be present and clickable
-            signin_field = WebDriverWait(driver, 20).until(
-                EC.element_to_be_clickable((By.ID, "id__8"))
-            )
-            # Click the 'sign in' button
-            signin_field.click()
-            logging.info("'sign in' button clicked")
+        signin_field = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.ID, "id__8"))
+        )
+        signin_field.click()
+        logger.info("'Sign in' button clicked")
 
+        email_field = WebDriverWait(driver, 40).until(
+            EC.element_to_be_clickable((By.ID, "i0116"))
+        )
+        email_field.send_keys(email)
+        email_field.send_keys(Keys.RETURN)
+        logger.info("Email entered")
+
+        other_ways_to_sign_in_bypass(driver)
+        get_a_code_to_sign_in_bypass(driver)
+
+        possible_signin_locators = [
+            (By.ID, "id__8"),
+            (By.ID, "passwordEntry"),
+            (By.ID, "i0118")
+        ]
+
+        for locator in possible_signin_locators:
             try:
-                # Wait up to 20 seconds for the email field to be present and clickable
-                email_field = WebDriverWait(driver, 40).until(
-                    EC.element_to_be_clickable((By.ID, "i0116"))
+                password_field = WebDriverWait(driver, 5).until(
+                    EC.element_to_be_clickable(locator)
                 )
-                logging.info("email field clickable")
-                # Send the email to the email field
-                email_field.send_keys(email)
-                email_field.send_keys(Keys.RETURN)
-                logging.info("email string sent to email field")
 
-                try:
-                    # Wait up to 20 seconds for the password field to be present and clickable
-                    password_field = WebDriverWait(driver, 40).until(
-                        EC.element_to_be_clickable((By.ID, "i0118"))
-                    )
-                    logging.info("password field clickable")
-                    # Send the password to the email field
+                alternate_password_accounts = [
+                    "aga11@activegamers.com.au", "aga22@activegamers.com.au",
+                    "aga26@activegamers.com.au", "aga110@activegamers.com.au",
+                    "aga111@activegamers.com.au"
+                ]
 
-                    # List of accounts which have a different password (activegamers111222)
-                    alternate_password_accounts = ["aga11@activegamers.com.au", "aga22@activegamers.com.au",
-                                                   "aga26@activegamers.com.au", "aga110@activegamers"
-                                                                                ".com.au", "aga111@activegamers.com.au"]
-                    # Check if the email variable is in the list of certain values
-                    if email in alternate_password_accounts:
-                        logging.info("account is on the alternate password list")
-                        # Send the alternate password if the email matches any of the certain values
-                        password_field.send_keys(alternate_password)
-                        password_field.send_keys(Keys.RETURN)
-                        logging.info("alternate password string sent to password field")
-                    else:
-                        # Send the default password for other cases
-                        password_field.send_keys(password)
-                        password_field.send_keys(Keys.RETURN)
-                        logging.info("standard password string sent to pword field")
+                if email in alternate_password_accounts:
+                    password_field.send_keys(alternate_password)
+                    logger.info("Alternate password used")
+                else:
+                    password_field.send_keys(password)
+                    logger.info("Standard password used")
 
-                except TimeoutException:
-                    # if the email field does not become present and clickable
-                    logging.info("email field did not become present and clickable")
-
+                password_field.send_keys(Keys.RETURN)
+                break
             except TimeoutException:
-                # if the signin button field does not become present and clickable
-                logging.info("'sign in' button did not become present and clickable")
-
-        except TimeoutException:
-            # if the password field did not become present and clickable
-            logging.info("password field did not become present and clickable")
-
-        # CODE IN CASE 'WE'RE UPDATING OUR TOU PAGE LOADS'
-
-        try:
-            # Wait up to 5 seconds for the TOU update page to load
-            WebDriverWait(driver, 5).until(EC.url_contains("https://account.live.com/tou/accrue?"))
-            logging.info("TOU page loaded")
-
-            try:
-                # wait up to 5 seconds for the 'Next' button to become present and clickable
-                next_button = WebDriverWait(driver, 5).until(
-                    EC.element_to_be_clickable((By.ID, "iNext"))
-                )
-                next_button.send_keys(Keys.RETURN)
-                logging.info("'Next' button on TOU page clicked")
-
-            except TimeoutException:
-                # if the 'Next' button did not become present and clickable
-                logging.info("next button did not become present and clickable")
-
-            # if URL contains "https://account.live.com/tou/accrue?", press enter
-            pyautogui.press('enter', presses=1)
-            logging.info(
-                "second privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed")
-
-        except TimeoutException:
-            # if the URL does not contain "https://privacynotice.account.microsoft.com/"
-            logging.info("second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear")
+                logging.warning(f"Password field with locator {locator} not found. Trying next...")
 
     except TimeoutException:
-        # if the URL does not contain "https://account.microsoft.com"
-        logging.info("Microsoft account page sign in page did not load")
+        logging.error("Login page did not load or an element was not clickable")
 
-    # CODE IN CASE UPDATE SECURITY INFO PAGE LOADS
 
+def other_ways_to_sign_in_bypass(driver):
     try:
-        # Check if the 'iLooksGood' element is present and clickable
-        looks_good_field = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.ID, "iLooksGood")))
-        # if the element is clickable, send enter to the looks good field
+        # Wait up to 15 seconds for the element to be present and clickable
+        other_ways_to_sign_in_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, '//span[text()="Other ways to sign in"]'))
+        )
+        other_ways_to_sign_in_button.click()
+        logger.info('Clicked the \'Other ways to sign in\' button.')
+    except TimeoutException:
+        logger.info('Timed out waiting for \'Other ways to sign in\' button to appear.')
+
+
+def get_a_code_to_sign_in_bypass(driver):
+    try:
+        # Wait up to 15 seconds for the element to be present and clickable
+        use_your_password_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, '//span[text()="Use your password"]'))
+        )
+        use_your_password_button.click()
+        logger.info("Clicked the 'Use your password' button.")
+    except TimeoutException:
+        logger.info("Timed out waiting for 'Use your password' button to appear.")
+
+
+def handle_stay_signed_in_page(driver):
+    try:
+        WebDriverWait(driver, 5).until(EC.url_contains("https://login.live.com/ppsecure"))
+        logger.info("Stay signed in page loaded")
+        driver.get("https://account.microsoft.com/services")
+        logger.info("stay signed in page was bypassed by loading https://account.microsoft.com")
+    except TimeoutException:
+        logger.info("Stay signed in page did not load")
+
+
+def handle_tou_page(driver):
+    try:
+        WebDriverWait(driver, 5).until(EC.url_contains("https://account.live.com/tou/accrue?"))
+        logger.info("TOU page loaded")
+        driver.get("https://account.microsoft.com/")
+        logger.info("TOU page was bypassed")
+    except TimeoutException:
+        logger.info("TOU page did not appear")
+
+
+def handle_update_security_info_page(driver):
+    try:
+        looks_good_field = WebDriverWait(driver, 3).until(
+            EC.element_to_be_clickable((By.ID, "iLooksGood"))
+        )
         looks_good_field.send_keys(Keys.RETURN)
-        logging.info("update security info window appeared and was bypassed")
+        logger.info("Update security info window appeared enter was pressed on looks good button")
     except TimeoutException:
-        logging.info("update security info window did not appear")
+        logger.info("Update security info window did not appear")
 
-    # CODE IN CASE PRIVACY NOTICE PAGE LOADS
 
+def handle_privacy_notice_page(driver):
     try:
-        # Waiting up to 5 seconds for the privacy notice page to load
-        WebDriverWait(driver, 5
-                      ).until(EC.url_contains("https://privacynotice.account.microsoft.com/"))
-        logging.info("Waiting to see if privacy notice page appears")
-
-        # if URL contains "https://privacynotice.account.microsoft.com/", bypass and go to the main account page
+        WebDriverWait(driver, 3).until(
+            EC.url_contains("https://privacynotice.account.microsoft.com/")
+        )
+        logger.info("Privacy notice page appeared")
         driver.get("https://account.microsoft.com/")
-        logging.info(
-            "privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed")
-
+        logger.info("Privacy notice page was bypassed")
     except TimeoutException:
-        # if the URL does not contain "https://privacynotice.account.microsoft.com/"
-        logging.info("privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear")
+        logger.info("Privacy notice page did not appear")
 
-    # CODE IN CASE BREAK FREE OF YOUR PASSWORDS (UPSELL) PAGE LOADS
 
+def handle_upsell_page(driver):
     try:
-        # waiting for up to 5 seconds to see if the break free of your passwords page loads
-        WebDriverWait(driver, 5).until(EC.url_contains("https://account.live.com/apps/upsell?"))
-
-        # if the URL contains "https://account.live.com/apps/upsell?", skip it and go to the main account page
+        WebDriverWait(driver, 3).until(
+            EC.url_contains("https://account.live.com/apps/upsell?")
+        )
         driver.get("https://account.microsoft.com/")
-        logging.info("Upsell page 'https://account.live.com/apps/upsell?' appeared and was bypassed")
+        logger.info("Upsell page appeared and was bypassed")
+    except TimeoutException:
+        logger.info("Upsell page did not appear")
+
+
+def handle_passkey_interrupt_page(driver):
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.url_contains("login.microsoft.com/consumers/fido")
+        )
+        time.sleep(20)
+        driver.get("https://google.com.au")
+        logger.info("Passkey interrupt page appeared and was bypassed")
+    except TimeoutException:
+        logger.info("Passkey interrupt page did not appear")
+
+
+def check_for_active_subscription(driver, email):
+    global manage_xbox_element
+    driver.get("https://account.microsoft.com/services")
+    try:
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.XPATH, '//span[contains(text(), "Next charge on")]'))
+        )
+        manage_xbox_element = "active"
+        print(f"Account {email} is active")
+        logger.info(f"Account {email} is active")
 
     except TimeoutException:
-        # if the URL does not contain "https://account.live.com/apps/upsell?"
-        logging.info("Upsell page 'https://account.live.com/apps/upsell?' did not appear")
+        manage_xbox_element = "inactive"
+        print(f"Account {email} is not active")
+        logger.info(f"Account {email} is not active")
 
-    # CODE IN CASE STAY SIGNED IN WINDOW APPEARS
 
+def login_full_flow(driver, email, password, alternate_password):
+    login_function(driver, email, password, alternate_password)
+    logger.info("Handling any post-login interruptions for %s", email)
+    # handle_stay_signed_in_page(driver)
+    handle_passkey_interrupt_page(driver)
+    time.sleep(60)
+    # handle_tou_page(driver)
+    handle_update_security_info_page(driver)
+    time.sleep(30)
+    # handle_privacy_notice_page(driver)
+    # handle_upsell_page(driver)
+    # handle_privacy_notice_page(driver)
+    check_for_active_subscription(driver, email)
+    logger.info("login_full_flow completed for %s", email)
+
+
+# ACTIVATE FLOW
+
+
+def load_renew_page(driver, email):
+    driver.set_page_load_timeout(20)
     try:
-        # Wait for the 'stayed signed in? no' field to be present and clickable
-        stay_signed_in_no_field = WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable((By.ID, "declineButton"))
+        driver.get(
+            "https://www.xbox.com/en-AU/games/store/game-pass-premium/CFQ7TTC0P85B?rpid=cfq7ttc0khs0&ocid"
+            "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU")
+        logger.info('load_renew_page finished. loading gamepass url...')
+    except TimeoutException:
+        logger.info("xbox renew page did not load within 20 seconds")
+        run_entry["failed_accounts"].append({
+            "email": email,
+            "reason": "xbox renew page did not load within 20 seconds"
+        })
+
+
+def handle_passkey_interrupt_page_2(driver):
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.url_contains("/interrupt/passkey")
+        )
+        driver.get(
+            "https://www.xbox.com/en-AU/games/store/game-pass-premium/CFQ7TTC0P85B?rpid=cfq7ttc0khs0&ocid"
+            "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU")
+        logger.info(
+            "handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page appeared and was bypassed")
+    except TimeoutException:
+        logger.info(
+            "handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear")
+
+
+def click_account_selection_button(driver):
+    # wait up to 30 seconds for the account selection button to become present and clickable
+    try:
+        WebDriverWait(driver, 15).until(
+            EC.url_contains("https://login.live.com/oauth20_authorize.srf")
+        )
+        actions = ActionChains(driver)
+        actions.send_keys(Keys.RETURN)
+        time.sleep(2)
+        actions.perform()
+        logger.info("click_account_selection_button completed. Account selection button was found")
+        click_join_button(driver)
+
+    except TimeoutException:
+        logger.info("click_account_selection_button completed. Account selection button was not found.")
+
+
+def find_manage_button(driver):
+    try:
+        WebDriverWait(driver, 5).until(
+            EC.element_to_be_clickable(
+                (By.XPATH, '//*[@id="PageContent"]/div/div[1]/div[1]/div[6]/div/div[1]/a'))
+        )
+        logger.info("find_manage_button completed. Manage button was found. This account is already activated")
+
+    except TimeoutException:
+        logger.info(
+            "find_manage_button completed. Manage button was not found. ")
+
+
+def click_join_button(driver):
+    try:
+        join_button = WebDriverWait(driver, 30).until(
+            EC.element_to_be_clickable(
+                (By.XPATH, "//button[contains(@aria-label, 'Join')]")
+            )
+        )
+        join_button.send_keys(Keys.RETURN)
+        logger.info("click_join_button completed. Join button appeared and was clicked")
+
+    except TimeoutException:
+        logger.info(
+            "click_join_button completed. Join button was not found. Will refresh the page"
         )
 
-        # send enter to the 'stay signed in? no' field
-        stay_signed_in_no_field.send_keys(Keys.RETURN)
-
-        logging.info("stay signed in window appeared and was completed")
-
-    except TimeoutException:
-        logging.info("stay signed in window did not appear")
-
-        # CODE IN CASE SECOND PRIVACY NOTICE PAGE LOADS (case5)
-
-    try:
-        # Waiting up to 10 seconds for the privacy notice page to load
-        WebDriverWait(driver, 5).until(EC.url_contains("https://privacynotice.account.microsoft.com/"))
-        logging.info("Waiting to see if privacy notice page appears")
-
-        # if URL contains "https://privacynotice.account.microsoft.com/", bypass and go to the main account page
-        driver.get("https://account.microsoft.com/")
-        logging.info(
-            "second privacy notice page 'https://privacynotice.account.microsoft.com/' appeared and was bypassed")
-
-    except TimeoutException:
-        # if the URL does not contain "https://privacynotice.account.microsoft.com/"
-        logging.info("second privacy notice page 'https://privacynotice.account.microsoft.com/' did not appear")
-
-    logging.info("login function completed for %s", email)
-
-
-# DEFINE THE BASE EMAIL AND PASSWORD
-email_base = ["aga", "agapc"]
-password = "AGA111222"
-alternate_password = "activegamers111222"
-# Ask for the starting and ending values of the ranges
-start_value_1 = simpledialog.askinteger("Input", "Enter the starting value for Xbox accounts [1]")
-# Use the default value if the user didn't enter anything
-if not start_value_1:
-    start_value_1 = 1
-end_value_1 = simpledialog.askinteger("Input", "Enter the ending value for Xbox accounts [119]")
-# Use the default value if the user didn't enter anything
-if not end_value_1:
-    end_value_1 = 119
-start_value_2 = simpledialog.askinteger("Input", "Enter the starting value for PC accounts [1]")
-# Use the default value if the user didn't enter anything
-if not start_value_2:
-    start_value_2 = 1
-end_value_2 = simpledialog.askinteger("Input", "Enter the ending value for PC accounts [24]")
-# Use the default value if the user didn't enter anything
-if not end_value_2:
-    end_value_2 = 24
-
-ranges = [(start_value_1, end_value_1 + 1), (start_value_2, end_value_2 + 1)]
-
-logging.info("define base email and password finished")
-
-# REACTIVATE CODE
-
-if result == "Reactivate":
-    logging.info("Reactivate loop initiated")
-
-    # Loop through each base email and range
-    for email_base, r in zip(email_base, ranges):
-        # Loop through each account
-        for i in range(*r):
-            # Create the email address
-            email = email_base + str(i) + "@activegamers.com.au"
-
-            # log which account will be reactivated based on email variable
-            logging.info('Beginning reactivation of account %s', email)
-
-            # Initialize the driver
-            driver = webdriver.Chrome()
-            logging.info("driver initialized")
-
-            login_function()
-
-            # Navigate to the subscriptions page
-            #driver.get(
-            #    "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID"
-            #   "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
-
-            time.sleep(5)
-
-            logging.info('sleep 5 seconds after login function')
-
-            driver.get("https://www.xbox.com/en-AU/auth/msa?action=logIn&amp;returnUrl=https%3A%2F%2Fwww.xbox.com%2Fen-au%2Fgames%2Fstore%2Fxbox-game-pass-ultimate%2Fcfq7ttc0khs0%3F%3D%26OCID%2522%2522%3DPROD_AMC_Cons_MEEMG_Renew_XboxGPU%26rtc%3D1&amp;ru=https%3A%2F%2Fwww.xbox.com%2Fen-au%2Fgames%2Fstore%2Fxbox-game-pass-ultimate%2Fcfq7ttc0khs0%3F%3D%26OCID%2522%2522%3DPROD_AMC_Cons_MEEMG_Renew_XboxGPU%26rtc%3D1")
-
-            logging.info('go to sign in url')
-
-            time.sleep(5)
-
-            logging.info('slept 5 seconds')
-
-            pyautogui.press('enter')
-
-            logging.info('pressed enter')
-
-            time.sleep(10)
-
-            logging.info('slept 10 seconds')
-
+        try:
             driver.get(
-                "https://www.xbox.com/en-au/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?=&OCID"
-               "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU&rtc=1")
+                "https://www.xbox.com/en-AU/games/store/game-pass-premium/CFQ7TTC0P85B"
+                "?rpid=cfq7ttc0khs0&ocid=PROD_AMC_Cons_MEEMG_Renew_XboxGPU"
+            )
 
-            logging.info('go to gamepass url')
-
-            try:
-                # wait up to 10 seconds for the join button to become present and clickable
-                join_button = WebDriverWait(driver, 15).until(
-                    EC.element_to_be_clickable((By.XPATH,
-                                                "//button[@aria-label='Join Xbox Game Pass Ultimate. AU$22.95 per month']"))
+            join_button = WebDriverWait(driver, 30).until(
+                EC.element_to_be_clickable(
+                    (By.XPATH, "//button[contains(@aria-label, 'Join')]")
                 )
+            )
+            join_button.send_keys(Keys.RETURN)
+            logger.info(
+                "click_join_button completed. Join button appeared and was clicked after refresh"
+            )
 
-                logging.info("join button is present and clickable")
-                join_button.send_keys(Keys.RETURN)
-
-                time.sleep(40)
-                logging.info("sleeping for 40 seconds to allows the subscribe modal to load")
-
-                try:
-                    # Set the path to the subscribe button im
-                    # age
-                    icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account " \
-                                "Tool/icons/subscribe_button.png"
-
-                    try:
-                        # Locate the icon on the screen
-                        subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
-
-                        if subscribe_button_position is not None:
-                            # Get the center coordinates of the icon
-                            icon_x, icon_y = pyautogui.center(subscribe_button_position)
-
-                            # Move the mouse to the icon's center and click it to get window focus
-                            pyautogui.click(icon_x, icon_y)
-
-                            # Optionally, add a short delay before clicking (adjust as needed)
-                            time.sleep(1)
-
-                            # Move the mouse to the icon's center and click it
-                            pyautogui.click(icon_x, icon_y)
-
-                            logging.info("Icon clicked successfully!")
-
-                            try:
-                                # Wait until the 'download the xbox app' button is present and clickable.
-                                # this will confirm reactivation.
-                                '''subscribe_button = WebDriverWait(driver, 20).until( 
-                                EC.presence_of_element_located((By.XPATH, "//a[text()='DOWNLOAD THE XBOX 
-                                APP']")) )
-
-                                '''
-                                logging.info("Account reactivation is complete for account %s", email)
-                                email_body = "Account has been reactivated, confirm this by checking the " \
-                                             "account " \
-                                             "inbox"
-                                send_end_of_loop_email()
-                                time.sleep(15)
-
-                            except TimeoutException:
-                                logging.info(
-                                    "DOWNLOAD THE XBOX APP button did not become present and clickable")
-
-                        else:
-                            logging.info("Icon not found on the screen.")
-                            input()
-
-                    except Exception as e:
-                        logging.info(f"Error: {e}")
-
-                except TimeoutException:
-                    logging.info("subscribe button did not become present and clickable")
-
-            except TimeoutException:
-                logging.info("Join button did not become present and clickable")
+        except TimeoutException:
+            logger.info(
+                "click_join_button completed. Join button was not found after refresh."
+            )
 
 
-#            try:
-#                # wait up to 10 seconds for the buy gamepass as a gift button to become present and clickable
-#                buy_gamepass_as_a_gift_button = WebDriverWait(driver, 10).until(
-#                    EC.element_to_be_clickable(
-#                        (By.XPATH, "//button[@title='Buy Xbox Game Pass Ultimate as a gift']"))
-#                )
-#                logging.info("buy gamepass as a gift button is present and clickable")
-#                time.sleep(5)
-#                buy_gamepass_as_a_gift_button.send_keys(Keys.RETURN)
-#                logging.info("enter key pressed on buy gamepass as a gift button")
+def load_subscription_page(driver, email):
+    driver.set_page_load_timeout(20)
+    try:
+        # Navigate to the subscription page
+        driver.get("https://account.microsoft.com/services")
+
+        WebDriverWait(driver, 10).until(EC.url_contains(
+            "https://account.microsoft.com/services")
+        )
+        logger.info("loading subscription page")
+
+    except TimeoutException:
+        logger.info("Subscription page timed out")
+        run_entry["failed_accounts"].append({
+            "email": email,
+            "reason": "Subscription page timed out"
+        })
 
 
-#            try:  # Check if the 'Tilelist' (sign in box?) element is present and clickable
-#                tilelist_field = WebDriverWait(driver, 5).until(
-#                    EC.element_to_be_clickable((By.XPATH, "//*[@id='tileList']/div[1]/div/button/div[2]/div[2]")))#
-#
-#               logging.info("tilelist_field is present and clickable")
-#
-#                pyautogui.press('enter')
-#
-#                logging.info("enter key pressed")
-#
-#                # CODE IN CASE STAY SIGNED IN WINDOW APPEARS
-#
-#                try:
-#                    # Wait for the 'stayed signed in? no' field to be present and clickable
-#                    stay_signed_in_no_field = WebDriverWait(driver, 5).until(
-#                        EC.element_to_be_clickable((By.ID, "declineButton"))
-#                    )
-#
-#                    # send enter to the 'stay signed in? no' field
-#                    stay_signed_in_no_field.send_keys(Keys.RETURN)
-#
-#                    logging.info("stay signed in window appeared and was completed")
-#
-#                except TimeoutException:
-#                    logging.info("stay signed in window did not appear")#
-#
-#
-#
-#            except TimeoutException:
-#                logging.info("Element with ID 'tilelist' did not become present and clickable")
+def load_billing_page(driver, email):
+    driver.set_page_load_timeout(20)  # max 20 seconds
+    driver.get("https://account.microsoft.com/billing/payments")
+    try:
 
-#            except TimeoutException:
-#                logging.info("Buy gamepass as a gift button did not become present and clickable")
+        logger.info("Loading billing page")
+        WebDriverWait(driver, 20).until(EC.url_contains(
+            "https://account.microsoft.com/billing/payments")
+        )
+        logger.info("billing page loaded")
 
-            logging.info("-----------------------------------------------------------------------------")
+    except TimeoutException:
+        logger.info("billing page timed out")
+        run_entry["failed_accounts"].append({
+            "email": email,
+            "reason": "billing page timed out"
+        })
 
-# DEACTIVATE CODE
-if result == "Deactivate":
-    logging.info("Deactivate loop initiated")
 
-    # Loop through each base email and range
-    for email_base, r in zip(email_base, ranges):
-        # Loop through each account
-        for i in range(*r):
-            # Create the email address
-            email = email_base + str(i) + "@activegamers.com.au"
+def activate_account_flow(driver, email, password, alternate_password):
+    logger.info("Activate loop initiated for %s", email)
+    login_full_flow(driver, email, password, alternate_password)
 
-            # log which account will be deactivated based on email variable
-            logging.info('Beginning deactivation of account %s', email)
+    if manage_xbox_element == "inactive":
+        print(email, manage_xbox_element)
+        load_renew_page(driver, email)
+        handle_passkey_interrupt_page_2(driver)
+        click_account_selection_button(driver)
+        find_manage_button(driver)
+        load_renew_page(driver, email)
+        click_join_button(driver)
+        time.sleep(15)
+        logger.info("sleeping for 15 seconds to allows the subscribe modal to load")
 
-            # Initialize the driver
-            driver = webdriver.Chrome()
-            logging.info("driver initialized")
-
-            login_function()
+        try:
+            # Set the path to the subscribe button image
+            icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account Tool/icons/subscribe_button.png"
 
             try:
-                # wait up to 10 seconds for main account page to load
-                WebDriverWait(driver, 10).until(EC.url_contains("https://account.microsoft.com"))
-                logging.info("main account page loaded")
+                # Locate the icon on the screen
+                subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
 
-                # load the billing cancellation page
-                driver.get("https://account.microsoft.com/services/xboxgamepassultimate/cancel?fref=billing-cancel")
-                logging.info("loading billing cancellation page")
+                if subscribe_button_position is not None:
+                    logger.info("position is not none")
+                    # Get the center coordinates of the icon
+                    icon_x, icon_y = pyautogui.center(subscribe_button_position)
 
-                # wait 10 seconds for the page to load
-                time.sleep(10)
-                logging.info("sleeping for 10 seconds")
+                    pyautogui.click(icon_x, icon_y)
+                    time.sleep(1)
+                    pyautogui.click(icon_x, icon_y)
 
-                # check to see if the services page has loaded instead of the billing page - this will indicate that
-                # the account has no active subscriptions
-                if driver.current_url == "https://account.microsoft.com/services/":
-                    logging.info("Services page loaded instead of billing page. This indicates the account has no "
-                                 "active subscriptions")
-                    email_body = "Services page loaded instead of billing page. This indicates the account has no " \
-                                 "active subscriptions"
-
-                else:
+                    logger.info("Icon clicked successfully!")
 
                     try:
-                        # wait up to 10 seconds for the billing cancellation page to load
-                        WebDriverWait(driver, 10).until(EC.url_contains(
-                            "https://account.microsoft.com/services/xboxgamepassultimate/cancel?fref=billing-cancel"))
+                        WebDriverWait(driver, 20).until(
+                            EC.presence_of_element_located((By.XPATH, "//p[text()='Launch or install Xbox PC app']"))
+                        )
 
-                        # confirm that the billing cancellation page loaded
-                        if "https://account.microsoft.com/services/xboxgamepassultimate/cancel?fref=billing-cancel" in driver.current_url:
-                            logging.info("billing cancellation page loaded")
-
-                        else:
-                            driver.get("https://account.microsoft.com/services/xboxgamepass/details#billing")
-                            logging.info("account was using game pass for console. GPC billing page loaded instead.")
-
-                        try:
-                            # Wait up to 20 seconds for the cancel button to be present and clickable
-                            cancel_button = WebDriverWait(driver, 10).until(
-                                EC.element_to_be_clickable((By.ID, "benefit-cancel"))
-                            )
-                            cancel_button.send_keys(Keys.RETURN)
-                            logging.info("Cancel button clicked")
-
-                            try:
-                                # wait up to 20 seconds for the 'back to subscription' button and 'resubscribe'
-                                # button to be present and clickable. If this happens in this code block (before the
-                                # ability to send keystrokes to the refund button), it tells us that a refund was not
-                                # able to be issued, for whatever reason. Add more code here later allow us to
-                                # clarify why not.
-                                back_to_subscription_button = WebDriverWait(driver, 10).until(
-                                    EC.element_to_be_clickable(
-                                        (By.XPATH, '//span[contains(text(), "Back to subscription")]'))
-                                )
-
-                                resubscribe_button = WebDriverWait(driver, 10).until(
-                                    EC.element_to_be_clickable((By.XPATH, '//span[contains(text(), "Resubscribe")]'))
-                                )
-
-                                logging.info("Account %s has been deactivated but no refund was issued. Possibly the "
-                                             "account was already deactivated with recurring billing turned off, "
-                                             "or else we were over the threshold to be able to get a refund", email)
-                                email_body = "Account %s has been deactivated but no refund was issued. Possibly the " \
-                                             "account was already deactivated with recurring billing turned off, " \
-                                             "or else we were over the threshold to be able to get a refund."
-
-                            except TimeoutException:
-                                logging.info("Back to subscription' and 'resubscribe' button did not become present"
-                                             "and clickable. We will now send keystrokes for deactivation with refund.")
-
-                                time.sleep(5)
-                                actions = ActionChains(driver)
-                                actions.send_keys(Keys.ARROW_DOWN)
-                                actions.send_keys(Keys.TAB)
-                                actions.send_keys(Keys.RETURN)
-                                actions.perform()
-
-                                logging.info("Refund keystrokes have been sent")
-
-                                try:
-                                    # Wait up to 20 seconds for the 'back to subscription' and 'resubscribe' buttons
-                                    # to become present and clickable. If this happens in this code block (after the
-                                    # keystrokes have been sent) it will indicate that the subscription was
-                                    # correctly cancelled (and refund therefore issues).
-                                    back_to_subscription_button = WebDriverWait(driver, 20).until(
-                                        EC.element_to_be_clickable(
-                                            (By.XPATH, '//span[contains(text(), "Back to subscription")]'))
-                                    )
-
-                                    resubscribe_button = WebDriverWait(driver, 20).until(
-                                        EC.element_to_be_clickable(
-                                            (By.XPATH, '//span[contains(text(), "Resubscribe")]'))
-                                    )
-
-                                    logging.info(
-                                        "back to subscription' and 'refund' elements were located after refund "
-                                        "keystrokes were sent. This account should be deactivated and refund issued")
-                                    email_body = "Account has been deactivated and refund issued."
-
-                                except TimeoutException:
-                                    logging.info("Cancel with refund keystrokes were sent but the back to sub and "
-                                                 "refund elements were not found. Something has gone wrong.")
-                                    email_body = "cancel with refund keystrokes were sent but the back to sub and " \
-                                                 "refund elements were not found. Something has gone wrong and this " \
-                                                 "account might not be deactivated."
-
-                            '''
-                            # CODE IN CASE OF 'TURN ON RECURRING BILLING' (account has already been cancelled, but still
-                            # has a cancel link)
-
-                            try:
-                                # wait up 10 seconds for the 'back to subscription' button to be present and clickable
-                                back_to_subscription_button = WebDriverWait(driver, 20).until(
-                                    EC.element_to_be_clickable(
-                                        (By.XPATH, '//span[contains(text(), "Back to subscription")]'))
-                                )
-                                logging.info("Account %s cannot be deactivated, but recurring billing is turned off. "
-                                             "Check the expiry date for this account.", email)
-                                email_body = "Account cannot be deactivated, but recurring billing is turned off. " \
-                                             "Check the expiry date for this account."
-
-                            except TimeoutException:
-                                # if the back to subscription button did not become present and clickable
-                                logging.info("back to subscription button did not become present and clickable")
-                                email_body = "Account has not been deactivated."
-                            '''
-
-                            # Close the browser window
-                            logging.info("browser closed")
-
-                        except TimeoutException:
-                            # if the cancel button did not become present and clickable
-                            logging.info(
-                                "Cancel button did not become present and clickable for account %s. "
-                                "Probably the account has already been deactivated.", email)
-                            email_body = "Cancel button did not become present and clickable. Probably the account" \
-                                         "has already been deactivated."
+                        logger.info("Launch or install Xbox PC app button was found. Account reactivation is complete "
+                                    "for account %s", email)
+                        email_body = f"Account {email} has been activated"
+                        send_end_of_loop_email(email, email_body, user_choice)
+                        time.sleep(15)
 
                     except TimeoutException:
-                        # if the billing cancellation page did not load
-                        logging.info("Billing cancellation page did not load for account %s", email)
-                        email_body = "Billing cancellation page did not load. Account has not been deactivated"
+                        logger.info(
+                            "Launch or install Xbox PC app button did not become present and clickable. Check to "
+                            "see if account has valid payment method (convert to gift code)")
+
+                        run_entry["failed_accounts"].append({
+                            "email": email,
+                            "reason": "Launch or install Xbox PC app button did not become present and clickable. Check"
+                                      "to see if account has valid payment method (convert to gift code)"
+                        })
+
+                else:
+                    logger.info("Subscribe button not found. Check for backup payment method on account")
+                    '''run_entry["failed_accounts"].append({
+                        "email": email,
+                        "reason": "Subscribe button not found. Check for backup payment method on account"
+                    })'''
+
+            except Exception as e:
+                logger.info(f"Error: {e}")
+                print(f"{email} has not been activated due to {e}")
+                '''run_entry["failed_accounts"].append({
+                    "email": email,
+                    "reason": f"{e}"
+                })'''
+
+        except TimeoutException:
+            logger.info("Could not find subscribe button on screen (possible icon mismatch)")
+            run_entry["failed_accounts"].append({
+                "email": email,
+                "reason": "Could not find subscribe button on screen (possible icon mismatch)"
+            })
+    else:
+        print("account is active, activation will not proceed")
+        logger.info(f"Account {email} is already active")
+
+    logger.info("-----------------------------------------------------------------------------")
+
+
+def deactivate_account_flow(driver, email, password, alternate_password):
+    logger.info("Deactivate loop initiated for %s", email)
+    login_full_flow(driver, email, password, alternate_password)
+    email_body = ""
+
+    try:
+        # wait up to 10 seconds for main account page to load
+        WebDriverWait(driver, 30).until(EC.url_contains("https://account.microsoft.com"))
+        logger.info("main account page loaded")
+
+        # load the billing cancellation page
+        driver.get("https://account.microsoft.com/services/premium/cancel?fref=billing-cancel")
+        logger.info("loading billing cancellation page")
+
+        # wait 10 seconds for the page to load
+        time.sleep(10)
+        logger.info("sleeping for 10 seconds")
+
+        # check to see if the services page has loaded instead of the billing page - this will indicate that
+        # the account has no active subscriptions
+        if driver.current_url == "https://account.microsoft.com/services/":
+            logger.info("Services page loaded instead of billing page. This indicates the account has no "
+                        "active subscriptions")
+            email_body = "Services page loaded instead of billing page. This indicates the account has no " \
+                         "active subscriptions"
+
+        else:
+
+            try:
+                # wait up to 10 seconds for the billing cancellation page to load
+                WebDriverWait(driver, 10).until(EC.url_contains(
+                    "https://account.microsoft.com/services/premium/cancel"))
+
+                try:
+                    # Wait up to 20 seconds for the first cancel button to be present and clickable
+                    cancel_button = WebDriverWait(driver, 10).until(
+                        EC.element_to_be_clickable((By.ID, "benefit-cancel"))
+                    )
+                    cancel_button.send_keys(Keys.RETURN)
+                    logger.info("First cancel button clicked")
+
+                    # CODE TO HANDLE NON-REFUNDABLE SUBSCRIPTION (PAST FIRST MONTH)
+                    try:
+                        # wait up to 20 seconds for the 'back to subscription' button and 'resubscribe'
+                        # button to be present and clickable. If this happens in this code block (before the
+                        # ability to send keystrokes to the refund button), it tells us that a refund was not
+                        # able to be issued, for whatever reason. Add more code here later allow us to
+                        # clarify why not.
+                        WebDriverWait(driver, 1).until(
+                            EC.element_to_be_clickable(
+                                (By.XPATH, '//span[contains(text(), "Back to subscription")]'))
+                        )
+
+                        WebDriverWait(driver, 1).until(
+                            EC.element_to_be_clickable((By.XPATH, '//span[contains(text(), "Resubscribe")]'))
+                        )
+
+                        logger.info("Account %s has been deactivated but no refund was issued. Possibly the "
+                                    "account was already deactivated with recurring billing turned off, "
+                                    "or else we were over the threshold to be able to get a refund", email)
+                        email_body = "Account %s has been deactivated but no refund was issued. Possibly the " \
+                                     "account was already deactivated with recurring billing turned off, " \
+                                     "or else we were over the threshold to be able to get a refund."
+
+                    except TimeoutException:
+                        logger.info("Back to subscription' and 'resubscribe' button did not become present"
+                                    "and clickable. We will now send keystrokes for deactivation with refund.")
+
+                    try:
+                        # Optional: small delay to ensure page/modal is ready
+                        time.sleep(2)
+
+                        # Get screen size
+                        screen_width, screen_height = pyautogui.size()
+
+                        # Move mouse to center of the screen
+                        center_x = screen_width // 2
+                        center_y = screen_height // 2
+                        pyautogui.moveTo(center_x, center_y, duration=0.5)
+
+                        # Click at center
+                        pyautogui.click()
+                        time.sleep(2)
+
+                        actions = ActionChains(driver)
+                        actions.send_keys(Keys.ARROW_DOWN)
+                        time.sleep(2)
+                        actions.perform()
+
+                        actions = ActionChains(driver)
+                        actions.send_keys(Keys.TAB)
+                        time.sleep(2)
+                        actions.perform()
+
+                        actions = ActionChains(driver)
+                        actions.send_keys(Keys.RETURN)
+                        time.sleep(2)
+                        actions.perform()
+
+                        logger.info("Refund keystrokes have been sent")
+
+                        try:
+                            # Wait up to 20 seconds for the 'back to subscription' and 'resubscribe' buttons
+                            # to become present and clickable. If this happens in this code block (after the
+                            # keystrokes have been sent) it will indicate that the subscription was
+                            # correctly cancelled (and refund therefore issues).
+                            WebDriverWait(driver, 20).until(
+                                EC.element_to_be_clickable(
+                                    (By.XPATH, '//span[contains(text(), "Back to subscription")]'))
+                            )
+
+                            WebDriverWait(driver, 20).until(
+                                EC.element_to_be_clickable(
+                                    (By.XPATH, '//span[contains(text(), "Resubscribe")]'))
+                            )
+
+                            logger.info(
+                                "back to subscription' and 'refund' elements were located after refund "
+                                "keystrokes were sent. This account should be deactivated and refund issued")
+                            email_body = "Account has been deactivated and refund issued."
+
+                        except TimeoutException:
+                            logger.info("Cancel with refund keystrokes were sent but the back to sub and "
+                                        "refund elements were not found. Something has gone wrong.")
+                            email_body = "cancel with refund keystrokes were sent but the back to sub and " \
+                                         "refund elements were not found. Something has gone wrong and this " \
+                                         "account might not be deactivated."
+
+                    except TimeoutException:
+                        logger.info("refund button is not in the DOM")
+
+                    # Close the browser window
+                    logger.info("browser closed")
+
+                except TimeoutException:
+                    # if the cancel button did not become present and clickable
+                    logger.info(
+                        "Cancel button did not become present and clickable for account %s. "
+                        "Probably the account has already been deactivated.", email)
+                    email_body = "Cancel button did not become present and clickable. Probably the account" \
+                                 "has already been deactivated."
 
             except TimeoutException:
-                # if the main account page failed to load
-                logging.info("main account page failed to load within 20 seconds." ""
-                             "Account %s has not been deactivated", email)
-                email_body = "main account page failed to load within 20 seconds. Account has not been deactivated"
+                # if the billing cancellation page did not load
+                logger.info("Billing cancellation page did not load for account %s", email)
+                email_body = "Billing cancellation page did not load. Account has not been deactivated"
 
-            send_end_of_loop_email()
-            logging.info("-----------------------------------------------------------------------------")
+    except TimeoutException:
+        # if the main account page failed to load
+        logger.info("main account page failed to load within 30 seconds." ""
+                    "Account %s has not been deactivated", email)
+        email_body = "main account page failed to load within 30 seconds. Account has not been deactivated"
+
+
+# REPLACE CREDIT CARD WITH GIFT CARD
+
+def find_first_available_gift_card():
+    for card in gift_card_data["codes"]:
+        if card["status"] == "available":
+            return card  # Return the first available card
+
+    return None  # No available cards found
+
+
+def mark_code_as_used(code_to_mark):
+    # Find and update the matching code
+    for card in gift_card_data["codes"]:
+        if card["code"] == code_to_mark:
+            card["status"] = "used"
+            logger.info("Marked code as used: %s", code_to_mark)
+            break
+
+    # Write updated data back to the JSON gift_code_file
+    with open("gift_card_codes.json", "w") as gift_code_file:
+        json.dump(gift_card_data, gift_code_file, indent=2)
+
+
+def click_remove_card_button(driver):
+    try:
+        # Wait until the "Remove card" button is clickable using a general XPath that contains "Remove card"
+        remove_card_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, '//button[contains(@aria-label, "Remove card")]'))
+        )
+        remove_card_button.click()  # Click the button once it is clickable
+        logger.info("Remove card button clicked successfully.")
+
+        try:
+            # Wait until the button specified by the absolute XPath is clickable
+            confirm_remove_card_button = WebDriverWait(driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH,
+                                            '//*[@id="fluent-default-layer-host"]/div/div/div/div/div[2]/div['
+                                            '2]/div/div['
+                                            '2]/div[1]/div[2]/button[2]/span'))
+            )
+            confirm_remove_card_button.click()  # Click the button once it is clickable
+            logger.info("confirm_remove_card_button clicked successfully.")
+
+            # enter_gift_card_code()
+
+        except TimeoutException:
+            logger.info("Timeout: The 'Confirm Remove card' button was not found or not clickable.")
+
+    except TimeoutException:
+        logger.info("Timeout: The 'Remove card' button was not found or not clickable.")
+
+
+def load_redeem_page(driver):
+    driver.get("https://account.microsoft.com/billing/redeem")
+
+    try:
+        logger.info("Loading redeem page")
+        WebDriverWait(driver, 20).until(EC.url_contains(
+            "https://account.microsoft.com/billing/redeem")
+        )
+        logger.info("redeem page loaded")
+
+    except TimeoutException:
+        logger.info("redeem page did not load")
+
+
+def check_account_balance(driver):
+    balance_threshold = 18.0
+
+    # Wait for the balance value
+    balance_element = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((
+            By.XPATH,
+            '//span[contains(text(), "Microsoft account balance")]/parent::span/span[last()]'
+        ))
+    )
+
+    raw_text = balance_element.text.strip()  # e.g. "2.05 AUD" or "25.00 USD"
+    logger.info("Raw balance text: %s", raw_text)
+
+    # Extract numeric value
+    match = re.search(r"[-+]?\d*\.?\d+", raw_text)
+    if not match:
+        raise ValueError(f"Could not parse balance from text: {raw_text}")
+
+    balance_value = float(match.group())
+    logger.info("Parsed account balance: %.2f", balance_value)
+
+    # ---- CONDITIONAL ACTION ----
+    if balance_value < balance_threshold:
+        logging.warning(
+            "Balance below threshold (%.2f < %.2f)",
+            balance_value,
+            balance_threshold
+        )
+        print("⚠️ Balance is below threshold — proceed with gift card redemption")
+        load_redeem_page(driver)
+        add_gift_code(driver)
+        print("⚠️ Balance is below threshold — action taken")
+
+    else:
+        logger.info(
+            "Balance is sufficient (%.2f >= %.2f)",
+            balance_value,
+            balance_threshold
+        )
+
+
+def add_gift_code(driver):
+    available_code = find_first_available_gift_card()
+
+    # IF available code
+    if available_code:
+        gift_card_code = available_code["code"]
+        logger.info("First available gift card: %s", gift_card_code)
+
+        time.sleep(5)
+        actions = ActionChains(driver)
+        actions.send_keys(gift_card_code)
+        actions.perform()
+        time.sleep(10)
+        actions.send_keys(Keys.TAB * 3)
+        actions.send_keys(Keys.RETURN)
+        actions.perform()
+        logger.info("Gift card code submitted.")
+        time.sleep(10)
+        actions.send_keys(Keys.RETURN)
+        actions.perform()
+        logger.info("Confirmation submitted.")
+        mark_code_as_used(gift_card_code)
+        time.sleep(2)
+    else:
+        logger.info("No available gift cards found.")
+
+
+#
+def add_gift_card_flow(driver, email, password, alternate_password):
+    logger.info("Add gift card loop initiated for %s", email)
+    login_full_flow(driver, email, password, alternate_password)
+
+    if manage_xbox_element == "inactive":
+        logger.info("{email}, manage_xbox_element")
+        load_billing_page(driver, email)
+        click_remove_card_button(driver)
+        logger.info("remove card function finished")
+        check_account_balance(driver)
+
+
+    else:
+        print("account is active, gift card addition will not proceed")
+        logger.info("account is active, gift card addition will not proceed")
+
+    logger.info("-----------------------------------------------------------------------------------------")
+
+
+def check_status_flow(driver, email, password, alternate_password):
+    logger.info("Check status loop initiated for %s", email)
+    login_full_flow(driver, email, password, alternate_password)
+
+
+# MAIN EXECUTION FLOW
+
+
+create_log()  # set up logging
+logger = logging.getLogger("selenium")
+print("log is created")
+run_entry = start_failed_accounts_log()
+
+# get the users choice from the dialogue box
+user_choice = create_dialogue_box()
+
+if user_choice == "activate":
+    process_accounts_with_action(activate_account_flow)
+    save_failed_accounts(run_entry)
+
+if user_choice == "deactivate":
+    process_accounts_with_action(deactivate_account_flow)
+    save_failed_accounts(run_entry)
+
+if user_choice == "add_gift_card":
+    # Load JSON object from file
+    with open("gift_card_codes.json", "r") as file:
+        gift_card_data = json.load(file)
+
+    # Access the data
+    print(gift_card_data)
+
+    process_accounts_with_action(add_gift_card_flow)
+    save_failed_accounts(run_entry)
+
+if user_choice == "check_status":
+    process_accounts_with_action(check_status_flow)

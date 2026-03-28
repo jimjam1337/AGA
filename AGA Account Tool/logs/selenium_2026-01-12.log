@@ -1,0 +1,2119 @@
+2026-01-12 17:01:11,694 - INFO - log has been created
+2026-01-12 17:01:17,361 - INFO - Returned result is add_gift_card
+2026-01-12 17:05:37,354 - INFO - log has been created
+2026-01-12 17:05:41,623 - INFO - Returned result is add_gift_card
+2026-01-12 17:05:57,496 - INFO - log has been created
+2026-01-12 17:05:58,833 - INFO - Returned result is add_gift_card
+2026-01-12 17:09:18,853 - INFO - log has been created
+2026-01-12 17:09:20,338 - INFO - Returned result is add_gift_card
+2026-01-12 17:12:07,006 - INFO - Processing account: aga144@activegamers.com.au
+2026-01-12 17:12:08,167 - INFO - Driver initialized
+2026-01-12 17:12:08,267 - INFO - Add gift card loop initiated for aga144@activegamers.com.au
+2026-01-12 17:12:08,267 - INFO - Begin login sequence
+2026-01-12 17:12:17,538 - INFO - 'Sign in' button clicked
+2026-01-12 17:12:22,325 - INFO - Email entered
+2026-01-12 17:12:32,621 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:12:32,689 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:12:37,810 - INFO - Standard password used
+2026-01-12 17:12:37,836 - INFO - Handling any post-login interruptions for aga144@activegamers.com.au
+2026-01-12 17:12:43,337 - INFO - Stay signed in page did not load
+2026-01-12 17:12:48,373 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:12:48,375 - INFO - TOU page loaded
+2026-01-12 17:12:54,736 - INFO - TOU page was bypassed
+2026-01-12 17:13:07,488 - INFO - Update security info window did not appear
+2026-01-12 17:13:10,509 - INFO - Privacy notice page did not appear
+2026-01-12 17:13:13,531 - INFO - Upsell page did not appear
+2026-01-12 17:13:16,553 - INFO - Privacy notice page did not appear
+2026-01-12 17:13:55,478 - INFO - Account aga144@activegamers.com.au is not active
+2026-01-12 17:13:55,478 - INFO - login_full_flow completed for aga144@activegamers.com.au
+2026-01-12 17:13:55,478 - INFO - {email}, manage_xbox_element
+2026-01-12 17:13:58,891 - INFO - Loading billing page
+2026-01-12 17:13:58,894 - INFO - billing page loaded
+2026-01-12 17:14:09,009 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:14:09,009 - INFO - remove card function finished
+2026-01-12 17:14:09,025 - INFO - Raw balance text: 0.00 USD
+2026-01-12 17:14:09,025 - INFO - Parsed account balance: 0.00
+2026-01-12 17:14:14,366 - INFO - Loading redeem page
+2026-01-12 17:14:14,396 - INFO - redeem page loaded
+2026-01-12 17:14:14,396 - INFO - First available gift card: HKDVF-9CFR7-WPJM6-WTMR7-V6FJZ
+2026-01-12 17:14:29,559 - INFO - Gift card code submitted.
+2026-01-12 17:14:39,573 - INFO - Confirmation submitted.
+2026-01-12 17:14:39,573 - INFO - Marked code as used: HKDVF-9CFR7-WPJM6-WTMR7-V6FJZ
+2026-01-12 17:14:41,574 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:14:43,860 - INFO - Processing account: aga145@activegamers.com.au
+2026-01-12 17:14:49,145 - INFO - Driver initialized
+2026-01-12 17:14:49,145 - INFO - Add gift card loop initiated for aga145@activegamers.com.au
+2026-01-12 17:14:49,145 - INFO - Begin login sequence
+2026-01-12 17:14:54,669 - INFO - 'Sign in' button clicked
+2026-01-12 17:15:00,839 - INFO - Email entered
+2026-01-12 17:15:10,929 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:15:10,997 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:15:16,112 - INFO - Standard password used
+2026-01-12 17:15:17,376 - INFO - Handling any post-login interruptions for aga145@activegamers.com.au
+2026-01-12 17:15:22,413 - INFO - Stay signed in page did not load
+2026-01-12 17:15:27,449 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:15:27,452 - INFO - TOU page loaded
+2026-01-12 17:15:34,055 - INFO - TOU page was bypassed
+2026-01-12 17:15:45,914 - INFO - Update security info window did not appear
+2026-01-12 17:15:48,934 - INFO - Privacy notice page did not appear
+2026-01-12 17:15:51,957 - INFO - Upsell page did not appear
+2026-01-12 17:15:54,981 - INFO - Privacy notice page did not appear
+2026-01-12 17:16:29,711 - INFO - Account aga145@activegamers.com.au is not active
+2026-01-12 17:16:29,711 - INFO - login_full_flow completed for aga145@activegamers.com.au
+2026-01-12 17:16:29,711 - INFO - {email}, manage_xbox_element
+2026-01-12 17:16:34,030 - INFO - Loading billing page
+2026-01-12 17:16:34,032 - INFO - billing page loaded
+2026-01-12 17:16:44,146 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:16:44,146 - INFO - remove card function finished
+2026-01-12 17:16:44,161 - INFO - Raw balance text: 0.00 USD
+2026-01-12 17:16:44,161 - INFO - Parsed account balance: 0.00
+2026-01-12 17:16:49,547 - INFO - Loading redeem page
+2026-01-12 17:16:49,551 - INFO - redeem page loaded
+2026-01-12 17:16:49,551 - INFO - First available gift card: R3QWQ-3Q39G-VQC6F-PR46K-C7X3Z
+2026-01-12 17:17:04,735 - INFO - Gift card code submitted.
+2026-01-12 17:17:14,749 - INFO - Confirmation submitted.
+2026-01-12 17:17:14,750 - INFO - Marked code as used: R3QWQ-3Q39G-VQC6F-PR46K-C7X3Z
+2026-01-12 17:17:16,751 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:17:19,010 - INFO - Processing account: aga146@activegamers.com.au
+2026-01-12 17:17:24,177 - INFO - Driver initialized
+2026-01-12 17:17:24,177 - INFO - Add gift card loop initiated for aga146@activegamers.com.au
+2026-01-12 17:17:24,177 - INFO - Begin login sequence
+2026-01-12 17:17:32,776 - INFO - 'Sign in' button clicked
+2026-01-12 17:17:36,926 - INFO - Email entered
+2026-01-12 17:17:47,117 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:17:47,182 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:17:52,293 - INFO - Standard password used
+2026-01-12 17:17:54,967 - INFO - Handling any post-login interruptions for aga146@activegamers.com.au
+2026-01-12 17:18:00,002 - INFO - Stay signed in page did not load
+2026-01-12 17:18:05,039 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:18:05,042 - INFO - TOU page loaded
+2026-01-12 17:18:13,091 - INFO - TOU page was bypassed
+2026-01-12 17:18:23,734 - INFO - Update security info window did not appear
+2026-01-12 17:18:26,755 - INFO - Privacy notice page did not appear
+2026-01-12 17:18:29,778 - INFO - Upsell page did not appear
+2026-01-12 17:18:32,800 - INFO - Privacy notice page did not appear
+2026-01-12 17:19:08,821 - INFO - Account aga146@activegamers.com.au is not active
+2026-01-12 17:19:08,821 - INFO - login_full_flow completed for aga146@activegamers.com.au
+2026-01-12 17:19:08,821 - INFO - {email}, manage_xbox_element
+2026-01-12 17:19:11,275 - INFO - Loading billing page
+2026-01-12 17:19:11,278 - INFO - billing page loaded
+2026-01-12 17:19:21,389 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:19:21,389 - INFO - remove card function finished
+2026-01-12 17:19:21,405 - INFO - Raw balance text: 0.00 USD
+2026-01-12 17:19:21,405 - INFO - Parsed account balance: 0.00
+2026-01-12 17:19:26,392 - INFO - Loading redeem page
+2026-01-12 17:19:26,397 - INFO - redeem page loaded
+2026-01-12 17:19:26,397 - INFO - First available gift card: 97D2R-CQT9K-KJQ27-97MQJ-W6JCZ
+2026-01-12 17:19:41,566 - INFO - Gift card code submitted.
+2026-01-12 17:19:51,579 - INFO - Confirmation submitted.
+2026-01-12 17:19:51,579 - INFO - Marked code as used: 97D2R-CQT9K-KJQ27-97MQJ-W6JCZ
+2026-01-12 17:19:53,581 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:19:56,019 - INFO - Processing account: aga156@activegamers.com.au
+2026-01-12 17:20:01,192 - INFO - Driver initialized
+2026-01-12 17:20:01,192 - INFO - Add gift card loop initiated for aga156@activegamers.com.au
+2026-01-12 17:20:01,192 - INFO - Begin login sequence
+2026-01-12 17:20:08,032 - INFO - 'Sign in' button clicked
+2026-01-12 17:20:09,275 - INFO - Email entered
+2026-01-12 17:20:19,758 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:20:19,828 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:20:24,940 - INFO - Standard password used
+2026-01-12 17:20:26,922 - INFO - Handling any post-login interruptions for aga156@activegamers.com.au
+2026-01-12 17:20:31,957 - INFO - Stay signed in page did not load
+2026-01-12 17:20:36,995 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:20:36,998 - INFO - TOU page loaded
+2026-01-12 17:20:49,180 - INFO - TOU page was bypassed
+2026-01-12 17:20:52,524 - INFO - Update security info window did not appear
+2026-01-12 17:20:55,547 - INFO - Privacy notice page did not appear
+2026-01-12 17:20:58,569 - INFO - Upsell page did not appear
+2026-01-12 17:21:01,590 - INFO - Privacy notice page did not appear
+2026-01-12 17:21:40,903 - INFO - Account aga156@activegamers.com.au is not active
+2026-01-12 17:21:40,903 - INFO - login_full_flow completed for aga156@activegamers.com.au
+2026-01-12 17:21:40,903 - INFO - {email}, manage_xbox_element
+2026-01-12 17:21:48,396 - INFO - Loading billing page
+2026-01-12 17:21:48,400 - INFO - billing page loaded
+2026-01-12 17:21:58,511 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:21:58,511 - INFO - remove card function finished
+2026-01-12 17:21:58,526 - INFO - Raw balance text: 2.05 AUD
+2026-01-12 17:21:58,527 - INFO - Parsed account balance: 2.05
+2026-01-12 17:22:02,341 - INFO - Loading redeem page
+2026-01-12 17:22:02,346 - INFO - redeem page loaded
+2026-01-12 17:22:02,346 - INFO - First available gift card: M6YDC-9DGVW-R2WFG-VWDVM-DDWMZ
+2026-01-12 17:22:17,512 - INFO - Gift card code submitted.
+2026-01-12 17:22:27,525 - INFO - Confirmation submitted.
+2026-01-12 17:22:27,526 - INFO - Marked code as used: M6YDC-9DGVW-R2WFG-VWDVM-DDWMZ
+2026-01-12 17:22:29,527 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:22:31,767 - INFO - Processing account: aga162@activegamers.com.au
+2026-01-12 17:22:36,948 - INFO - Driver initialized
+2026-01-12 17:22:36,948 - INFO - Add gift card loop initiated for aga162@activegamers.com.au
+2026-01-12 17:22:36,948 - INFO - Begin login sequence
+2026-01-12 17:22:47,092 - INFO - 'Sign in' button clicked
+2026-01-12 17:22:51,461 - INFO - Email entered
+2026-01-12 17:23:17,483 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:23:17,546 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:23:22,658 - INFO - Standard password used
+2026-01-12 17:23:24,848 - INFO - Handling any post-login interruptions for aga162@activegamers.com.au
+2026-01-12 17:23:29,889 - INFO - Stay signed in page did not load
+2026-01-12 17:23:34,925 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:23:34,928 - INFO - TOU page loaded
+2026-01-12 17:23:42,288 - INFO - TOU page was bypassed
+2026-01-12 17:23:54,166 - INFO - Update security info window did not appear
+2026-01-12 17:23:57,217 - INFO - Privacy notice page did not appear
+2026-01-12 17:24:00,239 - INFO - Upsell page did not appear
+2026-01-12 17:24:03,261 - INFO - Privacy notice page did not appear
+2026-01-12 17:24:37,683 - INFO - Account aga162@activegamers.com.au is not active
+2026-01-12 17:24:37,683 - INFO - login_full_flow completed for aga162@activegamers.com.au
+2026-01-12 17:24:37,683 - INFO - {email}, manage_xbox_element
+2026-01-12 17:24:41,325 - INFO - Loading billing page
+2026-01-12 17:24:41,327 - INFO - billing page loaded
+2026-01-12 17:24:51,441 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:24:51,441 - INFO - remove card function finished
+2026-01-12 17:24:51,456 - INFO - Raw balance text: 2.05 AUD
+2026-01-12 17:24:51,456 - INFO - Parsed account balance: 2.05
+2026-01-12 17:24:56,112 - INFO - Loading redeem page
+2026-01-12 17:24:56,117 - INFO - redeem page loaded
+2026-01-12 17:24:56,117 - INFO - First available gift card: K9WP2-XRQFW-F6KTH-46K34-C733Z
+2026-01-12 17:25:11,295 - INFO - Gift card code submitted.
+2026-01-12 17:25:21,309 - INFO - Confirmation submitted.
+2026-01-12 17:25:21,309 - INFO - Marked code as used: K9WP2-XRQFW-F6KTH-46K34-C733Z
+2026-01-12 17:25:23,311 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:25:25,579 - INFO - Processing account: aga173@activegamers.com.au
+2026-01-12 17:25:30,772 - INFO - Driver initialized
+2026-01-12 17:25:30,772 - INFO - Add gift card loop initiated for aga173@activegamers.com.au
+2026-01-12 17:25:30,772 - INFO - Begin login sequence
+2026-01-12 17:25:41,466 - INFO - 'Sign in' button clicked
+2026-01-12 17:25:44,113 - INFO - Email entered
+2026-01-12 17:26:10,029 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:26:10,096 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:26:15,204 - INFO - Standard password used
+2026-01-12 17:26:17,937 - INFO - Handling any post-login interruptions for aga173@activegamers.com.au
+2026-01-12 17:26:22,973 - INFO - Stay signed in page did not load
+2026-01-12 17:26:28,010 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:26:28,014 - INFO - TOU page loaded
+2026-01-12 17:26:38,412 - INFO - TOU page was bypassed
+2026-01-12 17:26:52,778 - INFO - Update security info window did not appear
+2026-01-12 17:26:55,799 - INFO - Privacy notice page did not appear
+2026-01-12 17:26:58,820 - INFO - Upsell page did not appear
+2026-01-12 17:27:01,843 - INFO - Privacy notice page did not appear
+2026-01-12 17:27:35,944 - INFO - Account aga173@activegamers.com.au is not active
+2026-01-12 17:27:35,944 - INFO - login_full_flow completed for aga173@activegamers.com.au
+2026-01-12 17:27:35,944 - INFO - {email}, manage_xbox_element
+2026-01-12 17:27:39,558 - INFO - Loading billing page
+2026-01-12 17:27:39,560 - INFO - billing page loaded
+2026-01-12 17:27:49,679 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:27:49,679 - INFO - remove card function finished
+2026-01-12 17:27:49,695 - INFO - Raw balance text: 2.05 AUD
+2026-01-12 17:27:49,695 - INFO - Parsed account balance: 2.05
+2026-01-12 17:27:52,236 - INFO - Loading redeem page
+2026-01-12 17:27:52,238 - INFO - redeem page loaded
+2026-01-12 17:27:52,239 - INFO - First available gift card: JWT2W-DQ9TW-RMJRV-4HKGC-7KXYZ
+2026-01-12 17:28:07,402 - INFO - Gift card code submitted.
+2026-01-12 17:28:17,417 - INFO - Confirmation submitted.
+2026-01-12 17:28:17,417 - INFO - Marked code as used: JWT2W-DQ9TW-RMJRV-4HKGC-7KXYZ
+2026-01-12 17:28:19,419 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:28:21,677 - INFO - Processing account: aga174@activegamers.com.au
+2026-01-12 17:28:26,865 - INFO - Driver initialized
+2026-01-12 17:28:26,865 - INFO - Add gift card loop initiated for aga174@activegamers.com.au
+2026-01-12 17:28:26,865 - INFO - Begin login sequence
+2026-01-12 17:28:33,471 - INFO - 'Sign in' button clicked
+2026-01-12 17:28:34,622 - INFO - Email entered
+2026-01-12 17:28:45,013 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:28:45,080 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:28:50,190 - INFO - Standard password used
+2026-01-12 17:28:52,684 - INFO - Handling any post-login interruptions for aga174@activegamers.com.au
+2026-01-12 17:28:57,800 - INFO - Stay signed in page did not load
+2026-01-12 17:29:02,836 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:29:02,839 - INFO - TOU page loaded
+2026-01-12 17:29:10,030 - INFO - TOU page was bypassed
+2026-01-12 17:29:20,421 - INFO - Update security info window did not appear
+2026-01-12 17:29:23,442 - INFO - Privacy notice page did not appear
+2026-01-12 17:29:26,464 - INFO - Upsell page did not appear
+2026-01-12 17:29:29,486 - INFO - Privacy notice page did not appear
+2026-01-12 17:30:04,931 - INFO - Account aga174@activegamers.com.au is not active
+2026-01-12 17:30:04,931 - INFO - login_full_flow completed for aga174@activegamers.com.au
+2026-01-12 17:30:04,931 - INFO - {email}, manage_xbox_element
+2026-01-12 17:30:08,151 - INFO - Loading billing page
+2026-01-12 17:30:08,154 - INFO - billing page loaded
+2026-01-12 17:30:18,269 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:30:18,269 - INFO - remove card function finished
+2026-01-12 17:30:18,284 - INFO - Raw balance text: 2.05 AUD
+2026-01-12 17:30:18,284 - INFO - Parsed account balance: 2.05
+2026-01-12 17:30:22,603 - INFO - Loading redeem page
+2026-01-12 17:30:22,607 - INFO - redeem page loaded
+2026-01-12 17:30:22,607 - INFO - First available gift card: FRWJT-HPM24-KMR7D-TY4D3-RD9DZ
+2026-01-12 17:30:37,770 - INFO - Gift card code submitted.
+2026-01-12 17:30:47,783 - INFO - Confirmation submitted.
+2026-01-12 17:30:47,783 - INFO - Marked code as used: FRWJT-HPM24-KMR7D-TY4D3-RD9DZ
+2026-01-12 17:30:49,785 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:30:52,097 - INFO - Processing account: aga175@activegamers.com.au
+2026-01-12 17:30:57,297 - INFO - Driver initialized
+2026-01-12 17:30:57,297 - INFO - Add gift card loop initiated for aga175@activegamers.com.au
+2026-01-12 17:30:57,297 - INFO - Begin login sequence
+2026-01-12 17:31:06,411 - INFO - 'Sign in' button clicked
+2026-01-12 17:31:08,036 - INFO - Email entered
+2026-01-12 17:31:18,348 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:31:18,415 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:31:23,528 - INFO - Standard password used
+2026-01-12 17:31:25,081 - INFO - Handling any post-login interruptions for aga175@activegamers.com.au
+2026-01-12 17:31:30,116 - INFO - Stay signed in page did not load
+2026-01-12 17:31:35,152 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:31:35,155 - INFO - TOU page loaded
+2026-01-12 17:31:43,560 - INFO - TOU page was bypassed
+2026-01-12 17:31:55,190 - INFO - Update security info window did not appear
+2026-01-12 17:31:58,212 - INFO - Privacy notice page did not appear
+2026-01-12 17:32:01,232 - INFO - Upsell page did not appear
+2026-01-12 17:32:04,254 - INFO - Privacy notice page did not appear
+2026-01-12 17:32:38,626 - INFO - Account aga175@activegamers.com.au is not active
+2026-01-12 17:32:38,626 - INFO - login_full_flow completed for aga175@activegamers.com.au
+2026-01-12 17:32:38,626 - INFO - {email}, manage_xbox_element
+2026-01-12 17:32:44,962 - INFO - Loading billing page
+2026-01-12 17:32:44,965 - INFO - billing page loaded
+2026-01-12 17:32:55,080 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:32:55,080 - INFO - remove card function finished
+2026-01-12 17:32:55,096 - INFO - Raw balance text: 2.05 AUD
+2026-01-12 17:32:55,096 - INFO - Parsed account balance: 2.05
+2026-01-12 17:32:57,337 - INFO - Loading redeem page
+2026-01-12 17:32:57,340 - INFO - redeem page loaded
+2026-01-12 17:32:57,340 - INFO - First available gift card: RHFJ6-CCJHC-CV4MD-3GWKV-7H27Z
+2026-01-12 17:50:00,962 - INFO - log has been created
+2026-01-12 17:50:04,150 - INFO - Returned result is add_gift_card
+2026-01-12 17:50:08,023 - INFO - Processing account: aga191@activegamers.com.au
+2026-01-12 17:50:09,124 - INFO - Driver initialized
+2026-01-12 17:50:09,124 - INFO - Add gift card loop initiated for aga191@activegamers.com.au
+2026-01-12 17:50:09,124 - INFO - Begin login sequence
+2026-01-12 17:50:19,290 - INFO - 'Sign in' button clicked
+2026-01-12 17:50:22,934 - INFO - Email entered
+2026-01-12 17:50:32,938 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:50:33,004 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:50:38,116 - INFO - Standard password used
+2026-01-12 17:50:40,547 - INFO - Handling any post-login interruptions for aga191@activegamers.com.au
+2026-01-12 17:50:45,583 - INFO - Stay signed in page did not load
+2026-01-12 17:50:50,620 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:50:50,623 - INFO - TOU page loaded
+2026-01-12 17:50:57,018 - INFO - TOU page was bypassed
+2026-01-12 17:51:06,664 - INFO - Update security info window did not appear
+2026-01-12 17:51:09,686 - INFO - Privacy notice page did not appear
+2026-01-12 17:51:12,710 - INFO - Upsell page did not appear
+2026-01-12 17:51:15,733 - INFO - Privacy notice page did not appear
+2026-01-12 17:51:51,169 - INFO - Account aga191@activegamers.com.au is not active
+2026-01-12 17:51:51,169 - INFO - login_full_flow completed for aga191@activegamers.com.au
+2026-01-12 17:51:51,169 - INFO - {email}, manage_xbox_element
+2026-01-12 17:51:54,876 - INFO - Loading billing page
+2026-01-12 17:51:54,879 - INFO - billing page loaded
+2026-01-12 17:52:04,998 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:52:04,998 - INFO - remove card function finished
+2026-01-12 17:52:05,014 - INFO - Raw balance text: 0.00
+2026-01-12 17:52:05,014 - INFO - Parsed account balance: 0.00
+2026-01-12 17:52:07,963 - INFO - Loading redeem page
+2026-01-12 17:52:07,966 - INFO - redeem page loaded
+2026-01-12 17:52:07,966 - INFO - First available gift card: RHFJ6-CCJHC-CV4MD-3GWKV-7H27Z
+2026-01-12 17:52:23,134 - INFO - Gift card code submitted.
+2026-01-12 17:52:33,148 - INFO - Confirmation submitted.
+2026-01-12 17:52:33,148 - INFO - Marked code as used: RHFJ6-CCJHC-CV4MD-3GWKV-7H27Z
+2026-01-12 17:52:35,149 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:52:37,431 - INFO - Skipping agapc - no valid ranges
+2026-01-12 17:52:37,431 - INFO - Skipping wanxb - no valid ranges
+2026-01-12 17:52:37,431 - INFO - Skipping wanpc - no valid ranges
+2026-01-12 17:53:20,534 - INFO - log has been created
+2026-01-12 17:53:22,889 - INFO - Returned result is add_gift_card
+2026-01-12 17:53:33,170 - INFO - Processing account: aga156@activegamers.com.au
+2026-01-12 17:53:34,298 - INFO - Driver initialized
+2026-01-12 17:53:34,298 - INFO - Add gift card loop initiated for aga156@activegamers.com.au
+2026-01-12 17:53:34,298 - INFO - Begin login sequence
+2026-01-12 17:53:40,307 - INFO - 'Sign in' button clicked
+2026-01-12 17:53:45,210 - INFO - Email entered
+2026-01-12 17:53:55,704 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:53:55,770 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:54:00,881 - INFO - Standard password used
+2026-01-12 17:54:02,599 - INFO - Handling any post-login interruptions for aga156@activegamers.com.au
+2026-01-12 17:54:07,636 - INFO - Stay signed in page did not load
+2026-01-12 17:54:12,674 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:54:12,676 - INFO - TOU page loaded
+2026-01-12 17:54:20,278 - INFO - TOU page was bypassed
+2026-01-12 17:54:32,335 - INFO - Update security info window did not appear
+2026-01-12 17:54:35,371 - INFO - Privacy notice page did not appear
+2026-01-12 17:54:38,393 - INFO - Upsell page did not appear
+2026-01-12 17:54:41,414 - INFO - Privacy notice page did not appear
+2026-01-12 17:55:16,404 - INFO - Account aga156@activegamers.com.au is not active
+2026-01-12 17:55:16,404 - INFO - login_full_flow completed for aga156@activegamers.com.au
+2026-01-12 17:55:16,404 - INFO - {email}, manage_xbox_element
+2026-01-12 17:55:20,041 - INFO - Loading billing page
+2026-01-12 17:55:20,044 - INFO - billing page loaded
+2026-01-12 17:55:30,161 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:55:30,161 - INFO - remove card function finished
+2026-01-12 17:55:30,177 - INFO - Raw balance text: 27.05 AUD
+2026-01-12 17:55:30,177 - INFO - Parsed account balance: 27.05
+2026-01-12 17:55:30,177 - INFO - Balance is sufficient (27.05 >= 18.00)
+2026-01-12 17:55:34,486 - INFO - Loading redeem page
+2026-01-12 17:55:34,490 - INFO - redeem page loaded
+2026-01-12 17:55:34,490 - INFO - First available gift card: 7XH4C-HCK6G-GFM4P-HXT3J-TRM2Z
+2026-01-12 17:55:49,658 - INFO - Gift card code submitted.
+2026-01-12 17:55:59,672 - INFO - Confirmation submitted.
+2026-01-12 17:55:59,672 - INFO - Marked code as used: 7XH4C-HCK6G-GFM4P-HXT3J-TRM2Z
+2026-01-12 17:56:01,674 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:56:03,950 - INFO - Processing account: aga162@activegamers.com.au
+2026-01-12 17:56:09,140 - INFO - Driver initialized
+2026-01-12 17:56:09,140 - INFO - Add gift card loop initiated for aga162@activegamers.com.au
+2026-01-12 17:56:09,140 - INFO - Begin login sequence
+2026-01-12 17:56:16,658 - INFO - 'Sign in' button clicked
+2026-01-12 17:56:21,553 - INFO - Email entered
+2026-01-12 17:56:31,677 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:56:31,741 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:56:36,853 - INFO - Standard password used
+2026-01-12 17:56:39,028 - INFO - Handling any post-login interruptions for aga162@activegamers.com.au
+2026-01-12 17:56:44,064 - INFO - Stay signed in page did not load
+2026-01-12 17:56:49,100 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:56:49,103 - INFO - TOU page loaded
+2026-01-12 17:56:58,662 - INFO - TOU page was bypassed
+2026-01-12 17:57:10,632 - INFO - Update security info window did not appear
+2026-01-12 17:57:13,653 - INFO - Privacy notice page did not appear
+2026-01-12 17:57:16,675 - INFO - Upsell page did not appear
+2026-01-12 17:57:19,698 - INFO - Privacy notice page did not appear
+2026-01-12 17:57:55,033 - INFO - Account aga162@activegamers.com.au is not active
+2026-01-12 17:57:55,033 - INFO - login_full_flow completed for aga162@activegamers.com.au
+2026-01-12 17:57:55,033 - INFO - {email}, manage_xbox_element
+2026-01-12 17:57:58,481 - INFO - Loading billing page
+2026-01-12 17:57:58,506 - INFO - billing page loaded
+2026-01-12 17:58:08,634 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 17:58:08,634 - INFO - remove card function finished
+2026-01-12 17:58:08,649 - INFO - Raw balance text: 27.05 AUD
+2026-01-12 17:58:08,649 - INFO - Parsed account balance: 27.05
+2026-01-12 17:58:08,650 - INFO - Balance is sufficient (27.05 >= 18.00)
+2026-01-12 17:58:12,778 - INFO - Loading redeem page
+2026-01-12 17:58:12,784 - INFO - redeem page loaded
+2026-01-12 17:58:12,784 - INFO - First available gift card: Q7CVK-23D6K-R99MY-P7KJW-3PV9Z
+2026-01-12 17:58:27,947 - INFO - Gift card code submitted.
+2026-01-12 17:58:37,961 - INFO - Confirmation submitted.
+2026-01-12 17:58:37,961 - INFO - Marked code as used: Q7CVK-23D6K-R99MY-P7KJW-3PV9Z
+2026-01-12 17:58:39,963 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 17:58:42,232 - INFO - Processing account: aga173@activegamers.com.au
+2026-01-12 17:58:47,558 - INFO - Driver initialized
+2026-01-12 17:58:47,558 - INFO - Add gift card loop initiated for aga173@activegamers.com.au
+2026-01-12 17:58:47,558 - INFO - Begin login sequence
+2026-01-12 17:58:57,194 - INFO - 'Sign in' button clicked
+2026-01-12 17:58:58,826 - INFO - Email entered
+2026-01-12 17:59:09,010 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 17:59:09,076 - INFO - Clicked the 'Use your password' button.
+2026-01-12 17:59:14,189 - INFO - Standard password used
+2026-01-12 17:59:16,273 - INFO - Handling any post-login interruptions for aga173@activegamers.com.au
+2026-01-12 17:59:21,308 - INFO - Stay signed in page did not load
+2026-01-12 17:59:26,345 - INFO - Passkey interrupt page did not appear
+2026-01-12 17:59:26,348 - INFO - TOU page loaded
+2026-01-12 17:59:33,368 - INFO - TOU page was bypassed
+2026-01-12 17:59:41,021 - INFO - Update security info window did not appear
+2026-01-12 17:59:44,180 - INFO - Privacy notice page did not appear
+2026-01-12 17:59:47,202 - INFO - Upsell page did not appear
+2026-01-12 17:59:50,224 - INFO - Privacy notice page did not appear
+2026-01-12 18:00:24,210 - INFO - Account aga173@activegamers.com.au is not active
+2026-01-12 18:00:24,210 - INFO - login_full_flow completed for aga173@activegamers.com.au
+2026-01-12 18:00:24,210 - INFO - {email}, manage_xbox_element
+2026-01-12 18:00:29,375 - INFO - Loading billing page
+2026-01-12 18:00:29,378 - INFO - billing page loaded
+2026-01-12 18:00:39,492 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:00:39,492 - INFO - remove card function finished
+2026-01-12 18:00:39,508 - INFO - Raw balance text: 27.05 AUD
+2026-01-12 18:00:39,508 - INFO - Parsed account balance: 27.05
+2026-01-12 18:00:39,508 - INFO - Balance is sufficient (27.05 >= 18.00)
+2026-01-12 18:00:42,590 - INFO - Loading redeem page
+2026-01-12 18:00:42,592 - INFO - redeem page loaded
+2026-01-12 18:00:42,592 - INFO - First available gift card: VXYHG-M29GQ-W7XKD-7KT9K-9MYPZ
+2026-01-12 18:00:57,754 - INFO - Gift card code submitted.
+2026-01-12 18:01:07,767 - INFO - Confirmation submitted.
+2026-01-12 18:01:07,768 - INFO - Marked code as used: VXYHG-M29GQ-W7XKD-7KT9K-9MYPZ
+2026-01-12 18:01:09,769 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:01:12,022 - INFO - Processing account: aga174@activegamers.com.au
+2026-01-12 18:01:17,186 - INFO - Driver initialized
+2026-01-12 18:01:17,186 - INFO - Add gift card loop initiated for aga174@activegamers.com.au
+2026-01-12 18:01:17,186 - INFO - Begin login sequence
+2026-01-12 18:01:28,661 - INFO - 'Sign in' button clicked
+2026-01-12 18:01:30,332 - INFO - Email entered
+2026-01-12 18:01:40,679 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:01:40,744 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:01:45,860 - INFO - Standard password used
+2026-01-12 18:01:47,452 - INFO - Handling any post-login interruptions for aga174@activegamers.com.au
+2026-01-12 18:01:52,488 - INFO - Stay signed in page did not load
+2026-01-12 18:01:57,526 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:01:57,529 - INFO - TOU page loaded
+2026-01-12 18:02:10,186 - INFO - TOU page was bypassed
+2026-01-12 18:02:27,682 - INFO - Update security info window did not appear
+2026-01-12 18:02:30,719 - INFO - Privacy notice page did not appear
+2026-01-12 18:02:33,741 - INFO - Upsell page did not appear
+2026-01-12 18:02:36,763 - INFO - Privacy notice page did not appear
+2026-01-12 18:03:11,808 - INFO - Account aga174@activegamers.com.au is not active
+2026-01-12 18:03:11,808 - INFO - login_full_flow completed for aga174@activegamers.com.au
+2026-01-12 18:03:11,808 - INFO - {email}, manage_xbox_element
+2026-01-12 18:03:16,444 - INFO - Loading billing page
+2026-01-12 18:03:16,448 - INFO - billing page loaded
+2026-01-12 18:03:26,560 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:03:26,560 - INFO - remove card function finished
+2026-01-12 18:03:26,574 - INFO - Raw balance text: 27.05 AUD
+2026-01-12 18:03:26,574 - INFO - Parsed account balance: 27.05
+2026-01-12 18:03:26,574 - INFO - Balance is sufficient (27.05 >= 18.00)
+2026-01-12 18:03:32,929 - INFO - Loading redeem page
+2026-01-12 18:03:32,936 - INFO - redeem page loaded
+2026-01-12 18:03:32,936 - INFO - First available gift card: HDGCR-94DJY-37JHC-T69F7-H4QTZ
+2026-01-12 18:03:48,103 - INFO - Gift card code submitted.
+2026-01-12 18:03:58,116 - INFO - Confirmation submitted.
+2026-01-12 18:03:58,116 - INFO - Marked code as used: HDGCR-94DJY-37JHC-T69F7-H4QTZ
+2026-01-12 18:04:00,118 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:04:02,388 - INFO - Processing account: aga175@activegamers.com.au
+2026-01-12 18:04:07,597 - INFO - Driver initialized
+2026-01-12 18:04:07,597 - INFO - Add gift card loop initiated for aga175@activegamers.com.au
+2026-01-12 18:04:07,597 - INFO - Begin login sequence
+2026-01-12 18:04:17,960 - INFO - 'Sign in' button clicked
+2026-01-12 18:04:19,588 - INFO - Email entered
+2026-01-12 18:04:30,029 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:04:30,136 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:04:35,266 - INFO - Standard password used
+2026-01-12 18:04:35,286 - INFO - Handling any post-login interruptions for aga175@activegamers.com.au
+2026-01-12 18:04:40,378 - INFO - Stay signed in page did not load
+2026-01-12 18:04:45,415 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:04:45,418 - INFO - TOU page loaded
+2026-01-12 18:04:55,880 - INFO - TOU page was bypassed
+2026-01-12 18:05:11,128 - INFO - Update security info window did not appear
+2026-01-12 18:05:14,148 - INFO - Privacy notice page did not appear
+2026-01-12 18:05:17,171 - INFO - Upsell page did not appear
+2026-01-12 18:05:20,193 - INFO - Privacy notice page did not appear
+2026-01-12 18:05:55,032 - INFO - Account aga175@activegamers.com.au is not active
+2026-01-12 18:05:55,032 - INFO - login_full_flow completed for aga175@activegamers.com.au
+2026-01-12 18:05:55,032 - INFO - {email}, manage_xbox_element
+2026-01-12 18:06:01,920 - INFO - Loading billing page
+2026-01-12 18:06:01,923 - INFO - billing page loaded
+2026-01-12 18:06:12,030 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:06:12,030 - INFO - remove card function finished
+2026-01-12 18:06:12,044 - INFO - Raw balance text: 2.05 AUD
+2026-01-12 18:06:12,044 - INFO - Parsed account balance: 2.05
+2026-01-12 18:06:14,202 - INFO - Loading redeem page
+2026-01-12 18:06:14,204 - INFO - redeem page loaded
+2026-01-12 18:06:14,204 - INFO - First available gift card: T3H9D-GDH36-RMGHH-RC2MY-29CKZ
+2026-01-12 18:06:29,363 - INFO - Gift card code submitted.
+2026-01-12 18:06:39,375 - INFO - Confirmation submitted.
+2026-01-12 18:06:39,375 - INFO - Marked code as used: T3H9D-GDH36-RMGHH-RC2MY-29CKZ
+2026-01-12 18:06:41,377 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:06:43,641 - INFO - Skipping agapc - no valid ranges
+2026-01-12 18:06:43,641 - INFO - Skipping wanxb - no valid ranges
+2026-01-12 18:06:43,641 - INFO - Skipping wanpc - no valid ranges
+2026-01-12 18:07:58,530 - INFO - log has been created
+2026-01-12 18:07:59,988 - INFO - Returned result is add_gift_card
+2026-01-12 18:08:04,018 - INFO - Processing account: aga40@activegamers.com.au
+2026-01-12 18:08:05,153 - INFO - Driver initialized
+2026-01-12 18:08:05,153 - INFO - Add gift card loop initiated for aga40@activegamers.com.au
+2026-01-12 18:08:05,153 - INFO - Begin login sequence
+2026-01-12 18:08:17,686 - INFO - 'Sign in' button clicked
+2026-01-12 18:08:19,453 - INFO - Email entered
+2026-01-12 18:08:29,603 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:08:29,673 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:08:34,791 - INFO - Standard password used
+2026-01-12 18:08:36,793 - INFO - Handling any post-login interruptions for aga40@activegamers.com.au
+2026-01-12 18:08:41,828 - INFO - Stay signed in page did not load
+2026-01-12 18:08:46,863 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:08:46,866 - INFO - TOU page loaded
+2026-01-12 18:08:57,840 - INFO - TOU page was bypassed
+2026-01-12 18:09:09,966 - INFO - Update security info window did not appear
+2026-01-12 18:09:13,036 - INFO - Privacy notice page did not appear
+2026-01-12 18:09:16,057 - INFO - Upsell page did not appear
+2026-01-12 18:09:19,080 - INFO - Privacy notice page did not appear
+2026-01-12 18:09:54,596 - INFO - Account aga40@activegamers.com.au is not active
+2026-01-12 18:09:54,596 - INFO - login_full_flow completed for aga40@activegamers.com.au
+2026-01-12 18:09:54,596 - INFO - {email}, manage_xbox_element
+2026-01-12 18:10:03,025 - INFO - Loading billing page
+2026-01-12 18:10:03,028 - INFO - billing page loaded
+2026-01-12 18:10:13,144 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:10:13,144 - INFO - remove card function finished
+2026-01-12 18:10:13,160 - INFO - Raw balance text: 2.05 AUD
+2026-01-12 18:10:13,160 - INFO - Parsed account balance: 2.05
+2026-01-12 18:10:22,003 - INFO - Loading redeem page
+2026-01-12 18:10:22,012 - INFO - redeem page loaded
+2026-01-12 18:10:22,012 - INFO - First available gift card: 97HY4-3FJPQ-3VQ6P-T99KQ-63KMZ
+2026-01-12 18:10:37,171 - INFO - Gift card code submitted.
+2026-01-12 18:10:47,184 - INFO - Confirmation submitted.
+2026-01-12 18:10:47,185 - INFO - Marked code as used: 97HY4-3FJPQ-3VQ6P-T99KQ-63KMZ
+2026-01-12 18:10:49,187 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:10:51,463 - INFO - Processing account: aga46@activegamers.com.au
+2026-01-12 18:10:56,695 - INFO - Driver initialized
+2026-01-12 18:10:56,695 - INFO - Add gift card loop initiated for aga46@activegamers.com.au
+2026-01-12 18:10:56,695 - INFO - Begin login sequence
+2026-01-12 18:11:05,162 - INFO - 'Sign in' button clicked
+2026-01-12 18:11:06,785 - INFO - Email entered
+2026-01-12 18:11:17,257 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:11:17,347 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:11:22,461 - INFO - Standard password used
+2026-01-12 18:11:23,537 - INFO - Handling any post-login interruptions for aga46@activegamers.com.au
+2026-01-12 18:11:23,540 - INFO - Stay signed in page loaded
+2026-01-12 18:11:31,317 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-12 18:11:39,983 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:11:45,354 - INFO - TOU page did not appear
+2026-01-12 18:11:48,387 - INFO - Update security info window did not appear
+2026-01-12 18:11:51,409 - INFO - Privacy notice page did not appear
+2026-01-12 18:11:54,429 - INFO - Upsell page did not appear
+2026-01-12 18:11:57,451 - INFO - Privacy notice page did not appear
+2026-01-12 18:12:03,946 - INFO - Account aga46@activegamers.com.au is active
+2026-01-12 18:12:03,946 - INFO - login_full_flow completed for aga46@activegamers.com.au
+2026-01-12 18:12:03,946 - INFO - account is active, gift card addition will not proceed
+2026-01-12 18:12:03,946 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:12:06,211 - INFO - Processing account: aga54@activegamers.com.au
+2026-01-12 18:12:11,693 - INFO - Driver initialized
+2026-01-12 18:12:11,693 - INFO - Add gift card loop initiated for aga54@activegamers.com.au
+2026-01-12 18:12:11,693 - INFO - Begin login sequence
+2026-01-12 18:12:18,410 - INFO - 'Sign in' button clicked
+2026-01-12 18:12:23,508 - INFO - Email entered
+2026-01-12 18:12:33,740 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:12:33,812 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:12:38,916 - INFO - Standard password used
+2026-01-12 18:12:39,733 - INFO - Handling any post-login interruptions for aga54@activegamers.com.au
+2026-01-12 18:12:39,739 - INFO - Stay signed in page loaded
+2026-01-12 18:12:47,936 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-12 18:13:00,500 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:13:05,532 - INFO - TOU page did not appear
+2026-01-12 18:13:08,565 - INFO - Update security info window did not appear
+2026-01-12 18:13:11,585 - INFO - Privacy notice page did not appear
+2026-01-12 18:13:14,605 - INFO - Upsell page did not appear
+2026-01-12 18:13:17,625 - INFO - Privacy notice page did not appear
+2026-01-12 18:13:23,352 - INFO - Account aga54@activegamers.com.au is active
+2026-01-12 18:13:23,352 - INFO - login_full_flow completed for aga54@activegamers.com.au
+2026-01-12 18:13:23,352 - INFO - account is active, gift card addition will not proceed
+2026-01-12 18:13:23,352 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:13:25,608 - INFO - Processing account: aga66@activegamers.com.au
+2026-01-12 18:13:30,809 - INFO - Driver initialized
+2026-01-12 18:13:30,809 - INFO - Add gift card loop initiated for aga66@activegamers.com.au
+2026-01-12 18:13:30,809 - INFO - Begin login sequence
+2026-01-12 18:13:38,965 - INFO - 'Sign in' button clicked
+2026-01-12 18:13:47,173 - INFO - Email entered
+2026-01-12 18:13:57,362 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:13:57,429 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:14:02,533 - INFO - Standard password used
+2026-01-12 18:14:03,891 - INFO - Handling any post-login interruptions for aga66@activegamers.com.au
+2026-01-12 18:14:08,923 - INFO - Stay signed in page did not load
+2026-01-12 18:14:13,959 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:14:13,962 - INFO - TOU page loaded
+2026-01-12 18:14:22,877 - INFO - TOU page was bypassed
+2026-01-12 18:14:36,775 - INFO - Update security info window did not appear
+2026-01-12 18:14:39,795 - INFO - Privacy notice page did not appear
+2026-01-12 18:14:42,814 - INFO - Upsell page did not appear
+2026-01-12 18:14:45,837 - INFO - Privacy notice page did not appear
+2026-01-12 18:14:52,365 - INFO - Account aga66@activegamers.com.au is active
+2026-01-12 18:14:52,366 - INFO - login_full_flow completed for aga66@activegamers.com.au
+2026-01-12 18:14:52,366 - INFO - account is active, gift card addition will not proceed
+2026-01-12 18:14:52,366 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:14:54,633 - INFO - Processing account: aga67@activegamers.com.au
+2026-01-12 18:14:59,819 - INFO - Driver initialized
+2026-01-12 18:14:59,819 - INFO - Add gift card loop initiated for aga67@activegamers.com.au
+2026-01-12 18:14:59,819 - INFO - Begin login sequence
+2026-01-12 18:15:09,549 - INFO - 'Sign in' button clicked
+2026-01-12 18:15:11,672 - INFO - Email entered
+2026-01-12 18:15:21,991 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:15:22,058 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:15:27,160 - INFO - Standard password used
+2026-01-12 18:15:28,564 - INFO - Handling any post-login interruptions for aga67@activegamers.com.au
+2026-01-12 18:15:33,603 - INFO - Stay signed in page did not load
+2026-01-12 18:15:38,635 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:15:38,638 - INFO - TOU page loaded
+2026-01-12 18:15:48,836 - INFO - TOU page was bypassed
+2026-01-12 18:15:59,921 - INFO - Update security info window did not appear
+2026-01-12 18:16:03,185 - INFO - Privacy notice page did not appear
+2026-01-12 18:16:06,211 - INFO - Upsell page did not appear
+2026-01-12 18:16:09,231 - INFO - Privacy notice page did not appear
+2026-01-12 18:16:17,743 - INFO - Account aga67@activegamers.com.au is active
+2026-01-12 18:16:17,743 - INFO - login_full_flow completed for aga67@activegamers.com.au
+2026-01-12 18:16:17,743 - INFO - account is active, gift card addition will not proceed
+2026-01-12 18:16:17,743 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:16:20,005 - INFO - Processing account: aga144@activegamers.com.au
+2026-01-12 18:16:25,205 - INFO - Driver initialized
+2026-01-12 18:16:25,205 - INFO - Add gift card loop initiated for aga144@activegamers.com.au
+2026-01-12 18:16:25,205 - INFO - Begin login sequence
+2026-01-12 18:16:33,566 - INFO - 'Sign in' button clicked
+2026-01-12 18:16:35,692 - INFO - Email entered
+2026-01-12 18:16:45,834 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:16:45,911 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:16:51,017 - INFO - Standard password used
+2026-01-12 18:16:53,711 - INFO - Handling any post-login interruptions for aga144@activegamers.com.au
+2026-01-12 18:16:58,748 - INFO - Stay signed in page did not load
+2026-01-12 18:17:03,782 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:17:03,784 - INFO - TOU page loaded
+2026-01-12 18:17:12,349 - INFO - TOU page was bypassed
+2026-01-12 18:17:23,506 - INFO - Update security info window did not appear
+2026-01-12 18:17:26,524 - INFO - Privacy notice page did not appear
+2026-01-12 18:17:29,545 - INFO - Upsell page did not appear
+2026-01-12 18:17:32,564 - INFO - Privacy notice page did not appear
+2026-01-12 18:18:07,092 - INFO - Account aga144@activegamers.com.au is not active
+2026-01-12 18:18:07,092 - INFO - login_full_flow completed for aga144@activegamers.com.au
+2026-01-12 18:18:07,092 - INFO - {email}, manage_xbox_element
+2026-01-12 18:18:09,763 - INFO - Loading billing page
+2026-01-12 18:18:09,769 - INFO - billing page loaded
+2026-01-12 18:18:19,879 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:18:19,879 - INFO - remove card function finished
+2026-01-12 18:18:19,894 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:18:19,894 - INFO - Parsed account balance: 25.00
+2026-01-12 18:18:19,894 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:18:23,692 - INFO - Loading redeem page
+2026-01-12 18:18:23,695 - INFO - redeem page loaded
+2026-01-12 18:18:23,695 - INFO - No available gift cards found.
+2026-01-12 18:18:23,695 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:18:25,972 - INFO - Processing account: aga145@activegamers.com.au
+2026-01-12 18:18:31,153 - INFO - Driver initialized
+2026-01-12 18:18:31,153 - INFO - Add gift card loop initiated for aga145@activegamers.com.au
+2026-01-12 18:18:31,153 - INFO - Begin login sequence
+2026-01-12 18:18:40,030 - INFO - 'Sign in' button clicked
+2026-01-12 18:18:41,228 - INFO - Email entered
+2026-01-12 18:18:51,359 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:18:51,427 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:18:56,533 - INFO - Standard password used
+2026-01-12 18:18:59,559 - INFO - Handling any post-login interruptions for aga145@activegamers.com.au
+2026-01-12 18:19:04,590 - INFO - Stay signed in page did not load
+2026-01-12 18:19:09,623 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:19:09,625 - INFO - TOU page loaded
+2026-01-12 18:19:16,541 - INFO - TOU page was bypassed
+2026-01-12 18:19:28,364 - INFO - Update security info window did not appear
+2026-01-12 18:19:31,402 - INFO - Privacy notice page did not appear
+2026-01-12 18:19:34,420 - INFO - Upsell page did not appear
+2026-01-12 18:19:37,439 - INFO - Privacy notice page did not appear
+2026-01-12 18:20:12,134 - INFO - Account aga145@activegamers.com.au is not active
+2026-01-12 18:20:12,134 - INFO - login_full_flow completed for aga145@activegamers.com.au
+2026-01-12 18:20:12,134 - INFO - {email}, manage_xbox_element
+2026-01-12 18:20:16,834 - INFO - Loading billing page
+2026-01-12 18:20:16,837 - INFO - billing page loaded
+2026-01-12 18:20:26,945 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:20:26,945 - INFO - remove card function finished
+2026-01-12 18:20:26,961 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:20:26,961 - INFO - Parsed account balance: 25.00
+2026-01-12 18:20:26,961 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:20:30,511 - INFO - Loading redeem page
+2026-01-12 18:20:30,516 - INFO - redeem page loaded
+2026-01-12 18:20:30,516 - INFO - No available gift cards found.
+2026-01-12 18:20:30,516 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:20:32,823 - INFO - Processing account: aga146@activegamers.com.au
+2026-01-12 18:20:38,039 - INFO - Driver initialized
+2026-01-12 18:20:38,039 - INFO - Add gift card loop initiated for aga146@activegamers.com.au
+2026-01-12 18:20:38,039 - INFO - Begin login sequence
+2026-01-12 18:20:49,410 - INFO - 'Sign in' button clicked
+2026-01-12 18:20:55,175 - INFO - Email entered
+2026-01-12 18:21:05,609 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:21:05,679 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:21:10,792 - INFO - Standard password used
+2026-01-12 18:21:18,107 - INFO - Handling any post-login interruptions for aga146@activegamers.com.au
+2026-01-12 18:21:23,146 - INFO - Stay signed in page did not load
+2026-01-12 18:21:28,184 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:21:28,187 - INFO - TOU page loaded
+2026-01-12 18:21:41,189 - INFO - TOU page was bypassed
+2026-01-12 18:21:44,206 - INFO - Update security info window did not appear
+2026-01-12 18:21:47,228 - INFO - Privacy notice page did not appear
+2026-01-12 18:21:50,250 - INFO - Upsell page did not appear
+2026-01-12 18:21:53,272 - INFO - Privacy notice page did not appear
+2026-01-12 18:22:30,496 - INFO - Account aga146@activegamers.com.au is not active
+2026-01-12 18:22:30,496 - INFO - login_full_flow completed for aga146@activegamers.com.au
+2026-01-12 18:22:30,496 - INFO - {email}, manage_xbox_element
+2026-01-12 18:22:36,635 - INFO - Loading billing page
+2026-01-12 18:22:36,638 - INFO - billing page loaded
+2026-01-12 18:22:46,752 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:22:46,752 - INFO - remove card function finished
+2026-01-12 18:22:46,768 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:22:46,768 - INFO - Parsed account balance: 25.00
+2026-01-12 18:22:46,768 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:22:49,615 - INFO - Loading redeem page
+2026-01-12 18:22:49,617 - INFO - redeem page loaded
+2026-01-12 18:22:49,618 - INFO - No available gift cards found.
+2026-01-12 18:22:49,618 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:22:51,863 - INFO - Skipping agapc - no valid ranges
+2026-01-12 18:22:51,863 - INFO - Skipping wanxb - no valid ranges
+2026-01-12 18:22:51,863 - INFO - Skipping wanpc - no valid ranges
+2026-01-12 18:31:09,519 - INFO - log has been created
+2026-01-12 18:31:10,919 - INFO - Returned result is add_gift_card
+2026-01-12 18:31:18,524 - INFO - Processing account: aga144@activegamers.com.au
+2026-01-12 18:31:19,653 - INFO - Driver initialized
+2026-01-12 18:31:19,653 - INFO - Add gift card loop initiated for aga144@activegamers.com.au
+2026-01-12 18:31:19,653 - INFO - Begin login sequence
+2026-01-12 18:31:29,880 - INFO - 'Sign in' button clicked
+2026-01-12 18:31:34,733 - INFO - Email entered
+2026-01-12 18:31:46,817 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:31:46,883 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:31:51,993 - INFO - Standard password used
+2026-01-12 18:31:59,844 - INFO - Handling any post-login interruptions for aga144@activegamers.com.au
+2026-01-12 18:32:04,877 - INFO - Stay signed in page did not load
+2026-01-12 18:32:09,913 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:32:09,916 - INFO - TOU page loaded
+2026-01-12 18:32:24,430 - INFO - TOU page was bypassed
+2026-01-12 18:32:27,627 - INFO - Update security info window did not appear
+2026-01-12 18:32:30,646 - INFO - Privacy notice page did not appear
+2026-01-12 18:32:33,668 - INFO - Upsell page did not appear
+2026-01-12 18:32:36,687 - INFO - Privacy notice page did not appear
+2026-01-12 18:33:17,398 - INFO - Account aga144@activegamers.com.au is not active
+2026-01-12 18:33:17,398 - INFO - login_full_flow completed for aga144@activegamers.com.au
+2026-01-12 18:33:17,398 - INFO - {email}, manage_xbox_element
+2026-01-12 18:33:22,106 - INFO - Loading billing page
+2026-01-12 18:33:22,109 - INFO - billing page loaded
+2026-01-12 18:33:32,371 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:33:32,371 - INFO - remove card function finished
+2026-01-12 18:33:32,386 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:33:32,387 - INFO - Parsed account balance: 25.00
+2026-01-12 18:33:32,387 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:33:36,702 - INFO - Loading redeem page
+2026-01-12 18:33:36,722 - INFO - redeem page loaded
+2026-01-12 18:33:36,722 - INFO - No available gift cards found.
+2026-01-12 18:33:36,722 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:33:38,998 - INFO - Processing account: aga145@activegamers.com.au
+2026-01-12 18:33:44,189 - INFO - Driver initialized
+2026-01-12 18:33:44,189 - INFO - Add gift card loop initiated for aga145@activegamers.com.au
+2026-01-12 18:33:44,189 - INFO - Begin login sequence
+2026-01-12 18:33:53,206 - INFO - 'Sign in' button clicked
+2026-01-12 18:33:59,404 - INFO - Email entered
+2026-01-12 18:34:09,727 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:34:09,800 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:34:14,916 - INFO - Standard password used
+2026-01-12 18:34:16,327 - INFO - Handling any post-login interruptions for aga145@activegamers.com.au
+2026-01-12 18:34:21,365 - INFO - Stay signed in page did not load
+2026-01-12 18:34:26,400 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:34:26,404 - INFO - TOU page loaded
+2026-01-12 18:34:32,341 - INFO - TOU page was bypassed
+2026-01-12 18:34:42,346 - INFO - Update security info window did not appear
+2026-01-12 18:34:45,365 - INFO - Privacy notice page did not appear
+2026-01-12 18:34:48,387 - INFO - Upsell page did not appear
+2026-01-12 18:34:51,410 - INFO - Privacy notice page did not appear
+2026-01-12 18:35:27,383 - INFO - Account aga145@activegamers.com.au is not active
+2026-01-12 18:35:27,383 - INFO - login_full_flow completed for aga145@activegamers.com.au
+2026-01-12 18:35:27,383 - INFO - {email}, manage_xbox_element
+2026-01-12 18:35:30,755 - INFO - Loading billing page
+2026-01-12 18:35:30,816 - INFO - billing page loaded
+2026-01-12 18:35:40,930 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:35:40,930 - INFO - remove card function finished
+2026-01-12 18:35:40,945 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:35:40,945 - INFO - Parsed account balance: 25.00
+2026-01-12 18:35:40,945 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:35:45,520 - INFO - Loading redeem page
+2026-01-12 18:35:45,525 - INFO - redeem page loaded
+2026-01-12 18:35:45,525 - INFO - No available gift cards found.
+2026-01-12 18:35:45,525 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:35:47,801 - INFO - Processing account: aga146@activegamers.com.au
+2026-01-12 18:35:52,949 - INFO - Driver initialized
+2026-01-12 18:35:52,949 - INFO - Add gift card loop initiated for aga146@activegamers.com.au
+2026-01-12 18:35:52,949 - INFO - Begin login sequence
+2026-01-12 18:36:01,582 - INFO - 'Sign in' button clicked
+2026-01-12 18:36:03,237 - INFO - Email entered
+2026-01-12 18:36:13,701 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:36:13,768 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:36:18,878 - INFO - Standard password used
+2026-01-12 18:36:20,954 - INFO - Handling any post-login interruptions for aga146@activegamers.com.au
+2026-01-12 18:36:25,990 - INFO - Stay signed in page did not load
+2026-01-12 18:36:31,027 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:36:31,030 - INFO - TOU page loaded
+2026-01-12 18:36:37,164 - INFO - TOU page was bypassed
+2026-01-12 18:36:50,933 - INFO - Update security info window did not appear
+2026-01-12 18:36:53,955 - INFO - Privacy notice page did not appear
+2026-01-12 18:36:56,978 - INFO - Upsell page did not appear
+2026-01-12 18:37:00,002 - INFO - Privacy notice page did not appear
+2026-01-12 18:37:38,689 - INFO - Account aga146@activegamers.com.au is not active
+2026-01-12 18:37:38,689 - INFO - login_full_flow completed for aga146@activegamers.com.au
+2026-01-12 18:37:38,689 - INFO - {email}, manage_xbox_element
+2026-01-12 18:37:46,230 - INFO - Loading billing page
+2026-01-12 18:37:46,233 - INFO - billing page loaded
+2026-01-12 18:37:56,351 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:37:56,351 - INFO - remove card function finished
+2026-01-12 18:37:56,367 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:37:56,367 - INFO - Parsed account balance: 25.00
+2026-01-12 18:37:56,367 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:38:00,481 - INFO - Loading redeem page
+2026-01-12 18:38:00,493 - INFO - redeem page loaded
+2026-01-12 18:38:00,493 - INFO - No available gift cards found.
+2026-01-12 18:38:00,493 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:38:02,969 - INFO - Processing account: aga156@activegamers.com.au
+2026-01-12 18:38:08,150 - INFO - Driver initialized
+2026-01-12 18:38:08,150 - INFO - Add gift card loop initiated for aga156@activegamers.com.au
+2026-01-12 18:38:08,150 - INFO - Begin login sequence
+2026-01-12 18:38:18,473 - INFO - 'Sign in' button clicked
+2026-01-12 18:38:27,766 - INFO - Email entered
+2026-01-12 18:38:38,092 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:38:38,157 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:38:43,269 - INFO - Standard password used
+2026-01-12 18:38:44,881 - INFO - Handling any post-login interruptions for aga156@activegamers.com.au
+2026-01-12 18:38:49,913 - INFO - Stay signed in page did not load
+2026-01-12 18:41:15,826 - INFO - log has been created
+2026-01-12 18:41:28,818 - INFO - Returned result is add_gift_card
+2026-01-12 18:41:33,201 - INFO - Processing account: aga144@activegamers.com.au
+2026-01-12 18:41:34,333 - INFO - Driver initialized
+2026-01-12 18:41:34,333 - INFO - Add gift card loop initiated for aga144@activegamers.com.au
+2026-01-12 18:41:34,333 - INFO - Begin login sequence
+2026-01-12 18:41:40,879 - INFO - 'Sign in' button clicked
+2026-01-12 18:41:42,166 - INFO - Email entered
+2026-01-12 18:41:52,657 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:41:52,725 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:41:57,838 - INFO - Standard password used
+2026-01-12 18:42:00,363 - INFO - Handling any post-login interruptions for aga144@activegamers.com.au
+2026-01-12 18:42:05,398 - INFO - Stay signed in page did not load
+2026-01-12 18:42:10,433 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:42:10,436 - INFO - TOU page loaded
+2026-01-12 18:42:18,021 - INFO - TOU page was bypassed
+2026-01-12 18:42:33,064 - INFO - Update security info window did not appear
+2026-01-12 18:42:36,086 - INFO - Privacy notice page did not appear
+2026-01-12 18:42:39,106 - INFO - Upsell page did not appear
+2026-01-12 18:42:42,127 - INFO - Privacy notice page did not appear
+2026-01-12 18:43:16,125 - INFO - Account aga144@activegamers.com.au is not active
+2026-01-12 18:43:16,125 - INFO - login_full_flow completed for aga144@activegamers.com.au
+2026-01-12 18:43:16,125 - INFO - {email}, manage_xbox_element
+2026-01-12 18:43:23,739 - INFO - Loading billing page
+2026-01-12 18:43:23,742 - INFO - billing page loaded
+2026-01-12 18:43:33,849 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:43:33,849 - INFO - remove card function finished
+2026-01-12 18:43:33,865 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:43:33,865 - INFO - Parsed account balance: 25.00
+2026-01-12 18:43:33,865 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:43:33,865 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:43:36,105 - INFO - Processing account: aga145@activegamers.com.au
+2026-01-12 18:43:41,283 - INFO - Driver initialized
+2026-01-12 18:43:41,283 - INFO - Add gift card loop initiated for aga145@activegamers.com.au
+2026-01-12 18:43:41,283 - INFO - Begin login sequence
+2026-01-12 18:43:49,794 - INFO - 'Sign in' button clicked
+2026-01-12 18:43:53,935 - INFO - Email entered
+2026-01-12 18:44:04,012 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:44:04,078 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:44:09,185 - INFO - Standard password used
+2026-01-12 18:44:11,219 - INFO - Handling any post-login interruptions for aga145@activegamers.com.au
+2026-01-12 18:44:16,254 - INFO - Stay signed in page did not load
+2026-01-12 18:44:21,286 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:44:21,289 - INFO - TOU page loaded
+2026-01-12 18:44:27,021 - INFO - TOU page was bypassed
+2026-01-12 18:44:38,898 - INFO - Update security info window did not appear
+2026-01-12 18:44:41,918 - INFO - Privacy notice page did not appear
+2026-01-12 18:44:44,937 - INFO - Upsell page did not appear
+2026-01-12 18:44:47,956 - INFO - Privacy notice page did not appear
+2026-01-12 18:45:23,767 - INFO - Account aga145@activegamers.com.au is not active
+2026-01-12 18:45:23,767 - INFO - login_full_flow completed for aga145@activegamers.com.au
+2026-01-12 18:45:23,767 - INFO - {email}, manage_xbox_element
+2026-01-12 18:45:26,310 - INFO - Loading billing page
+2026-01-12 18:45:26,312 - INFO - billing page loaded
+2026-01-12 18:45:36,419 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:45:36,419 - INFO - remove card function finished
+2026-01-12 18:45:36,434 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:45:36,434 - INFO - Parsed account balance: 25.00
+2026-01-12 18:45:36,434 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:45:36,434 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:45:38,709 - INFO - Processing account: aga146@activegamers.com.au
+2026-01-12 18:45:43,920 - INFO - Driver initialized
+2026-01-12 18:45:43,920 - INFO - Add gift card loop initiated for aga146@activegamers.com.au
+2026-01-12 18:45:43,920 - INFO - Begin login sequence
+2026-01-12 18:45:49,916 - INFO - 'Sign in' button clicked
+2026-01-12 18:45:54,927 - INFO - Email entered
+2026-01-12 18:46:05,263 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:46:05,330 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:46:10,443 - INFO - Standard password used
+2026-01-12 18:46:11,996 - INFO - Handling any post-login interruptions for aga146@activegamers.com.au
+2026-01-12 18:46:17,033 - INFO - Stay signed in page did not load
+2026-01-12 18:46:22,067 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:46:22,070 - INFO - TOU page loaded
+2026-01-12 18:46:30,599 - INFO - TOU page was bypassed
+2026-01-12 18:46:40,094 - INFO - Update security info window did not appear
+2026-01-12 18:46:43,113 - INFO - Privacy notice page did not appear
+2026-01-12 18:46:46,132 - INFO - Upsell page did not appear
+2026-01-12 18:46:49,152 - INFO - Privacy notice page did not appear
+2026-01-12 18:47:24,301 - INFO - Account aga146@activegamers.com.au is not active
+2026-01-12 18:47:24,301 - INFO - login_full_flow completed for aga146@activegamers.com.au
+2026-01-12 18:47:24,301 - INFO - {email}, manage_xbox_element
+2026-01-12 18:47:26,896 - INFO - Loading billing page
+2026-01-12 18:47:26,899 - INFO - billing page loaded
+2026-01-12 18:47:37,008 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:47:37,008 - INFO - remove card function finished
+2026-01-12 18:47:37,022 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 18:47:37,023 - INFO - Parsed account balance: 25.00
+2026-01-12 18:47:37,023 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 18:47:37,023 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:47:39,284 - INFO - Processing account: aga156@activegamers.com.au
+2026-01-12 18:47:44,466 - INFO - Driver initialized
+2026-01-12 18:47:44,466 - INFO - Add gift card loop initiated for aga156@activegamers.com.au
+2026-01-12 18:47:44,466 - INFO - Begin login sequence
+2026-01-12 18:47:52,003 - INFO - 'Sign in' button clicked
+2026-01-12 18:47:53,727 - INFO - Email entered
+2026-01-12 18:48:04,233 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:48:04,299 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:48:09,420 - INFO - Standard password used
+2026-01-12 18:48:09,442 - INFO - Handling any post-login interruptions for aga156@activegamers.com.au
+2026-01-12 18:48:14,489 - INFO - Stay signed in page did not load
+2026-01-12 18:48:19,522 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:48:19,524 - INFO - TOU page loaded
+2026-01-12 18:48:26,364 - INFO - TOU page was bypassed
+2026-01-12 18:48:39,024 - INFO - Update security info window did not appear
+2026-01-12 18:48:42,044 - INFO - Privacy notice page did not appear
+2026-01-12 18:48:45,064 - INFO - Upsell page did not appear
+2026-01-12 18:48:48,084 - INFO - Privacy notice page did not appear
+2026-01-12 18:49:23,240 - INFO - Account aga156@activegamers.com.au is not active
+2026-01-12 18:49:23,240 - INFO - login_full_flow completed for aga156@activegamers.com.au
+2026-01-12 18:49:23,240 - INFO - {email}, manage_xbox_element
+2026-01-12 18:49:26,721 - INFO - Loading billing page
+2026-01-12 18:49:26,724 - INFO - billing page loaded
+2026-01-12 18:49:36,837 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:49:36,837 - INFO - remove card function finished
+2026-01-12 18:49:36,852 - INFO - Raw balance text: 52.05 AUD
+2026-01-12 18:49:36,852 - INFO - Parsed account balance: 52.05
+2026-01-12 18:49:36,852 - INFO - Balance is sufficient (52.05 >= 18.00)
+2026-01-12 18:49:36,852 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:49:39,123 - INFO - Processing account: aga162@activegamers.com.au
+2026-01-12 18:49:44,305 - INFO - Driver initialized
+2026-01-12 18:49:44,305 - INFO - Add gift card loop initiated for aga162@activegamers.com.au
+2026-01-12 18:49:44,305 - INFO - Begin login sequence
+2026-01-12 18:49:52,133 - INFO - 'Sign in' button clicked
+2026-01-12 18:49:57,027 - INFO - Email entered
+2026-01-12 18:50:07,195 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:50:07,259 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:50:12,362 - INFO - Standard password used
+2026-01-12 18:50:14,984 - INFO - Handling any post-login interruptions for aga162@activegamers.com.au
+2026-01-12 18:50:20,016 - INFO - Stay signed in page did not load
+2026-01-12 18:50:25,047 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:50:25,050 - INFO - TOU page loaded
+2026-01-12 18:50:33,839 - INFO - TOU page was bypassed
+2026-01-12 18:50:48,197 - INFO - Update security info window did not appear
+2026-01-12 18:50:51,215 - INFO - Privacy notice page did not appear
+2026-01-12 18:50:54,234 - INFO - Upsell page did not appear
+2026-01-12 18:50:57,253 - INFO - Privacy notice page did not appear
+2026-01-12 18:51:32,436 - INFO - Account aga162@activegamers.com.au is not active
+2026-01-12 18:51:32,436 - INFO - login_full_flow completed for aga162@activegamers.com.au
+2026-01-12 18:51:32,436 - INFO - {email}, manage_xbox_element
+2026-01-12 18:51:39,498 - INFO - Loading billing page
+2026-01-12 18:51:39,501 - INFO - billing page loaded
+2026-01-12 18:51:49,606 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:51:49,606 - INFO - remove card function finished
+2026-01-12 18:51:49,620 - INFO - Raw balance text: 52.05 AUD
+2026-01-12 18:51:49,620 - INFO - Parsed account balance: 52.05
+2026-01-12 18:51:49,620 - INFO - Balance is sufficient (52.05 >= 18.00)
+2026-01-12 18:51:49,620 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:51:51,898 - INFO - Skipping agapc - no valid ranges
+2026-01-12 18:51:51,898 - INFO - Skipping wanxb - no valid ranges
+2026-01-12 18:51:51,898 - INFO - Skipping wanpc - no valid ranges
+2026-01-12 18:52:44,331 - INFO - log has been created
+2026-01-12 18:52:45,510 - INFO - Returned result is add_gift_card
+2026-01-12 18:52:48,658 - INFO - Processing account: aga173@activegamers.com.au
+2026-01-12 18:52:49,775 - INFO - Driver initialized
+2026-01-12 18:52:49,775 - INFO - Add gift card loop initiated for aga173@activegamers.com.au
+2026-01-12 18:52:49,775 - INFO - Begin login sequence
+2026-01-12 18:52:59,694 - INFO - 'Sign in' button clicked
+2026-01-12 18:53:05,027 - INFO - Email entered
+2026-01-12 18:53:15,478 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:53:15,547 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:53:20,658 - INFO - Standard password used
+2026-01-12 18:53:22,384 - INFO - Handling any post-login interruptions for aga173@activegamers.com.au
+2026-01-12 18:53:27,419 - INFO - Stay signed in page did not load
+2026-01-12 18:53:32,456 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:53:32,459 - INFO - TOU page loaded
+2026-01-12 18:53:38,551 - INFO - TOU page was bypassed
+2026-01-12 18:53:50,113 - INFO - Update security info window did not appear
+2026-01-12 18:53:53,136 - INFO - Privacy notice page did not appear
+2026-01-12 18:53:56,157 - INFO - Upsell page did not appear
+2026-01-12 18:53:59,180 - INFO - Privacy notice page did not appear
+2026-01-12 18:54:33,785 - INFO - Account aga173@activegamers.com.au is not active
+2026-01-12 18:54:33,785 - INFO - login_full_flow completed for aga173@activegamers.com.au
+2026-01-12 18:54:33,785 - INFO - {email}, manage_xbox_element
+2026-01-12 18:54:37,560 - INFO - Loading billing page
+2026-01-12 18:54:37,564 - INFO - billing page loaded
+2026-01-12 18:54:47,678 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:54:47,678 - INFO - remove card function finished
+2026-01-12 18:54:47,694 - INFO - Raw balance text: 52.05 AUD
+2026-01-12 18:54:47,694 - INFO - Parsed account balance: 52.05
+2026-01-12 18:54:47,694 - INFO - Balance is sufficient (52.05 >= 18.00)
+2026-01-12 18:54:47,694 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:54:49,956 - INFO - Processing account: aga174@activegamers.com.au
+2026-01-12 18:54:55,145 - INFO - Driver initialized
+2026-01-12 18:54:55,145 - INFO - Add gift card loop initiated for aga174@activegamers.com.au
+2026-01-12 18:54:55,145 - INFO - Begin login sequence
+2026-01-12 18:55:04,936 - INFO - 'Sign in' button clicked
+2026-01-12 18:55:09,614 - INFO - Email entered
+2026-01-12 18:55:19,762 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:55:19,830 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:55:24,945 - INFO - Standard password used
+2026-01-12 18:55:26,569 - INFO - Handling any post-login interruptions for aga174@activegamers.com.au
+2026-01-12 18:55:31,606 - INFO - Stay signed in page did not load
+2026-01-12 18:55:36,641 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:55:36,643 - INFO - TOU page loaded
+2026-01-12 18:55:46,337 - INFO - TOU page was bypassed
+2026-01-12 18:56:01,444 - INFO - Update security info window did not appear
+2026-01-12 18:56:04,465 - INFO - Privacy notice page did not appear
+2026-01-12 18:56:07,488 - INFO - Upsell page did not appear
+2026-01-12 18:56:10,509 - INFO - Privacy notice page did not appear
+2026-01-12 18:56:45,651 - INFO - Account aga174@activegamers.com.au is not active
+2026-01-12 18:56:45,651 - INFO - login_full_flow completed for aga174@activegamers.com.au
+2026-01-12 18:56:45,651 - INFO - {email}, manage_xbox_element
+2026-01-12 18:56:51,305 - INFO - Loading billing page
+2026-01-12 18:56:51,311 - INFO - billing page loaded
+2026-01-12 18:57:01,427 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:57:01,427 - INFO - remove card function finished
+2026-01-12 18:57:01,443 - INFO - Raw balance text: 52.05 AUD
+2026-01-12 18:57:01,443 - INFO - Parsed account balance: 52.05
+2026-01-12 18:57:01,443 - INFO - Balance is sufficient (52.05 >= 18.00)
+2026-01-12 18:57:01,443 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:57:03,702 - INFO - Processing account: aga175@activegamers.com.au
+2026-01-12 18:57:08,899 - INFO - Driver initialized
+2026-01-12 18:57:08,899 - INFO - Add gift card loop initiated for aga175@activegamers.com.au
+2026-01-12 18:57:08,899 - INFO - Begin login sequence
+2026-01-12 18:57:20,169 - INFO - 'Sign in' button clicked
+2026-01-12 18:57:21,828 - INFO - Email entered
+2026-01-12 18:57:36,059 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:57:36,124 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:57:41,238 - INFO - Standard password used
+2026-01-12 18:57:49,411 - INFO - Handling any post-login interruptions for aga175@activegamers.com.au
+2026-01-12 18:57:54,448 - INFO - Stay signed in page did not load
+2026-01-12 18:57:59,486 - INFO - Passkey interrupt page did not appear
+2026-01-12 18:57:59,488 - INFO - TOU page loaded
+2026-01-12 18:58:10,948 - INFO - TOU page was bypassed
+2026-01-12 18:58:14,365 - INFO - Update security info window did not appear
+2026-01-12 18:58:17,387 - INFO - Privacy notice page did not appear
+2026-01-12 18:58:20,409 - INFO - Upsell page did not appear
+2026-01-12 18:58:23,431 - INFO - Privacy notice page did not appear
+2026-01-12 18:59:04,729 - INFO - Account aga175@activegamers.com.au is not active
+2026-01-12 18:59:04,729 - INFO - login_full_flow completed for aga175@activegamers.com.au
+2026-01-12 18:59:04,729 - INFO - {email}, manage_xbox_element
+2026-01-12 18:59:10,081 - INFO - Loading billing page
+2026-01-12 18:59:10,084 - INFO - billing page loaded
+2026-01-12 18:59:20,198 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 18:59:20,198 - INFO - remove card function finished
+2026-01-12 18:59:20,217 - INFO - Raw balance text: 27.05 AUD
+2026-01-12 18:59:20,217 - INFO - Parsed account balance: 27.05
+2026-01-12 18:59:20,217 - INFO - Balance is sufficient (27.05 >= 18.00)
+2026-01-12 18:59:20,217 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 18:59:22,453 - INFO - Processing account: aga191@activegamers.com.au
+2026-01-12 18:59:27,655 - INFO - Driver initialized
+2026-01-12 18:59:27,655 - INFO - Add gift card loop initiated for aga191@activegamers.com.au
+2026-01-12 18:59:27,655 - INFO - Begin login sequence
+2026-01-12 18:59:33,230 - INFO - 'Sign in' button clicked
+2026-01-12 18:59:34,382 - INFO - Email entered
+2026-01-12 18:59:44,400 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 18:59:44,491 - INFO - Clicked the 'Use your password' button.
+2026-01-12 18:59:49,609 - INFO - Standard password used
+2026-01-12 18:59:53,357 - INFO - Handling any post-login interruptions for aga191@activegamers.com.au
+2026-01-12 18:59:58,393 - INFO - Stay signed in page did not load
+2026-01-12 19:00:03,428 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:00:03,430 - INFO - TOU page loaded
+2026-01-12 19:00:09,520 - INFO - TOU page was bypassed
+2026-01-12 19:00:21,354 - INFO - Update security info window did not appear
+2026-01-12 19:00:24,375 - INFO - Privacy notice page did not appear
+2026-01-12 19:00:27,399 - INFO - Upsell page did not appear
+2026-01-12 19:00:30,420 - INFO - Privacy notice page did not appear
+2026-01-12 19:01:05,530 - INFO - Account aga191@activegamers.com.au is not active
+2026-01-12 19:01:05,530 - INFO - login_full_flow completed for aga191@activegamers.com.au
+2026-01-12 19:01:05,530 - INFO - {email}, manage_xbox_element
+2026-01-12 19:01:09,454 - INFO - Loading billing page
+2026-01-12 19:01:09,457 - INFO - billing page loaded
+2026-01-12 19:01:19,574 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 19:01:19,574 - INFO - remove card function finished
+2026-01-12 19:01:19,590 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 19:01:19,590 - INFO - Parsed account balance: 25.00
+2026-01-12 19:01:19,590 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 19:01:19,590 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 19:01:21,869 - INFO - Skipping agapc - no valid ranges
+2026-01-12 19:01:21,869 - INFO - Skipping wanxb - no valid ranges
+2026-01-12 19:01:21,869 - INFO - Skipping wanpc - no valid ranges
+2026-01-12 19:02:32,716 - INFO - log has been created
+2026-01-12 19:02:33,717 - INFO - Returned result is add_gift_card
+2026-01-12 19:02:36,903 - INFO - Processing account: aga185@activegamers.com.au
+2026-01-12 19:02:38,030 - INFO - Driver initialized
+2026-01-12 19:02:38,030 - INFO - Add gift card loop initiated for aga185@activegamers.com.au
+2026-01-12 19:02:38,030 - INFO - Begin login sequence
+2026-01-12 19:02:43,887 - INFO - 'Sign in' button clicked
+2026-01-12 19:02:46,036 - INFO - Email entered
+2026-01-12 19:02:56,441 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:02:56,507 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:03:01,617 - INFO - Standard password used
+2026-01-12 19:03:01,639 - INFO - Handling any post-login interruptions for aga185@activegamers.com.au
+2026-01-12 19:03:06,846 - INFO - Stay signed in page did not load
+2026-01-12 19:03:11,881 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:03:11,885 - INFO - TOU page loaded
+2026-01-12 19:03:16,734 - INFO - TOU page was bypassed
+2026-01-12 19:03:27,760 - INFO - Update security info window did not appear
+2026-01-12 19:03:30,797 - INFO - Privacy notice page did not appear
+2026-01-12 19:03:33,819 - INFO - Upsell page did not appear
+2026-01-12 19:03:36,840 - INFO - Privacy notice page did not appear
+2026-01-12 19:04:12,082 - INFO - Account aga185@activegamers.com.au is not active
+2026-01-12 19:04:12,082 - INFO - login_full_flow completed for aga185@activegamers.com.au
+2026-01-12 19:04:12,082 - INFO - {email}, manage_xbox_element
+2026-01-12 19:04:15,001 - INFO - Loading billing page
+2026-01-12 19:04:15,005 - INFO - billing page loaded
+2026-01-12 19:04:25,123 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 19:04:25,123 - INFO - remove card function finished
+2026-01-12 19:04:25,139 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 19:04:25,139 - INFO - Parsed account balance: 25.00
+2026-01-12 19:04:25,139 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 19:04:25,139 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 19:04:27,393 - INFO - Processing account: aga186@activegamers.com.au
+2026-01-12 19:04:32,593 - INFO - Driver initialized
+2026-01-12 19:04:32,593 - INFO - Add gift card loop initiated for aga186@activegamers.com.au
+2026-01-12 19:04:32,593 - INFO - Begin login sequence
+2026-01-12 19:04:43,952 - INFO - 'Sign in' button clicked
+2026-01-12 19:04:49,321 - INFO - Email entered
+2026-01-12 19:04:59,423 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:04:59,490 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:05:04,600 - INFO - Standard password used
+2026-01-12 19:05:06,157 - INFO - Handling any post-login interruptions for aga186@activegamers.com.au
+2026-01-12 19:05:11,190 - INFO - Stay signed in page did not load
+2026-01-12 19:05:16,226 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:05:16,229 - INFO - TOU page loaded
+2026-01-12 19:05:24,544 - INFO - TOU page was bypassed
+2026-01-12 19:05:41,119 - INFO - Update security info window did not appear
+2026-01-12 19:05:44,141 - INFO - Privacy notice page did not appear
+2026-01-12 19:05:47,166 - INFO - Upsell page did not appear
+2026-01-12 19:05:50,187 - INFO - Privacy notice page did not appear
+2026-01-12 19:06:24,829 - INFO - Account aga186@activegamers.com.au is not active
+2026-01-12 19:06:24,829 - INFO - login_full_flow completed for aga186@activegamers.com.au
+2026-01-12 19:06:24,829 - INFO - {email}, manage_xbox_element
+2026-01-12 19:06:28,588 - INFO - Loading billing page
+2026-01-12 19:06:28,591 - INFO - billing page loaded
+2026-01-12 19:06:38,699 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 19:06:38,699 - INFO - remove card function finished
+2026-01-12 19:06:38,714 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 19:06:38,714 - INFO - Parsed account balance: 25.00
+2026-01-12 19:06:38,714 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 19:06:38,714 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 19:06:40,970 - INFO - Processing account: aga187@activegamers.com.au
+2026-01-12 19:06:46,156 - INFO - Driver initialized
+2026-01-12 19:06:46,156 - INFO - Add gift card loop initiated for aga187@activegamers.com.au
+2026-01-12 19:06:46,156 - INFO - Begin login sequence
+2026-01-12 19:06:53,155 - INFO - 'Sign in' button clicked
+2026-01-12 19:06:55,282 - INFO - Email entered
+2026-01-12 19:07:05,354 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:07:05,421 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:07:10,535 - INFO - Standard password used
+2026-01-12 19:07:11,904 - INFO - Handling any post-login interruptions for aga187@activegamers.com.au
+2026-01-12 19:07:16,939 - INFO - Stay signed in page did not load
+2026-01-12 19:07:21,977 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:07:21,980 - INFO - TOU page loaded
+2026-01-12 19:07:26,566 - INFO - TOU page was bypassed
+2026-01-12 19:07:36,273 - INFO - Update security info window did not appear
+2026-01-12 19:07:39,294 - INFO - Privacy notice page did not appear
+2026-01-12 19:07:42,316 - INFO - Upsell page did not appear
+2026-01-12 19:07:45,339 - INFO - Privacy notice page did not appear
+2026-01-12 19:08:20,723 - INFO - Account aga187@activegamers.com.au is not active
+2026-01-12 19:08:20,723 - INFO - login_full_flow completed for aga187@activegamers.com.au
+2026-01-12 19:08:20,723 - INFO - {email}, manage_xbox_element
+2026-01-12 19:08:23,755 - INFO - Loading billing page
+2026-01-12 19:08:23,759 - INFO - billing page loaded
+2026-01-12 19:08:33,892 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 19:08:33,892 - INFO - remove card function finished
+2026-01-12 19:08:33,907 - INFO - Raw balance text: 0.00
+2026-01-12 19:08:33,907 - INFO - Parsed account balance: 0.00
+2026-01-12 19:08:37,888 - INFO - Loading redeem page
+2026-01-12 19:08:37,892 - INFO - redeem page loaded
+2026-01-12 19:08:37,892 - INFO - First available gift card: 2K4YM-7GFQX-G263W-J4GYX-WXYVZ
+2026-01-12 19:08:53,058 - INFO - Gift card code submitted.
+2026-01-12 19:09:03,071 - INFO - Confirmation submitted.
+2026-01-12 19:09:03,071 - INFO - Marked code as used: 2K4YM-7GFQX-G263W-J4GYX-WXYVZ
+2026-01-12 19:09:05,072 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 19:09:07,339 - INFO - Processing account: aga188@activegamers.com.au
+2026-01-12 19:09:12,520 - INFO - Driver initialized
+2026-01-12 19:09:12,520 - INFO - Add gift card loop initiated for aga188@activegamers.com.au
+2026-01-12 19:09:12,520 - INFO - Begin login sequence
+2026-01-12 19:09:17,953 - INFO - 'Sign in' button clicked
+2026-01-12 19:09:19,616 - INFO - Email entered
+2026-01-12 19:09:29,639 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:09:29,704 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:09:34,815 - INFO - Standard password used
+2026-01-12 19:09:36,951 - INFO - Handling any post-login interruptions for aga188@activegamers.com.au
+2026-01-12 19:09:41,986 - INFO - Stay signed in page did not load
+2026-01-12 19:09:47,021 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:09:47,025 - INFO - TOU page loaded
+2026-01-12 19:09:56,911 - INFO - TOU page was bypassed
+2026-01-12 19:09:59,986 - INFO - Update security info window did not appear
+2026-01-12 19:10:03,007 - INFO - Privacy notice page did not appear
+2026-01-12 19:10:06,029 - INFO - Upsell page did not appear
+2026-01-12 19:10:09,050 - INFO - Privacy notice page did not appear
+2026-01-12 19:10:45,551 - INFO - Account aga188@activegamers.com.au is not active
+2026-01-12 19:10:45,551 - INFO - login_full_flow completed for aga188@activegamers.com.au
+2026-01-12 19:10:45,551 - INFO - {email}, manage_xbox_element
+2026-01-12 19:10:53,529 - INFO - Loading billing page
+2026-01-12 19:10:53,533 - INFO - billing page loaded
+2026-01-12 19:11:03,648 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 19:11:03,648 - INFO - remove card function finished
+2026-01-12 19:11:03,663 - INFO - Raw balance text: 0.00
+2026-01-12 19:11:03,663 - INFO - Parsed account balance: 0.00
+2026-01-12 19:11:08,203 - INFO - Loading redeem page
+2026-01-12 19:11:08,206 - INFO - redeem page loaded
+2026-01-12 19:11:08,206 - INFO - First available gift card: VG64V-97397-PVGH7-RWRHT-Y39FZ
+2026-01-12 19:11:23,373 - INFO - Gift card code submitted.
+2026-01-12 19:11:33,385 - INFO - Confirmation submitted.
+2026-01-12 19:11:33,385 - INFO - Marked code as used: VG64V-97397-PVGH7-RWRHT-Y39FZ
+2026-01-12 19:11:35,387 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 19:11:37,635 - INFO - Processing account: aga189@activegamers.com.au
+2026-01-12 19:11:42,824 - INFO - Driver initialized
+2026-01-12 19:11:42,824 - INFO - Add gift card loop initiated for aga189@activegamers.com.au
+2026-01-12 19:11:42,824 - INFO - Begin login sequence
+2026-01-12 19:11:51,471 - INFO - 'Sign in' button clicked
+2026-01-12 19:11:53,220 - INFO - Email entered
+2026-01-12 19:12:03,401 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:12:03,467 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:12:08,578 - INFO - Standard password used
+2026-01-12 19:12:10,995 - INFO - Handling any post-login interruptions for aga189@activegamers.com.au
+2026-01-12 19:12:16,031 - INFO - Stay signed in page did not load
+2026-01-12 19:12:21,067 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:12:21,070 - INFO - TOU page loaded
+2026-01-12 19:12:30,717 - INFO - TOU page was bypassed
+2026-01-12 19:12:43,989 - INFO - Update security info window did not appear
+2026-01-12 19:12:47,009 - INFO - Privacy notice page did not appear
+2026-01-12 19:12:50,031 - INFO - Upsell page did not appear
+2026-01-12 19:12:53,053 - INFO - Privacy notice page did not appear
+2026-01-12 19:13:27,028 - INFO - Account aga189@activegamers.com.au is not active
+2026-01-12 19:13:27,028 - INFO - login_full_flow completed for aga189@activegamers.com.au
+2026-01-12 19:13:27,028 - INFO - {email}, manage_xbox_element
+2026-01-12 19:13:29,830 - INFO - Loading billing page
+2026-01-12 19:13:29,834 - INFO - billing page loaded
+2026-01-12 19:13:39,950 - INFO - Timeout: The 'Remove card' button was not found or not clickable.
+2026-01-12 19:13:39,950 - INFO - remove card function finished
+2026-01-12 19:13:39,966 - INFO - Raw balance text: 25.00 AUD
+2026-01-12 19:13:39,966 - INFO - Parsed account balance: 25.00
+2026-01-12 19:13:39,966 - INFO - Balance is sufficient (25.00 >= 18.00)
+2026-01-12 19:13:39,966 - INFO - -----------------------------------------------------------------------------------------
+2026-01-12 19:13:42,230 - INFO - Skipping agapc - no valid ranges
+2026-01-12 19:13:42,230 - INFO - Skipping wanxb - no valid ranges
+2026-01-12 19:13:42,230 - INFO - Skipping wanpc - no valid ranges
+2026-01-12 19:14:10,720 - INFO - log has been created
+2026-01-12 19:14:12,600 - INFO - Returned result is activate
+2026-01-12 19:14:27,358 - INFO - Processing account: aga1@activegamers.com.au
+2026-01-12 19:14:28,468 - INFO - Driver initialized
+2026-01-12 19:14:28,468 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-01-12 19:14:28,468 - INFO - Begin login sequence
+2026-01-12 19:14:35,895 - INFO - 'Sign in' button clicked
+2026-01-12 19:14:37,004 - INFO - Email entered
+2026-01-12 19:14:47,087 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:14:47,159 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:14:52,277 - INFO - Standard password used
+2026-01-12 19:15:01,351 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-01-12 19:15:06,395 - INFO - Stay signed in page did not load
+2026-01-12 19:15:17,585 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-12 19:15:22,970 - INFO - TOU page did not appear
+2026-01-12 19:15:26,006 - INFO - Update security info window did not appear
+2026-01-12 19:15:29,027 - INFO - Privacy notice page did not appear
+2026-01-12 19:15:32,048 - INFO - Upsell page did not appear
+2026-01-12 19:15:35,071 - INFO - Privacy notice page did not appear
+2026-01-12 19:16:13,799 - INFO - Account aga1@activegamers.com.au is not active
+2026-01-12 19:16:13,799 - INFO - login_full_flow completed for aga1@activegamers.com.au
+2026-01-12 19:16:17,569 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:16:27,647 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:16:42,754 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:16:47,815 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:16:49,112 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:16:50,693 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:17:05,694 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:17:05,877 - INFO - position is not none
+2026-01-12 19:17:07,089 - INFO - Icon clicked successfully!
+2026-01-12 19:17:19,229 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga1@activegamers.com.au
+2026-01-12 19:17:19,958 - INFO - Email sent at the end of the loop.
+2026-01-12 19:17:34,959 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:17:37,222 - INFO - Processing account: aga6@activegamers.com.au
+2026-01-12 19:17:42,424 - INFO - Driver initialized
+2026-01-12 19:17:42,424 - INFO - Activate loop initiated for aga6@activegamers.com.au
+2026-01-12 19:17:42,424 - INFO - Begin login sequence
+2026-01-12 19:17:49,413 - INFO - 'Sign in' button clicked
+2026-01-12 19:17:55,675 - INFO - Email entered
+2026-01-12 19:18:00,300 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-12 19:18:01,377 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:18:06,488 - INFO - Standard password used
+2026-01-12 19:18:08,172 - INFO - Handling any post-login interruptions for aga6@activegamers.com.au
+2026-01-12 19:18:13,210 - INFO - Stay signed in page did not load
+2026-01-12 19:18:18,243 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:18:18,246 - INFO - TOU page loaded
+2026-01-12 19:18:26,144 - INFO - TOU page was bypassed
+2026-01-12 19:18:37,051 - INFO - Update security info window did not appear
+2026-01-12 19:18:40,073 - INFO - Privacy notice page did not appear
+2026-01-12 19:18:43,096 - INFO - Upsell page did not appear
+2026-01-12 19:18:46,119 - INFO - Privacy notice page did not appear
+2026-01-12 19:19:24,441 - INFO - Account aga6@activegamers.com.au is not active
+2026-01-12 19:19:24,441 - INFO - login_full_flow completed for aga6@activegamers.com.au
+2026-01-12 19:19:31,299 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:19:41,374 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:19:56,479 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:20:01,539 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:20:03,368 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:20:04,945 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:20:19,946 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:20:20,120 - INFO - position is not none
+2026-01-12 19:20:21,324 - INFO - Icon clicked successfully!
+2026-01-12 19:20:41,046 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga6@activegamers.com.au
+2026-01-12 19:20:42,041 - INFO - Email sent at the end of the loop.
+2026-01-12 19:20:57,042 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:20:59,351 - INFO - Processing account: aga82@activegamers.com.au
+2026-01-12 19:21:04,555 - INFO - Driver initialized
+2026-01-12 19:21:04,555 - INFO - Activate loop initiated for aga82@activegamers.com.au
+2026-01-12 19:21:04,555 - INFO - Begin login sequence
+2026-01-12 19:21:11,228 - INFO - 'Sign in' button clicked
+2026-01-12 19:21:12,850 - INFO - Email entered
+2026-01-12 19:21:23,246 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:21:23,314 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:21:28,429 - INFO - Standard password used
+2026-01-12 19:21:29,978 - INFO - Handling any post-login interruptions for aga82@activegamers.com.au
+2026-01-12 19:21:35,017 - INFO - Stay signed in page did not load
+2026-01-12 19:21:40,054 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:21:40,057 - INFO - TOU page loaded
+2026-01-12 19:21:47,002 - INFO - TOU page was bypassed
+2026-01-12 19:21:57,408 - INFO - Update security info window did not appear
+2026-01-12 19:22:00,442 - INFO - Privacy notice page did not appear
+2026-01-12 19:22:03,466 - INFO - Upsell page did not appear
+2026-01-12 19:22:06,488 - INFO - Privacy notice page did not appear
+2026-01-12 19:22:42,326 - INFO - Account aga82@activegamers.com.au is not active
+2026-01-12 19:22:42,326 - INFO - login_full_flow completed for aga82@activegamers.com.au
+2026-01-12 19:22:53,258 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:23:03,333 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:23:18,450 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:23:23,510 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:23:24,500 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:23:26,579 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:23:41,580 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:23:41,726 - INFO - position is not none
+2026-01-12 19:23:42,932 - INFO - Icon clicked successfully!
+2026-01-12 19:23:55,074 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga82@activegamers.com.au
+2026-01-12 19:23:55,644 - INFO - Email sent at the end of the loop.
+2026-01-12 19:24:10,645 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:24:12,940 - INFO - Processing account: aga83@activegamers.com.au
+2026-01-12 19:24:18,128 - INFO - Driver initialized
+2026-01-12 19:24:18,128 - INFO - Activate loop initiated for aga83@activegamers.com.au
+2026-01-12 19:24:18,128 - INFO - Begin login sequence
+2026-01-12 19:24:27,394 - INFO - 'Sign in' button clicked
+2026-01-12 19:24:29,022 - INFO - Email entered
+2026-01-12 19:24:55,207 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:24:55,275 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:25:00,391 - INFO - Standard password used
+2026-01-12 19:25:02,322 - INFO - Handling any post-login interruptions for aga83@activegamers.com.au
+2026-01-12 19:25:07,361 - INFO - Stay signed in page did not load
+2026-01-12 19:25:12,397 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:25:12,400 - INFO - TOU page loaded
+2026-01-12 19:25:19,667 - INFO - TOU page was bypassed
+2026-01-12 19:25:35,372 - INFO - Update security info window did not appear
+2026-01-12 19:25:38,395 - INFO - Privacy notice page did not appear
+2026-01-12 19:25:41,417 - INFO - Upsell page did not appear
+2026-01-12 19:25:44,439 - INFO - Privacy notice page did not appear
+2026-01-12 19:26:17,845 - INFO - Account aga83@activegamers.com.au is not active
+2026-01-12 19:26:17,845 - INFO - login_full_flow completed for aga83@activegamers.com.au
+2026-01-12 19:26:23,652 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:26:33,730 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:26:48,843 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:26:53,904 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:26:54,910 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:26:57,000 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:27:12,001 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:27:12,157 - INFO - position is not none
+2026-01-12 19:27:13,363 - INFO - Icon clicked successfully!
+2026-01-12 19:27:26,007 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga83@activegamers.com.au
+2026-01-12 19:27:26,736 - INFO - Email sent at the end of the loop.
+2026-01-12 19:27:41,737 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:27:44,023 - INFO - Processing account: aga85@activegamers.com.au
+2026-01-12 19:27:49,177 - INFO - Driver initialized
+2026-01-12 19:27:49,177 - INFO - Activate loop initiated for aga85@activegamers.com.au
+2026-01-12 19:27:49,177 - INFO - Begin login sequence
+2026-01-12 19:27:56,256 - INFO - 'Sign in' button clicked
+2026-01-12 19:28:00,631 - INFO - Email entered
+2026-01-12 19:28:10,691 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:28:10,759 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:28:15,872 - INFO - Standard password used
+2026-01-12 19:28:26,757 - INFO - Handling any post-login interruptions for aga85@activegamers.com.au
+2026-01-12 19:28:31,805 - INFO - Stay signed in page did not load
+2026-01-12 19:28:42,726 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-12 19:28:48,051 - INFO - TOU page did not appear
+2026-01-12 19:28:51,085 - INFO - Update security info window did not appear
+2026-01-12 19:28:54,108 - INFO - Privacy notice page did not appear
+2026-01-12 19:28:57,128 - INFO - Upsell page did not appear
+2026-01-12 19:29:00,151 - INFO - Privacy notice page did not appear
+2026-01-12 19:29:40,265 - INFO - Account aga85@activegamers.com.au is not active
+2026-01-12 19:29:40,265 - INFO - login_full_flow completed for aga85@activegamers.com.au
+2026-01-12 19:29:43,782 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:29:53,864 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:30:08,973 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:30:08,996 - INFO - find_manage_button completed. Manage button was found. This account is already activated
+2026-01-12 19:30:10,075 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:30:40,416 - INFO - click_join_button completed. Join button was not found. Will refresh the page
+2026-01-12 19:31:13,057 - INFO - click_join_button completed. Join button was not found after refresh.
+2026-01-12 19:31:28,057 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:31:28,207 - INFO - Subscribe button not found. Check for backup payment method on account
+2026-01-12 19:31:28,207 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:31:30,493 - INFO - Processing account: aga92@activegamers.com.au
+2026-01-12 19:31:35,681 - INFO - Driver initialized
+2026-01-12 19:31:35,681 - INFO - Activate loop initiated for aga92@activegamers.com.au
+2026-01-12 19:31:35,681 - INFO - Begin login sequence
+2026-01-12 19:31:45,354 - INFO - 'Sign in' button clicked
+2026-01-12 19:31:50,300 - INFO - Email entered
+2026-01-12 19:32:00,579 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:32:00,649 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:32:05,762 - INFO - Standard password used
+2026-01-12 19:32:07,698 - INFO - Handling any post-login interruptions for aga92@activegamers.com.au
+2026-01-12 19:32:12,734 - INFO - Stay signed in page did not load
+2026-01-12 19:32:17,769 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:32:17,772 - INFO - TOU page loaded
+2026-01-12 19:32:27,081 - INFO - TOU page was bypassed
+2026-01-12 19:32:37,307 - INFO - Update security info window did not appear
+2026-01-12 19:32:40,330 - INFO - Privacy notice page did not appear
+2026-01-12 19:32:43,352 - INFO - Upsell page did not appear
+2026-01-12 19:32:46,373 - INFO - Privacy notice page did not appear
+2026-01-12 19:33:22,395 - INFO - Account aga92@activegamers.com.au is not active
+2026-01-12 19:33:22,395 - INFO - login_full_flow completed for aga92@activegamers.com.au
+2026-01-12 19:33:39,717 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:33:49,798 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:34:04,905 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:34:09,964 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:34:12,619 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:34:14,702 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:34:29,702 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:34:29,869 - INFO - position is not none
+2026-01-12 19:34:31,088 - INFO - Icon clicked successfully!
+2026-01-12 19:34:44,761 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga92@activegamers.com.au
+2026-01-12 19:34:45,347 - INFO - Email sent at the end of the loop.
+2026-01-12 19:35:00,347 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:35:02,672 - INFO - Processing account: aga96@activegamers.com.au
+2026-01-12 19:35:07,851 - INFO - Driver initialized
+2026-01-12 19:35:07,851 - INFO - Activate loop initiated for aga96@activegamers.com.au
+2026-01-12 19:35:07,851 - INFO - Begin login sequence
+2026-01-12 19:35:15,491 - INFO - 'Sign in' button clicked
+2026-01-12 19:35:20,919 - INFO - Email entered
+2026-01-12 19:35:31,199 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:35:31,266 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:35:36,380 - INFO - Standard password used
+2026-01-12 19:35:38,413 - INFO - Handling any post-login interruptions for aga96@activegamers.com.au
+2026-01-12 19:35:43,449 - INFO - Stay signed in page did not load
+2026-01-12 19:35:48,485 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:35:48,488 - INFO - TOU page loaded
+2026-01-12 19:35:57,841 - INFO - TOU page was bypassed
+2026-01-12 19:36:09,117 - INFO - Update security info window did not appear
+2026-01-12 19:36:12,136 - INFO - Privacy notice page did not appear
+2026-01-12 19:36:15,158 - INFO - Upsell page did not appear
+2026-01-12 19:36:18,181 - INFO - Privacy notice page did not appear
+2026-01-12 19:36:52,858 - INFO - Account aga96@activegamers.com.au is not active
+2026-01-12 19:36:52,858 - INFO - login_full_flow completed for aga96@activegamers.com.au
+2026-01-12 19:37:12,872 - INFO - xbox renew page did not load within 20 seconds
+2026-01-12 19:37:22,950 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:37:38,059 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:37:43,118 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:37:45,408 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:37:47,086 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:38:02,087 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:38:02,237 - INFO - Subscribe button not found. Check for backup payment method on account
+2026-01-12 19:38:02,238 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:38:04,548 - INFO - Processing account: aga107@activegamers.com.au
+2026-01-12 19:38:09,753 - INFO - Driver initialized
+2026-01-12 19:38:09,753 - INFO - Activate loop initiated for aga107@activegamers.com.au
+2026-01-12 19:38:09,753 - INFO - Begin login sequence
+2026-01-12 19:38:20,144 - INFO - 'Sign in' button clicked
+2026-01-12 19:38:22,282 - INFO - Email entered
+2026-01-12 19:38:32,463 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:38:32,529 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:38:37,640 - INFO - Standard password used
+2026-01-12 19:38:42,301 - INFO - Handling any post-login interruptions for aga107@activegamers.com.au
+2026-01-12 19:38:47,348 - INFO - Stay signed in page did not load
+2026-01-12 19:38:56,411 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-12 19:39:14,797 - INFO - TOU page did not appear
+2026-01-12 19:39:17,832 - INFO - Update security info window did not appear
+2026-01-12 19:39:20,854 - INFO - Privacy notice page did not appear
+2026-01-12 19:39:23,877 - INFO - Upsell page did not appear
+2026-01-12 19:39:26,901 - INFO - Privacy notice page did not appear
+2026-01-12 19:40:04,572 - INFO - Account aga107@activegamers.com.au is not active
+2026-01-12 19:40:04,572 - INFO - login_full_flow completed for aga107@activegamers.com.au
+2026-01-12 19:40:13,072 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:40:23,156 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:40:38,266 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:40:43,327 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:40:44,514 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:40:46,089 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:41:01,090 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:41:01,250 - INFO - Subscribe button not found. Check for backup payment method on account
+2026-01-12 19:41:01,250 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:41:03,530 - INFO - Processing account: aga118@activegamers.com.au
+2026-01-12 19:41:08,717 - INFO - Driver initialized
+2026-01-12 19:41:08,717 - INFO - Activate loop initiated for aga118@activegamers.com.au
+2026-01-12 19:41:08,717 - INFO - Begin login sequence
+2026-01-12 19:41:14,471 - INFO - 'Sign in' button clicked
+2026-01-12 19:41:16,095 - INFO - Email entered
+2026-01-12 19:41:35,492 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:41:35,559 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:41:40,672 - INFO - Standard password used
+2026-01-12 19:41:48,205 - INFO - Handling any post-login interruptions for aga118@activegamers.com.au
+2026-01-12 19:41:53,241 - INFO - Stay signed in page did not load
+2026-01-12 19:41:58,279 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:41:58,282 - INFO - TOU page loaded
+2026-01-12 19:42:07,689 - INFO - TOU page was bypassed
+2026-01-12 19:42:10,892 - INFO - Update security info window did not appear
+2026-01-12 19:42:13,914 - INFO - Privacy notice page did not appear
+2026-01-12 19:42:16,936 - INFO - Upsell page did not appear
+2026-01-12 19:42:19,957 - INFO - Privacy notice page did not appear
+2026-01-12 19:42:53,824 - INFO - Account aga118@activegamers.com.au is not active
+2026-01-12 19:42:53,824 - INFO - login_full_flow completed for aga118@activegamers.com.au
+2026-01-12 19:42:58,516 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:43:08,601 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:43:23,711 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:43:28,771 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:43:30,039 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:43:31,620 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:43:46,620 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:43:46,766 - INFO - position is not none
+2026-01-12 19:43:47,979 - INFO - Icon clicked successfully!
+2026-01-12 19:44:01,635 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga118@activegamers.com.au
+2026-01-12 19:44:02,183 - INFO - Email sent at the end of the loop.
+2026-01-12 19:44:17,184 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:44:19,430 - INFO - Processing account: aga142@activegamers.com.au
+2026-01-12 19:44:24,562 - INFO - Driver initialized
+2026-01-12 19:44:24,562 - INFO - Activate loop initiated for aga142@activegamers.com.au
+2026-01-12 19:44:24,563 - INFO - Begin login sequence
+2026-01-12 19:44:34,282 - INFO - 'Sign in' button clicked
+2026-01-12 19:44:37,415 - INFO - Email entered
+2026-01-12 19:44:47,440 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:44:47,508 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:44:52,624 - INFO - Standard password used
+2026-01-12 19:44:54,063 - INFO - Handling any post-login interruptions for aga142@activegamers.com.au
+2026-01-12 19:44:59,099 - INFO - Stay signed in page did not load
+2026-01-12 19:45:04,135 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:45:04,138 - INFO - TOU page loaded
+2026-01-12 19:45:10,601 - INFO - TOU page was bypassed
+2026-01-12 19:45:24,481 - INFO - Update security info window did not appear
+2026-01-12 19:45:27,501 - INFO - Privacy notice page did not appear
+2026-01-12 19:45:30,523 - INFO - Upsell page did not appear
+2026-01-12 19:45:33,544 - INFO - Privacy notice page did not appear
+2026-01-12 19:45:38,953 - INFO - Account aga142@activegamers.com.au is active
+2026-01-12 19:45:38,953 - INFO - login_full_flow completed for aga142@activegamers.com.au
+2026-01-12 19:45:38,953 - INFO - Account aga142@activegamers.com.au is already active
+2026-01-12 19:45:38,953 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:45:41,213 - INFO - Processing account: aga13@activegamers.com.au
+2026-01-12 19:45:46,546 - INFO - Driver initialized
+2026-01-12 19:45:46,546 - INFO - Activate loop initiated for aga13@activegamers.com.au
+2026-01-12 19:45:46,546 - INFO - Begin login sequence
+2026-01-12 19:45:53,230 - INFO - 'Sign in' button clicked
+2026-01-12 19:45:54,855 - INFO - Email entered
+2026-01-12 19:46:08,396 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:46:08,464 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:46:13,577 - INFO - Standard password used
+2026-01-12 19:46:14,746 - INFO - Handling any post-login interruptions for aga13@activegamers.com.au
+2026-01-12 19:46:14,749 - INFO - Stay signed in page loaded
+2026-01-12 19:46:26,246 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-12 19:46:31,695 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:46:55,191 - INFO - TOU page did not appear
+2026-01-12 19:46:58,228 - INFO - Update security info window did not appear
+2026-01-12 19:47:01,250 - INFO - Privacy notice page did not appear
+2026-01-12 19:47:04,272 - INFO - Upsell page did not appear
+2026-01-12 19:47:07,294 - INFO - Privacy notice page did not appear
+2026-01-12 19:47:41,723 - INFO - Account aga13@activegamers.com.au is not active
+2026-01-12 19:47:41,723 - INFO - login_full_flow completed for aga13@activegamers.com.au
+2026-01-12 19:48:01,485 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:48:11,568 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:48:26,678 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:48:31,738 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:48:33,140 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:48:34,719 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:48:49,720 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:48:49,874 - INFO - position is not none
+2026-01-12 19:48:51,091 - INFO - Icon clicked successfully!
+2026-01-12 19:49:09,809 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga13@activegamers.com.au
+2026-01-12 19:49:10,354 - INFO - Email sent at the end of the loop.
+2026-01-12 19:49:25,355 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:49:27,686 - INFO - Processing account: aga21@activegamers.com.au
+2026-01-12 19:49:32,866 - INFO - Driver initialized
+2026-01-12 19:49:32,866 - INFO - Activate loop initiated for aga21@activegamers.com.au
+2026-01-12 19:49:32,866 - INFO - Begin login sequence
+2026-01-12 19:49:45,097 - INFO - 'Sign in' button clicked
+2026-01-12 19:49:46,717 - INFO - Email entered
+2026-01-12 19:49:56,942 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:49:57,010 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:50:02,122 - INFO - Standard password used
+2026-01-12 19:50:03,373 - INFO - Handling any post-login interruptions for aga21@activegamers.com.au
+2026-01-12 19:50:08,410 - INFO - Stay signed in page did not load
+2026-01-12 19:50:13,446 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:50:13,449 - INFO - TOU page loaded
+2026-01-12 19:50:23,652 - INFO - TOU page was bypassed
+2026-01-12 19:50:34,975 - INFO - Update security info window did not appear
+2026-01-12 19:50:43,959 - INFO - Privacy notice page did not appear
+2026-01-12 19:50:46,979 - INFO - Upsell page did not appear
+2026-01-12 19:50:50,000 - INFO - Privacy notice page did not appear
+2026-01-12 19:50:59,612 - INFO - Account aga21@activegamers.com.au is active
+2026-01-12 19:50:59,612 - INFO - login_full_flow completed for aga21@activegamers.com.au
+2026-01-12 19:50:59,612 - INFO - Account aga21@activegamers.com.au is already active
+2026-01-12 19:50:59,612 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:51:01,879 - INFO - Processing account: aga22@activegamers.com.au
+2026-01-12 19:51:07,078 - INFO - Driver initialized
+2026-01-12 19:51:07,078 - INFO - Activate loop initiated for aga22@activegamers.com.au
+2026-01-12 19:51:07,078 - INFO - Begin login sequence
+2026-01-12 19:51:13,665 - INFO - 'Sign in' button clicked
+2026-01-12 19:51:20,632 - INFO - Email entered
+2026-01-12 19:51:30,799 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:51:30,865 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:51:35,994 - INFO - Alternate password used
+2026-01-12 19:51:37,774 - INFO - Handling any post-login interruptions for aga22@activegamers.com.au
+2026-01-12 19:51:42,809 - INFO - Stay signed in page did not load
+2026-01-12 19:51:47,845 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:51:47,848 - INFO - TOU page loaded
+2026-01-12 19:51:56,395 - INFO - TOU page was bypassed
+2026-01-12 19:52:08,584 - INFO - Update security info window did not appear
+2026-01-12 19:52:11,606 - INFO - Privacy notice page did not appear
+2026-01-12 19:52:14,628 - INFO - Upsell page did not appear
+2026-01-12 19:52:17,649 - INFO - Privacy notice page did not appear
+2026-01-12 19:52:51,021 - INFO - Account aga22@activegamers.com.au is not active
+2026-01-12 19:52:51,021 - INFO - login_full_flow completed for aga22@activegamers.com.au
+2026-01-12 19:53:10,229 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:53:20,304 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 19:53:35,409 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 19:53:40,469 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 19:53:41,723 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 19:53:43,342 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 19:53:58,343 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 19:53:58,482 - INFO - position is not none
+2026-01-12 19:53:59,702 - INFO - Icon clicked successfully!
+2026-01-12 19:54:12,348 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga22@activegamers.com.au
+2026-01-12 19:54:12,937 - INFO - Email sent at the end of the loop.
+2026-01-12 19:54:27,938 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:54:30,250 - INFO - Processing account: aga23@activegamers.com.au
+2026-01-12 19:54:35,426 - INFO - Driver initialized
+2026-01-12 19:54:35,426 - INFO - Activate loop initiated for aga23@activegamers.com.au
+2026-01-12 19:54:35,426 - INFO - Begin login sequence
+2026-01-12 19:54:46,118 - INFO - 'Sign in' button clicked
+2026-01-12 19:54:51,377 - INFO - Email entered
+2026-01-12 19:55:01,585 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:55:01,651 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:55:06,763 - INFO - Standard password used
+2026-01-12 19:55:09,545 - INFO - Handling any post-login interruptions for aga23@activegamers.com.au
+2026-01-12 19:55:14,580 - INFO - Stay signed in page did not load
+2026-01-12 19:55:19,616 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:55:19,619 - INFO - TOU page loaded
+2026-01-12 19:55:27,780 - INFO - TOU page was bypassed
+2026-01-12 19:55:39,114 - INFO - Update security info window did not appear
+2026-01-12 19:55:42,135 - INFO - Privacy notice page did not appear
+2026-01-12 19:55:45,157 - INFO - Upsell page did not appear
+2026-01-12 19:55:48,178 - INFO - Privacy notice page did not appear
+2026-01-12 19:55:55,108 - INFO - Account aga23@activegamers.com.au is active
+2026-01-12 19:55:55,108 - INFO - login_full_flow completed for aga23@activegamers.com.au
+2026-01-12 19:55:55,108 - INFO - Account aga23@activegamers.com.au is already active
+2026-01-12 19:55:55,108 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:55:57,351 - INFO - Processing account: aga26@activegamers.com.au
+2026-01-12 19:56:02,536 - INFO - Driver initialized
+2026-01-12 19:56:02,536 - INFO - Activate loop initiated for aga26@activegamers.com.au
+2026-01-12 19:56:02,536 - INFO - Begin login sequence
+2026-01-12 19:56:11,425 - INFO - 'Sign in' button clicked
+2026-01-12 19:56:16,323 - INFO - Email entered
+2026-01-12 19:56:26,351 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:56:26,420 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:56:31,544 - INFO - Alternate password used
+2026-01-12 19:56:33,449 - INFO - Handling any post-login interruptions for aga26@activegamers.com.au
+2026-01-12 19:56:38,483 - INFO - Stay signed in page did not load
+2026-01-12 19:56:43,519 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:56:43,521 - INFO - TOU page loaded
+2026-01-12 19:56:50,133 - INFO - TOU page was bypassed
+2026-01-12 19:57:01,982 - INFO - Update security info window did not appear
+2026-01-12 19:57:05,026 - INFO - Privacy notice page did not appear
+2026-01-12 19:57:08,048 - INFO - Upsell page did not appear
+2026-01-12 19:57:11,069 - INFO - Privacy notice page did not appear
+2026-01-12 19:57:19,041 - INFO - Account aga26@activegamers.com.au is active
+2026-01-12 19:57:19,041 - INFO - login_full_flow completed for aga26@activegamers.com.au
+2026-01-12 19:57:19,041 - INFO - Account aga26@activegamers.com.au is already active
+2026-01-12 19:57:19,042 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:57:21,308 - INFO - Processing account: aga27@activegamers.com.au
+2026-01-12 19:57:26,495 - INFO - Driver initialized
+2026-01-12 19:57:26,495 - INFO - Activate loop initiated for aga27@activegamers.com.au
+2026-01-12 19:57:26,495 - INFO - Begin login sequence
+2026-01-12 19:57:32,825 - INFO - 'Sign in' button clicked
+2026-01-12 19:57:34,547 - INFO - Email entered
+2026-01-12 19:57:44,627 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:57:44,686 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:57:49,796 - INFO - Standard password used
+2026-01-12 19:57:51,567 - INFO - Handling any post-login interruptions for aga27@activegamers.com.au
+2026-01-12 19:57:56,603 - INFO - Stay signed in page did not load
+2026-01-12 19:58:01,638 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:58:01,641 - INFO - TOU page loaded
+2026-01-12 19:58:09,406 - INFO - TOU page was bypassed
+2026-01-12 19:58:22,909 - INFO - Update security info window did not appear
+2026-01-12 19:58:25,934 - INFO - Privacy notice page did not appear
+2026-01-12 19:58:28,957 - INFO - Upsell page did not appear
+2026-01-12 19:58:31,980 - INFO - Privacy notice page did not appear
+2026-01-12 19:58:40,623 - INFO - Account aga27@activegamers.com.au is active
+2026-01-12 19:58:40,623 - INFO - login_full_flow completed for aga27@activegamers.com.au
+2026-01-12 19:58:40,623 - INFO - Account aga27@activegamers.com.au is already active
+2026-01-12 19:58:40,623 - INFO - -----------------------------------------------------------------------------
+2026-01-12 19:58:42,869 - INFO - Processing account: aga29@activegamers.com.au
+2026-01-12 19:58:48,056 - INFO - Driver initialized
+2026-01-12 19:58:48,056 - INFO - Activate loop initiated for aga29@activegamers.com.au
+2026-01-12 19:58:48,056 - INFO - Begin login sequence
+2026-01-12 19:58:55,094 - INFO - 'Sign in' button clicked
+2026-01-12 19:58:57,226 - INFO - Email entered
+2026-01-12 19:59:07,461 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 19:59:07,526 - INFO - Clicked the 'Use your password' button.
+2026-01-12 19:59:12,641 - INFO - Standard password used
+2026-01-12 19:59:14,019 - INFO - Handling any post-login interruptions for aga29@activegamers.com.au
+2026-01-12 19:59:19,054 - INFO - Stay signed in page did not load
+2026-01-12 19:59:24,089 - INFO - Passkey interrupt page did not appear
+2026-01-12 19:59:24,093 - INFO - TOU page loaded
+2026-01-12 19:59:30,823 - INFO - TOU page was bypassed
+2026-01-12 19:59:43,209 - INFO - Update security info window did not appear
+2026-01-12 19:59:46,233 - INFO - Privacy notice page did not appear
+2026-01-12 19:59:49,254 - INFO - Upsell page did not appear
+2026-01-12 19:59:52,278 - INFO - Privacy notice page did not appear
+2026-01-12 20:00:27,523 - INFO - Account aga29@activegamers.com.au is not active
+2026-01-12 20:00:27,523 - INFO - login_full_flow completed for aga29@activegamers.com.au
+2026-01-12 20:00:32,958 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:00:43,038 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:00:58,145 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:01:03,204 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 20:01:05,821 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:01:07,403 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 20:01:22,403 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:01:22,548 - INFO - position is not none
+2026-01-12 20:01:23,762 - INFO - Icon clicked successfully!
+2026-01-12 20:01:38,433 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga29@activegamers.com.au
+2026-01-12 20:01:38,994 - INFO - Email sent at the end of the loop.
+2026-01-12 20:01:53,995 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:01:56,315 - INFO - Processing account: aga31@activegamers.com.au
+2026-01-12 20:02:01,489 - INFO - Driver initialized
+2026-01-12 20:02:01,489 - INFO - Activate loop initiated for aga31@activegamers.com.au
+2026-01-12 20:02:01,489 - INFO - Begin login sequence
+2026-01-12 20:02:10,606 - INFO - 'Sign in' button clicked
+2026-01-12 20:02:12,227 - INFO - Email entered
+2026-01-12 20:02:35,675 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:02:35,744 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:02:40,858 - INFO - Standard password used
+2026-01-12 20:02:43,628 - INFO - Handling any post-login interruptions for aga31@activegamers.com.au
+2026-01-12 20:02:48,664 - INFO - Stay signed in page did not load
+2026-01-12 20:02:53,700 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:02:53,703 - INFO - TOU page loaded
+2026-01-12 20:03:01,894 - INFO - TOU page was bypassed
+2026-01-12 20:03:10,847 - INFO - Update security info window did not appear
+2026-01-12 20:03:15,621 - INFO - Privacy notice page did not appear
+2026-01-12 20:03:18,641 - INFO - Upsell page did not appear
+2026-01-12 20:03:21,664 - INFO - Privacy notice page did not appear
+2026-01-12 20:03:28,504 - INFO - Account aga31@activegamers.com.au is active
+2026-01-12 20:03:28,504 - INFO - login_full_flow completed for aga31@activegamers.com.au
+2026-01-12 20:03:28,504 - INFO - Account aga31@activegamers.com.au is already active
+2026-01-12 20:03:28,505 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:03:30,757 - INFO - Processing account: aga33@activegamers.com.au
+2026-01-12 20:03:35,922 - INFO - Driver initialized
+2026-01-12 20:03:35,922 - INFO - Activate loop initiated for aga33@activegamers.com.au
+2026-01-12 20:03:35,922 - INFO - Begin login sequence
+2026-01-12 20:03:45,464 - INFO - 'Sign in' button clicked
+2026-01-12 20:03:51,372 - INFO - Email entered
+2026-01-12 20:04:01,518 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:04:01,586 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:04:06,698 - INFO - Standard password used
+2026-01-12 20:04:08,815 - INFO - Handling any post-login interruptions for aga33@activegamers.com.au
+2026-01-12 20:04:13,932 - INFO - Stay signed in page did not load
+2026-01-12 20:04:18,967 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:04:18,970 - INFO - TOU page loaded
+2026-01-12 20:04:26,504 - INFO - TOU page was bypassed
+2026-01-12 20:04:37,337 - INFO - Update security info window did not appear
+2026-01-12 20:04:40,380 - INFO - Privacy notice page did not appear
+2026-01-12 20:04:43,400 - INFO - Upsell page did not appear
+2026-01-12 20:04:46,422 - INFO - Privacy notice page did not appear
+2026-01-12 20:04:54,570 - INFO - Account aga33@activegamers.com.au is active
+2026-01-12 20:04:54,570 - INFO - login_full_flow completed for aga33@activegamers.com.au
+2026-01-12 20:04:54,570 - INFO - Account aga33@activegamers.com.au is already active
+2026-01-12 20:04:54,570 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:04:56,854 - INFO - Processing account: aga37@activegamers.com.au
+2026-01-12 20:05:02,166 - INFO - Driver initialized
+2026-01-12 20:05:02,166 - INFO - Activate loop initiated for aga37@activegamers.com.au
+2026-01-12 20:05:02,166 - INFO - Begin login sequence
+2026-01-12 20:05:10,976 - INFO - 'Sign in' button clicked
+2026-01-12 20:05:12,299 - INFO - Email entered
+2026-01-12 20:05:22,501 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:05:22,566 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:05:27,678 - INFO - Standard password used
+2026-01-12 20:05:33,237 - INFO - Handling any post-login interruptions for aga37@activegamers.com.au
+2026-01-12 20:05:38,285 - INFO - Stay signed in page did not load
+2026-01-12 20:05:47,855 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-12 20:06:02,472 - INFO - TOU page did not appear
+2026-01-12 20:06:05,508 - INFO - Update security info window did not appear
+2026-01-12 20:06:08,530 - INFO - Privacy notice page did not appear
+2026-01-12 20:06:11,552 - INFO - Upsell page did not appear
+2026-01-12 20:06:14,574 - INFO - Privacy notice page did not appear
+2026-01-12 20:06:20,754 - INFO - Account aga37@activegamers.com.au is active
+2026-01-12 20:06:20,754 - INFO - login_full_flow completed for aga37@activegamers.com.au
+2026-01-12 20:06:20,754 - INFO - Account aga37@activegamers.com.au is already active
+2026-01-12 20:06:20,754 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:06:23,004 - INFO - Processing account: aga39@activegamers.com.au
+2026-01-12 20:06:28,131 - INFO - Driver initialized
+2026-01-12 20:06:28,131 - INFO - Activate loop initiated for aga39@activegamers.com.au
+2026-01-12 20:06:28,131 - INFO - Begin login sequence
+2026-01-12 20:06:35,157 - INFO - 'Sign in' button clicked
+2026-01-12 20:06:36,416 - INFO - Email entered
+2026-01-12 20:06:46,628 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:06:46,694 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:06:51,804 - INFO - Standard password used
+2026-01-12 20:06:55,182 - INFO - Handling any post-login interruptions for aga39@activegamers.com.au
+2026-01-12 20:07:00,216 - INFO - Stay signed in page did not load
+2026-01-12 20:07:05,250 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:07:05,253 - INFO - TOU page loaded
+2026-01-12 20:07:10,621 - INFO - TOU page was bypassed
+2026-01-12 20:07:21,550 - INFO - Update security info window did not appear
+2026-01-12 20:07:24,570 - INFO - Privacy notice page did not appear
+2026-01-12 20:07:27,592 - INFO - Upsell page did not appear
+2026-01-12 20:07:30,613 - INFO - Privacy notice page did not appear
+2026-01-12 20:07:36,462 - INFO - Account aga39@activegamers.com.au is active
+2026-01-12 20:07:36,462 - INFO - login_full_flow completed for aga39@activegamers.com.au
+2026-01-12 20:07:36,462 - INFO - Account aga39@activegamers.com.au is already active
+2026-01-12 20:07:36,462 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:07:38,719 - INFO - Processing account: aga40@activegamers.com.au
+2026-01-12 20:07:43,897 - INFO - Driver initialized
+2026-01-12 20:07:43,897 - INFO - Activate loop initiated for aga40@activegamers.com.au
+2026-01-12 20:07:43,897 - INFO - Begin login sequence
+2026-01-12 20:07:59,508 - INFO - 'Sign in' button clicked
+2026-01-12 20:08:00,763 - INFO - Email entered
+2026-01-12 20:08:11,092 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:08:11,161 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:08:16,274 - INFO - Standard password used
+2026-01-12 20:08:18,862 - INFO - Handling any post-login interruptions for aga40@activegamers.com.au
+2026-01-12 20:08:23,897 - INFO - Stay signed in page did not load
+2026-01-12 20:08:28,934 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:08:28,938 - INFO - TOU page loaded
+2026-01-12 20:08:42,227 - INFO - TOU page was bypassed
+2026-01-12 20:08:55,709 - INFO - Update security info window did not appear
+2026-01-12 20:08:58,733 - INFO - Privacy notice page did not appear
+2026-01-12 20:09:01,755 - INFO - Upsell page did not appear
+2026-01-12 20:09:04,777 - INFO - Privacy notice page did not appear
+2026-01-12 20:09:39,498 - INFO - Account aga40@activegamers.com.au is not active
+2026-01-12 20:09:39,498 - INFO - login_full_flow completed for aga40@activegamers.com.au
+2026-01-12 20:09:51,865 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:10:01,944 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:10:17,057 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:10:22,116 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 20:10:24,472 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:10:26,080 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 20:10:41,081 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:10:41,266 - INFO - position is not none
+2026-01-12 20:10:42,485 - INFO - Icon clicked successfully!
+2026-01-12 20:10:56,646 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga40@activegamers.com.au
+2026-01-12 20:10:57,135 - INFO - Email sent at the end of the loop.
+2026-01-12 20:11:12,135 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:11:14,424 - INFO - Processing account: aga144@activegamers.com.au
+2026-01-12 20:11:19,635 - INFO - Driver initialized
+2026-01-12 20:11:19,635 - INFO - Activate loop initiated for aga144@activegamers.com.au
+2026-01-12 20:11:19,635 - INFO - Begin login sequence
+2026-01-12 20:11:26,870 - INFO - 'Sign in' button clicked
+2026-01-12 20:11:28,526 - INFO - Email entered
+2026-01-12 20:11:38,857 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:11:38,923 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:11:44,034 - INFO - Standard password used
+2026-01-12 20:11:46,579 - INFO - Handling any post-login interruptions for aga144@activegamers.com.au
+2026-01-12 20:11:51,616 - INFO - Stay signed in page did not load
+2026-01-12 20:11:56,652 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:11:56,654 - INFO - TOU page loaded
+2026-01-12 20:12:02,444 - INFO - TOU page was bypassed
+2026-01-12 20:12:14,179 - INFO - Update security info window did not appear
+2026-01-12 20:12:17,201 - INFO - Privacy notice page did not appear
+2026-01-12 20:12:20,224 - INFO - Upsell page did not appear
+2026-01-12 20:12:23,246 - INFO - Privacy notice page did not appear
+2026-01-12 20:12:57,070 - INFO - Account aga144@activegamers.com.au is not active
+2026-01-12 20:12:57,070 - INFO - login_full_flow completed for aga144@activegamers.com.au
+2026-01-12 20:13:02,397 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:13:12,475 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:13:27,585 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:13:32,644 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 20:13:35,391 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:13:36,990 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 20:13:51,991 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:13:52,128 - INFO - position is not none
+2026-01-12 20:13:53,349 - INFO - Icon clicked successfully!
+2026-01-12 20:14:05,997 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga144@activegamers.com.au
+2026-01-12 20:14:06,573 - INFO - Email sent at the end of the loop.
+2026-01-12 20:14:21,574 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:14:23,892 - INFO - Processing account: aga145@activegamers.com.au
+2026-01-12 20:14:29,062 - INFO - Driver initialized
+2026-01-12 20:14:29,062 - INFO - Activate loop initiated for aga145@activegamers.com.au
+2026-01-12 20:14:29,062 - INFO - Begin login sequence
+2026-01-12 20:14:35,275 - INFO - 'Sign in' button clicked
+2026-01-12 20:14:36,925 - INFO - Email entered
+2026-01-12 20:15:03,275 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:15:03,343 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:15:08,455 - INFO - Standard password used
+2026-01-12 20:15:10,792 - INFO - Handling any post-login interruptions for aga145@activegamers.com.au
+2026-01-12 20:15:15,828 - INFO - Stay signed in page did not load
+2026-01-12 20:15:20,864 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:15:20,867 - INFO - TOU page loaded
+2026-01-12 20:15:28,218 - INFO - TOU page was bypassed
+2026-01-12 20:15:37,833 - INFO - Update security info window did not appear
+2026-01-12 20:15:40,856 - INFO - Privacy notice page did not appear
+2026-01-12 20:15:43,878 - INFO - Upsell page did not appear
+2026-01-12 20:15:46,899 - INFO - Privacy notice page did not appear
+2026-01-12 20:16:22,477 - INFO - Account aga145@activegamers.com.au is not active
+2026-01-12 20:16:22,477 - INFO - login_full_flow completed for aga145@activegamers.com.au
+2026-01-12 20:16:28,503 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:16:38,579 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:16:53,686 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:16:58,747 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 20:17:00,595 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:17:02,172 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 20:17:17,173 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:17:17,309 - INFO - position is not none
+2026-01-12 20:17:18,529 - INFO - Icon clicked successfully!
+2026-01-12 20:17:30,163 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga145@activegamers.com.au
+2026-01-12 20:17:31,916 - INFO - Email sent at the end of the loop.
+2026-01-12 20:17:46,917 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:17:49,221 - INFO - Processing account: aga191@activegamers.com.au
+2026-01-12 20:17:54,413 - INFO - Driver initialized
+2026-01-12 20:17:54,413 - INFO - Activate loop initiated for aga191@activegamers.com.au
+2026-01-12 20:17:54,413 - INFO - Begin login sequence
+2026-01-12 20:18:08,675 - INFO - 'Sign in' button clicked
+2026-01-12 20:18:10,338 - INFO - Email entered
+2026-01-12 20:18:20,388 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:18:20,456 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:18:25,571 - INFO - Standard password used
+2026-01-12 20:18:28,403 - INFO - Handling any post-login interruptions for aga191@activegamers.com.au
+2026-01-12 20:18:33,439 - INFO - Stay signed in page did not load
+2026-01-12 20:18:38,474 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:18:38,477 - INFO - TOU page loaded
+2026-01-12 20:18:53,511 - INFO - TOU page was bypassed
+2026-01-12 20:18:56,548 - INFO - Update security info window did not appear
+2026-01-12 20:19:15,427 - INFO - Privacy notice page did not appear
+2026-01-12 20:19:18,449 - INFO - Upsell page did not appear
+2026-01-12 20:19:21,472 - INFO - Privacy notice page did not appear
+2026-01-12 20:19:57,088 - INFO - Account aga191@activegamers.com.au is not active
+2026-01-12 20:19:57,088 - INFO - login_full_flow completed for aga191@activegamers.com.au
+2026-01-12 20:20:01,477 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:20:11,551 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:20:26,658 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:20:31,717 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 20:20:32,848 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:20:34,450 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 20:20:49,450 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:20:49,604 - INFO - position is not none
+2026-01-12 20:20:50,810 - INFO - Icon clicked successfully!
+2026-01-12 20:21:11,037 - INFO - Launch or install Xbox PC app button did not become present and clickable. Check to see if account has valid payment method (convert to gift code)
+2026-01-12 20:21:11,037 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:21:13,326 - INFO - Processing account: aga146@activegamers.com.au
+2026-01-12 20:21:18,512 - INFO - Driver initialized
+2026-01-12 20:21:18,512 - INFO - Activate loop initiated for aga146@activegamers.com.au
+2026-01-12 20:21:18,512 - INFO - Begin login sequence
+2026-01-12 20:21:30,940 - INFO - 'Sign in' button clicked
+2026-01-12 20:21:32,082 - INFO - Email entered
+2026-01-12 20:21:42,464 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:21:42,531 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:21:47,642 - INFO - Standard password used
+2026-01-12 20:21:50,291 - INFO - Handling any post-login interruptions for aga146@activegamers.com.au
+2026-01-12 20:21:55,328 - INFO - Stay signed in page did not load
+2026-01-12 20:22:00,364 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:22:00,367 - INFO - TOU page loaded
+2026-01-12 20:22:13,870 - INFO - TOU page was bypassed
+2026-01-12 20:22:30,671 - INFO - Update security info window did not appear
+2026-01-12 20:22:33,691 - INFO - Privacy notice page did not appear
+2026-01-12 20:22:36,713 - INFO - Upsell page did not appear
+2026-01-12 20:22:39,734 - INFO - Privacy notice page did not appear
+2026-01-12 20:23:16,832 - INFO - Account aga146@activegamers.com.au is not active
+2026-01-12 20:23:16,832 - INFO - login_full_flow completed for aga146@activegamers.com.au
+2026-01-12 20:23:33,458 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:23:43,534 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:23:58,644 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:24:03,704 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 20:24:05,613 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:24:07,194 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 20:24:22,195 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:24:22,353 - INFO - position is not none
+2026-01-12 20:24:23,573 - INFO - Icon clicked successfully!
+2026-01-12 20:24:33,694 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga146@activegamers.com.au
+2026-01-12 20:24:34,185 - INFO - Email sent at the end of the loop.
+2026-01-12 20:24:49,186 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:24:51,469 - INFO - Processing account: agapc4@activegamers.com.au
+2026-01-12 20:24:56,639 - INFO - Driver initialized
+2026-01-12 20:24:56,639 - INFO - Activate loop initiated for agapc4@activegamers.com.au
+2026-01-12 20:24:56,639 - INFO - Begin login sequence
+2026-01-12 20:25:06,427 - INFO - 'Sign in' button clicked
+2026-01-12 20:25:08,561 - INFO - Email entered
+2026-01-12 20:25:18,692 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:25:18,764 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:25:23,874 - INFO - Standard password used
+2026-01-12 20:25:25,023 - INFO - Handling any post-login interruptions for agapc4@activegamers.com.au
+2026-01-12 20:25:30,060 - INFO - Stay signed in page did not load
+2026-01-12 20:25:35,097 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:25:35,100 - INFO - TOU page loaded
+2026-01-12 20:25:45,098 - INFO - TOU page was bypassed
+2026-01-12 20:25:56,719 - INFO - Update security info window did not appear
+2026-01-12 20:25:59,741 - INFO - Privacy notice page did not appear
+2026-01-12 20:26:02,763 - INFO - Upsell page did not appear
+2026-01-12 20:26:05,785 - INFO - Privacy notice page did not appear
+2026-01-12 20:26:12,370 - INFO - Account agapc4@activegamers.com.au is active
+2026-01-12 20:26:12,370 - INFO - login_full_flow completed for agapc4@activegamers.com.au
+2026-01-12 20:26:12,370 - INFO - Account agapc4@activegamers.com.au is already active
+2026-01-12 20:26:12,370 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:26:14,642 - INFO - Processing account: agapc6@activegamers.com.au
+2026-01-12 20:26:19,822 - INFO - Driver initialized
+2026-01-12 20:26:19,822 - INFO - Activate loop initiated for agapc6@activegamers.com.au
+2026-01-12 20:26:19,822 - INFO - Begin login sequence
+2026-01-12 20:26:31,667 - INFO - 'Sign in' button clicked
+2026-01-12 20:26:37,432 - INFO - Email entered
+2026-01-12 20:26:47,477 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:26:47,546 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:26:52,661 - INFO - Standard password used
+2026-01-12 20:26:53,990 - INFO - Handling any post-login interruptions for agapc6@activegamers.com.au
+2026-01-12 20:26:59,026 - INFO - Stay signed in page did not load
+2026-01-12 20:27:04,062 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:27:04,065 - INFO - TOU page loaded
+2026-01-12 20:27:12,097 - INFO - TOU page was bypassed
+2026-01-12 20:27:23,815 - INFO - Update security info window did not appear
+2026-01-12 20:27:26,837 - INFO - Privacy notice page did not appear
+2026-01-12 20:27:29,860 - INFO - Upsell page did not appear
+2026-01-12 20:27:32,882 - INFO - Privacy notice page did not appear
+2026-01-12 20:27:39,906 - INFO - Account agapc6@activegamers.com.au is active
+2026-01-12 20:27:39,906 - INFO - login_full_flow completed for agapc6@activegamers.com.au
+2026-01-12 20:27:39,906 - INFO - Account agapc6@activegamers.com.au is already active
+2026-01-12 20:27:39,906 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:27:42,170 - INFO - Processing account: agapc9@activegamers.com.au
+2026-01-12 20:27:47,378 - INFO - Driver initialized
+2026-01-12 20:27:47,378 - INFO - Activate loop initiated for agapc9@activegamers.com.au
+2026-01-12 20:27:47,378 - INFO - Begin login sequence
+2026-01-12 20:28:05,255 - INFO - 'Sign in' button clicked
+2026-01-12 20:28:11,072 - INFO - Email entered
+2026-01-12 20:28:21,104 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:28:21,171 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:28:26,285 - INFO - Standard password used
+2026-01-12 20:28:27,878 - INFO - Handling any post-login interruptions for agapc9@activegamers.com.au
+2026-01-12 20:28:32,915 - INFO - Stay signed in page did not load
+2026-01-12 20:28:37,950 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:28:37,953 - INFO - TOU page loaded
+2026-01-12 20:28:51,914 - INFO - TOU page was bypassed
+2026-01-12 20:29:06,176 - INFO - Update security info window did not appear
+2026-01-12 20:29:09,611 - INFO - Privacy notice page did not appear
+2026-01-12 20:29:12,633 - INFO - Upsell page did not appear
+2026-01-12 20:29:15,655 - INFO - Privacy notice page did not appear
+2026-01-12 20:29:49,846 - INFO - Account agapc9@activegamers.com.au is not active
+2026-01-12 20:29:49,846 - INFO - login_full_flow completed for agapc9@activegamers.com.au
+2026-01-12 20:30:09,864 - INFO - xbox renew page did not load within 20 seconds
+2026-01-12 20:30:19,940 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:30:35,044 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:30:40,106 - INFO - find_manage_button completed. Manage button was not found. 
+2026-01-12 20:30:41,854 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:30:42,926 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-01-12 20:30:57,927 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:30:58,069 - INFO - position is not none
+2026-01-12 20:30:59,281 - INFO - Icon clicked successfully!
+2026-01-12 20:31:13,450 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account agapc9@activegamers.com.au
+2026-01-12 20:31:14,051 - INFO - Email sent at the end of the loop.
+2026-01-12 20:31:29,053 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:31:31,621 - INFO - Processing account: agapc16@activegamers.com.au
+2026-01-12 20:31:36,793 - INFO - Driver initialized
+2026-01-12 20:31:36,793 - INFO - Activate loop initiated for agapc16@activegamers.com.au
+2026-01-12 20:31:36,793 - INFO - Begin login sequence
+2026-01-12 20:31:45,957 - INFO - 'Sign in' button clicked
+2026-01-12 20:31:48,101 - INFO - Email entered
+2026-01-12 20:31:58,326 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:31:58,394 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:32:03,505 - INFO - Standard password used
+2026-01-12 20:32:05,083 - INFO - Handling any post-login interruptions for agapc16@activegamers.com.au
+2026-01-12 20:32:10,119 - INFO - Stay signed in page did not load
+2026-01-12 20:32:15,154 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:32:15,157 - INFO - TOU page loaded
+2026-01-12 20:32:23,912 - INFO - TOU page was bypassed
+2026-01-12 20:32:37,105 - INFO - Update security info window did not appear
+2026-01-12 20:32:40,129 - INFO - Privacy notice page did not appear
+2026-01-12 20:32:43,151 - INFO - Upsell page did not appear
+2026-01-12 20:32:46,173 - INFO - Privacy notice page did not appear
+2026-01-12 20:32:54,714 - INFO - Account agapc16@activegamers.com.au is active
+2026-01-12 20:32:54,714 - INFO - login_full_flow completed for agapc16@activegamers.com.au
+2026-01-12 20:32:54,714 - INFO - Account agapc16@activegamers.com.au is already active
+2026-01-12 20:32:54,714 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:32:56,969 - INFO - Processing account: agapc22@activegamers.com.au
+2026-01-12 20:33:02,135 - INFO - Driver initialized
+2026-01-12 20:33:02,135 - INFO - Activate loop initiated for agapc22@activegamers.com.au
+2026-01-12 20:33:02,135 - INFO - Begin login sequence
+2026-01-12 20:33:11,006 - INFO - 'Sign in' button clicked
+2026-01-12 20:33:13,141 - INFO - Email entered
+2026-01-12 20:33:29,191 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-12 20:33:29,257 - INFO - Clicked the 'Use your password' button.
+2026-01-12 20:33:34,368 - INFO - Standard password used
+2026-01-12 20:33:43,080 - INFO - Handling any post-login interruptions for agapc22@activegamers.com.au
+2026-01-12 20:33:48,118 - INFO - Stay signed in page did not load
+2026-01-12 20:33:53,154 - INFO - Passkey interrupt page did not appear
+2026-01-12 20:33:53,157 - INFO - TOU page loaded
+2026-01-12 20:34:04,869 - INFO - TOU page was bypassed
+2026-01-12 20:34:08,127 - INFO - Update security info window did not appear
+2026-01-12 20:34:11,149 - INFO - Privacy notice page did not appear
+2026-01-12 20:34:14,170 - INFO - Upsell page did not appear
+2026-01-12 20:34:17,190 - INFO - Privacy notice page did not appear
+2026-01-12 20:34:52,192 - INFO - Account agapc22@activegamers.com.au is not active
+2026-01-12 20:34:52,192 - INFO - login_full_flow completed for agapc22@activegamers.com.au
+2026-01-12 20:34:58,032 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:35:08,118 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-01-12 20:35:23,226 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-01-12 20:35:23,252 - INFO - find_manage_button completed. Manage button was found. This account is already activated
+2026-01-12 20:35:25,433 - INFO - load_renew_page finished. loading gamepass url...
+2026-01-12 20:35:55,780 - INFO - click_join_button completed. Join button was not found. Will refresh the page
+2026-01-12 20:36:28,084 - INFO - click_join_button completed. Join button was not found after refresh.
+2026-01-12 20:36:43,085 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-01-12 20:36:43,251 - INFO - Subscribe button not found. Check for backup payment method on account
+2026-01-12 20:36:43,252 - INFO - -----------------------------------------------------------------------------
+2026-01-12 20:36:45,575 - INFO - Skipping wanxb - no valid ranges
+2026-01-12 20:36:45,575 - INFO - Skipping wanpc - no valid ranges
+2026-01-12 20:36:49,673 - INFO - Failed accounts saved to failed_accounts.json

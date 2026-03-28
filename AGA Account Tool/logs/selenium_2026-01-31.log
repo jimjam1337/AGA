@@ -1,0 +1,939 @@
+2026-01-31 15:21:03,963 - INFO - log has been created
+2026-01-31 15:21:06,502 - INFO - Returned result is deactivate
+2026-01-31 15:21:21,961 - INFO - Processing account: aga1@activegamers.com.au
+2026-01-31 15:21:23,452 - INFO - Driver initialized
+2026-01-31 15:21:23,453 - INFO - Deactivate loop initiated for aga1@activegamers.com.au
+2026-01-31 15:21:23,453 - INFO - Begin login sequence
+2026-01-31 15:21:30,809 - INFO - 'Sign in' button clicked
+2026-01-31 15:21:33,568 - INFO - Email entered
+2026-01-31 15:21:43,792 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:21:43,861 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:21:48,970 - INFO - Standard password used
+2026-01-31 15:21:52,794 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-01-31 15:21:57,828 - INFO - Stay signed in page did not load
+2026-01-31 15:22:03,875 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:22:13,612 - INFO - TOU page did not appear
+2026-01-31 15:22:16,652 - INFO - Update security info window did not appear
+2026-01-31 15:22:19,679 - INFO - Privacy notice page did not appear
+2026-01-31 15:22:22,700 - INFO - Upsell page did not appear
+2026-01-31 15:22:25,721 - INFO - Privacy notice page did not appear
+2026-01-31 15:22:32,900 - INFO - Account aga1@activegamers.com.au is active
+2026-01-31 15:22:32,900 - INFO - login_full_flow completed for aga1@activegamers.com.au
+2026-01-31 15:22:32,910 - INFO - main account page loaded
+2026-01-31 15:22:35,399 - INFO - loading billing cancellation page
+2026-01-31 15:22:45,400 - INFO - sleeping for 10 seconds
+2026-01-31 15:22:45,403 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:22:47,697 - INFO - Processing account: aga2@activegamers.com.au
+2026-01-31 15:22:52,869 - INFO - Driver initialized
+2026-01-31 15:22:52,869 - INFO - Deactivate loop initiated for aga2@activegamers.com.au
+2026-01-31 15:22:52,869 - INFO - Begin login sequence
+2026-01-31 15:23:00,145 - INFO - 'Sign in' button clicked
+2026-01-31 15:23:01,962 - INFO - Email entered
+2026-01-31 15:23:12,160 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:23:12,228 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:23:17,336 - INFO - Standard password used
+2026-01-31 15:23:20,592 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-01-31 15:23:25,626 - INFO - Stay signed in page did not load
+2026-01-31 15:23:30,658 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:23:35,692 - INFO - TOU page did not appear
+2026-01-31 15:23:38,725 - INFO - Update security info window did not appear
+2026-01-31 15:23:41,744 - INFO - Privacy notice page did not appear
+2026-01-31 15:23:44,763 - INFO - Upsell page did not appear
+2026-01-31 15:23:47,783 - INFO - Privacy notice page did not appear
+2026-01-31 15:24:21,167 - INFO - Account aga2@activegamers.com.au is not active
+2026-01-31 15:24:21,167 - INFO - login_full_flow completed for aga2@activegamers.com.au
+2026-01-31 15:24:51,352 - INFO - main account page failed to load within 30 seconds.Account aga2@activegamers.com.au has not been deactivated
+2026-01-31 15:24:53,592 - INFO - Processing account: aga3@activegamers.com.au
+2026-01-31 15:24:58,830 - INFO - Driver initialized
+2026-01-31 15:24:58,830 - INFO - Deactivate loop initiated for aga3@activegamers.com.au
+2026-01-31 15:24:58,830 - INFO - Begin login sequence
+2026-01-31 15:25:05,092 - INFO - 'Sign in' button clicked
+2026-01-31 15:25:06,726 - INFO - Email entered
+2026-01-31 15:25:10,839 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 15:25:11,416 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:25:16,523 - INFO - Standard password used
+2026-01-31 15:25:16,541 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-01-31 15:25:21,780 - INFO - Stay signed in page did not load
+2026-01-31 15:25:28,935 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:25:38,538 - INFO - TOU page did not appear
+2026-01-31 15:25:41,619 - INFO - Update security info window did not appear
+2026-01-31 15:25:44,639 - INFO - Privacy notice page did not appear
+2026-01-31 15:25:47,658 - INFO - Upsell page did not appear
+2026-01-31 15:25:50,679 - INFO - Privacy notice page did not appear
+2026-01-31 15:26:24,850 - INFO - Account aga3@activegamers.com.au is not active
+2026-01-31 15:26:24,850 - INFO - login_full_flow completed for aga3@activegamers.com.au
+2026-01-31 15:26:24,854 - INFO - main account page loaded
+2026-01-31 15:26:28,889 - INFO - loading billing cancellation page
+2026-01-31 15:26:38,890 - INFO - sleeping for 10 seconds
+2026-01-31 15:26:38,893 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:26:41,190 - INFO - Processing account: aga4@activegamers.com.au
+2026-01-31 15:26:46,385 - INFO - Driver initialized
+2026-01-31 15:26:46,385 - INFO - Deactivate loop initiated for aga4@activegamers.com.au
+2026-01-31 15:26:46,385 - INFO - Begin login sequence
+2026-01-31 15:26:57,947 - INFO - 'Sign in' button clicked
+2026-01-31 15:26:59,192 - INFO - Email entered
+2026-01-31 15:27:04,317 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 15:27:05,391 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:27:10,500 - INFO - Standard password used
+2026-01-31 15:27:11,890 - INFO - Handling any post-login interruptions for aga4@activegamers.com.au
+2026-01-31 15:27:11,897 - INFO - Stay signed in page loaded
+2026-01-31 15:27:21,152 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:27:41,263 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:27:46,297 - INFO - TOU page did not appear
+2026-01-31 15:27:49,328 - INFO - Update security info window did not appear
+2026-01-31 15:27:52,347 - INFO - Privacy notice page did not appear
+2026-01-31 15:27:55,365 - INFO - Upsell page did not appear
+2026-01-31 15:27:58,383 - INFO - Privacy notice page did not appear
+2026-01-31 15:28:07,454 - INFO - Account aga4@activegamers.com.au is active
+2026-01-31 15:28:07,454 - INFO - login_full_flow completed for aga4@activegamers.com.au
+2026-01-31 15:28:07,457 - INFO - main account page loaded
+2026-01-31 15:28:12,575 - INFO - loading billing cancellation page
+2026-01-31 15:28:22,576 - INFO - sleeping for 10 seconds
+2026-01-31 15:28:22,579 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:28:24,881 - INFO - Processing account: aga5@activegamers.com.au
+2026-01-31 15:28:30,068 - INFO - Driver initialized
+2026-01-31 15:28:30,068 - INFO - Deactivate loop initiated for aga5@activegamers.com.au
+2026-01-31 15:28:30,068 - INFO - Begin login sequence
+2026-01-31 15:28:37,293 - INFO - 'Sign in' button clicked
+2026-01-31 15:28:39,492 - INFO - Email entered
+2026-01-31 15:28:44,496 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 15:28:45,067 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:28:50,182 - INFO - Standard password used
+2026-01-31 15:28:51,007 - INFO - Handling any post-login interruptions for aga5@activegamers.com.au
+2026-01-31 15:28:51,011 - INFO - Stay signed in page loaded
+2026-01-31 15:28:57,498 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:29:09,279 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:29:14,312 - INFO - TOU page did not appear
+2026-01-31 15:29:17,346 - INFO - Update security info window did not appear
+2026-01-31 15:29:20,366 - INFO - Privacy notice page did not appear
+2026-01-31 15:29:23,388 - INFO - Upsell page did not appear
+2026-01-31 15:29:26,410 - INFO - Privacy notice page did not appear
+2026-01-31 15:29:31,477 - INFO - Account aga5@activegamers.com.au is active
+2026-01-31 15:29:31,477 - INFO - login_full_flow completed for aga5@activegamers.com.au
+2026-01-31 15:29:31,480 - INFO - main account page loaded
+2026-01-31 15:29:34,886 - INFO - loading billing cancellation page
+2026-01-31 15:29:44,886 - INFO - sleeping for 10 seconds
+2026-01-31 15:29:44,890 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:29:47,914 - INFO - Processing account: aga6@activegamers.com.au
+2026-01-31 15:29:53,275 - INFO - Driver initialized
+2026-01-31 15:29:53,275 - INFO - Deactivate loop initiated for aga6@activegamers.com.au
+2026-01-31 15:29:53,275 - INFO - Begin login sequence
+2026-01-31 15:29:59,196 - INFO - 'Sign in' button clicked
+2026-01-31 15:30:00,460 - INFO - Email entered
+2026-01-31 15:30:05,129 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 15:30:05,697 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:30:10,809 - INFO - Standard password used
+2026-01-31 15:30:26,027 - INFO - Handling any post-login interruptions for aga6@activegamers.com.au
+2026-01-31 15:30:31,057 - INFO - Stay signed in page did not load
+2026-01-31 15:30:42,599 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:30:48,019 - INFO - TOU page did not appear
+2026-01-31 15:30:51,051 - INFO - Update security info window did not appear
+2026-01-31 15:30:54,071 - INFO - Privacy notice page did not appear
+2026-01-31 15:30:57,092 - INFO - Upsell page did not appear
+2026-01-31 15:31:00,111 - INFO - Privacy notice page did not appear
+2026-01-31 15:31:41,404 - INFO - Account aga6@activegamers.com.au is not active
+2026-01-31 15:31:41,404 - INFO - login_full_flow completed for aga6@activegamers.com.au
+2026-01-31 15:32:11,600 - INFO - main account page failed to load within 30 seconds.Account aga6@activegamers.com.au has not been deactivated
+2026-01-31 15:32:13,847 - INFO - Processing account: aga7@activegamers.com.au
+2026-01-31 15:32:19,001 - INFO - Driver initialized
+2026-01-31 15:32:19,001 - INFO - Deactivate loop initiated for aga7@activegamers.com.au
+2026-01-31 15:32:19,001 - INFO - Begin login sequence
+2026-01-31 15:32:25,541 - INFO - 'Sign in' button clicked
+2026-01-31 15:32:26,678 - INFO - Email entered
+2026-01-31 15:32:30,504 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 15:32:31,073 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:32:36,183 - INFO - Standard password used
+2026-01-31 15:32:36,201 - INFO - Handling any post-login interruptions for aga7@activegamers.com.au
+2026-01-31 15:32:37,166 - INFO - Stay signed in page loaded
+2026-01-31 15:32:42,717 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:32:53,996 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:32:59,103 - INFO - TOU page did not appear
+2026-01-31 15:33:02,137 - INFO - Update security info window did not appear
+2026-01-31 15:33:05,157 - INFO - Privacy notice page did not appear
+2026-01-31 15:33:08,176 - INFO - Upsell page did not appear
+2026-01-31 15:33:11,195 - INFO - Privacy notice page did not appear
+2026-01-31 15:33:20,016 - INFO - Account aga7@activegamers.com.au is active
+2026-01-31 15:33:20,016 - INFO - login_full_flow completed for aga7@activegamers.com.au
+2026-01-31 15:33:20,018 - INFO - main account page loaded
+2026-01-31 15:33:23,651 - INFO - loading billing cancellation page
+2026-01-31 15:33:33,652 - INFO - sleeping for 10 seconds
+2026-01-31 15:33:33,655 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:33:35,956 - INFO - Processing account: aga8@activegamers.com.au
+2026-01-31 15:33:41,113 - INFO - Driver initialized
+2026-01-31 15:33:41,113 - INFO - Deactivate loop initiated for aga8@activegamers.com.au
+2026-01-31 15:33:41,113 - INFO - Begin login sequence
+2026-01-31 15:33:49,580 - INFO - 'Sign in' button clicked
+2026-01-31 15:33:51,708 - INFO - Email entered
+2026-01-31 15:34:01,826 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:34:01,893 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:34:07,001 - INFO - Standard password used
+2026-01-31 15:34:08,192 - INFO - Handling any post-login interruptions for aga8@activegamers.com.au
+2026-01-31 15:34:08,198 - INFO - Stay signed in page loaded
+2026-01-31 15:34:15,120 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:34:31,742 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:34:36,775 - INFO - TOU page did not appear
+2026-01-31 15:34:39,807 - INFO - Update security info window did not appear
+2026-01-31 15:34:42,828 - INFO - Privacy notice page did not appear
+2026-01-31 15:34:45,847 - INFO - Upsell page did not appear
+2026-01-31 15:34:48,866 - INFO - Privacy notice page did not appear
+2026-01-31 15:34:53,319 - INFO - Account aga8@activegamers.com.au is active
+2026-01-31 15:34:53,319 - INFO - login_full_flow completed for aga8@activegamers.com.au
+2026-01-31 15:34:53,321 - INFO - main account page loaded
+2026-01-31 15:34:56,314 - INFO - loading billing cancellation page
+2026-01-31 15:35:06,315 - INFO - sleeping for 10 seconds
+2026-01-31 15:35:06,318 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:35:08,602 - INFO - Processing account: aga9@activegamers.com.au
+2026-01-31 15:35:13,745 - INFO - Driver initialized
+2026-01-31 15:35:13,745 - INFO - Deactivate loop initiated for aga9@activegamers.com.au
+2026-01-31 15:35:13,745 - INFO - Begin login sequence
+2026-01-31 15:35:19,926 - INFO - 'Sign in' button clicked
+2026-01-31 15:35:21,611 - INFO - Email entered
+2026-01-31 15:35:25,727 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 15:35:26,804 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:35:31,912 - INFO - Standard password used
+2026-01-31 15:35:32,727 - INFO - Handling any post-login interruptions for aga9@activegamers.com.au
+2026-01-31 15:35:32,731 - INFO - Stay signed in page loaded
+2026-01-31 15:35:40,343 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:35:51,710 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:35:56,743 - INFO - TOU page did not appear
+2026-01-31 15:35:59,775 - INFO - Update security info window did not appear
+2026-01-31 15:36:02,793 - INFO - Privacy notice page did not appear
+2026-01-31 15:36:05,812 - INFO - Upsell page did not appear
+2026-01-31 15:36:08,831 - INFO - Privacy notice page did not appear
+2026-01-31 15:36:15,056 - INFO - Account aga9@activegamers.com.au is active
+2026-01-31 15:36:15,056 - INFO - login_full_flow completed for aga9@activegamers.com.au
+2026-01-31 15:36:15,059 - INFO - main account page loaded
+2026-01-31 15:36:18,355 - INFO - loading billing cancellation page
+2026-01-31 15:36:28,356 - INFO - sleeping for 10 seconds
+2026-01-31 15:36:28,358 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:36:30,652 - INFO - Processing account: aga10@activegamers.com.au
+2026-01-31 15:36:35,829 - INFO - Driver initialized
+2026-01-31 15:36:35,829 - INFO - Deactivate loop initiated for aga10@activegamers.com.au
+2026-01-31 15:36:35,829 - INFO - Begin login sequence
+2026-01-31 15:36:43,129 - INFO - 'Sign in' button clicked
+2026-01-31 15:36:44,311 - INFO - Email entered
+2026-01-31 15:36:54,402 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:36:54,468 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:36:59,580 - INFO - Standard password used
+2026-01-31 15:36:59,598 - INFO - Handling any post-login interruptions for aga10@activegamers.com.au
+2026-01-31 15:37:04,811 - INFO - Stay signed in page did not load
+2026-01-31 15:37:09,844 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:37:14,877 - INFO - TOU page did not appear
+2026-01-31 15:37:21,154 - INFO - Update security info window appeared and was bypassed
+2026-01-31 15:37:30,514 - INFO - Privacy notice page did not appear
+2026-01-31 15:37:33,610 - INFO - Upsell page did not appear
+2026-01-31 15:37:36,630 - INFO - Privacy notice page did not appear
+2026-01-31 15:37:44,242 - INFO - Account aga10@activegamers.com.au is active
+2026-01-31 15:37:44,243 - INFO - login_full_flow completed for aga10@activegamers.com.au
+2026-01-31 15:37:44,247 - INFO - main account page loaded
+2026-01-31 15:37:47,198 - INFO - loading billing cancellation page
+2026-01-31 15:37:57,199 - INFO - sleeping for 10 seconds
+2026-01-31 15:37:57,202 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:37:59,511 - INFO - Processing account: aga11@activegamers.com.au
+2026-01-31 15:38:04,695 - INFO - Driver initialized
+2026-01-31 15:38:04,695 - INFO - Deactivate loop initiated for aga11@activegamers.com.au
+2026-01-31 15:38:04,695 - INFO - Begin login sequence
+2026-01-31 15:38:10,565 - INFO - 'Sign in' button clicked
+2026-01-31 15:38:11,701 - INFO - Email entered
+2026-01-31 15:38:21,891 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:38:21,961 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:38:27,080 - INFO - Alternate password used
+2026-01-31 15:38:31,786 - INFO - Handling any post-login interruptions for aga11@activegamers.com.au
+2026-01-31 15:38:36,818 - INFO - Stay signed in page did not load
+2026-01-31 15:38:41,664 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:38:51,393 - INFO - TOU page did not appear
+2026-01-31 15:38:54,426 - INFO - Update security info window did not appear
+2026-01-31 15:38:57,448 - INFO - Privacy notice page did not appear
+2026-01-31 15:39:00,470 - INFO - Upsell page did not appear
+2026-01-31 15:39:03,491 - INFO - Privacy notice page did not appear
+2026-01-31 15:39:39,135 - INFO - Account aga11@activegamers.com.au is not active
+2026-01-31 15:39:39,135 - INFO - login_full_flow completed for aga11@activegamers.com.au
+2026-01-31 15:39:39,137 - INFO - main account page loaded
+2026-01-31 15:39:42,729 - INFO - loading billing cancellation page
+2026-01-31 15:39:52,730 - INFO - sleeping for 10 seconds
+2026-01-31 15:39:52,734 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:39:55,041 - INFO - Processing account: aga12@activegamers.com.au
+2026-01-31 15:40:00,207 - INFO - Driver initialized
+2026-01-31 15:40:00,207 - INFO - Deactivate loop initiated for aga12@activegamers.com.au
+2026-01-31 15:40:00,207 - INFO - Begin login sequence
+2026-01-31 15:40:10,652 - INFO - 'Sign in' button clicked
+2026-01-31 15:40:13,322 - INFO - Email entered
+2026-01-31 15:40:23,590 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:40:23,657 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:40:28,764 - INFO - Standard password used
+2026-01-31 15:40:28,781 - INFO - Handling any post-login interruptions for aga12@activegamers.com.au
+2026-01-31 15:40:33,981 - INFO - Stay signed in page did not load
+2026-01-31 15:40:39,013 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:40:44,046 - INFO - TOU page did not appear
+2026-01-31 15:40:54,587 - INFO - Update security info window appeared and was bypassed
+2026-01-31 15:41:09,317 - INFO - Privacy notice page did not appear
+2026-01-31 15:41:12,336 - INFO - Upsell page did not appear
+2026-01-31 15:41:15,355 - INFO - Privacy notice page did not appear
+2026-01-31 15:41:22,548 - INFO - Account aga12@activegamers.com.au is active
+2026-01-31 15:41:22,548 - INFO - login_full_flow completed for aga12@activegamers.com.au
+2026-01-31 15:41:22,556 - INFO - main account page loaded
+2026-01-31 15:41:27,143 - INFO - loading billing cancellation page
+2026-01-31 15:41:37,144 - INFO - sleeping for 10 seconds
+2026-01-31 15:41:37,146 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:41:39,438 - INFO - Processing account: aga13@activegamers.com.au
+2026-01-31 15:41:44,607 - INFO - Driver initialized
+2026-01-31 15:41:44,607 - INFO - Deactivate loop initiated for aga13@activegamers.com.au
+2026-01-31 15:41:44,607 - INFO - Begin login sequence
+2026-01-31 15:41:49,894 - INFO - 'Sign in' button clicked
+2026-01-31 15:41:51,060 - INFO - Email entered
+2026-01-31 15:42:01,309 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:42:01,376 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:42:06,485 - INFO - Standard password used
+2026-01-31 15:42:09,309 - INFO - Handling any post-login interruptions for aga13@activegamers.com.au
+2026-01-31 15:42:14,342 - INFO - Stay signed in page did not load
+2026-01-31 15:42:22,761 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:42:34,998 - INFO - TOU page did not appear
+2026-01-31 15:42:38,033 - INFO - Update security info window did not appear
+2026-01-31 15:42:41,052 - INFO - Privacy notice page did not appear
+2026-01-31 15:42:44,072 - INFO - Upsell page did not appear
+2026-01-31 15:42:47,093 - INFO - Privacy notice page did not appear
+2026-01-31 15:42:55,351 - INFO - Account aga13@activegamers.com.au is active
+2026-01-31 15:42:55,351 - INFO - login_full_flow completed for aga13@activegamers.com.au
+2026-01-31 15:42:55,354 - INFO - main account page loaded
+2026-01-31 15:42:59,927 - INFO - loading billing cancellation page
+2026-01-31 15:43:09,928 - INFO - sleeping for 10 seconds
+2026-01-31 15:43:09,932 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:43:12,228 - INFO - Processing account: aga14@activegamers.com.au
+2026-01-31 15:43:17,384 - INFO - Driver initialized
+2026-01-31 15:43:17,384 - INFO - Deactivate loop initiated for aga14@activegamers.com.au
+2026-01-31 15:43:17,384 - INFO - Begin login sequence
+2026-01-31 15:43:25,700 - INFO - 'Sign in' button clicked
+2026-01-31 15:43:26,914 - INFO - Email entered
+2026-01-31 15:43:37,038 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:43:37,106 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:43:42,210 - INFO - Standard password used
+2026-01-31 15:43:43,104 - INFO - Handling any post-login interruptions for aga14@activegamers.com.au
+2026-01-31 15:43:43,107 - INFO - Stay signed in page loaded
+2026-01-31 15:43:50,017 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:43:58,623 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:44:03,767 - INFO - TOU page did not appear
+2026-01-31 15:44:06,801 - INFO - Update security info window did not appear
+2026-01-31 15:44:09,820 - INFO - Privacy notice page did not appear
+2026-01-31 15:44:12,840 - INFO - Upsell page did not appear
+2026-01-31 15:44:15,859 - INFO - Privacy notice page did not appear
+2026-01-31 15:44:23,151 - INFO - Account aga14@activegamers.com.au is active
+2026-01-31 15:44:23,151 - INFO - login_full_flow completed for aga14@activegamers.com.au
+2026-01-31 15:44:23,154 - INFO - main account page loaded
+2026-01-31 15:44:26,357 - INFO - loading billing cancellation page
+2026-01-31 15:44:36,358 - INFO - sleeping for 10 seconds
+2026-01-31 15:44:36,361 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:44:38,664 - INFO - Processing account: aga15@activegamers.com.au
+2026-01-31 15:44:43,810 - INFO - Driver initialized
+2026-01-31 15:44:43,810 - INFO - Deactivate loop initiated for aga15@activegamers.com.au
+2026-01-31 15:44:43,810 - INFO - Begin login sequence
+2026-01-31 15:45:09,211 - INFO - 'Sign in' button clicked
+2026-01-31 15:45:10,832 - INFO - Email entered
+2026-01-31 15:45:21,083 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:45:21,150 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:45:26,256 - INFO - Standard password used
+2026-01-31 15:45:28,406 - INFO - Handling any post-login interruptions for aga15@activegamers.com.au
+2026-01-31 15:45:33,439 - INFO - Stay signed in page did not load
+2026-01-31 15:45:43,209 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:45:54,500 - INFO - TOU page did not appear
+2026-01-31 15:45:57,946 - INFO - Update security info window did not appear
+2026-01-31 15:46:00,966 - INFO - Privacy notice page did not appear
+2026-01-31 15:46:03,986 - INFO - Upsell page did not appear
+2026-01-31 15:46:07,008 - INFO - Privacy notice page did not appear
+2026-01-31 15:46:42,979 - INFO - Account aga15@activegamers.com.au is not active
+2026-01-31 15:46:42,979 - INFO - login_full_flow completed for aga15@activegamers.com.au
+2026-01-31 15:46:42,982 - INFO - main account page loaded
+2026-01-31 15:46:48,224 - INFO - loading billing cancellation page
+2026-01-31 15:46:58,224 - INFO - sleeping for 10 seconds
+2026-01-31 15:46:58,227 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:47:00,518 - INFO - Processing account: aga16@activegamers.com.au
+2026-01-31 15:47:05,699 - INFO - Driver initialized
+2026-01-31 15:47:05,699 - INFO - Deactivate loop initiated for aga16@activegamers.com.au
+2026-01-31 15:47:05,699 - INFO - Begin login sequence
+2026-01-31 15:47:11,639 - INFO - 'Sign in' button clicked
+2026-01-31 15:47:13,364 - INFO - Email entered
+2026-01-31 15:47:23,415 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:47:23,481 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:47:28,585 - INFO - Standard password used
+2026-01-31 15:47:28,601 - INFO - Handling any post-login interruptions for aga16@activegamers.com.au
+2026-01-31 15:47:29,896 - INFO - Stay signed in page loaded
+2026-01-31 15:47:35,495 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:47:46,315 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:47:51,347 - INFO - TOU page did not appear
+2026-01-31 15:47:54,379 - INFO - Update security info window did not appear
+2026-01-31 15:47:57,397 - INFO - Privacy notice page did not appear
+2026-01-31 15:48:00,416 - INFO - Upsell page did not appear
+2026-01-31 15:48:03,435 - INFO - Privacy notice page did not appear
+2026-01-31 15:48:08,516 - INFO - Account aga16@activegamers.com.au is active
+2026-01-31 15:48:08,516 - INFO - login_full_flow completed for aga16@activegamers.com.au
+2026-01-31 15:48:08,518 - INFO - main account page loaded
+2026-01-31 15:48:12,105 - INFO - loading billing cancellation page
+2026-01-31 15:48:22,106 - INFO - sleeping for 10 seconds
+2026-01-31 15:48:22,109 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:48:24,402 - INFO - Processing account: aga17@activegamers.com.au
+2026-01-31 15:48:29,590 - INFO - Driver initialized
+2026-01-31 15:48:29,590 - INFO - Deactivate loop initiated for aga17@activegamers.com.au
+2026-01-31 15:48:29,590 - INFO - Begin login sequence
+2026-01-31 15:48:36,630 - INFO - 'Sign in' button clicked
+2026-01-31 15:48:37,877 - INFO - Email entered
+2026-01-31 15:48:47,993 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:48:48,059 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:48:53,168 - INFO - Standard password used
+2026-01-31 15:48:53,185 - INFO - Handling any post-login interruptions for aga17@activegamers.com.au
+2026-01-31 15:48:58,275 - INFO - Stay signed in page did not load
+2026-01-31 15:49:03,946 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:49:13,905 - INFO - TOU page did not appear
+2026-01-31 15:49:16,939 - INFO - Update security info window did not appear
+2026-01-31 15:49:19,960 - INFO - Privacy notice page did not appear
+2026-01-31 15:49:22,980 - INFO - Upsell page did not appear
+2026-01-31 15:49:26,001 - INFO - Privacy notice page did not appear
+2026-01-31 15:50:01,089 - INFO - Account aga17@activegamers.com.au is not active
+2026-01-31 15:50:01,089 - INFO - login_full_flow completed for aga17@activegamers.com.au
+2026-01-31 15:50:01,092 - INFO - main account page loaded
+2026-01-31 15:50:04,333 - INFO - loading billing cancellation page
+2026-01-31 15:50:14,334 - INFO - sleeping for 10 seconds
+2026-01-31 15:50:14,336 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:50:16,621 - INFO - Processing account: aga18@activegamers.com.au
+2026-01-31 15:50:21,805 - INFO - Driver initialized
+2026-01-31 15:50:21,805 - INFO - Deactivate loop initiated for aga18@activegamers.com.au
+2026-01-31 15:50:21,805 - INFO - Begin login sequence
+2026-01-31 15:50:29,413 - INFO - 'Sign in' button clicked
+2026-01-31 15:50:32,044 - INFO - Email entered
+2026-01-31 15:50:42,133 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:50:42,201 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:50:47,313 - INFO - Standard password used
+2026-01-31 15:50:48,210 - INFO - Handling any post-login interruptions for aga18@activegamers.com.au
+2026-01-31 15:50:48,216 - INFO - Stay signed in page loaded
+2026-01-31 15:50:55,668 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:51:07,839 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:51:12,872 - INFO - TOU page did not appear
+2026-01-31 15:51:15,904 - INFO - Update security info window did not appear
+2026-01-31 15:51:18,923 - INFO - Privacy notice page did not appear
+2026-01-31 15:51:21,943 - INFO - Upsell page did not appear
+2026-01-31 15:51:24,962 - INFO - Privacy notice page did not appear
+2026-01-31 15:51:32,534 - INFO - Account aga18@activegamers.com.au is active
+2026-01-31 15:51:32,534 - INFO - login_full_flow completed for aga18@activegamers.com.au
+2026-01-31 15:51:32,537 - INFO - main account page loaded
+2026-01-31 15:51:37,312 - INFO - loading billing cancellation page
+2026-01-31 15:51:47,312 - INFO - sleeping for 10 seconds
+2026-01-31 15:51:47,316 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:51:49,601 - INFO - Processing account: aga19@activegamers.com.au
+2026-01-31 15:51:54,811 - INFO - Driver initialized
+2026-01-31 15:51:54,811 - INFO - Deactivate loop initiated for aga19@activegamers.com.au
+2026-01-31 15:51:54,811 - INFO - Begin login sequence
+2026-01-31 15:52:00,726 - INFO - 'Sign in' button clicked
+2026-01-31 15:52:02,361 - INFO - Email entered
+2026-01-31 15:52:12,384 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 15:52:12,451 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:52:17,563 - INFO - Standard password used
+2026-01-31 15:52:17,580 - INFO - Handling any post-login interruptions for aga19@activegamers.com.au
+2026-01-31 15:52:18,541 - INFO - Stay signed in page loaded
+2026-01-31 15:52:27,560 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 15:52:37,144 - INFO - Passkey interrupt page did not appear
+2026-01-31 15:52:42,393 - INFO - TOU page did not appear
+2026-01-31 15:52:45,426 - INFO - Update security info window did not appear
+2026-01-31 15:52:48,446 - INFO - Privacy notice page did not appear
+2026-01-31 15:52:51,465 - INFO - Upsell page did not appear
+2026-01-31 15:52:54,486 - INFO - Privacy notice page did not appear
+2026-01-31 15:53:03,557 - INFO - Account aga19@activegamers.com.au is active
+2026-01-31 15:53:03,557 - INFO - login_full_flow completed for aga19@activegamers.com.au
+2026-01-31 15:53:03,559 - INFO - main account page loaded
+2026-01-31 15:53:08,218 - INFO - loading billing cancellation page
+2026-01-31 15:53:18,219 - INFO - sleeping for 10 seconds
+2026-01-31 15:53:18,222 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 15:53:20,525 - INFO - Processing account: aga20@activegamers.com.au
+2026-01-31 15:53:25,704 - INFO - Driver initialized
+2026-01-31 15:53:25,704 - INFO - Deactivate loop initiated for aga20@activegamers.com.au
+2026-01-31 15:53:25,704 - INFO - Begin login sequence
+2026-01-31 15:53:32,715 - INFO - 'Sign in' button clicked
+2026-01-31 15:53:33,869 - INFO - Email entered
+2026-01-31 15:53:38,396 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 15:53:39,474 - INFO - Clicked the 'Use your password' button.
+2026-01-31 15:53:44,582 - INFO - Standard password used
+2026-01-31 15:53:54,529 - INFO - Handling any post-login interruptions for aga20@activegamers.com.au
+2026-01-31 15:53:59,560 - INFO - Stay signed in page did not load
+2026-01-31 15:54:10,314 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 15:54:15,650 - INFO - TOU page did not appear
+2026-01-31 15:54:18,682 - INFO - Update security info window did not appear
+2026-01-31 15:54:21,702 - INFO - Privacy notice page did not appear
+2026-01-31 15:54:24,722 - INFO - Upsell page did not appear
+2026-01-31 15:54:27,740 - INFO - Privacy notice page did not appear
+2026-01-31 15:55:06,653 - INFO - Account aga20@activegamers.com.au is not active
+2026-01-31 15:55:06,653 - INFO - login_full_flow completed for aga20@activegamers.com.au
+2026-01-31 15:55:36,856 - INFO - main account page failed to load within 30 seconds.Account aga20@activegamers.com.au has not been deactivated
+2026-01-31 15:55:39,119 - INFO - Skipping agapc - no valid ranges
+2026-01-31 15:55:39,119 - INFO - Skipping wanxb - no valid ranges
+2026-01-31 15:55:39,119 - INFO - Skipping wanpc - no valid ranges
+2026-01-31 15:55:39,119 - INFO - Skipping wodxb - no valid ranges
+2026-01-31 15:55:39,119 - INFO - Skipping wodpc - no valid ranges
+2026-01-31 15:55:39,119 - INFO - Skipping eagxb - no valid ranges
+2026-01-31 15:55:39,119 - INFO - Skipping eagpc - no valid ranges
+2026-01-31 18:46:36,310 - INFO - log has been created
+2026-01-31 18:46:39,056 - INFO - Returned result is deactivate
+2026-01-31 18:46:51,961 - INFO - Processing account: aga21@activegamers.com.au
+2026-01-31 18:46:53,458 - INFO - Driver initialized
+2026-01-31 18:46:53,458 - INFO - Deactivate loop initiated for aga21@activegamers.com.au
+2026-01-31 18:46:53,458 - INFO - Begin login sequence
+2026-01-31 18:47:01,912 - INFO - 'Sign in' button clicked
+2026-01-31 18:47:06,645 - INFO - Email entered
+2026-01-31 18:47:16,969 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 18:47:17,043 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:47:22,160 - INFO - Standard password used
+2026-01-31 18:47:25,555 - INFO - Handling any post-login interruptions for aga21@activegamers.com.au
+2026-01-31 18:47:30,588 - INFO - Stay signed in page did not load
+2026-01-31 18:47:38,064 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 18:47:46,827 - INFO - TOU page did not appear
+2026-01-31 18:47:50,115 - INFO - Update security info window did not appear
+2026-01-31 18:47:53,135 - INFO - Privacy notice page did not appear
+2026-01-31 18:47:56,155 - INFO - Upsell page did not appear
+2026-01-31 18:47:59,174 - INFO - Privacy notice page did not appear
+2026-01-31 18:48:07,189 - INFO - Account aga21@activegamers.com.au is active
+2026-01-31 18:48:07,189 - INFO - login_full_flow completed for aga21@activegamers.com.au
+2026-01-31 18:48:07,192 - INFO - main account page loaded
+2026-01-31 18:48:10,817 - INFO - loading billing cancellation page
+2026-01-31 18:48:20,818 - INFO - sleeping for 10 seconds
+2026-01-31 18:48:20,821 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 18:48:23,127 - INFO - Processing account: aga22@activegamers.com.au
+2026-01-31 18:48:28,318 - INFO - Driver initialized
+2026-01-31 18:48:28,318 - INFO - Deactivate loop initiated for aga22@activegamers.com.au
+2026-01-31 18:48:28,318 - INFO - Begin login sequence
+2026-01-31 18:48:36,621 - INFO - 'Sign in' button clicked
+2026-01-31 18:48:38,276 - INFO - Email entered
+2026-01-31 18:48:48,464 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 18:48:48,534 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:48:53,664 - INFO - Alternate password used
+2026-01-31 18:48:57,425 - INFO - Handling any post-login interruptions for aga22@activegamers.com.au
+2026-01-31 18:49:02,457 - INFO - Stay signed in page did not load
+2026-01-31 18:49:07,941 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 18:49:21,754 - INFO - TOU page did not appear
+2026-01-31 18:49:24,798 - INFO - Update security info window did not appear
+2026-01-31 18:49:27,819 - INFO - Privacy notice page did not appear
+2026-01-31 18:49:30,838 - INFO - Upsell page did not appear
+2026-01-31 18:49:33,857 - INFO - Privacy notice page did not appear
+2026-01-31 18:49:39,974 - INFO - Account aga22@activegamers.com.au is active
+2026-01-31 18:49:39,974 - INFO - login_full_flow completed for aga22@activegamers.com.au
+2026-01-31 18:49:39,976 - INFO - main account page loaded
+2026-01-31 18:49:42,995 - INFO - loading billing cancellation page
+2026-01-31 18:49:52,996 - INFO - sleeping for 10 seconds
+2026-01-31 18:49:52,999 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 18:49:55,304 - INFO - Processing account: aga23@activegamers.com.au
+2026-01-31 18:50:00,422 - INFO - Driver initialized
+2026-01-31 18:50:00,422 - INFO - Deactivate loop initiated for aga23@activegamers.com.au
+2026-01-31 18:50:00,422 - INFO - Begin login sequence
+2026-01-31 18:50:06,197 - INFO - 'Sign in' button clicked
+2026-01-31 18:50:08,915 - INFO - Email entered
+2026-01-31 18:50:19,325 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 18:50:19,394 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:50:24,503 - INFO - Standard password used
+2026-01-31 18:50:26,820 - INFO - Handling any post-login interruptions for aga23@activegamers.com.au
+2026-01-31 18:50:31,854 - INFO - Stay signed in page did not load
+2026-01-31 18:50:39,700 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 18:50:52,474 - INFO - TOU page did not appear
+2026-01-31 18:50:55,508 - INFO - Update security info window did not appear
+2026-01-31 18:50:58,526 - INFO - Privacy notice page did not appear
+2026-01-31 18:51:01,545 - INFO - Upsell page did not appear
+2026-01-31 18:51:04,566 - INFO - Privacy notice page did not appear
+2026-01-31 18:51:11,223 - INFO - Account aga23@activegamers.com.au is active
+2026-01-31 18:51:11,224 - INFO - login_full_flow completed for aga23@activegamers.com.au
+2026-01-31 18:51:11,226 - INFO - main account page loaded
+2026-01-31 18:51:15,031 - INFO - loading billing cancellation page
+2026-01-31 18:51:25,031 - INFO - sleeping for 10 seconds
+2026-01-31 18:51:25,034 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 18:51:27,325 - INFO - Processing account: aga24@activegamers.com.au
+2026-01-31 18:51:32,520 - INFO - Driver initialized
+2026-01-31 18:51:32,521 - INFO - Deactivate loop initiated for aga24@activegamers.com.au
+2026-01-31 18:51:32,521 - INFO - Begin login sequence
+2026-01-31 18:51:50,347 - INFO - 'Sign in' button clicked
+2026-01-31 18:51:51,993 - INFO - Email entered
+2026-01-31 18:52:15,509 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 18:52:15,578 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:52:20,690 - INFO - Standard password used
+2026-01-31 18:52:20,709 - INFO - Handling any post-login interruptions for aga24@activegamers.com.au
+2026-01-31 18:52:25,996 - INFO - Stay signed in page did not load
+2026-01-31 18:52:40,247 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 18:52:59,292 - INFO - TOU page did not appear
+2026-01-31 18:53:02,356 - INFO - Update security info window did not appear
+2026-01-31 18:53:05,375 - INFO - Privacy notice page did not appear
+2026-01-31 18:53:08,395 - INFO - Upsell page did not appear
+2026-01-31 18:53:11,415 - INFO - Privacy notice page did not appear
+2026-01-31 18:53:23,418 - INFO - Account aga24@activegamers.com.au is active
+2026-01-31 18:53:23,418 - INFO - login_full_flow completed for aga24@activegamers.com.au
+2026-01-31 18:53:23,421 - INFO - main account page loaded
+2026-01-31 18:53:30,398 - INFO - loading billing cancellation page
+2026-01-31 18:53:40,399 - INFO - sleeping for 10 seconds
+2026-01-31 18:53:40,402 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 18:53:42,689 - INFO - Processing account: aga25@activegamers.com.au
+2026-01-31 18:53:47,825 - INFO - Driver initialized
+2026-01-31 18:53:47,825 - INFO - Deactivate loop initiated for aga25@activegamers.com.au
+2026-01-31 18:53:47,825 - INFO - Begin login sequence
+2026-01-31 18:54:06,949 - INFO - 'Sign in' button clicked
+2026-01-31 18:54:10,196 - INFO - Email entered
+2026-01-31 18:54:13,475 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 18:54:14,547 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:54:19,657 - INFO - Standard password used
+2026-01-31 18:54:21,997 - INFO - Handling any post-login interruptions for aga25@activegamers.com.au
+2026-01-31 18:54:27,030 - INFO - Stay signed in page did not load
+2026-01-31 18:54:39,966 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 18:54:55,776 - INFO - TOU page did not appear
+2026-01-31 18:55:00,202 - INFO - Update security info window did not appear
+2026-01-31 18:55:03,223 - INFO - Privacy notice page did not appear
+2026-01-31 18:55:06,241 - INFO - Upsell page did not appear
+2026-01-31 18:55:09,260 - INFO - Privacy notice page did not appear
+2026-01-31 18:55:44,066 - INFO - Account aga25@activegamers.com.au is not active
+2026-01-31 18:55:44,066 - INFO - login_full_flow completed for aga25@activegamers.com.au
+2026-01-31 18:55:44,069 - INFO - main account page loaded
+2026-01-31 18:55:47,461 - INFO - loading billing cancellation page
+2026-01-31 18:55:57,461 - INFO - sleeping for 10 seconds
+2026-01-31 18:55:57,464 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 18:55:59,768 - INFO - Processing account: aga26@activegamers.com.au
+2026-01-31 18:56:04,887 - INFO - Driver initialized
+2026-01-31 18:56:04,887 - INFO - Deactivate loop initiated for aga26@activegamers.com.au
+2026-01-31 18:56:04,887 - INFO - Begin login sequence
+2026-01-31 18:56:13,535 - INFO - 'Sign in' button clicked
+2026-01-31 18:56:15,186 - INFO - Email entered
+2026-01-31 18:56:25,205 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 18:56:25,276 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:56:30,400 - INFO - Alternate password used
+2026-01-31 18:56:31,779 - INFO - Handling any post-login interruptions for aga26@activegamers.com.au
+2026-01-31 18:56:31,783 - INFO - Stay signed in page loaded
+2026-01-31 18:56:38,285 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 18:56:48,745 - INFO - Passkey interrupt page did not appear
+2026-01-31 18:56:53,777 - INFO - TOU page did not appear
+2026-01-31 18:56:56,810 - INFO - Update security info window did not appear
+2026-01-31 18:56:59,829 - INFO - Privacy notice page did not appear
+2026-01-31 18:57:02,848 - INFO - Upsell page did not appear
+2026-01-31 18:57:05,867 - INFO - Privacy notice page did not appear
+2026-01-31 18:57:12,982 - INFO - Account aga26@activegamers.com.au is active
+2026-01-31 18:57:12,982 - INFO - login_full_flow completed for aga26@activegamers.com.au
+2026-01-31 18:57:12,985 - INFO - main account page loaded
+2026-01-31 18:57:15,772 - INFO - loading billing cancellation page
+2026-01-31 18:57:25,773 - INFO - sleeping for 10 seconds
+2026-01-31 18:57:25,776 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 18:57:28,071 - INFO - Processing account: aga27@activegamers.com.au
+2026-01-31 18:57:33,297 - INFO - Driver initialized
+2026-01-31 18:57:33,297 - INFO - Deactivate loop initiated for aga27@activegamers.com.au
+2026-01-31 18:57:33,297 - INFO - Begin login sequence
+2026-01-31 18:57:42,025 - INFO - 'Sign in' button clicked
+2026-01-31 18:57:43,332 - INFO - Email entered
+2026-01-31 18:57:51,227 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 18:57:51,792 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:57:56,904 - INFO - Standard password used
+2026-01-31 18:57:56,921 - INFO - Handling any post-login interruptions for aga27@activegamers.com.au
+2026-01-31 18:58:02,187 - INFO - Stay signed in page did not load
+2026-01-31 18:58:08,695 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 18:58:19,461 - INFO - TOU page did not appear
+2026-01-31 18:58:22,494 - INFO - Update security info window did not appear
+2026-01-31 18:58:25,513 - INFO - Privacy notice page did not appear
+2026-01-31 18:58:28,538 - INFO - Upsell page did not appear
+2026-01-31 18:58:31,558 - INFO - Privacy notice page did not appear
+2026-01-31 18:58:37,676 - INFO - Account aga27@activegamers.com.au is active
+2026-01-31 18:58:37,676 - INFO - login_full_flow completed for aga27@activegamers.com.au
+2026-01-31 18:58:37,678 - INFO - main account page loaded
+2026-01-31 18:58:41,151 - INFO - loading billing cancellation page
+2026-01-31 18:58:51,152 - INFO - sleeping for 10 seconds
+2026-01-31 18:58:51,154 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 18:58:53,434 - INFO - Processing account: aga28@activegamers.com.au
+2026-01-31 18:58:58,589 - INFO - Driver initialized
+2026-01-31 18:58:58,589 - INFO - Deactivate loop initiated for aga28@activegamers.com.au
+2026-01-31 18:58:58,589 - INFO - Begin login sequence
+2026-01-31 18:59:04,697 - INFO - 'Sign in' button clicked
+2026-01-31 18:59:05,893 - INFO - Email entered
+2026-01-31 18:59:16,339 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 18:59:16,408 - INFO - Clicked the 'Use your password' button.
+2026-01-31 18:59:21,518 - INFO - Standard password used
+2026-01-31 18:59:24,120 - INFO - Handling any post-login interruptions for aga28@activegamers.com.au
+2026-01-31 18:59:29,153 - INFO - Stay signed in page did not load
+2026-01-31 18:59:37,090 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 18:59:51,978 - INFO - TOU page did not appear
+2026-01-31 18:59:55,008 - INFO - Update security info window did not appear
+2026-01-31 18:59:58,027 - INFO - Privacy notice page did not appear
+2026-01-31 19:00:01,046 - INFO - Upsell page did not appear
+2026-01-31 19:00:04,064 - INFO - Privacy notice page did not appear
+2026-01-31 19:00:39,187 - INFO - Account aga28@activegamers.com.au is not active
+2026-01-31 19:00:39,187 - INFO - login_full_flow completed for aga28@activegamers.com.au
+2026-01-31 19:00:39,190 - INFO - main account page loaded
+2026-01-31 19:00:46,611 - INFO - loading billing cancellation page
+2026-01-31 19:00:56,612 - INFO - sleeping for 10 seconds
+2026-01-31 19:00:56,614 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:00:58,905 - INFO - Processing account: aga29@activegamers.com.au
+2026-01-31 19:01:04,081 - INFO - Driver initialized
+2026-01-31 19:01:04,081 - INFO - Deactivate loop initiated for aga29@activegamers.com.au
+2026-01-31 19:01:04,081 - INFO - Begin login sequence
+2026-01-31 19:01:11,913 - INFO - 'Sign in' button clicked
+2026-01-31 19:01:15,649 - INFO - Email entered
+2026-01-31 19:01:20,728 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 19:01:21,295 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:01:26,402 - INFO - Standard password used
+2026-01-31 19:01:26,419 - INFO - Handling any post-login interruptions for aga29@activegamers.com.au
+2026-01-31 19:01:31,712 - INFO - Stay signed in page did not load
+2026-01-31 19:01:40,138 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 19:01:49,154 - INFO - TOU page did not appear
+2026-01-31 19:01:52,666 - INFO - Update security info window did not appear
+2026-01-31 19:01:55,685 - INFO - Privacy notice page did not appear
+2026-01-31 19:01:58,705 - INFO - Upsell page did not appear
+2026-01-31 19:02:01,723 - INFO - Privacy notice page did not appear
+2026-01-31 19:02:09,774 - INFO - Account aga29@activegamers.com.au is active
+2026-01-31 19:02:09,774 - INFO - login_full_flow completed for aga29@activegamers.com.au
+2026-01-31 19:02:09,777 - INFO - main account page loaded
+2026-01-31 19:02:14,722 - INFO - loading billing cancellation page
+2026-01-31 19:02:24,723 - INFO - sleeping for 10 seconds
+2026-01-31 19:02:24,726 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:02:27,017 - INFO - Processing account: aga30@activegamers.com.au
+2026-01-31 19:02:32,137 - INFO - Driver initialized
+2026-01-31 19:02:32,137 - INFO - Deactivate loop initiated for aga30@activegamers.com.au
+2026-01-31 19:02:32,137 - INFO - Begin login sequence
+2026-01-31 19:02:40,446 - INFO - 'Sign in' button clicked
+2026-01-31 19:02:41,688 - INFO - Email entered
+2026-01-31 19:02:51,764 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:02:51,835 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:02:56,950 - INFO - Standard password used
+2026-01-31 19:02:57,934 - INFO - Handling any post-login interruptions for aga30@activegamers.com.au
+2026-01-31 19:02:57,942 - INFO - Stay signed in page loaded
+2026-01-31 19:03:05,638 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 19:03:16,798 - INFO - Passkey interrupt page did not appear
+2026-01-31 19:03:21,831 - INFO - TOU page did not appear
+2026-01-31 19:03:24,866 - INFO - Update security info window did not appear
+2026-01-31 19:03:27,886 - INFO - Privacy notice page did not appear
+2026-01-31 19:03:30,905 - INFO - Upsell page did not appear
+2026-01-31 19:03:33,924 - INFO - Privacy notice page did not appear
+2026-01-31 19:04:13,234 - INFO - Account aga30@activegamers.com.au is not active
+2026-01-31 19:04:13,234 - INFO - login_full_flow completed for aga30@activegamers.com.au
+2026-01-31 19:04:13,236 - INFO - main account page loaded
+2026-01-31 19:04:16,842 - INFO - loading billing cancellation page
+2026-01-31 19:04:26,844 - INFO - sleeping for 10 seconds
+2026-01-31 19:04:26,847 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:04:29,136 - INFO - Processing account: aga31@activegamers.com.au
+2026-01-31 19:04:34,328 - INFO - Driver initialized
+2026-01-31 19:04:34,328 - INFO - Deactivate loop initiated for aga31@activegamers.com.au
+2026-01-31 19:04:34,328 - INFO - Begin login sequence
+2026-01-31 19:04:40,106 - INFO - 'Sign in' button clicked
+2026-01-31 19:04:42,230 - INFO - Email entered
+2026-01-31 19:04:46,536 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 19:04:47,108 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:04:52,225 - INFO - Standard password used
+2026-01-31 19:05:00,788 - INFO - Handling any post-login interruptions for aga31@activegamers.com.au
+2026-01-31 19:05:05,821 - INFO - Stay signed in page did not load
+2026-01-31 19:05:17,614 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 19:05:23,025 - INFO - TOU page did not appear
+2026-01-31 19:05:26,057 - INFO - Update security info window did not appear
+2026-01-31 19:05:29,075 - INFO - Privacy notice page did not appear
+2026-01-31 19:05:32,094 - INFO - Upsell page did not appear
+2026-01-31 19:05:35,113 - INFO - Privacy notice page did not appear
+2026-01-31 19:06:14,383 - INFO - Account aga31@activegamers.com.au is not active
+2026-01-31 19:06:14,383 - INFO - login_full_flow completed for aga31@activegamers.com.au
+2026-01-31 19:06:44,577 - INFO - main account page failed to load within 30 seconds.Account aga31@activegamers.com.au has not been deactivated
+2026-01-31 19:06:46,835 - INFO - Processing account: aga32@activegamers.com.au
+2026-01-31 19:06:52,032 - INFO - Driver initialized
+2026-01-31 19:06:52,032 - INFO - Deactivate loop initiated for aga32@activegamers.com.au
+2026-01-31 19:06:52,032 - INFO - Begin login sequence
+2026-01-31 19:06:59,762 - INFO - 'Sign in' button clicked
+2026-01-31 19:07:01,911 - INFO - Email entered
+2026-01-31 19:07:25,008 - INFO - Clicked the 'Other ways to sign in' button.
+2026-01-31 19:07:25,580 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:07:30,688 - INFO - Standard password used
+2026-01-31 19:07:31,612 - INFO - Handling any post-login interruptions for aga32@activegamers.com.au
+2026-01-31 19:07:31,616 - INFO - Stay signed in page loaded
+2026-01-31 19:07:37,109 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 19:07:47,131 - INFO - Passkey interrupt page did not appear
+2026-01-31 19:07:52,167 - INFO - TOU page did not appear
+2026-01-31 19:07:55,205 - INFO - Update security info window did not appear
+2026-01-31 19:07:58,225 - INFO - Privacy notice page did not appear
+2026-01-31 19:08:01,244 - INFO - Upsell page did not appear
+2026-01-31 19:08:04,263 - INFO - Privacy notice page did not appear
+2026-01-31 19:08:11,280 - INFO - Account aga32@activegamers.com.au is active
+2026-01-31 19:08:11,280 - INFO - login_full_flow completed for aga32@activegamers.com.au
+2026-01-31 19:08:11,283 - INFO - main account page loaded
+2026-01-31 19:08:15,118 - INFO - loading billing cancellation page
+2026-01-31 19:08:25,119 - INFO - sleeping for 10 seconds
+2026-01-31 19:08:25,123 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:08:27,407 - INFO - Processing account: aga33@activegamers.com.au
+2026-01-31 19:08:32,594 - INFO - Driver initialized
+2026-01-31 19:08:32,594 - INFO - Deactivate loop initiated for aga33@activegamers.com.au
+2026-01-31 19:08:32,594 - INFO - Begin login sequence
+2026-01-31 19:08:37,569 - INFO - 'Sign in' button clicked
+2026-01-31 19:08:39,751 - INFO - Email entered
+2026-01-31 19:08:50,187 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:08:50,256 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:08:55,364 - INFO - Standard password used
+2026-01-31 19:08:58,285 - INFO - Handling any post-login interruptions for aga33@activegamers.com.au
+2026-01-31 19:09:03,318 - INFO - Stay signed in page did not load
+2026-01-31 19:09:10,595 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 19:09:19,690 - INFO - TOU page did not appear
+2026-01-31 19:09:22,732 - INFO - Update security info window did not appear
+2026-01-31 19:09:25,751 - INFO - Privacy notice page did not appear
+2026-01-31 19:09:28,771 - INFO - Upsell page did not appear
+2026-01-31 19:09:31,792 - INFO - Privacy notice page did not appear
+2026-01-31 19:09:37,372 - INFO - Account aga33@activegamers.com.au is active
+2026-01-31 19:09:37,372 - INFO - login_full_flow completed for aga33@activegamers.com.au
+2026-01-31 19:09:37,376 - INFO - main account page loaded
+2026-01-31 19:09:41,442 - INFO - loading billing cancellation page
+2026-01-31 19:09:51,443 - INFO - sleeping for 10 seconds
+2026-01-31 19:09:51,446 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:09:53,732 - INFO - Processing account: aga34@activegamers.com.au
+2026-01-31 19:09:58,896 - INFO - Driver initialized
+2026-01-31 19:09:58,896 - INFO - Deactivate loop initiated for aga34@activegamers.com.au
+2026-01-31 19:09:58,896 - INFO - Begin login sequence
+2026-01-31 19:10:20,647 - INFO - 'Sign in' button clicked
+2026-01-31 19:10:22,771 - INFO - Email entered
+2026-01-31 19:10:33,251 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:10:33,323 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:10:38,437 - INFO - Standard password used
+2026-01-31 19:10:38,455 - INFO - Handling any post-login interruptions for aga34@activegamers.com.au
+2026-01-31 19:10:43,959 - INFO - Stay signed in page did not load
+2026-01-31 19:10:58,991 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 19:11:14,437 - INFO - TOU page did not appear
+2026-01-31 19:11:17,471 - INFO - Update security info window did not appear
+2026-01-31 19:11:20,491 - INFO - Privacy notice page did not appear
+2026-01-31 19:11:23,510 - INFO - Upsell page did not appear
+2026-01-31 19:11:26,530 - INFO - Privacy notice page did not appear
+2026-01-31 19:11:33,197 - INFO - Account aga34@activegamers.com.au is active
+2026-01-31 19:11:33,197 - INFO - login_full_flow completed for aga34@activegamers.com.au
+2026-01-31 19:11:33,200 - INFO - main account page loaded
+2026-01-31 19:11:37,438 - INFO - loading billing cancellation page
+2026-01-31 19:11:47,439 - INFO - sleeping for 10 seconds
+2026-01-31 19:11:47,443 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:11:49,721 - INFO - Processing account: aga35@activegamers.com.au
+2026-01-31 19:11:54,911 - INFO - Driver initialized
+2026-01-31 19:11:54,911 - INFO - Deactivate loop initiated for aga35@activegamers.com.au
+2026-01-31 19:11:54,911 - INFO - Begin login sequence
+2026-01-31 19:12:00,021 - INFO - 'Sign in' button clicked
+2026-01-31 19:12:05,789 - INFO - Email entered
+2026-01-31 19:12:16,005 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:12:16,076 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:12:21,187 - INFO - Standard password used
+2026-01-31 19:12:22,096 - INFO - Handling any post-login interruptions for aga35@activegamers.com.au
+2026-01-31 19:12:22,100 - INFO - Stay signed in page loaded
+2026-01-31 19:12:27,606 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-01-31 19:12:41,355 - INFO - Passkey interrupt page did not appear
+2026-01-31 19:12:46,388 - INFO - TOU page did not appear
+2026-01-31 19:12:49,420 - INFO - Update security info window did not appear
+2026-01-31 19:12:52,441 - INFO - Privacy notice page did not appear
+2026-01-31 19:12:55,462 - INFO - Upsell page did not appear
+2026-01-31 19:12:58,480 - INFO - Privacy notice page did not appear
+2026-01-31 19:13:05,163 - INFO - Account aga35@activegamers.com.au is active
+2026-01-31 19:13:05,163 - INFO - login_full_flow completed for aga35@activegamers.com.au
+2026-01-31 19:13:05,166 - INFO - main account page loaded
+2026-01-31 19:13:08,865 - INFO - loading billing cancellation page
+2026-01-31 19:13:18,866 - INFO - sleeping for 10 seconds
+2026-01-31 19:13:18,870 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:13:21,186 - INFO - Processing account: aga36@activegamers.com.au
+2026-01-31 19:13:26,341 - INFO - Driver initialized
+2026-01-31 19:13:26,341 - INFO - Deactivate loop initiated for aga36@activegamers.com.au
+2026-01-31 19:13:26,341 - INFO - Begin login sequence
+2026-01-31 19:13:37,742 - INFO - 'Sign in' button clicked
+2026-01-31 19:13:39,381 - INFO - Email entered
+2026-01-31 19:13:49,541 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:13:49,608 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:13:54,717 - INFO - Standard password used
+2026-01-31 19:13:54,736 - INFO - Handling any post-login interruptions for aga36@activegamers.com.au
+2026-01-31 19:14:00,146 - INFO - Stay signed in page did not load
+2026-01-31 19:14:05,178 - INFO - Passkey interrupt page did not appear
+2026-01-31 19:14:10,210 - INFO - TOU page did not appear
+2026-01-31 19:14:19,413 - INFO - Update security info window appeared and was bypassed
+2026-01-31 19:14:38,268 - INFO - Privacy notice page did not appear
+2026-01-31 19:14:41,289 - INFO - Upsell page did not appear
+2026-01-31 19:14:44,308 - INFO - Privacy notice page did not appear
+2026-01-31 19:15:20,629 - INFO - Account aga36@activegamers.com.au is not active
+2026-01-31 19:15:20,629 - INFO - login_full_flow completed for aga36@activegamers.com.au
+2026-01-31 19:15:20,632 - INFO - main account page loaded
+2026-01-31 19:15:25,687 - INFO - loading billing cancellation page
+2026-01-31 19:15:35,688 - INFO - sleeping for 10 seconds
+2026-01-31 19:15:35,691 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:15:37,986 - INFO - Processing account: aga37@activegamers.com.au
+2026-01-31 19:15:43,106 - INFO - Driver initialized
+2026-01-31 19:15:43,106 - INFO - Deactivate loop initiated for aga37@activegamers.com.au
+2026-01-31 19:15:43,106 - INFO - Begin login sequence
+2026-01-31 19:15:51,005 - INFO - 'Sign in' button clicked
+2026-01-31 19:15:54,137 - INFO - Email entered
+2026-01-31 19:16:04,599 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:16:04,668 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:16:09,780 - INFO - Standard password used
+2026-01-31 19:16:09,801 - INFO - Handling any post-login interruptions for aga37@activegamers.com.au
+2026-01-31 19:16:15,218 - INFO - Stay signed in page did not load
+2026-01-31 19:16:20,920 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 19:16:32,918 - INFO - TOU page did not appear
+2026-01-31 19:16:35,951 - INFO - Update security info window did not appear
+2026-01-31 19:16:38,971 - INFO - Privacy notice page did not appear
+2026-01-31 19:16:41,990 - INFO - Upsell page did not appear
+2026-01-31 19:16:45,009 - INFO - Privacy notice page did not appear
+2026-01-31 19:16:51,521 - INFO - Account aga37@activegamers.com.au is active
+2026-01-31 19:16:51,521 - INFO - login_full_flow completed for aga37@activegamers.com.au
+2026-01-31 19:16:51,524 - INFO - main account page loaded
+2026-01-31 19:16:55,396 - INFO - loading billing cancellation page
+2026-01-31 19:17:05,397 - INFO - sleeping for 10 seconds
+2026-01-31 19:17:05,400 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:17:07,703 - INFO - Processing account: aga38@activegamers.com.au
+2026-01-31 19:17:12,901 - INFO - Driver initialized
+2026-01-31 19:17:12,901 - INFO - Deactivate loop initiated for aga38@activegamers.com.au
+2026-01-31 19:17:12,901 - INFO - Begin login sequence
+2026-01-31 19:17:22,379 - INFO - 'Sign in' button clicked
+2026-01-31 19:17:24,568 - INFO - Email entered
+2026-01-31 19:17:35,026 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:17:35,096 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:17:40,206 - INFO - Standard password used
+2026-01-31 19:17:43,884 - INFO - Handling any post-login interruptions for aga38@activegamers.com.au
+2026-01-31 19:17:48,919 - INFO - Stay signed in page did not load
+2026-01-31 19:17:55,284 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 19:18:06,814 - INFO - TOU page did not appear
+2026-01-31 19:18:09,847 - INFO - Update security info window did not appear
+2026-01-31 19:18:12,868 - INFO - Privacy notice page did not appear
+2026-01-31 19:18:15,887 - INFO - Upsell page did not appear
+2026-01-31 19:18:18,906 - INFO - Privacy notice page did not appear
+2026-01-31 19:18:53,660 - INFO - Account aga38@activegamers.com.au is not active
+2026-01-31 19:18:53,660 - INFO - login_full_flow completed for aga38@activegamers.com.au
+2026-01-31 19:18:53,662 - INFO - main account page loaded
+2026-01-31 19:18:57,087 - INFO - loading billing cancellation page
+2026-01-31 19:19:07,088 - INFO - sleeping for 10 seconds
+2026-01-31 19:19:07,091 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:19:09,389 - INFO - Processing account: aga39@activegamers.com.au
+2026-01-31 19:19:14,522 - INFO - Driver initialized
+2026-01-31 19:19:14,522 - INFO - Deactivate loop initiated for aga39@activegamers.com.au
+2026-01-31 19:19:14,522 - INFO - Begin login sequence
+2026-01-31 19:19:21,954 - INFO - 'Sign in' button clicked
+2026-01-31 19:19:23,620 - INFO - Email entered
+2026-01-31 19:19:33,817 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:19:33,896 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:19:39,002 - INFO - Standard password used
+2026-01-31 19:19:41,418 - INFO - Handling any post-login interruptions for aga39@activegamers.com.au
+2026-01-31 19:19:46,452 - INFO - Stay signed in page did not load
+2026-01-31 19:19:52,079 - INFO - Passkey interrupt page appeared and was bypassed
+2026-01-31 19:20:01,608 - INFO - TOU page did not appear
+2026-01-31 19:20:04,640 - INFO - Update security info window did not appear
+2026-01-31 19:20:07,660 - INFO - Privacy notice page did not appear
+2026-01-31 19:20:10,678 - INFO - Upsell page did not appear
+2026-01-31 19:20:13,697 - INFO - Privacy notice page did not appear
+2026-01-31 19:20:19,846 - INFO - Account aga39@activegamers.com.au is active
+2026-01-31 19:20:19,846 - INFO - login_full_flow completed for aga39@activegamers.com.au
+2026-01-31 19:20:19,849 - INFO - main account page loaded
+2026-01-31 19:20:22,898 - INFO - loading billing cancellation page
+2026-01-31 19:20:32,899 - INFO - sleeping for 10 seconds
+2026-01-31 19:20:32,902 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:20:35,193 - INFO - Processing account: aga40@activegamers.com.au
+2026-01-31 19:20:40,407 - INFO - Driver initialized
+2026-01-31 19:20:40,407 - INFO - Deactivate loop initiated for aga40@activegamers.com.au
+2026-01-31 19:20:40,407 - INFO - Begin login sequence
+2026-01-31 19:20:47,470 - INFO - 'Sign in' button clicked
+2026-01-31 19:20:50,784 - INFO - Email entered
+2026-01-31 19:21:00,860 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-01-31 19:21:00,934 - INFO - Clicked the 'Use your password' button.
+2026-01-31 19:21:06,044 - INFO - Standard password used
+2026-01-31 19:21:08,734 - INFO - Handling any post-login interruptions for aga40@activegamers.com.au
+2026-01-31 19:21:13,768 - INFO - Stay signed in page did not load
+2026-01-31 19:21:18,799 - INFO - Passkey interrupt page did not appear
+2026-01-31 19:21:23,830 - INFO - TOU page did not appear
+2026-01-31 19:21:30,398 - INFO - Update security info window appeared and was bypassed
+2026-01-31 19:21:42,746 - INFO - Privacy notice page did not appear
+2026-01-31 19:21:45,765 - INFO - Upsell page did not appear
+2026-01-31 19:21:48,784 - INFO - Privacy notice page did not appear
+2026-01-31 19:21:55,814 - INFO - Account aga40@activegamers.com.au is active
+2026-01-31 19:21:55,814 - INFO - login_full_flow completed for aga40@activegamers.com.au
+2026-01-31 19:21:55,817 - INFO - main account page loaded
+2026-01-31 19:21:58,980 - INFO - loading billing cancellation page
+2026-01-31 19:22:08,981 - INFO - sleeping for 10 seconds
+2026-01-31 19:22:08,984 - INFO - Services page loaded instead of billing page. This indicates the account has no active subscriptions
+2026-01-31 19:22:11,277 - INFO - Skipping agapc - no valid ranges
+2026-01-31 19:22:11,277 - INFO - Skipping wanxb - no valid ranges
+2026-01-31 19:22:11,277 - INFO - Skipping wanpc - no valid ranges
+2026-01-31 19:22:11,277 - INFO - Skipping wodxb - no valid ranges
+2026-01-31 19:22:11,277 - INFO - Skipping wodpc - no valid ranges
+2026-01-31 19:22:11,277 - INFO - Skipping eagxb - no valid ranges
+2026-01-31 19:22:11,277 - INFO - Skipping eagpc - no valid ranges

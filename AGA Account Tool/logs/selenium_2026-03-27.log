@@ -1,0 +1,405 @@
+2026-03-27 18:58:17,150 - INFO - log has been created
+2026-03-27 18:58:21,733 - INFO - Returned result is activate
+2026-03-27 18:58:30,076 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:06:00,957 - INFO - log has been created
+2026-03-27 19:06:02,275 - INFO - Returned result is activate
+2026-03-27 19:06:09,236 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:06:12,737 - INFO - Driver initialized
+2026-03-27 19:06:12,737 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:06:12,737 - INFO - Begin login sequence
+2026-03-27 19:06:41,208 - INFO - 'Sign in' button clicked
+2026-03-27 19:06:44,442 - INFO - Email entered
+2026-03-27 19:06:54,814 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:06:54,883 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:06:59,999 - INFO - Standard password used
+2026-03-27 19:07:03,300 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:07:08,346 - INFO - Stay signed in page did not load
+2026-03-27 19:07:10,478 - INFO - Passkey interrupt page appeared and was bypassed
+2026-03-27 19:07:15,516 - INFO - TOU page did not appear
+2026-03-27 19:07:18,551 - INFO - Update security info window did not appear
+2026-03-27 19:07:21,571 - INFO - Privacy notice page did not appear
+2026-03-27 19:07:24,591 - INFO - Upsell page did not appear
+2026-03-27 19:07:27,612 - INFO - Privacy notice page did not appear
+2026-03-27 19:07:46,493 - INFO - log has been created
+2026-03-27 19:07:49,151 - INFO - Returned result is activate
+2026-03-27 19:07:54,114 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:07:55,237 - INFO - Driver initialized
+2026-03-27 19:07:55,237 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:07:55,237 - INFO - Begin login sequence
+2026-03-27 19:08:03,082 - INFO - 'Sign in' button clicked
+2026-03-27 19:08:04,713 - INFO - Email entered
+2026-03-27 19:08:14,941 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:08:15,019 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:08:20,136 - INFO - Standard password used
+2026-03-27 19:08:20,154 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:08:25,461 - INFO - Stay signed in page did not load
+2026-03-27 19:08:28,043 - INFO - Passkey interrupt page appeared and was bypassed
+2026-03-27 19:08:33,096 - INFO - TOU page did not appear
+2026-03-27 19:08:36,128 - INFO - Update security info window did not appear
+2026-03-27 19:08:39,147 - INFO - Privacy notice page did not appear
+2026-03-27 19:08:42,166 - INFO - Upsell page did not appear
+2026-03-27 19:08:45,185 - INFO - Privacy notice page did not appear
+2026-03-27 19:09:16,189 - INFO - Account aga1@activegamers.com.au is not active
+2026-03-27 19:09:16,189 - INFO - login_full_flow completed for aga1@activegamers.com.au
+2026-03-27 19:09:27,096 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 19:09:37,160 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-03-27 19:15:01,148 - INFO - log has been created
+2026-03-27 19:15:02,630 - INFO - Returned result is activate
+2026-03-27 19:15:06,665 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:15:07,797 - INFO - Driver initialized
+2026-03-27 19:15:07,797 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:15:07,797 - INFO - Begin login sequence
+2026-03-27 19:15:16,845 - INFO - 'Sign in' button clicked
+2026-03-27 19:15:18,980 - INFO - Email entered
+2026-03-27 19:15:29,027 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:15:29,094 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:15:34,204 - INFO - Standard password used
+2026-03-27 19:15:34,982 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:15:34,988 - INFO - Stay signed in page loaded
+2026-03-27 19:15:47,464 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-03-27 19:15:57,828 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:16:02,866 - INFO - TOU page did not appear
+2026-03-27 19:16:05,909 - INFO - Update security info window did not appear
+2026-03-27 19:16:08,934 - INFO - Privacy notice page did not appear
+2026-03-27 19:16:13,100 - INFO - Upsell page did not appear
+2026-03-27 19:16:16,124 - INFO - Privacy notice page did not appear
+2026-03-27 19:19:21,241 - INFO - log has been created
+2026-03-27 19:19:23,240 - INFO - Returned result is activate
+2026-03-27 19:19:38,922 - INFO - log has been created
+2026-03-27 19:19:40,614 - INFO - Returned result is activate
+2026-03-27 19:19:44,603 - INFO - Processing account: aga2@activegamers.com.au
+2026-03-27 19:19:45,718 - INFO - Driver initialized
+2026-03-27 19:19:45,718 - INFO - Activate loop initiated for aga2@activegamers.com.au
+2026-03-27 19:19:45,718 - INFO - Begin login sequence
+2026-03-27 19:19:54,238 - INFO - 'Sign in' button clicked
+2026-03-27 19:19:55,910 - INFO - Email entered
+2026-03-27 19:20:06,224 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:20:06,291 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:20:11,397 - INFO - Standard password used
+2026-03-27 19:20:15,514 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-03-27 19:20:20,546 - INFO - Stay signed in page did not load
+2026-03-27 19:20:30,608 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:20:35,637 - INFO - TOU page did not appear
+2026-03-27 19:20:42,199 - INFO - Update security info window appeared and was bypassed
+2026-03-27 19:20:45,228 - INFO - Privacy notice page did not appear
+2026-03-27 19:20:48,247 - INFO - Upsell page did not appear
+2026-03-27 19:20:51,269 - INFO - Privacy notice page did not appear
+2026-03-27 19:22:16,617 - INFO - log has been created
+2026-03-27 19:22:18,190 - INFO - Returned result is activate
+2026-03-27 19:22:22,529 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:22:23,653 - INFO - Driver initialized
+2026-03-27 19:22:23,653 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:22:23,653 - INFO - Begin login sequence
+2026-03-27 19:22:31,391 - INFO - 'Sign in' button clicked
+2026-03-27 19:22:33,090 - INFO - Email entered
+2026-03-27 19:22:43,159 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:22:43,226 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:22:48,338 - INFO - Standard password used
+2026-03-27 19:22:49,298 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:22:49,303 - INFO - Stay signed in page loaded
+2026-03-27 19:22:51,659 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-03-27 19:23:01,746 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:23:06,782 - INFO - TOU page did not appear
+2026-03-27 19:23:09,818 - INFO - Update security info window did not appear
+2026-03-27 19:23:12,839 - INFO - Privacy notice page did not appear
+2026-03-27 19:23:15,861 - INFO - Upsell page did not appear
+2026-03-27 19:23:18,883 - INFO - Privacy notice page did not appear
+2026-03-27 19:27:47,436 - INFO - log has been created
+2026-03-27 19:27:49,097 - INFO - Returned result is activate
+2026-03-27 19:27:55,019 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:27:56,122 - INFO - Driver initialized
+2026-03-27 19:27:56,122 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:27:56,122 - INFO - Begin login sequence
+2026-03-27 19:28:04,349 - INFO - 'Sign in' button clicked
+2026-03-27 19:28:06,054 - INFO - Email entered
+2026-03-27 19:28:16,315 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:28:16,386 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:28:21,491 - INFO - Standard password used
+2026-03-27 19:28:32,074 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:28:32,078 - INFO - Stay signed in page loaded
+2026-03-27 19:28:35,190 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-03-27 19:28:45,256 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:28:50,293 - INFO - TOU page did not appear
+2026-03-27 19:28:53,327 - INFO - Update security info window did not appear
+2026-03-27 19:28:56,348 - INFO - Privacy notice page did not appear
+2026-03-27 19:28:59,367 - INFO - Upsell page did not appear
+2026-03-27 19:29:03,191 - INFO - Privacy notice page did not appear
+2026-03-27 19:34:50,005 - INFO - log has been created
+2026-03-27 19:34:52,716 - INFO - Returned result is activate
+2026-03-27 19:34:57,741 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:34:58,870 - INFO - Driver initialized
+2026-03-27 19:34:58,870 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:34:58,870 - INFO - Begin login sequence
+2026-03-27 19:35:16,751 - INFO - 'Sign in' button clicked
+2026-03-27 19:35:19,545 - INFO - Email entered
+2026-03-27 19:35:29,605 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:35:29,673 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:35:34,785 - INFO - Standard password used
+2026-03-27 19:35:34,801 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:35:35,656 - INFO - Stay signed in page loaded
+2026-03-27 19:35:38,294 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-03-27 19:35:48,386 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:37:02,137 - INFO - log has been created
+2026-03-27 19:37:04,124 - INFO - Returned result is activate
+2026-03-27 19:37:07,249 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:37:08,363 - INFO - Driver initialized
+2026-03-27 19:37:08,363 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:37:08,363 - INFO - Begin login sequence
+2026-03-27 19:37:15,675 - INFO - 'Sign in' button clicked
+2026-03-27 19:37:17,903 - INFO - Email entered
+2026-03-27 19:37:27,972 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:37:28,041 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:37:33,155 - INFO - Standard password used
+2026-03-27 19:37:34,030 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:37:34,034 - INFO - Stay signed in page loaded
+2026-03-27 19:37:44,279 - INFO - stay signed in page was bypassed by loading https://account.microsoft.com
+2026-03-27 19:37:54,513 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:38:49,833 - INFO - log has been created
+2026-03-27 19:38:51,551 - INFO - Returned result is activate
+2026-03-27 19:38:55,503 - INFO - Processing account: aga1@activegamers.com.au
+2026-03-27 19:38:56,620 - INFO - Driver initialized
+2026-03-27 19:38:56,621 - INFO - Activate loop initiated for aga1@activegamers.com.au
+2026-03-27 19:38:56,621 - INFO - Begin login sequence
+2026-03-27 19:39:05,167 - INFO - 'Sign in' button clicked
+2026-03-27 19:39:07,493 - INFO - Email entered
+2026-03-27 19:39:17,908 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:39:17,980 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:39:23,093 - INFO - Standard password used
+2026-03-27 19:39:23,657 - INFO - Handling any post-login interruptions for aga1@activegamers.com.au
+2026-03-27 19:39:34,003 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:39:43,277 - INFO - TOU page did not appear
+2026-03-27 19:39:46,314 - INFO - Update security info window did not appear
+2026-03-27 19:39:49,335 - INFO - Privacy notice page did not appear
+2026-03-27 19:39:52,360 - INFO - Upsell page did not appear
+2026-03-27 19:39:55,382 - INFO - Privacy notice page did not appear
+2026-03-27 19:40:29,969 - INFO - Account aga1@activegamers.com.au is not active
+2026-03-27 19:40:29,969 - INFO - login_full_flow completed for aga1@activegamers.com.au
+2026-03-27 19:40:34,409 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 19:40:44,483 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-03-27 19:40:59,587 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-03-27 19:41:04,650 - INFO - find_manage_button completed. Manage button was not found. 
+2026-03-27 19:41:05,763 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 19:41:07,341 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-03-27 19:41:22,342 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-03-27 19:41:22,498 - INFO - position is not none
+2026-03-27 19:41:23,702 - INFO - Icon clicked successfully!
+2026-03-27 19:41:35,848 - INFO - Launch or install Xbox PC app button was found. Account reactivation is complete for account aga1@activegamers.com.au
+2026-03-27 19:41:36,595 - INFO - Email sent at the end of the loop.
+2026-03-27 19:41:51,595 - INFO - -----------------------------------------------------------------------------
+2026-03-27 19:41:53,883 - INFO - Skipping agapc - no valid ranges
+2026-03-27 19:41:53,883 - INFO - Skipping wanxb - no valid ranges
+2026-03-27 19:41:53,883 - INFO - Skipping wanpc - no valid ranges
+2026-03-27 19:41:53,883 - INFO - Skipping wodxb - no valid ranges
+2026-03-27 19:41:53,883 - INFO - Skipping wodpc - no valid ranges
+2026-03-27 19:41:53,883 - INFO - Skipping eagxb - no valid ranges
+2026-03-27 19:41:53,883 - INFO - Skipping eagpc - no valid ranges
+2026-03-27 19:42:01,114 - INFO - log has been created
+2026-03-27 19:42:04,039 - INFO - Returned result is activate
+2026-03-27 19:42:08,125 - INFO - Processing account: aga2@activegamers.com.au
+2026-03-27 19:42:09,235 - INFO - Driver initialized
+2026-03-27 19:42:09,235 - INFO - Activate loop initiated for aga2@activegamers.com.au
+2026-03-27 19:42:09,235 - INFO - Begin login sequence
+2026-03-27 19:42:17,607 - INFO - 'Sign in' button clicked
+2026-03-27 19:42:20,073 - INFO - Email entered
+2026-03-27 19:42:30,485 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:42:30,552 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:42:35,665 - INFO - Standard password used
+2026-03-27 19:42:39,519 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-03-27 19:42:49,589 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:42:54,624 - INFO - TOU page did not appear
+2026-03-27 19:43:07,019 - INFO - Update security info window appeared and was bypassed
+2026-03-27 19:43:10,044 - INFO - Privacy notice page did not appear
+2026-03-27 19:43:13,066 - INFO - Upsell page did not appear
+2026-03-27 19:43:16,089 - INFO - Privacy notice page did not appear
+2026-03-27 19:43:47,173 - INFO - Account aga2@activegamers.com.au is not active
+2026-03-27 19:43:47,173 - INFO - login_full_flow completed for aga2@activegamers.com.au
+2026-03-27 19:44:36,764 - INFO - log has been created
+2026-03-27 19:44:38,301 - INFO - Returned result is activate
+2026-03-27 19:44:43,239 - INFO - Processing account: aga2@activegamers.com.au
+2026-03-27 19:44:44,311 - INFO - Driver initialized
+2026-03-27 19:44:44,311 - INFO - Activate loop initiated for aga2@activegamers.com.au
+2026-03-27 19:44:44,311 - INFO - Begin login sequence
+2026-03-27 19:44:51,872 - INFO - 'Sign in' button clicked
+2026-03-27 19:44:53,613 - INFO - Email entered
+2026-03-27 19:45:17,750 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:45:17,817 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:45:22,931 - INFO - Standard password used
+2026-03-27 19:45:26,161 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-03-27 19:45:36,445 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:46:26,343 - INFO - Account aga2@activegamers.com.au is not active
+2026-03-27 19:46:26,343 - INFO - login_full_flow completed for aga2@activegamers.com.au
+2026-03-27 19:46:29,798 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 19:49:25,559 - INFO - log has been created
+2026-03-27 19:49:47,915 - INFO - Returned result is activate
+2026-03-27 19:49:50,720 - INFO - Processing account: aga2@activegamers.com.au
+2026-03-27 19:49:51,838 - INFO - Driver initialized
+2026-03-27 19:49:51,838 - INFO - Activate loop initiated for aga2@activegamers.com.au
+2026-03-27 19:49:51,838 - INFO - Begin login sequence
+2026-03-27 19:50:22,968 - INFO - 'Sign in' button clicked
+2026-03-27 19:50:24,642 - INFO - Email entered
+2026-03-27 19:50:49,039 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:50:49,111 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:50:54,229 - INFO - Standard password used
+2026-03-27 19:50:54,244 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-03-27 19:51:04,382 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:51:35,539 - INFO - Account aga2@activegamers.com.au is not active
+2026-03-27 19:51:35,539 - INFO - login_full_flow completed for aga2@activegamers.com.au
+2026-03-27 19:51:38,927 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 19:51:48,999 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-03-27 19:52:04,100 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-03-27 19:52:09,163 - INFO - find_manage_button completed. Manage button was not found. 
+2026-03-27 19:52:10,463 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 19:52:33,618 - INFO - log has been created
+2026-03-27 19:52:35,236 - INFO - Returned result is activate
+2026-03-27 19:52:38,778 - INFO - Processing account: aga2@activegamers.com.au
+2026-03-27 19:52:39,888 - INFO - Driver initialized
+2026-03-27 19:52:39,888 - INFO - Activate loop initiated for aga2@activegamers.com.au
+2026-03-27 19:52:39,888 - INFO - Begin login sequence
+2026-03-27 19:52:51,505 - INFO - 'Sign in' button clicked
+2026-03-27 19:52:54,145 - INFO - Email entered
+2026-03-27 19:53:04,232 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:53:04,297 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:53:09,417 - INFO - Standard password used
+2026-03-27 19:53:11,490 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-03-27 19:53:21,560 - INFO - Passkey interrupt page did not appear
+2026-03-27 19:53:24,925 - INFO - Update security info window appeared enter was pressed on looks good button
+2026-03-27 19:54:05,600 - INFO - Account aga2@activegamers.com.au is not active
+2026-03-27 19:54:05,600 - INFO - login_full_flow completed for aga2@activegamers.com.au
+2026-03-27 19:54:19,510 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 19:54:29,582 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-03-27 19:54:44,680 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-03-27 19:54:54,006 - INFO - log has been created
+2026-03-27 19:54:55,440 - INFO - log has been created
+2026-03-27 19:54:56,804 - INFO - Returned result is activate
+2026-03-27 19:55:02,679 - INFO - Processing account: aga2@activegamers.com.au
+2026-03-27 19:55:03,786 - INFO - Driver initialized
+2026-03-27 19:55:03,786 - INFO - Activate loop initiated for aga2@activegamers.com.au
+2026-03-27 19:55:03,786 - INFO - Begin login sequence
+2026-03-27 19:55:30,306 - INFO - 'Sign in' button clicked
+2026-03-27 19:55:32,608 - INFO - Email entered
+2026-03-27 19:55:55,849 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-03-27 19:55:55,918 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:56:01,032 - INFO - Standard password used
+2026-03-27 19:56:03,185 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-03-27 19:56:06,222 - INFO - Update security info window did not appear
+2026-03-27 19:58:19,058 - INFO - log has been created
+2026-03-27 19:58:20,895 - INFO - Returned result is activate
+2026-03-27 19:58:27,495 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 19:58:28,620 - INFO - Driver initialized
+2026-03-27 19:58:28,620 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 19:58:28,620 - INFO - Begin login sequence
+2026-03-27 19:58:46,825 - INFO - 'Sign in' button clicked
+2026-03-27 19:58:48,595 - INFO - Email entered
+2026-03-27 19:58:53,643 - INFO - Clicked the 'Other ways to sign in' button.
+2026-03-27 19:58:54,716 - INFO - Clicked the 'Use your password' button.
+2026-03-27 19:58:59,833 - INFO - Standard password used
+2026-03-27 19:59:02,342 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-03-27 19:59:05,388 - INFO - Update security info window did not appear
+2026-03-27 19:59:53,905 - INFO - log has been created
+2026-03-27 19:59:55,843 - INFO - Returned result is activate
+2026-03-27 19:59:59,746 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 20:00:00,873 - INFO - Driver initialized
+2026-03-27 20:00:00,873 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 20:00:00,873 - INFO - Begin login sequence
+2026-03-27 20:00:06,625 - INFO - 'Sign in' button clicked
+2026-03-27 20:00:09,880 - INFO - Email entered
+2026-03-27 20:00:13,411 - INFO - Clicked the 'Other ways to sign in' button.
+2026-03-27 20:00:13,975 - INFO - Clicked the 'Use your password' button.
+2026-03-27 20:00:19,093 - INFO - Standard password used
+2026-03-27 20:00:23,976 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-03-27 20:00:27,019 - INFO - Update security info window did not appear
+2026-03-27 20:01:28,027 - INFO - Account aga3@activegamers.com.au is not active
+2026-03-27 20:01:28,027 - INFO - login_full_flow completed for aga3@activegamers.com.au
+2026-03-27 20:01:34,495 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 20:09:19,537 - INFO - log has been created
+2026-03-27 20:09:21,467 - INFO - Returned result is activate
+2026-03-27 20:09:25,437 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 20:09:26,702 - INFO - Driver initialized
+2026-03-27 20:09:26,703 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 20:09:26,703 - INFO - Begin login sequence
+2026-03-27 20:09:33,572 - INFO - 'Sign in' button clicked
+2026-03-27 20:09:35,203 - INFO - Email entered
+2026-03-27 20:09:40,748 - INFO - Clicked the 'Other ways to sign in' button.
+2026-03-27 20:09:41,828 - INFO - Clicked the 'Use your password' button.
+2026-03-27 20:09:46,940 - INFO - Standard password used
+2026-03-27 20:09:49,675 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-03-27 20:09:52,719 - INFO - Update security info window did not appear
+2026-03-27 20:10:31,660 - INFO - log has been created
+2026-03-27 20:10:34,853 - INFO - Returned result is activate
+2026-03-27 20:10:39,268 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 20:10:40,476 - INFO - Driver initialized
+2026-03-27 20:10:40,476 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 20:10:40,476 - INFO - Begin login sequence
+2026-03-27 20:10:50,290 - INFO - 'Sign in' button clicked
+2026-03-27 20:10:52,414 - INFO - Email entered
+2026-03-27 20:10:56,967 - INFO - Clicked the 'Other ways to sign in' button.
+2026-03-27 20:10:57,527 - INFO - Clicked the 'Use your password' button.
+2026-03-27 20:11:02,643 - INFO - Standard password used
+2026-03-27 20:11:05,689 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-03-27 20:11:27,307 - INFO - Passkey interrupt page appeared and was bypassed
+2026-03-27 20:11:30,345 - INFO - Update security info window did not appear
+2026-03-27 20:12:05,422 - INFO - log has been created
+2026-03-27 20:12:07,007 - INFO - Returned result is activate
+2026-03-27 20:12:10,653 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 20:12:11,771 - INFO - Driver initialized
+2026-03-27 20:12:11,771 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 20:12:11,771 - INFO - Begin login sequence
+2026-03-27 20:12:47,995 - INFO - 'Sign in' button clicked
+2026-03-27 20:12:50,104 - INFO - Email entered
+2026-03-27 20:13:06,562 - INFO - Clicked the 'Other ways to sign in' button.
+2026-03-27 20:13:07,637 - INFO - Clicked the 'Use your password' button.
+2026-03-27 20:13:12,748 - INFO - Standard password used
+2026-03-27 20:13:13,280 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-03-27 20:13:27,064 - INFO - Passkey interrupt page appeared and was bypassed
+2026-03-27 20:14:30,101 - INFO - Update security info window did not appear
+2026-03-27 20:15:25,715 - INFO - log has been created
+2026-03-27 20:15:32,177 - INFO - Returned result is activate
+2026-03-27 20:15:35,339 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 20:15:36,504 - INFO - Driver initialized
+2026-03-27 20:15:36,504 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 20:15:36,504 - INFO - Begin login sequence
+2026-03-27 20:15:44,298 - INFO - 'Sign in' button clicked
+2026-03-27 20:15:45,960 - INFO - Email entered
+2026-03-27 20:15:51,276 - INFO - Clicked the 'Other ways to sign in' button.
+2026-03-27 20:15:52,362 - INFO - Clicked the 'Use your password' button.
+2026-03-27 20:15:57,471 - INFO - Standard password used
+2026-03-27 20:15:59,928 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-03-27 20:16:22,986 - INFO - Passkey interrupt page appeared and was bypassed
+2026-03-27 20:16:46,533 - INFO - log has been created
+2026-03-27 20:16:48,555 - INFO - Returned result is activate
+2026-03-27 20:16:52,230 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 20:16:53,421 - INFO - Driver initialized
+2026-03-27 20:16:53,421 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 20:16:53,422 - INFO - Begin login sequence
+2026-03-27 20:17:49,551 - INFO - log has been created
+2026-03-27 20:17:51,840 - INFO - Returned result is activate
+2026-03-27 20:17:55,266 - INFO - Processing account: aga3@activegamers.com.au
+2026-03-27 20:17:56,637 - INFO - Driver initialized
+2026-03-27 20:17:56,637 - INFO - Activate loop initiated for aga3@activegamers.com.au
+2026-03-27 20:17:56,637 - INFO - Begin login sequence
+2026-03-27 20:18:05,421 - INFO - 'Sign in' button clicked
+2026-03-27 20:18:07,666 - INFO - Email entered
+2026-03-27 20:18:11,521 - INFO - Clicked the 'Other ways to sign in' button.
+2026-03-27 20:18:12,596 - INFO - Clicked the 'Use your password' button.
+2026-03-27 20:18:17,708 - INFO - Standard password used
+2026-03-27 20:18:17,732 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-03-27 20:18:45,924 - INFO - Passkey interrupt page appeared and was bypassed
+2026-03-27 20:19:48,962 - INFO - Update security info window did not appear
+2026-03-27 20:20:50,508 - INFO - Account aga3@activegamers.com.au is not active
+2026-03-27 20:20:50,508 - INFO - login_full_flow completed for aga3@activegamers.com.au
+2026-03-27 20:20:57,283 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 20:21:07,352 - INFO - handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear
+2026-03-27 20:21:22,450 - INFO - click_account_selection_button completed. Account selection button was not found.
+2026-03-27 20:21:27,521 - INFO - find_manage_button completed. Manage button was not found. 
+2026-03-27 20:21:29,597 - INFO - load_renew_page finished. loading gamepass url...
+2026-03-27 20:21:31,717 - INFO - click_join_button completed. Join button appeared and was clicked
+2026-03-27 20:21:46,719 - INFO - sleeping for 15 seconds to allows the subscribe modal to load
+2026-03-27 20:21:46,980 - INFO - Subscribe button not found. Check for backup payment method on account
+2026-03-27 20:21:46,980 - INFO - -----------------------------------------------------------------------------
+2026-03-27 20:21:49,419 - INFO - Skipping agapc - no valid ranges
+2026-03-27 20:21:49,419 - INFO - Skipping wanxb - no valid ranges
+2026-03-27 20:21:49,419 - INFO - Skipping wanpc - no valid ranges
+2026-03-27 20:21:49,419 - INFO - Skipping wodxb - no valid ranges
+2026-03-27 20:21:49,419 - INFO - Skipping wodpc - no valid ranges
+2026-03-27 20:21:49,419 - INFO - Skipping eagxb - no valid ranges
+2026-03-27 20:21:49,419 - INFO - Skipping eagpc - no valid ranges
