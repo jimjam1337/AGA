@@ -25,7 +25,7 @@ def create_log():
     print("starting log function")
 
     today_date = datetime.now().strftime("%Y-%m-%d")
-    log_directory = r'C:\Users\james\Documents\GitHub\AGA\AGA Account Tool\logs'
+    log_directory = r'.\logs'
     os.makedirs(log_directory, exist_ok=True)
 
     log_filename = os.path.join(log_directory, f'selenium_{today_date}.log')
@@ -184,9 +184,11 @@ def create_dialogue_box():
         set_result("check_status")
 
     # GUI setup
-    home_dir = os.path.expanduser("~")
-    image_path = os.path.join(home_dir, "Documents", "GitHub", "AGA", "AGA Account Tool", "icons",
-                              "aga_logo_600x345.png")
+#    home_dir = os.path.expanduser("~")
+#    image_path = os.path.join(home_dir, "Documents", "GitHub", "AGA", "AGA Account Tool", "icons",
+#                              "aga_logo_600x345.png")
+
+    image_path = os.path.join("icons", "aga_logo_600x345.png")
 
     root = tk.Tk()
     root.title("AGA GamePass Account Tool")
@@ -390,8 +392,13 @@ def handle_passkey_interrupt_page(driver):
         WebDriverWait(driver, 10).until(
             EC.url_contains("login.microsoft.com/consumers/fido")
         )
-        time.sleep(20)
-        driver.get("https://google.com.au")
+        #driver.get("https://account.live.com/interrupt/passkey/enrol")
+
+        pyautogui.moveTo(1059, 623)
+        time.sleep(1)
+        pyautogui.click()
+        time.sleep(1)
+        pyautogui.click()
         logger.info("Passkey interrupt page appeared and was bypassed")
     except TimeoutException:
         logger.info("Passkey interrupt page did not appear")
@@ -417,16 +424,15 @@ def check_for_active_subscription(driver, email):
 def login_full_flow(driver, email, password, alternate_password):
     login_function(driver, email, password, alternate_password)
     logger.info("Handling any post-login interruptions for %s", email)
-    # handle_stay_signed_in_page(driver)
-    handle_passkey_interrupt_page(driver)
-    time.sleep(60)
-    # handle_tou_page(driver)
+    #handle_stay_signed_in_page(driver)
+    #handle_passkey_interrupt_page(driver)
+    handle_tou_page(driver)
     handle_update_security_info_page(driver)
     time.sleep(30)
-    # handle_privacy_notice_page(driver)
-    # handle_upsell_page(driver)
-    # handle_privacy_notice_page(driver)
-    check_for_active_subscription(driver, email)
+    #handle_privacy_notice_page(driver)
+    #handle_upsell_page(driver)
+    #handle_privacy_notice_page(driver)
+    #check_for_active_subscription(driver, email)
     logger.info("login_full_flow completed for %s", email)
 
 
@@ -572,82 +578,82 @@ def activate_account_flow(driver, email, password, alternate_password):
     logger.info("Activate loop initiated for %s", email)
     login_full_flow(driver, email, password, alternate_password)
 
-    if manage_xbox_element == "inactive":
-        print(email, manage_xbox_element)
-        load_renew_page(driver, email)
-        handle_passkey_interrupt_page_2(driver)
-        click_account_selection_button(driver)
-        find_manage_button(driver)
-        load_renew_page(driver, email)
-        click_join_button(driver)
-        time.sleep(15)
-        logger.info("sleeping for 15 seconds to allows the subscribe modal to load")
+    #if manage_xbox_element == "inactive":
+    #    print(email, manage_xbox_element)
+    load_renew_page(driver, email)
+    handle_passkey_interrupt_page_2(driver)
+    click_account_selection_button(driver)
+    find_manage_button(driver)
+    load_renew_page(driver, email)
+    click_join_button(driver)
+    time.sleep(15)
+    logger.info("sleeping for 15 seconds to allows the subscribe modal to load")
+
+    try:
+        # Set the path to the subscribe button image
+        icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account Tool/icons/subscribe_button.png"
 
         try:
-            # Set the path to the subscribe button image
-            icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account Tool/icons/subscribe_button.png"
+            # Locate the icon on the screen
+            subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
 
-            try:
-                # Locate the icon on the screen
-                subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
+            if subscribe_button_position is not None:
+                logger.info("position is not none")
+                # Get the center coordinates of the icon
+                icon_x, icon_y = pyautogui.center(subscribe_button_position)
 
-                if subscribe_button_position is not None:
-                    logger.info("position is not none")
-                    # Get the center coordinates of the icon
-                    icon_x, icon_y = pyautogui.center(subscribe_button_position)
+                pyautogui.click(icon_x, icon_y)
+                time.sleep(1)
+                pyautogui.click(icon_x, icon_y)
 
-                    pyautogui.click(icon_x, icon_y)
-                    time.sleep(1)
-                    pyautogui.click(icon_x, icon_y)
+                logger.info("Icon clicked successfully!")
 
-                    logger.info("Icon clicked successfully!")
+                try:
+                    WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.XPATH, "//p[text()='Launch or install Xbox PC app']"))
+                    )
 
-                    try:
-                        WebDriverWait(driver, 20).until(
-                            EC.presence_of_element_located((By.XPATH, "//p[text()='Launch or install Xbox PC app']"))
-                        )
+                    logger.info("Launch or install Xbox PC app button was found. Account reactivation is complete "
+                                "for account %s", email)
+                    email_body = f"Account {email} has been activated"
+                    send_end_of_loop_email(email, email_body, user_choice)
+                    time.sleep(15)
 
-                        logger.info("Launch or install Xbox PC app button was found. Account reactivation is complete "
-                                    "for account %s", email)
-                        email_body = f"Account {email} has been activated"
-                        send_end_of_loop_email(email, email_body, user_choice)
-                        time.sleep(15)
+                except TimeoutException:
+                    logger.info(
+                        "Launch or install Xbox PC app button did not become present and clickable. Check to "
+                        "see if account has valid payment method (convert to gift code)")
 
-                    except TimeoutException:
-                        logger.info(
-                            "Launch or install Xbox PC app button did not become present and clickable. Check to "
-                            "see if account has valid payment method (convert to gift code)")
-
-                        run_entry["failed_accounts"].append({
-                            "email": email,
-                            "reason": "Launch or install Xbox PC app button did not become present and clickable. Check"
-                                      "to see if account has valid payment method (convert to gift code)"
-                        })
-
-                else:
-                    logger.info("Subscribe button not found. Check for backup payment method on account")
-                    '''run_entry["failed_accounts"].append({
+                    run_entry["failed_accounts"].append({
                         "email": email,
-                        "reason": "Subscribe button not found. Check for backup payment method on account"
-                    })'''
+                        "reason": "Launch or install Xbox PC app button did not become present and clickable. Check"
+                                  "to see if account has valid payment method (convert to gift code)"
+                    })
 
-            except Exception as e:
-                logger.info(f"Error: {e}")
-                print(f"{email} has not been activated due to {e}")
+            else:
+                logger.info("Subscribe button not found. Check for backup payment method on account")
                 '''run_entry["failed_accounts"].append({
                     "email": email,
-                    "reason": f"{e}"
+                    "reason": "Subscribe button not found. Check for backup payment method on account"
                 })'''
 
-        except TimeoutException:
-            logger.info("Could not find subscribe button on screen (possible icon mismatch)")
-            run_entry["failed_accounts"].append({
+        except Exception as e:
+            logger.info(f"Error: {e}")
+            print(f"{email} has not been activated due to {e}")
+            '''run_entry["failed_accounts"].append({
                 "email": email,
-                "reason": "Could not find subscribe button on screen (possible icon mismatch)"
-            })
-    else:
-        print("account is active, activation will not proceed")
-        logger.info(f"Account {email} is already active")
+                "reason": f"{e}"
+            })'''
+
+    except TimeoutException:
+        logger.info("Could not find subscribe button on screen (possible icon mismatch)")
+        run_entry["failed_accounts"].append({
+            "email": email,
+            "reason": "Could not find subscribe button on screen (possible icon mismatch)"
+        })
+#else:
+#    print("account is active, activation will not proceed")
+#    logger.info(f"Account {email} is already active")
 
     logger.info("-----------------------------------------------------------------------------")
 
