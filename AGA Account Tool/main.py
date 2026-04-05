@@ -17,6 +17,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from activate_account import activate_account_flow
 
 
 # START FUNCTIONS
@@ -115,7 +116,7 @@ def save_failed_accounts(entry, file_path="failed_accounts.json"):
 
 # Set up account credentials
 def define_base_credentials():
-    email_bases = ["aga", "agapc", "wanxb", "wanpc","wodxb", "wodpc", "eagxb", "eagpc"]
+    email_bases = ["aga", "agapc", "wanxb", "wanpc", "wodxb", "wodpc", "eagxb", "eagpc"]
     ranges_dict = {}
 
     root = tk.Tk()
@@ -184,9 +185,9 @@ def create_dialogue_box():
         set_result("check_status")
 
     # GUI setup
-#    home_dir = os.path.expanduser("~")
-#    image_path = os.path.join(home_dir, "Documents", "GitHub", "AGA", "AGA Account Tool", "icons",
-#                              "aga_logo_600x345.png")
+    #    home_dir = os.path.expanduser("~")
+    #    image_path = os.path.join(home_dir, "Documents", "GitHub", "AGA", "AGA Account Tool", "icons",
+    #                              "aga_logo_600x345.png")
 
     image_path = os.path.join("icons", "aga_logo_600x345.png")
 
@@ -228,7 +229,7 @@ def process_accounts_with_action(action_callback):
     for email_base in email_bases:
         base_ranges = ranges.get(email_base, [])
         if not base_ranges:
-            logger.info(f"Skipping {email_base} - no valid ranges")
+            logger.info("Skipping %s - no valid ranges", email_base)
             continue
 
         for start, end in base_ranges:
@@ -243,7 +244,17 @@ def process_accounts_with_action(action_callback):
                 logger.info("Driver initialized")
 
                 try:
-                    action_callback(driver, email, password, alternate_password)
+                    action_callback(
+                        driver=driver,
+                        email=email,
+                        password=password,
+                        alternate_password=alternate_password,
+                        logger=logger,
+                        run_entry=run_entry,
+                        user_choice=user_choice,
+                        login_full_flow=login_full_flow,
+                        send_end_of_loop_email=send_end_of_loop_email,
+                    )
                 finally:
                     driver.quit()
 
@@ -392,13 +403,8 @@ def handle_passkey_interrupt_page(driver):
         WebDriverWait(driver, 10).until(
             EC.url_contains("login.microsoft.com/consumers/fido")
         )
-        #driver.get("https://account.live.com/interrupt/passkey/enrol")
+        # driver.get("https://account.live.com/interrupt/passkey/enrol")
 
-        pyautogui.moveTo(1059, 623)
-        time.sleep(1)
-        pyautogui.click()
-        time.sleep(1)
-        pyautogui.click()
         logger.info("Passkey interrupt page appeared and was bypassed")
     except TimeoutException:
         logger.info("Passkey interrupt page did not appear")
@@ -406,6 +412,7 @@ def handle_passkey_interrupt_page(driver):
 
 def check_for_active_subscription(driver, email):
     global manage_xbox_element
+
     driver.get("https://account.microsoft.com/services")
     try:
         WebDriverWait(driver, 30).until(
@@ -424,239 +431,18 @@ def check_for_active_subscription(driver, email):
 def login_full_flow(driver, email, password, alternate_password):
     login_function(driver, email, password, alternate_password)
     logger.info("Handling any post-login interruptions for %s", email)
-    #handle_stay_signed_in_page(driver)
-    #handle_passkey_interrupt_page(driver)
+    # handle_stay_signed_in_page(driver)
+    # handle_passkey_interrupt_page(driver)
     handle_tou_page(driver)
     handle_update_security_info_page(driver)
-    time.sleep(30)
-    #handle_privacy_notice_page(driver)
-    #handle_upsell_page(driver)
-    #handle_privacy_notice_page(driver)
-    #check_for_active_subscription(driver, email)
+    # time.sleep(30)
+    # handle_privacy_notice_page(driver)
+    # handle_upsell_page(driver)
+    # handle_privacy_notice_page(driver)
+    # check_for_active_subscription(driver, email)
     logger.info("login_full_flow completed for %s", email)
 
-
-# ACTIVATE FLOW
-
-
-def load_renew_page(driver, email):
-    driver.set_page_load_timeout(20)
-    try:
-        driver.get(
-            "https://www.xbox.com/en-AU/games/store/game-pass-premium/CFQ7TTC0P85B?rpid=cfq7ttc0khs0&ocid"
-            "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU")
-        logger.info('load_renew_page finished. loading gamepass url...')
-    except TimeoutException:
-        logger.info("xbox renew page did not load within 20 seconds")
-        run_entry["failed_accounts"].append({
-            "email": email,
-            "reason": "xbox renew page did not load within 20 seconds"
-        })
-
-
-def handle_passkey_interrupt_page_2(driver):
-    try:
-        WebDriverWait(driver, 10).until(
-            EC.url_contains("/interrupt/passkey")
-        )
-        driver.get(
-            "https://www.xbox.com/en-AU/games/store/game-pass-premium/CFQ7TTC0P85B?rpid=cfq7ttc0khs0&ocid"
-            "=PROD_AMC_Cons_MEEMG_Renew_XboxGPU")
-        logger.info(
-            "handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page appeared and was bypassed")
-    except TimeoutException:
-        logger.info(
-            "handle_passkey_interrupt_page_2 completed. Second Passkey interrupt page did not appear")
-
-
-def click_account_selection_button(driver):
-    # wait up to 30 seconds for the account selection button to become present and clickable
-    try:
-        WebDriverWait(driver, 15).until(
-            EC.url_contains("https://login.live.com/oauth20_authorize.srf")
-        )
-        actions = ActionChains(driver)
-        actions.send_keys(Keys.RETURN)
-        time.sleep(2)
-        actions.perform()
-        logger.info("click_account_selection_button completed. Account selection button was found")
-        click_join_button(driver)
-
-    except TimeoutException:
-        logger.info("click_account_selection_button completed. Account selection button was not found.")
-
-
-def find_manage_button(driver):
-    try:
-        WebDriverWait(driver, 5).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, '//*[@id="PageContent"]/div/div[1]/div[1]/div[6]/div/div[1]/a'))
-        )
-        logger.info("find_manage_button completed. Manage button was found. This account is already activated")
-
-    except TimeoutException:
-        logger.info(
-            "find_manage_button completed. Manage button was not found. ")
-
-
-def click_join_button(driver):
-    try:
-        join_button = WebDriverWait(driver, 30).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, "//button[contains(@aria-label, 'Join')]")
-            )
-        )
-        join_button.send_keys(Keys.RETURN)
-        logger.info("click_join_button completed. Join button appeared and was clicked")
-
-    except TimeoutException:
-        logger.info(
-            "click_join_button completed. Join button was not found. Will refresh the page"
-        )
-
-        try:
-            driver.get(
-                "https://www.xbox.com/en-AU/games/store/game-pass-premium/CFQ7TTC0P85B"
-                "?rpid=cfq7ttc0khs0&ocid=PROD_AMC_Cons_MEEMG_Renew_XboxGPU"
-            )
-
-            join_button = WebDriverWait(driver, 30).until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, "//button[contains(@aria-label, 'Join')]")
-                )
-            )
-            join_button.send_keys(Keys.RETURN)
-            logger.info(
-                "click_join_button completed. Join button appeared and was clicked after refresh"
-            )
-
-        except TimeoutException:
-            logger.info(
-                "click_join_button completed. Join button was not found after refresh."
-            )
-
-
-def load_subscription_page(driver, email):
-    driver.set_page_load_timeout(20)
-    try:
-        # Navigate to the subscription page
-        driver.get("https://account.microsoft.com/services")
-
-        WebDriverWait(driver, 10).until(EC.url_contains(
-            "https://account.microsoft.com/services")
-        )
-        logger.info("loading subscription page")
-
-    except TimeoutException:
-        logger.info("Subscription page timed out")
-        run_entry["failed_accounts"].append({
-            "email": email,
-            "reason": "Subscription page timed out"
-        })
-
-
-def load_billing_page(driver, email):
-    driver.set_page_load_timeout(20)  # max 20 seconds
-    driver.get("https://account.microsoft.com/billing/payments")
-    try:
-
-        logger.info("Loading billing page")
-        WebDriverWait(driver, 20).until(EC.url_contains(
-            "https://account.microsoft.com/billing/payments")
-        )
-        logger.info("billing page loaded")
-
-    except TimeoutException:
-        logger.info("billing page timed out")
-        run_entry["failed_accounts"].append({
-            "email": email,
-            "reason": "billing page timed out"
-        })
-
-
-def activate_account_flow(driver, email, password, alternate_password):
-    logger.info("Activate loop initiated for %s", email)
-    login_full_flow(driver, email, password, alternate_password)
-
-    #if manage_xbox_element == "inactive":
-    #    print(email, manage_xbox_element)
-    load_renew_page(driver, email)
-    handle_passkey_interrupt_page_2(driver)
-    click_account_selection_button(driver)
-    find_manage_button(driver)
-    load_renew_page(driver, email)
-    click_join_button(driver)
-    time.sleep(15)
-    logger.info("sleeping for 15 seconds to allows the subscribe modal to load")
-
-    try:
-        # Set the path to the subscribe button image
-        icon_path = "C:/Users/james/Documents/GitHub/AGA/AGA Account Tool/icons/subscribe_button.png"
-
-        try:
-            # Locate the icon on the screen
-            subscribe_button_position = pyautogui.locateOnScreen(icon_path, confidence=0.7)
-
-            if subscribe_button_position is not None:
-                logger.info("position is not none")
-                # Get the center coordinates of the icon
-                icon_x, icon_y = pyautogui.center(subscribe_button_position)
-
-                pyautogui.click(icon_x, icon_y)
-                time.sleep(1)
-                pyautogui.click(icon_x, icon_y)
-
-                logger.info("Icon clicked successfully!")
-
-                try:
-                    WebDriverWait(driver, 20).until(
-                        EC.presence_of_element_located((By.XPATH, "//p[text()='Launch or install Xbox PC app']"))
-                    )
-
-                    logger.info("Launch or install Xbox PC app button was found. Account reactivation is complete "
-                                "for account %s", email)
-                    email_body = f"Account {email} has been activated"
-                    send_end_of_loop_email(email, email_body, user_choice)
-                    time.sleep(15)
-
-                except TimeoutException:
-                    logger.info(
-                        "Launch or install Xbox PC app button did not become present and clickable. Check to "
-                        "see if account has valid payment method (convert to gift code)")
-
-                    run_entry["failed_accounts"].append({
-                        "email": email,
-                        "reason": "Launch or install Xbox PC app button did not become present and clickable. Check"
-                                  "to see if account has valid payment method (convert to gift code)"
-                    })
-
-            else:
-                logger.info("Subscribe button not found. Check for backup payment method on account")
-                '''run_entry["failed_accounts"].append({
-                    "email": email,
-                    "reason": "Subscribe button not found. Check for backup payment method on account"
-                })'''
-
-        except Exception as e:
-            logger.info(f"Error: {e}")
-            print(f"{email} has not been activated due to {e}")
-            '''run_entry["failed_accounts"].append({
-                "email": email,
-                "reason": f"{e}"
-            })'''
-
-    except TimeoutException:
-        logger.info("Could not find subscribe button on screen (possible icon mismatch)")
-        run_entry["failed_accounts"].append({
-            "email": email,
-            "reason": "Could not find subscribe button on screen (possible icon mismatch)"
-        })
-#else:
-#    print("account is active, activation will not proceed")
-#    logger.info(f"Account {email} is already active")
-
-    logger.info("-----------------------------------------------------------------------------")
-
+# DEACTIVATE
 
 def deactivate_account_flow(driver, email, password, alternate_password):
     logger.info("Deactivate loop initiated for %s", email)
@@ -814,6 +600,7 @@ def deactivate_account_flow(driver, email, password, alternate_password):
 
 # REPLACE CREDIT CARD WITH GIFT CARD
 
+'''
 def find_first_available_gift_card():
     for card in gift_card_data["codes"]:
         if card["status"] == "available":
@@ -946,8 +733,8 @@ def add_gift_code(driver):
     else:
         logger.info("No available gift cards found.")
 
-
 #
+
 def add_gift_card_flow(driver, email, password, alternate_password):
     logger.info("Add gift card loop initiated for %s", email)
     login_full_flow(driver, email, password, alternate_password)
@@ -970,10 +757,9 @@ def add_gift_card_flow(driver, email, password, alternate_password):
 def check_status_flow(driver, email, password, alternate_password):
     logger.info("Check status loop initiated for %s", email)
     login_full_flow(driver, email, password, alternate_password)
-
+'''
 
 # MAIN EXECUTION FLOW
-
 
 create_log()  # set up logging
 logger = logging.getLogger("selenium")
@@ -991,6 +777,7 @@ if user_choice == "deactivate":
     process_accounts_with_action(deactivate_account_flow)
     save_failed_accounts(run_entry)
 
+'''
 if user_choice == "add_gift_card":
     # Load JSON object from file
     with open("gift_card_codes.json", "r") as file:
@@ -1001,6 +788,4 @@ if user_choice == "add_gift_card":
 
     process_accounts_with_action(add_gift_card_flow)
     save_failed_accounts(run_entry)
-
-if user_choice == "check_status":
-    process_accounts_with_action(check_status_flow)
+'''

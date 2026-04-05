@@ -66,5 +66,128 @@
                 "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-04 23:41:58",
+        "failed_accounts": [
+            {
+                "email": "aga5@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga13@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga83@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga87@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga136@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga149@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga156@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga183@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "aga193@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "agapc6@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "agapc12@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "agapc15@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "agapc28@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "wanxb03@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            },
+            {
+                "email": "wanxb08@activegamers.com.au",
+                "reason": "xbox renew page did not load within 20 seconds"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-04-05 10:44:26",
+        "failed_accounts": [
+            {
+                "email": "aga2@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga3@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga8@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga10@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-04-05 11:03:39",
+        "failed_accounts": [
+            {
+                "email": "aga11@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga12@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga15@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga16@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga17@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga18@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga19@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            },
+            {
+                "email": "aga20@activegamers.com.au",
+                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+            }
+        ]
     }
 ]

@@ -1,0 +1,483 @@
+2026-04-05 10:44:26,048 - INFO - log has been created
+2026-04-05 10:44:28,588 - INFO - Returned result is activate
+2026-04-05 10:44:36,646 - INFO - Processing account: aga2@activegamers.com.au
+2026-04-05 10:44:38,023 - INFO - Driver initialized
+2026-04-05 10:44:38,023 - INFO - Activation loop initiated for aga2@activegamers.com.au
+2026-04-05 10:44:38,023 - INFO - Begin login sequence
+2026-04-05 10:44:46,242 - INFO - 'Sign in' button clicked
+2026-04-05 10:44:47,956 - INFO - Email entered
+2026-04-05 10:44:58,015 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 10:44:58,083 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:45:03,196 - INFO - Standard password used
+2026-04-05 10:45:04,080 - INFO - Handling any post-login interruptions for aga2@activegamers.com.au
+2026-04-05 10:45:09,115 - INFO - TOU page did not appear
+2026-04-05 10:45:12,151 - INFO - Update security info window did not appear
+2026-04-05 10:45:12,151 - INFO - login_full_flow completed for aga2@activegamers.com.au
+2026-04-05 10:45:17,415 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:45:27,492 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 10:45:42,608 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 10:45:47,666 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 10:45:49,080 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:45:50,686 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 10:45:50,686 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 10:46:07,094 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 10:46:27,314 - INFO - Launch or install Xbox PC app element was not found for aga2@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 10:46:27,314 - INFO - Subscription flow failed for aga2@activegamers.com.au
+2026-04-05 10:46:27,314 - INFO - -----------------------------------------------------------------------------
+2026-04-05 10:46:29,581 - INFO - Processing account: aga3@activegamers.com.au
+2026-04-05 10:46:34,793 - INFO - Driver initialized
+2026-04-05 10:46:34,793 - INFO - Activation loop initiated for aga3@activegamers.com.au
+2026-04-05 10:46:34,793 - INFO - Begin login sequence
+2026-04-05 10:46:43,573 - INFO - 'Sign in' button clicked
+2026-04-05 10:46:45,198 - INFO - Email entered
+2026-04-05 10:46:49,723 - INFO - Clicked the 'Other ways to sign in' button.
+2026-04-05 10:46:50,287 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:46:55,406 - INFO - Standard password used
+2026-04-05 10:46:57,932 - INFO - Handling any post-login interruptions for aga3@activegamers.com.au
+2026-04-05 10:47:02,972 - INFO - TOU page did not appear
+2026-04-05 10:47:06,006 - INFO - Update security info window did not appear
+2026-04-05 10:47:06,006 - INFO - login_full_flow completed for aga3@activegamers.com.au
+2026-04-05 10:47:11,586 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:47:21,656 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 10:47:36,748 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 10:47:41,810 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 10:47:42,984 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:47:45,066 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 10:47:45,066 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 10:48:01,425 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 10:48:21,646 - INFO - Launch or install Xbox PC app element was not found for aga3@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 10:48:21,646 - INFO - Subscription flow failed for aga3@activegamers.com.au
+2026-04-05 10:48:21,646 - INFO - -----------------------------------------------------------------------------
+2026-04-05 10:48:23,899 - INFO - Processing account: aga4@activegamers.com.au
+2026-04-05 10:48:29,085 - INFO - Driver initialized
+2026-04-05 10:48:29,085 - INFO - Activation loop initiated for aga4@activegamers.com.au
+2026-04-05 10:48:29,085 - INFO - Begin login sequence
+2026-04-05 10:48:34,525 - INFO - 'Sign in' button clicked
+2026-04-05 10:48:35,643 - INFO - Email entered
+2026-04-05 10:48:39,983 - INFO - Clicked the 'Other ways to sign in' button.
+2026-04-05 10:48:41,059 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:48:46,173 - INFO - Standard password used
+2026-04-05 10:48:48,479 - INFO - Handling any post-login interruptions for aga4@activegamers.com.au
+2026-04-05 10:48:53,523 - INFO - TOU page did not appear
+2026-04-05 10:48:56,559 - INFO - Update security info window did not appear
+2026-04-05 10:48:56,559 - INFO - login_full_flow completed for aga4@activegamers.com.au
+2026-04-05 10:49:02,978 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:49:13,053 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 10:49:28,158 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 10:49:33,220 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 10:49:35,721 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:49:37,300 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 10:49:37,300 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 10:49:53,657 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 10:50:12,881 - INFO - Launch or install Xbox PC app element found. Account reactivation is complete for aga4@activegamers.com.au
+2026-04-05 10:50:13,839 - INFO - Email sent at the end of the loop.
+2026-04-05 10:50:28,840 - INFO - Subscription flow completed successfully for aga4@activegamers.com.au
+2026-04-05 10:50:28,840 - INFO - -----------------------------------------------------------------------------
+2026-04-05 10:50:31,094 - INFO - Processing account: aga5@activegamers.com.au
+2026-04-05 10:50:36,293 - INFO - Driver initialized
+2026-04-05 10:50:36,293 - INFO - Activation loop initiated for aga5@activegamers.com.au
+2026-04-05 10:50:36,293 - INFO - Begin login sequence
+2026-04-05 10:50:44,664 - INFO - 'Sign in' button clicked
+2026-04-05 10:50:46,285 - INFO - Email entered
+2026-04-05 10:50:50,847 - INFO - Clicked the 'Other ways to sign in' button.
+2026-04-05 10:50:51,924 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:50:57,037 - INFO - Standard password used
+2026-04-05 10:50:57,935 - INFO - Handling any post-login interruptions for aga5@activegamers.com.au
+2026-04-05 10:51:02,969 - INFO - TOU page did not appear
+2026-04-05 10:51:06,005 - INFO - Update security info window did not appear
+2026-04-05 10:51:06,005 - INFO - login_full_flow completed for aga5@activegamers.com.au
+2026-04-05 10:51:11,801 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:51:21,876 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 10:51:36,981 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 10:51:42,043 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 10:51:43,801 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:51:45,908 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 10:51:45,908 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 10:52:02,266 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 10:52:14,424 - INFO - Launch or install Xbox PC app element found. Account reactivation is complete for aga5@activegamers.com.au
+2026-04-05 10:52:15,107 - INFO - Email sent at the end of the loop.
+2026-04-05 10:52:30,108 - INFO - Subscription flow completed successfully for aga5@activegamers.com.au
+2026-04-05 10:52:30,108 - INFO - -----------------------------------------------------------------------------
+2026-04-05 10:52:32,646 - INFO - Processing account: aga6@activegamers.com.au
+2026-04-05 10:52:37,782 - INFO - Driver initialized
+2026-04-05 10:52:37,782 - INFO - Activation loop initiated for aga6@activegamers.com.au
+2026-04-05 10:52:37,782 - INFO - Begin login sequence
+2026-04-05 10:52:44,493 - INFO - 'Sign in' button clicked
+2026-04-05 10:52:46,799 - INFO - Email entered
+2026-04-05 10:52:51,911 - INFO - Clicked the 'Other ways to sign in' button.
+2026-04-05 10:52:52,985 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:52:58,102 - INFO - Standard password used
+2026-04-05 10:52:58,117 - INFO - Handling any post-login interruptions for aga6@activegamers.com.au
+2026-04-05 10:53:03,531 - INFO - TOU page did not appear
+2026-04-05 10:53:06,567 - INFO - Update security info window did not appear
+2026-04-05 10:53:06,567 - INFO - login_full_flow completed for aga6@activegamers.com.au
+2026-04-05 10:53:17,349 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:53:27,428 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 10:53:42,531 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 10:53:47,593 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 10:53:48,627 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:53:50,225 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 10:53:50,225 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 10:54:06,586 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 10:54:16,706 - INFO - Launch or install Xbox PC app element found. Account reactivation is complete for aga6@activegamers.com.au
+2026-04-05 10:54:17,659 - INFO - Email sent at the end of the loop.
+2026-04-05 10:54:32,659 - INFO - Subscription flow completed successfully for aga6@activegamers.com.au
+2026-04-05 10:54:32,659 - INFO - -----------------------------------------------------------------------------
+2026-04-05 10:54:34,931 - INFO - Processing account: aga7@activegamers.com.au
+2026-04-05 10:54:40,068 - INFO - Driver initialized
+2026-04-05 10:54:40,068 - INFO - Activation loop initiated for aga7@activegamers.com.au
+2026-04-05 10:54:40,068 - INFO - Begin login sequence
+2026-04-05 10:54:48,552 - INFO - 'Sign in' button clicked
+2026-04-05 10:54:53,204 - INFO - Email entered
+2026-04-05 10:55:00,311 - INFO - Clicked the 'Other ways to sign in' button.
+2026-04-05 10:55:01,383 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:55:06,498 - INFO - Standard password used
+2026-04-05 10:55:10,921 - INFO - Handling any post-login interruptions for aga7@activegamers.com.au
+2026-04-05 10:55:15,964 - INFO - TOU page did not appear
+2026-04-05 10:55:19,000 - INFO - Update security info window did not appear
+2026-04-05 10:55:19,000 - INFO - login_full_flow completed for aga7@activegamers.com.au
+2026-04-05 10:55:23,630 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:55:33,703 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 10:55:48,809 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 10:55:53,872 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 10:55:55,609 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:55:57,208 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 10:55:57,208 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 10:56:13,584 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 10:56:23,204 - INFO - Launch or install Xbox PC app element found. Account reactivation is complete for aga7@activegamers.com.au
+2026-04-05 10:56:23,926 - INFO - Email sent at the end of the loop.
+2026-04-05 10:56:38,927 - INFO - Subscription flow completed successfully for aga7@activegamers.com.au
+2026-04-05 10:56:38,927 - INFO - -----------------------------------------------------------------------------
+2026-04-05 10:56:41,211 - INFO - Processing account: aga8@activegamers.com.au
+2026-04-05 10:56:46,409 - INFO - Driver initialized
+2026-04-05 10:56:46,409 - INFO - Activation loop initiated for aga8@activegamers.com.au
+2026-04-05 10:56:46,409 - INFO - Begin login sequence
+2026-04-05 10:56:53,777 - INFO - 'Sign in' button clicked
+2026-04-05 10:56:55,397 - INFO - Email entered
+2026-04-05 10:57:11,804 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 10:57:11,869 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:57:16,984 - INFO - Standard password used
+2026-04-05 10:57:26,152 - INFO - Handling any post-login interruptions for aga8@activegamers.com.au
+2026-04-05 10:57:31,195 - INFO - TOU page did not appear
+2026-04-05 10:57:34,231 - INFO - Update security info window did not appear
+2026-04-05 10:57:34,231 - INFO - login_full_flow completed for aga8@activegamers.com.au
+2026-04-05 10:57:39,797 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:57:49,871 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 10:58:04,976 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 10:58:10,038 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 10:58:12,324 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:58:14,405 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 10:58:14,405 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 10:58:30,765 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 10:58:51,001 - INFO - Launch or install Xbox PC app element was not found for aga8@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 10:58:51,001 - INFO - Subscription flow failed for aga8@activegamers.com.au
+2026-04-05 10:58:51,001 - INFO - -----------------------------------------------------------------------------
+2026-04-05 10:58:53,313 - INFO - Processing account: aga9@activegamers.com.au
+2026-04-05 10:58:58,451 - INFO - Driver initialized
+2026-04-05 10:58:58,451 - INFO - Activation loop initiated for aga9@activegamers.com.au
+2026-04-05 10:58:58,451 - INFO - Begin login sequence
+2026-04-05 10:59:08,517 - INFO - 'Sign in' button clicked
+2026-04-05 10:59:10,186 - INFO - Email entered
+2026-04-05 10:59:16,035 - INFO - Clicked the 'Other ways to sign in' button.
+2026-04-05 10:59:17,108 - INFO - Clicked the 'Use your password' button.
+2026-04-05 10:59:22,220 - INFO - Standard password used
+2026-04-05 10:59:26,706 - INFO - Handling any post-login interruptions for aga9@activegamers.com.au
+2026-04-05 10:59:31,748 - INFO - TOU page did not appear
+2026-04-05 10:59:34,782 - INFO - Update security info window did not appear
+2026-04-05 10:59:34,782 - INFO - login_full_flow completed for aga9@activegamers.com.au
+2026-04-05 10:59:41,750 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 10:59:51,823 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:00:06,929 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:00:12,000 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:00:12,912 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:00:14,993 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:00:14,993 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:00:31,363 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:00:42,999 - INFO - Launch or install Xbox PC app element found. Account reactivation is complete for aga9@activegamers.com.au
+2026-04-05 11:00:44,084 - INFO - Email sent at the end of the loop.
+2026-04-05 11:00:59,085 - INFO - Subscription flow completed successfully for aga9@activegamers.com.au
+2026-04-05 11:00:59,085 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:01:01,372 - INFO - Processing account: aga10@activegamers.com.au
+2026-04-05 11:01:06,511 - INFO - Driver initialized
+2026-04-05 11:01:06,511 - INFO - Activation loop initiated for aga10@activegamers.com.au
+2026-04-05 11:01:06,511 - INFO - Begin login sequence
+2026-04-05 11:01:11,937 - INFO - 'Sign in' button clicked
+2026-04-05 11:01:13,560 - INFO - Email entered
+2026-04-05 11:01:23,802 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:01:23,869 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:01:28,984 - INFO - Standard password used
+2026-04-05 11:01:31,527 - INFO - Handling any post-login interruptions for aga10@activegamers.com.au
+2026-04-05 11:01:36,560 - INFO - TOU page did not appear
+2026-04-05 11:01:39,594 - INFO - Update security info window did not appear
+2026-04-05 11:01:39,594 - INFO - login_full_flow completed for aga10@activegamers.com.au
+2026-04-05 11:01:43,582 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:01:53,655 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:02:08,758 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:02:13,820 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:02:14,844 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:02:16,921 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:02:16,921 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:02:32,092 - INFO - Subscribe button image was not found on screen.
+2026-04-05 11:02:32,092 - INFO - Subscribe button not found or could not be clicked. Account: aga10@activegamers.com.au
+2026-04-05 11:02:32,092 - INFO - Subscription flow failed for aga10@activegamers.com.au
+2026-04-05 11:02:32,092 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:02:34,375 - INFO - Skipping agapc - no valid ranges
+2026-04-05 11:02:34,375 - INFO - Skipping wanxb - no valid ranges
+2026-04-05 11:02:34,375 - INFO - Skipping wanpc - no valid ranges
+2026-04-05 11:02:34,375 - INFO - Skipping wodxb - no valid ranges
+2026-04-05 11:02:34,375 - INFO - Skipping wodpc - no valid ranges
+2026-04-05 11:02:34,375 - INFO - Skipping eagxb - no valid ranges
+2026-04-05 11:02:34,375 - INFO - Skipping eagpc - no valid ranges
+2026-04-05 11:02:38,487 - INFO - Failed accounts saved to failed_accounts.json
+2026-04-05 11:03:39,440 - INFO - log has been created
+2026-04-05 11:03:41,303 - INFO - Returned result is activate
+2026-04-05 11:03:50,739 - INFO - Processing account: aga11@activegamers.com.au
+2026-04-05 11:03:51,783 - INFO - Driver initialized
+2026-04-05 11:03:51,783 - INFO - Activation loop initiated for aga11@activegamers.com.au
+2026-04-05 11:03:51,783 - INFO - Begin login sequence
+2026-04-05 11:03:59,793 - INFO - 'Sign in' button clicked
+2026-04-05 11:04:01,455 - INFO - Email entered
+2026-04-05 11:04:11,945 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:04:12,016 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:04:17,156 - INFO - Alternate password used
+2026-04-05 11:04:17,173 - INFO - Handling any post-login interruptions for aga11@activegamers.com.au
+2026-04-05 11:04:22,561 - INFO - TOU page did not appear
+2026-04-05 11:04:25,596 - INFO - Update security info window did not appear
+2026-04-05 11:04:25,596 - INFO - login_full_flow completed for aga11@activegamers.com.au
+2026-04-05 11:04:29,669 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:04:39,758 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:04:54,861 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:04:59,924 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:05:01,070 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:05:02,667 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:05:02,667 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:05:19,042 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:05:39,283 - INFO - Launch or install Xbox PC app element was not found for aga11@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:05:39,283 - INFO - Subscription flow failed for aga11@activegamers.com.au
+2026-04-05 11:05:39,283 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:05:41,569 - INFO - Processing account: aga12@activegamers.com.au
+2026-04-05 11:05:46,777 - INFO - Driver initialized
+2026-04-05 11:05:46,777 - INFO - Activation loop initiated for aga12@activegamers.com.au
+2026-04-05 11:05:46,777 - INFO - Begin login sequence
+2026-04-05 11:05:54,850 - INFO - 'Sign in' button clicked
+2026-04-05 11:05:57,093 - INFO - Email entered
+2026-04-05 11:06:07,159 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:06:07,227 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:06:12,353 - INFO - Standard password used
+2026-04-05 11:06:15,206 - INFO - Handling any post-login interruptions for aga12@activegamers.com.au
+2026-04-05 11:06:20,248 - INFO - TOU page did not appear
+2026-04-05 11:06:23,283 - INFO - Update security info window did not appear
+2026-04-05 11:06:23,283 - INFO - login_full_flow completed for aga12@activegamers.com.au
+2026-04-05 11:06:35,849 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:06:45,924 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:07:01,031 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:07:06,096 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:07:07,227 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:07:09,316 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:07:09,317 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:07:25,673 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:07:45,908 - INFO - Launch or install Xbox PC app element was not found for aga12@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:07:45,908 - INFO - Subscription flow failed for aga12@activegamers.com.au
+2026-04-05 11:07:45,908 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:07:48,232 - INFO - Processing account: aga13@activegamers.com.au
+2026-04-05 11:07:53,464 - INFO - Driver initialized
+2026-04-05 11:07:53,464 - INFO - Activation loop initiated for aga13@activegamers.com.au
+2026-04-05 11:07:53,464 - INFO - Begin login sequence
+2026-04-05 11:07:59,656 - INFO - 'Sign in' button clicked
+2026-04-05 11:08:01,361 - INFO - Email entered
+2026-04-05 11:08:11,578 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:08:11,649 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:08:16,760 - INFO - Standard password used
+2026-04-05 11:08:17,483 - INFO - Handling any post-login interruptions for aga13@activegamers.com.au
+2026-04-05 11:08:22,518 - INFO - TOU page did not appear
+2026-04-05 11:08:25,554 - INFO - Update security info window did not appear
+2026-04-05 11:08:25,554 - INFO - login_full_flow completed for aga13@activegamers.com.au
+2026-04-05 11:08:32,302 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:08:42,377 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:08:57,501 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:09:02,564 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:09:03,646 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:09:05,229 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:09:05,229 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:09:21,621 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:09:37,311 - INFO - Launch or install Xbox PC app element found. Account reactivation is complete for aga13@activegamers.com.au
+2026-04-05 11:09:38,156 - INFO - Email sent at the end of the loop.
+2026-04-05 11:09:53,158 - INFO - Subscription flow completed successfully for aga13@activegamers.com.au
+2026-04-05 11:09:53,158 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:09:55,427 - INFO - Processing account: aga14@activegamers.com.au
+2026-04-05 11:10:00,561 - INFO - Driver initialized
+2026-04-05 11:10:00,561 - INFO - Activation loop initiated for aga14@activegamers.com.au
+2026-04-05 11:10:00,561 - INFO - Begin login sequence
+2026-04-05 11:10:07,537 - INFO - 'Sign in' button clicked
+2026-04-05 11:10:09,168 - INFO - Email entered
+2026-04-05 11:10:19,323 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:10:19,392 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:10:24,506 - INFO - Standard password used
+2026-04-05 11:10:27,920 - INFO - Handling any post-login interruptions for aga14@activegamers.com.au
+2026-04-05 11:10:32,955 - INFO - TOU page did not appear
+2026-04-05 11:10:35,991 - INFO - Update security info window did not appear
+2026-04-05 11:10:35,991 - INFO - login_full_flow completed for aga14@activegamers.com.au
+2026-04-05 11:10:39,767 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:10:49,847 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:11:04,954 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:11:10,016 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:11:11,165 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:11:13,758 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:11:13,759 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:11:30,119 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:11:45,301 - INFO - Launch or install Xbox PC app element found. Account reactivation is complete for aga14@activegamers.com.au
+2026-04-05 11:11:46,018 - INFO - Email sent at the end of the loop.
+2026-04-05 11:12:01,019 - INFO - Subscription flow completed successfully for aga14@activegamers.com.au
+2026-04-05 11:12:01,019 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:12:03,289 - INFO - Processing account: aga15@activegamers.com.au
+2026-04-05 11:12:08,490 - INFO - Driver initialized
+2026-04-05 11:12:08,490 - INFO - Activation loop initiated for aga15@activegamers.com.au
+2026-04-05 11:12:08,490 - INFO - Begin login sequence
+2026-04-05 11:12:14,558 - INFO - 'Sign in' button clicked
+2026-04-05 11:12:16,424 - INFO - Email entered
+2026-04-05 11:12:26,636 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:12:26,710 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:12:31,821 - INFO - Standard password used
+2026-04-05 11:12:40,550 - INFO - Handling any post-login interruptions for aga15@activegamers.com.au
+2026-04-05 11:12:45,595 - INFO - TOU page did not appear
+2026-04-05 11:12:48,630 - INFO - Update security info window did not appear
+2026-04-05 11:12:48,630 - INFO - login_full_flow completed for aga15@activegamers.com.au
+2026-04-05 11:13:01,425 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:13:11,518 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:13:26,624 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:13:31,688 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:13:33,208 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:13:35,794 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:13:35,794 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:13:52,134 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:14:12,370 - INFO - Launch or install Xbox PC app element was not found for aga15@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:14:12,370 - INFO - Subscription flow failed for aga15@activegamers.com.au
+2026-04-05 11:14:12,370 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:14:14,637 - INFO - Processing account: aga16@activegamers.com.au
+2026-04-05 11:14:19,819 - INFO - Driver initialized
+2026-04-05 11:14:19,819 - INFO - Activation loop initiated for aga16@activegamers.com.au
+2026-04-05 11:14:19,819 - INFO - Begin login sequence
+2026-04-05 11:14:31,759 - INFO - 'Sign in' button clicked
+2026-04-05 11:14:32,884 - INFO - Email entered
+2026-04-05 11:14:43,004 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:14:43,070 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:14:48,183 - INFO - Standard password used
+2026-04-05 11:14:50,986 - INFO - Handling any post-login interruptions for aga16@activegamers.com.au
+2026-04-05 11:14:56,030 - INFO - TOU page did not appear
+2026-04-05 11:14:59,067 - INFO - Update security info window did not appear
+2026-04-05 11:14:59,067 - INFO - login_full_flow completed for aga16@activegamers.com.au
+2026-04-05 11:15:05,260 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:15:15,337 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:15:30,442 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:15:35,506 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:15:36,508 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:15:38,589 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:15:38,589 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:15:54,948 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:16:15,185 - INFO - Launch or install Xbox PC app element was not found for aga16@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:16:15,185 - INFO - Subscription flow failed for aga16@activegamers.com.au
+2026-04-05 11:16:15,185 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:16:17,463 - INFO - Processing account: aga17@activegamers.com.au
+2026-04-05 11:16:22,578 - INFO - Driver initialized
+2026-04-05 11:16:22,578 - INFO - Activation loop initiated for aga17@activegamers.com.au
+2026-04-05 11:16:22,578 - INFO - Begin login sequence
+2026-04-05 11:16:29,178 - INFO - 'Sign in' button clicked
+2026-04-05 11:16:31,367 - INFO - Email entered
+2026-04-05 11:16:54,981 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:16:55,046 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:17:00,158 - INFO - Standard password used
+2026-04-05 11:17:00,175 - INFO - Handling any post-login interruptions for aga17@activegamers.com.au
+2026-04-05 11:17:10,493 - INFO - TOU page did not appear
+2026-04-05 11:17:13,529 - INFO - Update security info window did not appear
+2026-04-05 11:17:13,529 - INFO - login_full_flow completed for aga17@activegamers.com.au
+2026-04-05 11:17:29,116 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:17:39,191 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:17:54,294 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:17:59,355 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:18:01,447 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:18:03,553 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:18:03,553 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:18:19,913 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:18:40,148 - INFO - Launch or install Xbox PC app element was not found for aga17@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:18:40,148 - INFO - Subscription flow failed for aga17@activegamers.com.au
+2026-04-05 11:18:40,148 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:18:42,429 - INFO - Processing account: aga18@activegamers.com.au
+2026-04-05 11:18:47,549 - INFO - Driver initialized
+2026-04-05 11:18:47,549 - INFO - Activation loop initiated for aga18@activegamers.com.au
+2026-04-05 11:18:47,549 - INFO - Begin login sequence
+2026-04-05 11:18:58,144 - INFO - 'Sign in' button clicked
+2026-04-05 11:18:59,766 - INFO - Email entered
+2026-04-05 11:19:09,917 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:19:09,983 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:19:15,096 - INFO - Standard password used
+2026-04-05 11:19:18,243 - INFO - Handling any post-login interruptions for aga18@activegamers.com.au
+2026-04-05 11:19:23,285 - INFO - TOU page did not appear
+2026-04-05 11:19:26,320 - INFO - Update security info window did not appear
+2026-04-05 11:19:26,320 - INFO - login_full_flow completed for aga18@activegamers.com.au
+2026-04-05 11:19:31,692 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:19:41,768 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:19:56,873 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:20:01,934 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:20:02,968 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:20:04,567 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:20:04,567 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:20:20,927 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:20:41,161 - INFO - Launch or install Xbox PC app element was not found for aga18@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:20:41,161 - INFO - Subscription flow failed for aga18@activegamers.com.au
+2026-04-05 11:20:41,161 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:20:43,453 - INFO - Processing account: aga19@activegamers.com.au
+2026-04-05 11:20:48,562 - INFO - Driver initialized
+2026-04-05 11:20:48,562 - INFO - Activation loop initiated for aga19@activegamers.com.au
+2026-04-05 11:20:48,562 - INFO - Begin login sequence
+2026-04-05 11:21:01,937 - INFO - 'Sign in' button clicked
+2026-04-05 11:21:04,362 - INFO - Email entered
+2026-04-05 11:21:14,453 - INFO - Timed out waiting for 'Other ways to sign in' button to appear.
+2026-04-05 11:21:14,517 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:21:19,629 - INFO - Standard password used
+2026-04-05 11:21:23,329 - INFO - Handling any post-login interruptions for aga19@activegamers.com.au
+2026-04-05 11:21:28,369 - INFO - TOU page did not appear
+2026-04-05 11:21:31,404 - INFO - Update security info window did not appear
+2026-04-05 11:21:31,404 - INFO - login_full_flow completed for aga19@activegamers.com.au
+2026-04-05 11:21:35,711 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:21:45,784 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:22:00,887 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:22:05,948 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:22:07,868 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:22:09,466 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:22:09,466 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:22:25,825 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:22:46,053 - INFO - Launch or install Xbox PC app element was not found for aga19@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:22:46,053 - INFO - Subscription flow failed for aga19@activegamers.com.au
+2026-04-05 11:22:46,053 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:22:48,332 - INFO - Processing account: aga20@activegamers.com.au
+2026-04-05 11:22:53,521 - INFO - Driver initialized
+2026-04-05 11:22:53,521 - INFO - Activation loop initiated for aga20@activegamers.com.au
+2026-04-05 11:22:53,521 - INFO - Begin login sequence
+2026-04-05 11:23:00,590 - INFO - 'Sign in' button clicked
+2026-04-05 11:23:03,752 - INFO - Email entered
+2026-04-05 11:23:10,068 - INFO - Clicked the 'Other ways to sign in' button.
+2026-04-05 11:23:11,140 - INFO - Clicked the 'Use your password' button.
+2026-04-05 11:23:16,257 - INFO - Standard password used
+2026-04-05 11:23:18,661 - INFO - Handling any post-login interruptions for aga20@activegamers.com.au
+2026-04-05 11:23:23,702 - INFO - TOU page did not appear
+2026-04-05 11:23:26,737 - INFO - Update security info window did not appear
+2026-04-05 11:23:26,737 - INFO - login_full_flow completed for aga20@activegamers.com.au
+2026-04-05 11:23:33,479 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:23:43,587 - INFO - handle_passkey_interrupt_page_2 completed. Second passkey interrupt page did not appear.
+2026-04-05 11:23:58,693 - INFO - click_account_selection_button completed. Account selection/login authorize page was not found.
+2026-04-05 11:24:03,755 - INFO - Manage button not found. Account appears inactive.
+2026-04-05 11:24:04,821 - INFO - load_renew_page completed. Loaded Game Pass renew page.
+2026-04-05 11:24:06,404 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-04-05 11:24:06,404 - INFO - Waiting 15 seconds to allow the subscribe modal to load.
+2026-04-05 11:24:22,790 - INFO - Subscribe button image found and clicked successfully.
+2026-04-05 11:24:43,023 - INFO - Launch or install Xbox PC app element was not found for aga20@activegamers.com.au. Check whether the account has a valid payment method.
+2026-04-05 11:24:43,023 - INFO - Subscription flow failed for aga20@activegamers.com.au
+2026-04-05 11:24:43,023 - INFO - -----------------------------------------------------------------------------
+2026-04-05 11:24:45,315 - INFO - Skipping agapc - no valid ranges
+2026-04-05 11:24:45,315 - INFO - Skipping wanxb - no valid ranges
+2026-04-05 11:24:45,315 - INFO - Skipping wanpc - no valid ranges
+2026-04-05 11:24:45,315 - INFO - Skipping wodxb - no valid ranges
+2026-04-05 11:24:45,315 - INFO - Skipping wodpc - no valid ranges
+2026-04-05 11:24:45,315 - INFO - Skipping eagxb - no valid ranges
+2026-04-05 11:24:45,315 - INFO - Skipping eagpc - no valid ranges
+2026-04-05 11:24:49,421 - INFO - Failed accounts saved to failed_accounts.json
