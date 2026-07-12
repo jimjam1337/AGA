@@ -1,192 +1,313 @@
 [
     {
-        "timestamp": "2026-01-09 13:20:22",
+        "timestamp": "2026-06-29 22:40:16",
         "failed_accounts": [
             {
-                "email": "aga27@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            },
-            {
-                "email": "aga29@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "aga39@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            },
-            {
-                "email": "agapc9@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-12 19:14:10",
-        "failed_accounts": [
-            {
-                "email": "aga96@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "aga191@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            },
-            {
-                "email": "agapc9@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-14 11:22:44",
-        "failed_accounts": [
-            {
-                "email": "eagpc01@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            },
-            {
-                "email": "eagpc02@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-01-27 23:48:50",
-        "failed_accounts": [
-            {
-                "email": "aga4@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            },
-            {
-                "email": "aga30@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            },
-            {
-                "email": "aga5@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app button did not become present and clickable. Checkto see if account has valid payment method (convert to gift code)"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-04-04 23:41:58",
-        "failed_accounts": [
-            {
-                "email": "aga5@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "aga13@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "aga83@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "aga87@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "aga136@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
+                "email": "aga149@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
             },
             {
                 "email": "aga149@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
+                "action": "activate",
+                "reason": "Action callback returned False"
             },
             {
-                "email": "aga156@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
+                "email": "aga157@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
             },
             {
-                "email": "aga183@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
+                "email": "aga157@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
             },
             {
-                "email": "aga193@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "agapc6@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "agapc12@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "agapc15@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "agapc28@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "wanxb03@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            },
-            {
-                "email": "wanxb08@activegamers.com.au",
-                "reason": "xbox renew page did not load within 20 seconds"
-            }
-        ]
-    },
-    {
-        "timestamp": "2026-04-05 10:44:26",
-        "failed_accounts": [
-            {
-                "email": "aga2@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
-            },
-            {
-                "email": "aga3@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
-            },
-            {
-                "email": "aga8@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
-            },
-            {
-                "email": "aga10@activegamers.com.au",
+                "email": "aga178@activegamers.com.au",
                 "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga178@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga179@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga179@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga180@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga180@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga181@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
+            },
+            {
+                "email": "aga181@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga182@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga182@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga185@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga185@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga186@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga186@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga187@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga187@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga188@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga188@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga189@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga189@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "agapc2@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
+            },
+            {
+                "email": "agapc2@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "agapc18@activegamers.com.au",
+                "reason": "Balance below threshold but 'Redeem a code' button could not be clicked."
+            },
+            {
+                "email": "agapc18@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "agapc29@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
+            },
+            {
+                "email": "agapc29@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "agapc30@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
+            },
+            {
+                "email": "agapc30@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "wanxb04@activegamers.com.au",
+                "reason": "Balance below threshold but gift card code could not be redeemed."
+            },
+            {
+                "email": "wanxb04@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
             }
         ]
     },
     {
-        "timestamp": "2026-04-05 11:03:39",
+        "timestamp": "2026-06-30 08:16:23",
         "failed_accounts": [
             {
-                "email": "aga11@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga149@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
             },
             {
-                "email": "aga12@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga149@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
             },
             {
-                "email": "aga15@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga157@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
             },
             {
-                "email": "aga16@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga157@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
             },
             {
-                "email": "aga17@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga178@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
             },
             {
-                "email": "aga18@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga178@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
             },
             {
-                "email": "aga19@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga179@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
             },
             {
-                "email": "aga20@activegamers.com.au",
-                "reason": "Launch or install Xbox PC app element did not appear. Check whether the account has a valid payment method (may need gift code conversion)."
+                "email": "aga179@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga180@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga180@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga181@activegamers.com.au",
+                "reason": "Login flow did not complete successfully."
+            },
+            {
+                "email": "aga181@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga182@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga182@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga185@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga185@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga186@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga186@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga187@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga187@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga188@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga188@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "aga189@activegamers.com.au",
+                "reason": "Subscribe button not found or could not be clicked."
+            },
+            {
+                "email": "aga189@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "agapc18@activegamers.com.au",
+                "reason": "Balance below threshold but gift card code could not be redeemed."
+            },
+            {
+                "email": "agapc18@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-07-04 21:59:50",
+        "failed_accounts": [
+            {
+                "email": "wanxb12@activegamers.com.au",
+                "reason": "Join button was not found."
+            },
+            {
+                "email": "wanxb12@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "wanxb14@activegamers.com.au",
+                "reason": "Join button was not found."
+            },
+            {
+                "email": "wanxb14@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
+            },
+            {
+                "email": "wanxb15@activegamers.com.au",
+                "reason": "Join button was not found."
+            },
+            {
+                "email": "wanxb15@activegamers.com.au",
+                "action": "activate",
+                "reason": "Action callback returned False"
             }
         ]
     }

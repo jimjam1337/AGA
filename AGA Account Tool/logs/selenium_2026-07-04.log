@@ -1,0 +1,418 @@
+2026-07-04 21:59:34,045 - INFO - Log has been created
+2026-07-04 21:59:34,046 - INFO - Main execution started
+2026-07-04 21:59:37,544 - INFO - Returned result is activate
+2026-07-04 21:59:50,752 - INFO - Log has been created
+2026-07-04 21:59:50,752 - INFO - Main execution started
+2026-07-04 21:59:52,568 - INFO - Returned result is activate
+2026-07-04 22:00:03,628 - INFO - Skipping aga - no valid ranges
+2026-07-04 22:00:03,628 - INFO - Skipping agapc - no valid ranges
+2026-07-04 22:00:03,628 - INFO - Processing account: wanxb09@activegamers.com.au
+2026-07-04 22:00:05,578 - INFO - Driver initialized
+2026-07-04 22:00:05,580 - INFO - Activation loop initiated for wanxb09@activegamers.com.au
+2026-07-04 22:00:05,580 - INFO - Begin login sequence for wanxb09@activegamers.com.au
+2026-07-04 22:00:12,871 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:00:17,706 - INFO - 'Sign in' control clicked
+2026-07-04 22:00:17,872 - INFO - Email entered
+2026-07-04 22:00:19,009 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:00:19,077 - INFO - 'Use your password' button clicked
+2026-07-04 22:00:19,593 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:00:21,112 - INFO - Password field is present and visible
+2026-07-04 22:00:21,189 - INFO - Password entered
+2026-07-04 22:00:30,035 - INFO - Update security info window appeared and 'Looks good' was confirmed
+2026-07-04 22:00:32,059 - INFO - FIDO/passkey page detected after password submission
+2026-07-04 22:00:32,062 - INFO - FIDO/passkey page detected
+2026-07-04 22:00:32,164 - INFO - Pressed ESC to dismiss passkey popup
+2026-07-04 22:00:34,169 - INFO - Passkey popup dismissed with ESC
+2026-07-04 22:00:36,192 - INFO - 'No' button is visible during post-password transition
+2026-07-04 22:00:37,361 - INFO - 'No' button on stay signed in page clicked
+2026-07-04 22:00:48,556 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:00:48,558 - INFO - login_full_flow completed successfully for wanxb09@activegamers.com.au
+2026-07-04 22:00:53,615 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:00:53,640 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:00:53,672 - INFO - clicked plan_button
+2026-07-04 22:01:01,827 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:01:11,898 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-07-04 22:01:11,898 - INFO - Waiting 4 seconds after Join before checking balance.
+2026-07-04 22:01:15,907 - INFO - Balance search attempt 1: searching 4 iframes for account balance
+2026-07-04 22:01:15,919 - INFO - Checking iframe 0 for balance on attempt 1
+2026-07-04 22:01:15,937 - INFO - Checking iframe 1 for balance on attempt 1
+2026-07-04 22:01:15,952 - INFO - Checking iframe 2 for balance on attempt 1
+2026-07-04 22:01:16,209 - INFO - Checking iframe 3 for balance on attempt 1
+2026-07-04 22:01:16,214 - INFO - Balance not found on attempt 1. Waiting 1.0 seconds before retrying.
+2026-07-04 22:01:17,220 - INFO - Balance search attempt 2: searching 4 iframes for account balance
+2026-07-04 22:01:17,230 - INFO - Checking iframe 0 for balance on attempt 2
+2026-07-04 22:01:17,244 - INFO - Checking iframe 1 for balance on attempt 2
+2026-07-04 22:01:17,258 - INFO - Checking iframe 2 for balance on attempt 2
+2026-07-04 22:01:17,272 - INFO - Checking iframe 3 for balance on attempt 2
+2026-07-04 22:01:17,293 - INFO - Balance found in iframe 3: AU$21.05
+2026-07-04 22:01:17,293 - INFO - Parsed account balance: 21.05
+2026-07-04 22:01:17,295 - INFO - Balance 21.05 is >= threshold 17.95. Continuing normal activation flow.
+2026-07-04 22:01:17,295 - INFO - Waiting 6 seconds before looking for Subscribe button.
+2026-07-04 22:01:23,295 - INFO - Attempt 1/3 to click Subscribe button
+2026-07-04 22:01:23,308 - INFO - Searching 4 iframes for visible xpath: //button[normalize-space()='Subscribe']
+2026-07-04 22:01:23,371 - INFO - Found visible xpath in iframe 3
+2026-07-04 22:01:23,670 - INFO - Subscribe button clicked successfully
+2026-07-04 22:01:23,673 - INFO - Subscribe button clicked. Waiting 4 seconds for post-subscribe UI transition.
+2026-07-04 22:01:27,953 - INFO - Success indicator found in default content using xpath: //*[contains(normalize-space(.), 'Game Pass')] | text: Skip to main content
+Game Pass
+Games
+Devices
+Play
+Store
+Community
+Support
+My XBOX
+Developers
+All Microsoft
+Search
+Cart
+Xbox Game Pass Premium – Xbox Game Pass Premium 1 Month
+Microsoft Corporation
+JOI
+2026-07-04 22:01:27,953 - INFO - Account reactivation is complete for wanxb09@activegamers.com.au. Success state detected on attempt 1 using xpath: //*[contains(normalize-space(.), 'Game Pass')]
+2026-07-04 22:01:29,492 - INFO - Email sent at the end of the loop.
+2026-07-04 22:01:39,493 - INFO - Subscription flow completed successfully for wanxb09@activegamers.com.au
+2026-07-04 22:01:39,493 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:01:39,493 - INFO - Action completed successfully for wanxb09@activegamers.com.au
+2026-07-04 22:01:42,751 - INFO - Processing account: wanxb10@activegamers.com.au
+2026-07-04 22:01:43,904 - INFO - Driver initialized
+2026-07-04 22:01:48,008 - INFO - Activation loop initiated for wanxb10@activegamers.com.au
+2026-07-04 22:01:48,008 - INFO - Begin login sequence for wanxb10@activegamers.com.au
+2026-07-04 22:01:54,045 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:01:59,962 - INFO - 'Sign in' control clicked
+2026-07-04 22:02:00,106 - INFO - Email entered
+2026-07-04 22:02:01,265 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:02:01,326 - INFO - 'Use your password' button clicked
+2026-07-04 22:02:01,841 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:02:03,359 - INFO - Password field is present and visible
+2026-07-04 22:02:03,423 - INFO - Password entered
+2026-07-04 22:02:14,523 - INFO - Update security info window appeared and 'Looks good' was confirmed
+2026-07-04 22:02:16,547 - INFO - FIDO/passkey page detected after password submission
+2026-07-04 22:02:16,549 - INFO - FIDO/passkey page detected
+2026-07-04 22:02:16,650 - INFO - Pressed ESC to dismiss passkey popup
+2026-07-04 22:02:18,654 - INFO - Passkey popup dismissed with ESC
+2026-07-04 22:02:20,679 - INFO - 'No' button is visible during post-password transition
+2026-07-04 22:02:21,885 - INFO - 'No' button on stay signed in page clicked
+2026-07-04 22:02:32,996 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:02:32,998 - INFO - login_full_flow completed successfully for wanxb10@activegamers.com.au
+2026-07-04 22:02:38,055 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:02:38,081 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:02:38,114 - INFO - clicked plan_button
+2026-07-04 22:02:46,268 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:02:56,338 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-07-04 22:02:56,338 - INFO - Waiting 4 seconds after Join before checking balance.
+2026-07-04 22:03:00,347 - INFO - Balance search attempt 1: searching 4 iframes for account balance
+2026-07-04 22:03:00,359 - INFO - Checking iframe 0 for balance on attempt 1
+2026-07-04 22:03:00,374 - INFO - Checking iframe 1 for balance on attempt 1
+2026-07-04 22:03:00,388 - INFO - Checking iframe 2 for balance on attempt 1
+2026-07-04 22:03:00,401 - INFO - Checking iframe 3 for balance on attempt 1
+2026-07-04 22:03:00,420 - INFO - Balance found in iframe 3: AU$21.05
+2026-07-04 22:03:00,420 - INFO - Parsed account balance: 21.05
+2026-07-04 22:03:00,421 - INFO - Balance 21.05 is >= threshold 17.95. Continuing normal activation flow.
+2026-07-04 22:03:00,421 - INFO - Waiting 6 seconds before looking for Subscribe button.
+2026-07-04 22:03:06,422 - INFO - Attempt 1/3 to click Subscribe button
+2026-07-04 22:03:06,435 - INFO - Searching 4 iframes for visible xpath: //button[normalize-space()='Subscribe']
+2026-07-04 22:03:06,495 - INFO - Found visible xpath in iframe 3
+2026-07-04 22:03:06,800 - INFO - Subscribe button clicked successfully
+2026-07-04 22:03:06,802 - INFO - Subscribe button clicked. Waiting 4 seconds for post-subscribe UI transition.
+2026-07-04 22:03:11,083 - INFO - Success indicator found in default content using xpath: //*[contains(normalize-space(.), 'Game Pass')] | text: Skip to main content
+Game Pass
+Games
+Devices
+Play
+Store
+Community
+Support
+My XBOX
+Developers
+All Microsoft
+Search
+Cart
+Xbox Game Pass Premium – Xbox Game Pass Premium 1 Month
+Microsoft Corporation
+JOI
+2026-07-04 22:03:11,084 - INFO - Account reactivation is complete for wanxb10@activegamers.com.au. Success state detected on attempt 1 using xpath: //*[contains(normalize-space(.), 'Game Pass')]
+2026-07-04 22:03:11,976 - INFO - Email sent at the end of the loop.
+2026-07-04 22:03:21,977 - INFO - Subscription flow completed successfully for wanxb10@activegamers.com.au
+2026-07-04 22:03:21,977 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:03:21,977 - INFO - Action completed successfully for wanxb10@activegamers.com.au
+2026-07-04 22:03:24,204 - INFO - Processing account: wanxb11@activegamers.com.au
+2026-07-04 22:03:25,365 - INFO - Driver initialized
+2026-07-04 22:03:29,464 - INFO - Activation loop initiated for wanxb11@activegamers.com.au
+2026-07-04 22:03:29,464 - INFO - Begin login sequence for wanxb11@activegamers.com.au
+2026-07-04 22:03:32,886 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:03:58,512 - INFO - 'Sign in' control clicked
+2026-07-04 22:03:58,657 - INFO - Email entered
+2026-07-04 22:04:00,331 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:04:00,386 - INFO - 'Use your password' button clicked
+2026-07-04 22:04:00,900 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:04:02,415 - INFO - Password field is present and visible
+2026-07-04 22:04:02,485 - INFO - Password entered
+2026-07-04 22:04:07,550 - INFO - Update security info window appeared and 'Looks good' was confirmed
+2026-07-04 22:04:10,334 - INFO - FIDO/passkey page detected after password submission
+2026-07-04 22:04:10,337 - INFO - FIDO/passkey page detected
+2026-07-04 22:04:10,438 - INFO - Pressed ESC to dismiss passkey popup
+2026-07-04 22:04:15,990 - INFO - Passkey cancel button image clicked at confidence 0.6
+2026-07-04 22:04:17,995 - INFO - Passkey popup dismissed with image click
+2026-07-04 22:04:20,018 - INFO - 'No' button is visible during post-password transition
+2026-07-04 22:04:21,018 - INFO - 'No' button on stay signed in page clicked
+2026-07-04 22:04:32,141 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:04:32,144 - INFO - login_full_flow completed successfully for wanxb11@activegamers.com.au
+2026-07-04 22:04:37,200 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:04:37,223 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:04:37,255 - INFO - clicked plan_button
+2026-07-04 22:04:45,408 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:04:55,479 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-07-04 22:04:55,479 - INFO - Waiting 4 seconds after Join before checking balance.
+2026-07-04 22:04:59,488 - INFO - Balance search attempt 1: searching 4 iframes for account balance
+2026-07-04 22:04:59,499 - INFO - Checking iframe 0 for balance on attempt 1
+2026-07-04 22:04:59,517 - INFO - Checking iframe 1 for balance on attempt 1
+2026-07-04 22:04:59,532 - INFO - Checking iframe 2 for balance on attempt 1
+2026-07-04 22:04:59,548 - INFO - Checking iframe 3 for balance on attempt 1
+2026-07-04 22:04:59,553 - INFO - Balance not found on attempt 1. Waiting 1.0 seconds before retrying.
+2026-07-04 22:05:00,558 - INFO - Balance search attempt 2: searching 4 iframes for account balance
+2026-07-04 22:05:00,568 - INFO - Checking iframe 0 for balance on attempt 2
+2026-07-04 22:05:00,582 - INFO - Checking iframe 1 for balance on attempt 2
+2026-07-04 22:05:00,597 - INFO - Checking iframe 2 for balance on attempt 2
+2026-07-04 22:05:00,611 - INFO - Checking iframe 3 for balance on attempt 2
+2026-07-04 22:05:00,633 - INFO - Balance found in iframe 3: AU$21.05
+2026-07-04 22:05:00,633 - INFO - Parsed account balance: 21.05
+2026-07-04 22:05:00,634 - INFO - Balance 21.05 is >= threshold 17.95. Continuing normal activation flow.
+2026-07-04 22:05:00,634 - INFO - Waiting 6 seconds before looking for Subscribe button.
+2026-07-04 22:05:06,635 - INFO - Attempt 1/3 to click Subscribe button
+2026-07-04 22:05:06,648 - INFO - Searching 4 iframes for visible xpath: //button[normalize-space()='Subscribe']
+2026-07-04 22:05:06,713 - INFO - Found visible xpath in iframe 3
+2026-07-04 22:05:07,010 - INFO - Subscribe button clicked successfully
+2026-07-04 22:05:07,013 - INFO - Subscribe button clicked. Waiting 4 seconds for post-subscribe UI transition.
+2026-07-04 22:05:11,290 - INFO - Success indicator found in default content using xpath: //*[contains(normalize-space(.), 'Game Pass')] | text: Skip to main content
+Game Pass
+Games
+Devices
+Play
+Store
+Community
+Support
+My XBOX
+Developers
+All Microsoft
+Search
+Cart
+Xbox Game Pass Premium – Xbox Game Pass Premium 1 Month
+Microsoft Corporation
+JOI
+2026-07-04 22:05:11,290 - INFO - Account reactivation is complete for wanxb11@activegamers.com.au. Success state detected on attempt 1 using xpath: //*[contains(normalize-space(.), 'Game Pass')]
+2026-07-04 22:05:11,806 - INFO - Email sent at the end of the loop.
+2026-07-04 22:05:21,807 - INFO - Subscription flow completed successfully for wanxb11@activegamers.com.au
+2026-07-04 22:05:21,807 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:05:21,807 - INFO - Action completed successfully for wanxb11@activegamers.com.au
+2026-07-04 22:05:24,041 - INFO - Processing account: wanxb12@activegamers.com.au
+2026-07-04 22:05:25,228 - INFO - Driver initialized
+2026-07-04 22:05:29,316 - INFO - Activation loop initiated for wanxb12@activegamers.com.au
+2026-07-04 22:05:29,316 - INFO - Begin login sequence for wanxb12@activegamers.com.au
+2026-07-04 22:05:36,468 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:05:42,369 - INFO - 'Sign in' control clicked
+2026-07-04 22:05:42,514 - INFO - Email entered
+2026-07-04 22:05:44,704 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:05:44,760 - INFO - 'Use your password' button clicked
+2026-07-04 22:05:45,277 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:05:46,792 - INFO - Password field is present and visible
+2026-07-04 22:05:46,857 - INFO - Password entered
+2026-07-04 22:05:57,557 - INFO - Update security info window appeared and 'Looks good' was confirmed
+2026-07-04 22:05:59,574 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:05:59,577 - INFO - login_full_flow completed successfully for wanxb12@activegamers.com.au
+2026-07-04 22:06:04,632 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:06:04,673 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:06:04,704 - INFO - clicked plan_button
+2026-07-04 22:06:12,859 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:06:43,171 - INFO - click_join_button completed. Join button was not found.
+2026-07-04 22:06:43,171 - INFO - Join button was not found. Account: wanxb12@activegamers.com.au
+2026-07-04 22:06:43,171 - INFO - Subscription flow failed for wanxb12@activegamers.com.au
+2026-07-04 22:06:43,171 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:06:43,171 - INFO - Action failed for wanxb12@activegamers.com.au
+2026-07-04 22:06:45,362 - INFO - Processing account: wanxb13@activegamers.com.au
+2026-07-04 22:06:46,508 - INFO - Driver initialized
+2026-07-04 22:06:50,577 - INFO - Activation loop initiated for wanxb13@activegamers.com.au
+2026-07-04 22:06:50,577 - INFO - Begin login sequence for wanxb13@activegamers.com.au
+2026-07-04 22:06:54,937 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:07:02,484 - INFO - 'Sign in' control clicked
+2026-07-04 22:07:02,634 - INFO - Email entered
+2026-07-04 22:07:04,303 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:07:04,362 - INFO - 'Use your password' button clicked
+2026-07-04 22:07:04,876 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:07:06,391 - INFO - Password field is present and visible
+2026-07-04 22:07:06,460 - INFO - Password entered
+2026-07-04 22:07:15,995 - INFO - Update security info window appeared and 'Looks good' was confirmed
+2026-07-04 22:07:18,019 - INFO - FIDO/passkey page detected after password submission
+2026-07-04 22:07:18,021 - INFO - FIDO/passkey page detected
+2026-07-04 22:07:18,123 - INFO - Pressed ESC to dismiss passkey popup
+2026-07-04 22:07:20,132 - INFO - Passkey popup dismissed with ESC
+2026-07-04 22:07:22,155 - INFO - 'No' button is visible during post-password transition
+2026-07-04 22:07:23,282 - INFO - 'No' button on stay signed in page clicked
+2026-07-04 22:07:34,393 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:07:34,395 - INFO - login_full_flow completed successfully for wanxb13@activegamers.com.au
+2026-07-04 22:07:39,454 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:07:39,478 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:07:39,510 - INFO - clicked plan_button
+2026-07-04 22:07:47,664 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:07:57,733 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-07-04 22:07:57,733 - INFO - Waiting 4 seconds after Join before checking balance.
+2026-07-04 22:08:01,742 - INFO - Balance search attempt 1: searching 4 iframes for account balance
+2026-07-04 22:08:01,754 - INFO - Checking iframe 0 for balance on attempt 1
+2026-07-04 22:08:01,772 - INFO - Checking iframe 1 for balance on attempt 1
+2026-07-04 22:08:01,787 - INFO - Checking iframe 2 for balance on attempt 1
+2026-07-04 22:08:01,801 - INFO - Checking iframe 3 for balance on attempt 1
+2026-07-04 22:08:01,806 - INFO - Balance not found on attempt 1. Waiting 1.0 seconds before retrying.
+2026-07-04 22:08:02,811 - INFO - Balance search attempt 2: searching 4 iframes for account balance
+2026-07-04 22:08:02,821 - INFO - Checking iframe 0 for balance on attempt 2
+2026-07-04 22:08:02,837 - INFO - Checking iframe 1 for balance on attempt 2
+2026-07-04 22:08:02,851 - INFO - Checking iframe 2 for balance on attempt 2
+2026-07-04 22:08:02,864 - INFO - Checking iframe 3 for balance on attempt 2
+2026-07-04 22:08:02,883 - INFO - Balance found in iframe 3: AU$21.05
+2026-07-04 22:08:02,884 - INFO - Parsed account balance: 21.05
+2026-07-04 22:08:02,885 - INFO - Balance 21.05 is >= threshold 17.95. Continuing normal activation flow.
+2026-07-04 22:08:02,885 - INFO - Waiting 6 seconds before looking for Subscribe button.
+2026-07-04 22:08:08,885 - INFO - Attempt 1/3 to click Subscribe button
+2026-07-04 22:08:08,898 - INFO - Searching 4 iframes for visible xpath: //button[normalize-space()='Subscribe']
+2026-07-04 22:08:08,960 - INFO - Found visible xpath in iframe 3
+2026-07-04 22:08:09,256 - INFO - Subscribe button clicked successfully
+2026-07-04 22:08:09,258 - INFO - Subscribe button clicked. Waiting 4 seconds for post-subscribe UI transition.
+2026-07-04 22:08:13,535 - INFO - Success indicator found in default content using xpath: //*[contains(normalize-space(.), 'Game Pass')] | text: Skip to main content
+Game Pass
+Games
+Devices
+Play
+Store
+Community
+Support
+My XBOX
+Developers
+All Microsoft
+Search
+Cart
+Xbox Game Pass Premium – Xbox Game Pass Premium 1 Month
+Microsoft Corporation
+JOI
+2026-07-04 22:08:13,536 - INFO - Account reactivation is complete for wanxb13@activegamers.com.au. Success state detected on attempt 1 using xpath: //*[contains(normalize-space(.), 'Game Pass')]
+2026-07-04 22:08:14,318 - INFO - Email sent at the end of the loop.
+2026-07-04 22:08:24,319 - INFO - Subscription flow completed successfully for wanxb13@activegamers.com.au
+2026-07-04 22:08:24,319 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:08:24,319 - INFO - Action completed successfully for wanxb13@activegamers.com.au
+2026-07-04 22:08:26,541 - INFO - Processing account: wanxb14@activegamers.com.au
+2026-07-04 22:08:27,710 - INFO - Driver initialized
+2026-07-04 22:08:31,806 - INFO - Activation loop initiated for wanxb14@activegamers.com.au
+2026-07-04 22:08:31,806 - INFO - Begin login sequence for wanxb14@activegamers.com.au
+2026-07-04 22:08:38,001 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:08:44,856 - INFO - 'Sign in' control clicked
+2026-07-04 22:08:45,009 - INFO - Email entered
+2026-07-04 22:08:46,681 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:08:46,739 - INFO - 'Use your password' button clicked
+2026-07-04 22:08:47,253 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:08:48,770 - INFO - Password field is present and visible
+2026-07-04 22:08:48,838 - INFO - Password entered
+2026-07-04 22:08:58,151 - INFO - Update security info window appeared and 'Looks good' was confirmed
+2026-07-04 22:09:00,169 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:09:00,172 - INFO - login_full_flow completed successfully for wanxb14@activegamers.com.au
+2026-07-04 22:09:05,230 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:09:05,271 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:09:05,303 - INFO - clicked plan_button
+2026-07-04 22:09:13,468 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:09:43,790 - INFO - click_join_button completed. Join button was not found.
+2026-07-04 22:09:43,790 - INFO - Join button was not found. Account: wanxb14@activegamers.com.au
+2026-07-04 22:09:43,790 - INFO - Subscription flow failed for wanxb14@activegamers.com.au
+2026-07-04 22:09:43,790 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:09:43,790 - INFO - Action failed for wanxb14@activegamers.com.au
+2026-07-04 22:09:45,964 - INFO - Processing account: wanxb15@activegamers.com.au
+2026-07-04 22:09:47,147 - INFO - Driver initialized
+2026-07-04 22:09:51,250 - INFO - Activation loop initiated for wanxb15@activegamers.com.au
+2026-07-04 22:09:51,250 - INFO - Begin login sequence for wanxb15@activegamers.com.au
+2026-07-04 22:09:56,374 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:10:01,746 - INFO - 'Sign in' control clicked
+2026-07-04 22:10:01,910 - INFO - Email entered
+2026-07-04 22:10:03,061 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:10:03,128 - INFO - 'Use your password' button clicked
+2026-07-04 22:10:03,642 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:10:05,159 - INFO - Password field is present and visible
+2026-07-04 22:10:05,233 - INFO - Password entered
+2026-07-04 22:10:15,413 - INFO - Update security info window appeared and 'Looks good' was confirmed
+2026-07-04 22:10:17,431 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:10:17,433 - INFO - login_full_flow completed successfully for wanxb15@activegamers.com.au
+2026-07-04 22:10:22,487 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:10:22,530 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:10:22,564 - INFO - clicked plan_button
+2026-07-04 22:10:30,719 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:11:01,037 - INFO - click_join_button completed. Join button was not found.
+2026-07-04 22:11:01,037 - INFO - Join button was not found. Account: wanxb15@activegamers.com.au
+2026-07-04 22:11:01,037 - INFO - Subscription flow failed for wanxb15@activegamers.com.au
+2026-07-04 22:11:01,037 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:11:01,037 - INFO - Action failed for wanxb15@activegamers.com.au
+2026-07-04 22:11:03,221 - INFO - Processing account: wanxb16@activegamers.com.au
+2026-07-04 22:11:04,372 - INFO - Driver initialized
+2026-07-04 22:11:08,447 - INFO - Activation loop initiated for wanxb16@activegamers.com.au
+2026-07-04 22:11:08,447 - INFO - Begin login sequence for wanxb16@activegamers.com.au
+2026-07-04 22:11:12,443 - INFO - Xbox Ultimate page loaded
+2026-07-04 22:11:19,996 - INFO - 'Sign in' control clicked
+2026-07-04 22:11:20,146 - INFO - Email entered
+2026-07-04 22:11:21,817 - INFO - 'Use your password' is visible during pre-password transition
+2026-07-04 22:11:21,879 - INFO - 'Use your password' button clicked
+2026-07-04 22:11:22,395 - INFO - Password field detected after clicking 'Use your password'
+2026-07-04 22:11:23,912 - INFO - Password field is present and visible
+2026-07-04 22:11:23,975 - INFO - Password entered
+2026-07-04 22:11:33,212 - INFO - FIDO/passkey page detected after password submission
+2026-07-04 22:11:33,215 - INFO - FIDO/passkey page detected
+2026-07-04 22:11:33,316 - INFO - Pressed ESC to dismiss passkey popup
+2026-07-04 22:11:35,609 - INFO - Passkey popup dismissed with ESC
+2026-07-04 22:11:37,633 - INFO - 'No' button is visible during post-password transition
+2026-07-04 22:11:38,920 - INFO - 'No' button on stay signed in page clicked
+2026-07-04 22:11:50,036 - INFO - Final Xbox Ultimate URL reached
+2026-07-04 22:11:50,039 - INFO - login_full_flow completed successfully for wanxb16@activegamers.com.au
+2026-07-04 22:11:55,096 - INFO - Manage button not found. Account appears inactive.
+2026-07-04 22:11:55,121 - INFO - Select Plan dropdown found. Opening plan list.
+2026-07-04 22:11:55,156 - INFO - clicked plan_button
+2026-07-04 22:12:03,310 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-07-04 22:12:13,380 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-07-04 22:12:13,380 - INFO - Waiting 4 seconds after Join before checking balance.
+2026-07-04 22:12:17,388 - INFO - Balance search attempt 1: searching 4 iframes for account balance
+2026-07-04 22:12:17,400 - INFO - Checking iframe 0 for balance on attempt 1
+2026-07-04 22:12:17,419 - INFO - Checking iframe 1 for balance on attempt 1
+2026-07-04 22:12:17,432 - INFO - Checking iframe 2 for balance on attempt 1
+2026-07-04 22:12:17,941 - INFO - Checking iframe 3 for balance on attempt 1
+2026-07-04 22:12:17,947 - INFO - Balance not found on attempt 1. Waiting 1.0 seconds before retrying.
+2026-07-04 22:12:18,951 - INFO - Balance search attempt 2: searching 4 iframes for account balance
+2026-07-04 22:12:18,962 - INFO - Checking iframe 0 for balance on attempt 2
+2026-07-04 22:12:18,977 - INFO - Checking iframe 1 for balance on attempt 2
+2026-07-04 22:12:18,992 - INFO - Checking iframe 2 for balance on attempt 2
+2026-07-04 22:12:19,006 - INFO - Checking iframe 3 for balance on attempt 2
+2026-07-04 22:12:19,027 - INFO - Balance found in iframe 3: AU$21.05
+2026-07-04 22:12:19,027 - INFO - Parsed account balance: 21.05
+2026-07-04 22:12:19,028 - INFO - Balance 21.05 is >= threshold 17.95. Continuing normal activation flow.
+2026-07-04 22:12:19,028 - INFO - Waiting 6 seconds before looking for Subscribe button.
+2026-07-04 22:12:25,029 - INFO - Attempt 1/3 to click Subscribe button
+2026-07-04 22:12:25,041 - INFO - Searching 4 iframes for visible xpath: //button[normalize-space()='Subscribe']
+2026-07-04 22:12:25,102 - INFO - Found visible xpath in iframe 3
+2026-07-04 22:12:25,351 - INFO - Subscribe button clicked successfully
+2026-07-04 22:12:25,354 - INFO - Subscribe button clicked. Waiting 4 seconds for post-subscribe UI transition.
+2026-07-04 22:12:29,630 - INFO - Success indicator found in default content using xpath: //*[contains(normalize-space(.), 'Game Pass')] | text: Skip to main content
+Game Pass
+Games
+Devices
+Play
+Store
+Community
+Support
+My XBOX
+Developers
+All Microsoft
+Search
+Cart
+Xbox Game Pass Premium – Xbox Game Pass Premium 1 Month
+Microsoft Corporation
+JOI
+2026-07-04 22:12:29,631 - INFO - Account reactivation is complete for wanxb16@activegamers.com.au. Success state detected on attempt 1 using xpath: //*[contains(normalize-space(.), 'Game Pass')]
+2026-07-04 22:12:30,478 - INFO - Email sent at the end of the loop.
+2026-07-04 22:12:40,479 - INFO - Subscription flow completed successfully for wanxb16@activegamers.com.au
+2026-07-04 22:12:40,479 - INFO - -----------------------------------------------------------------------------
+2026-07-04 22:12:40,479 - INFO - Action completed successfully for wanxb16@activegamers.com.au
+2026-07-04 22:12:42,788 - INFO - Skipping wanpc - no valid ranges
+2026-07-04 22:12:42,788 - INFO - Skipping wodxb - no valid ranges
+2026-07-04 22:12:42,788 - INFO - Skipping wodpc - no valid ranges
+2026-07-04 22:12:46,897 - INFO - Failed accounts saved to failed_accounts.json

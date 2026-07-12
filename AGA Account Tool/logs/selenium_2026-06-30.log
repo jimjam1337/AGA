@@ -1,0 +1,75 @@
+2026-06-30 22:25:48,695 - INFO - Log has been created
+2026-06-30 22:25:48,695 - INFO - Main execution started
+2026-06-30 22:25:50,616 - INFO - Returned result is activate
+2026-06-30 22:25:54,199 - INFO - Processing account: aga179@activegamers.com.au
+2026-06-30 22:25:55,348 - INFO - Driver initialized
+2026-06-30 22:25:55,349 - INFO - Activation loop initiated for aga179@activegamers.com.au
+2026-06-30 22:25:55,349 - INFO - Begin login sequence for aga179@activegamers.com.au
+2026-06-30 22:26:01,463 - INFO - Xbox Ultimate page loaded
+2026-06-30 22:26:05,859 - INFO - 'Sign in' control clicked
+2026-06-30 22:26:06,005 - INFO - Email entered
+2026-06-30 22:26:07,132 - INFO - 'Use your password' is visible during pre-password transition
+2026-06-30 22:26:07,192 - INFO - 'Use your password' button clicked
+2026-06-30 22:26:07,710 - INFO - Password field detected after clicking 'Use your password'
+2026-06-30 22:26:09,228 - INFO - Password field is present and visible
+2026-06-30 22:26:09,298 - INFO - Password entered
+2026-06-30 22:26:18,781 - INFO - 'No' button is visible during post-password transition
+2026-06-30 22:26:20,187 - INFO - 'No' button on stay signed in page clicked
+2026-06-30 22:26:31,302 - INFO - Final Xbox Ultimate URL reached
+2026-06-30 22:26:31,304 - INFO - login_full_flow completed successfully for aga179@activegamers.com.au
+2026-06-30 22:26:36,364 - INFO - Manage button not found. Account appears inactive.
+2026-06-30 22:26:36,389 - INFO - Select Plan dropdown found. Opening plan list.
+2026-06-30 22:26:44,582 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-06-30 22:26:54,660 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-06-30 22:26:54,660 - INFO - Waiting 4 seconds after Join before checking balance.
+2026-06-30 22:26:57,940 - INFO - -----------------------------------------------------------------------------
+2026-06-30 22:27:54,577 - INFO - Log has been created
+2026-06-30 22:27:54,577 - INFO - Main execution started
+2026-06-30 22:27:56,403 - INFO - Returned result is activate
+2026-06-30 22:28:01,519 - INFO - Processing account: aga179@activegamers.com.au
+2026-06-30 22:28:02,661 - INFO - Driver initialized
+2026-06-30 22:28:02,661 - INFO - Activation loop initiated for aga179@activegamers.com.au
+2026-06-30 22:28:02,661 - INFO - Begin login sequence for aga179@activegamers.com.au
+2026-06-30 22:28:07,977 - INFO - Xbox Ultimate page loaded
+2026-06-30 22:28:14,278 - INFO - 'Sign in' control clicked
+2026-06-30 22:28:14,423 - INFO - Email entered
+2026-06-30 22:28:15,594 - INFO - 'Use your password' is visible during pre-password transition
+2026-06-30 22:28:15,660 - INFO - 'Use your password' button clicked
+2026-06-30 22:28:16,175 - INFO - Password field detected after clicking 'Use your password'
+2026-06-30 22:28:17,694 - INFO - Password field is present and visible
+2026-06-30 22:28:17,766 - INFO - Password entered
+2026-06-30 22:28:27,011 - INFO - 'No' button is visible during post-password transition
+2026-06-30 22:28:28,523 - INFO - 'No' button on stay signed in page clicked
+2026-06-30 22:28:39,721 - INFO - Final Xbox Ultimate URL reached
+2026-06-30 22:28:39,724 - INFO - login_full_flow completed successfully for aga179@activegamers.com.au
+2026-06-30 22:28:44,783 - INFO - Manage button not found. Account appears inactive.
+2026-06-30 22:28:44,807 - INFO - Select Plan dropdown found. Opening plan list.
+2026-06-30 22:28:44,841 - INFO - clicked plan_button
+2026-06-30 22:28:53,006 - INFO - Select Plan dropdown not present. Continuing normally.
+2026-06-30 22:29:03,058 - INFO - click_join_button completed. Join button appeared and was clicked.
+2026-06-30 22:29:03,058 - INFO - Waiting 4 seconds after Join before checking balance.
+2026-06-30 22:29:07,074 - INFO - Balance search attempt 1: searching 4 iframes for account balance
+2026-06-30 22:29:07,085 - INFO - Checking iframe 0 for balance on attempt 1
+2026-06-30 22:29:07,105 - INFO - Checking iframe 1 for balance on attempt 1
+2026-06-30 22:29:07,122 - INFO - Checking iframe 2 for balance on attempt 1
+2026-06-30 22:29:07,141 - INFO - Checking iframe 3 for balance on attempt 1
+2026-06-30 22:29:07,313 - INFO - Balance not found on attempt 1. Waiting 1.0 seconds before retrying.
+2026-06-30 22:29:08,319 - INFO - Balance search attempt 2: searching 4 iframes for account balance
+2026-06-30 22:29:08,333 - INFO - Checking iframe 0 for balance on attempt 2
+2026-06-30 22:29:08,351 - INFO - Checking iframe 1 for balance on attempt 2
+2026-06-30 22:29:08,370 - INFO - Checking iframe 2 for balance on attempt 2
+2026-06-30 22:29:08,389 - INFO - Checking iframe 3 for balance on attempt 2
+2026-06-30 22:29:08,394 - INFO - Balance not found on attempt 2. Waiting 1.0 seconds before retrying.
+2026-06-30 22:29:09,399 - INFO - Balance search attempt 3: searching 4 iframes for account balance
+2026-06-30 22:29:09,416 - INFO - Checking iframe 0 for balance on attempt 3
+2026-06-30 22:29:09,434 - INFO - Checking iframe 1 for balance on attempt 3
+2026-06-30 22:29:09,452 - INFO - Checking iframe 2 for balance on attempt 3
+2026-06-30 22:29:09,471 - INFO - Checking iframe 3 for balance on attempt 3
+2026-06-30 22:29:09,478 - INFO - Balance not found on attempt 3. Waiting 1.0 seconds before retrying.
+2026-06-30 22:29:10,483 - INFO - Balance search attempt 4: searching 4 iframes for account balance
+2026-06-30 22:29:10,496 - INFO - Checking iframe 0 for balance on attempt 4
+2026-06-30 22:29:10,512 - INFO - Checking iframe 1 for balance on attempt 4
+2026-06-30 22:29:10,529 - INFO - Checking iframe 2 for balance on attempt 4
+2026-06-30 22:29:10,545 - INFO - Checking iframe 3 for balance on attempt 4
+2026-06-30 22:29:10,550 - INFO - Balance not found on attempt 4. Waiting 1.0 seconds before retrying.
+2026-06-30 22:29:11,321 - INFO - -----------------------------------------------------------------------------

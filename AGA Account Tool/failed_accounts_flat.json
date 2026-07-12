@@ -1,0 +1,426 @@
+[
+    {
+        "email": "aga23@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "aga23@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga46@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: element not interactable\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff6130536f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff613053750+14ef0]\n\tchromedriver!(No symbol) [0x7ff612b97636]\n\tchromedriver!(No symbol) [0x7ff612becad9]\n\tchromedriver!(No symbol) [0x7ff612bea688]\n\tchromedriver!(No symbol) [0x7ff612c1a5ea]\n\tchromedriver!(No symbol) [0x7ff612be5a06]\n\tchromedriver!(No symbol) [0x7ff612c3f00b]\n\tchromedriver!(No symbol) [0x7ff612be4210]\n\tchromedriver!(No symbol) [0x7ff612be5183]\n\tchromedriver!GetHandleVerifier [0x7ff61363af31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6136352cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff61365a445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff613070c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61307933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61305d194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61305d324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff613040917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga46@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga83@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga83@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga85@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "aga85@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga91@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga91@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga95@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga95@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga96@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "aga96@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga99@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga99@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga108@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: element not interactable\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f907636]\n\tchromedriver!(No symbol) [0x7ff61f95cad9]\n\tchromedriver!(No symbol) [0x7ff61f95a688]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga108@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga118@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "aga118@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga119@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "aga119@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga131@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "aga131@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga140@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga140@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga142@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga142@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga143@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga143@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga144@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga144@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga145@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga145@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga146@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga146@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga147@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga147@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga148@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga148@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga149@activegamers.com.au",
+        "reason": "Login flow did not complete successfully."
+    },
+    {
+        "email": "aga149@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga152@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "aga152@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga154@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga154@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga155@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga155@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga157@activegamers.com.au",
+        "reason": "Login flow did not complete successfully."
+    },
+    {
+        "email": "aga157@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga158@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga158@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga159@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga159@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga162@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "aga162@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga178@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga178@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga179@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga179@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga180@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga180@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga181@activegamers.com.au",
+        "reason": "Login flow did not complete successfully."
+    },
+    {
+        "email": "aga181@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga182@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga182@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga185@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga185@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga186@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga186@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga187@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga187@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga188@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga188@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "aga189@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "aga189@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "agapc2@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "agapc2@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "agapc8@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "agapc8@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "agapc18@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "agapc18@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "agapc19@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "agapc19@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "agapc20@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "agapc20@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wanxb01@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "wanxb01@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wanxb02@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "wanxb02@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wanxb04@activegamers.com.au",
+        "reason": "Balance below threshold but gift card code could not be redeemed."
+    },
+    {
+        "email": "wanxb04@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wanpc01@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "wanpc01@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wanpc04@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "wanpc04@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wanpc06@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "wanpc06@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wodxb01@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "wodxb01@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wodxb02@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "wodxb02@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wodxb03@activegamers.com.au",
+        "reason": "Subscribe button not found or could not be clicked."
+    },
+    {
+        "email": "wodxb03@activegamers.com.au",
+        "reason": "Action callback returned False"
+    },
+    {
+        "email": "wodxb04@activegamers.com.au",
+        "reason": "Unhandled activation flow error: Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=149.0.7827.201)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff61fdc36f5+14e95]\n\tchromedriver!GetHandleVerifier [0x7ff61fdc3750+14ef0]\n\tchromedriver!(No symbol) [0x7ff61f90784d]\n\tchromedriver!(No symbol) [0x7ff61f90f7c1]\n\tchromedriver!(No symbol) [0x7ff61f912785]\n\tchromedriver!(No symbol) [0x7ff61f91284f]\n\tchromedriver!(No symbol) [0x7ff61f962db0]\n\tchromedriver!(No symbol) [0x7ff61f962ea7]\n\tchromedriver!(No symbol) [0x7ff61f959aca]\n\tchromedriver!(No symbol) [0x7ff61f98a5ea]\n\tchromedriver!(No symbol) [0x7ff61f955a06]\n\tchromedriver!(No symbol) [0x7ff61f9af00b]\n\tchromedriver!(No symbol) [0x7ff61f954210]\n\tchromedriver!(No symbol) [0x7ff61f955183]\n\tchromedriver!GetHandleVerifier [0x7ff6203aaf31+5fc6d1]\n\tchromedriver!GetHandleVerifier [0x7ff6203a52cb+5f6a6b]\n\tchromedriver!GetHandleVerifier [0x7ff6203ca445+61bbe5]\n\tchromedriver!GetHandleVerifier [0x7ff61fde0c7e+3241e]\n\tchromedriver!GetHandleVerifier [0x7ff61fde933c+3aadc]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd194+1e934]\n\tchromedriver!GetHandleVerifier [0x7ff61fdcd324+1eac4]\n\tchromedriver!GetHandleVerifier [0x7ff61fdb0917+20b7]\n\tKERNEL32!BaseThreadInitThunk [0x7ff846f8269d+1d]\n\tntdll!RtlUserThreadStart [0x7ff84724a9f8+28]\n"
+    },
+    {
+        "email": "wodxb04@activegamers.com.au",
+        "reason": "Action callback returned False"
+    }
+]
